@@ -55,6 +55,12 @@ const CYBERSCORE_JINA_URL = "https://r.jina.ai/https://cyberscore.live/en/";
 const DLTV_JINA_URL = "https://r.jina.ai/https://dltv.org/matches";
 const DLTV_RESULTS_JINA_BASE_URL = "https://r.jina.ai/https://dltv.org/results?date=";
 
+// r.jina.ai replays a cached snapshot by default, which served a finished map's
+// draft, clock and score while a later map of the same series was already live.
+function fetchMirror(url, options) {
+  return fetch(url, { cache: "no-store", headers: { "x-no-cache": "true" }, ...(options || {}) });
+}
+
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
 }
@@ -420,7 +426,7 @@ async function enrichDltvMatch(match) {
   const timeoutId = setTimeout(() => controller.abort(), ENRICH_TIMEOUT_MS);
   let response;
   try {
-    response = await fetch(mirrorUrl, { cache: "no-store", signal: controller.signal });
+    response = await fetchMirror(mirrorUrl, { signal: controller.signal });
   } finally {
     clearTimeout(timeoutId);
   }
@@ -456,6 +462,16 @@ async function enrichDltvMatch(match) {
   const seriesScore = parseDltvSeriesScore(md);
   if (seriesScore) {
     update.series_score = seriesScore;
+  }
+
+  // The match page carries the authoritative clock of the map being played right now.
+  const liveMapNumber = md.match(/Live Scoreboard Map\s*#(\d+)/i);
+  if (liveMapNumber) {
+    update.live_map_number = toInt(liveMapNumber[1], 0);
+  }
+  const liveClock = md.match(/(\d{1,3}):(\d{2})\s*[\r\n\s]*Duration/i);
+  if (liveClock && match.status !== "ended") {
+    update.live_seconds = (toInt(liveClock[1], 0) * 60) + toInt(liveClock[2], 0);
   }
 
   liveEnrichmentCache.set(cacheKey, { at: Date.now(), update });
@@ -1469,11 +1485,15 @@ function normalizeDltvJinaMatches(markdownText) {
     const contextStart = Math.max(0, m.index - 450);
     const contextEnd = Math.min(text.length, m.index + 900);
     const ctx = text.slice(contextStart, contextEnd);
+    // The scoreboard of a row always follows its match link, so the clock and map
+    // number are read forward only to avoid picking up the previous row's values.
+    const after = text.slice(m.index, contextEnd);
 
     const leagueMatch = ctx.match(/\n\n([A-Za-z0-9 .:'\-]{4,80})\n\n(?:Group Stage|Playoffs|Swiss|bo\d)/i);
     const mapScoreMatch = ctx.match(/\*\*(\d+)\*\*\(\d+\)[\s\S]{0,120}\*\*(\d+)\*\*\(\d+\)/i) || ctx.match(/(\d+)\s*-\s*(\d+)/);
     const seriesScoreMatch = ctx.match(/\*\*\d+\*\*\((\d+)\)[\s\S]{0,120}\*\*\d+\*\*\((\d+)\)/i);
-    const timeMatch = ctx.match(/\*\*(\d{1,2}:\d{2})\*\*/);
+    const timeMatch = after.match(/\*\*(\d{1,2}:\d{2})\*\*/);
+    const mapNumberMatch = after.match(/\bMap\s*#?(\d+)/i);
 
     let status = "draft";
     if (/\*\*Live\*\*/i.test(ctx)) {
@@ -1505,6 +1525,7 @@ function normalizeDltvJinaMatches(markdownText) {
       dire_score: mapScoreMatch ? toInt(mapScoreMatch[2], 0) : null,
       series_score: seriesScoreMatch ? `${seriesScoreMatch[1]} - ${seriesScoreMatch[2]}` : "",
       live_seconds: liveSeconds,
+      live_map_number: (status === "live" && mapNumberMatch) ? toInt(mapNumberMatch[1], 0) : 0,
       start_time: 0,
       series_type: /bo5/i.test(ctx) ? 2 : (/bo3/i.test(ctx) ? 1 : 0),
       known_picks: 0,
@@ -1677,7 +1698,14 @@ function mergeLiveSources(opendotaMatches, cyberscoreMatches, dltvMatches, dltvR
     existing.league_name = existing.league_name || incoming.league_name;
     existing.radiant_logo_url = existing.radiant_logo_url || incoming.radiant_logo_url;
     existing.dire_logo_url = existing.dire_logo_url || incoming.dire_logo_url;
-    existing.live_seconds = Math.max(toInt(existing.live_seconds, 0), toInt(incoming.live_seconds, 0));
+    // Never keep the highest clock seen: on a new map of the same series that would
+    // freeze the timer at the previous map's duration.
+    if (toInt(incoming.live_seconds, 0) > 0) {
+      existing.live_seconds = toInt(incoming.live_seconds, 0);
+    }
+    if (toInt(incoming.live_map_number, 0) > 0) {
+      existing.live_map_number = toInt(incoming.live_map_number, 0);
+    }
 
     if (incoming.radiant_score !== null && incoming.radiant_score !== undefined) {
       existing.radiant_score = incoming.radiant_score;
@@ -1901,11 +1929,14 @@ function buildSeriesMapsSection(match, matchKey) {
 
   const tabs = document.createElement("div");
   tabs.className = "map-tabs";
+  const liveMapNumber = toInt(match.live_map_number, 0);
   entries.forEach((entry, index) => {
     const tab = document.createElement("button");
     tab.type = "button";
     tab.className = `map-tab${index === activeIndex ? " active" : ""}`;
-    tab.textContent = entry.live ? `Map ${index + 1} (Live)` : `Map ${index + 1}`;
+    tab.textContent = entry.live
+      ? `Map ${liveMapNumber > 0 ? liveMapNumber : index + 1} (Live)`
+      : `Map ${index + 1}`;
     tab.addEventListener("click", () => {
       selectedMapTabByMatch.set(matchKey, index);
       renderLiveBoard();
@@ -2226,7 +2257,7 @@ async function loadLiveMatches() {
     }
 
     try {
-      const rCyber = await fetch(CYBERSCORE_JINA_URL, { cache: "no-store" });
+      const rCyber = await fetchMirror(CYBERSCORE_JINA_URL);
       if (!rCyber.ok) {
         throw new Error(`cyberscore-jina returned ${rCyber.status}`);
       }
@@ -2236,7 +2267,7 @@ async function loadLiveMatches() {
     }
 
     try {
-      const rDltv = await fetch(DLTV_JINA_URL, { cache: "no-store" });
+      const rDltv = await fetchMirror(DLTV_JINA_URL);
       if (!rDltv.ok) {
         throw new Error(`dltv-jina returned ${rDltv.status}`);
       }
@@ -2247,7 +2278,7 @@ async function loadLiveMatches() {
 
     try {
       const dateUrl = `${DLTV_RESULTS_JINA_BASE_URL}${formatDateYmd()}`;
-      const rDltvResults = await fetch(dateUrl, { cache: "no-store" });
+      const rDltvResults = await fetchMirror(dateUrl);
       if (!rDltvResults.ok) {
         throw new Error(`dltv-results-jina returned ${rDltvResults.status}`);
       }
