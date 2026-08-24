@@ -356,6 +356,7 @@ function heroNameFromSlug(slug) {
 }
 
 // DLTV renders the live draft as player links whose fragment carries the picked hero slug.
+// A series page stacks one picks&bans block per team per map, in map order.
 function extractDltvPicks(markdownText, match) {
   const text = String(markdownText || "");
   const sectionRegex = /\[([^\]]+?) picks&bans\]\([^)]*\)([\s\S]*?)(?=\[[^\]]+? picks&bans\]|Additional data|$)/gi;
@@ -373,19 +374,20 @@ function extractDltvPicks(markdownText, match) {
       }
     }
     sections.push({ teamName: (sm[1] || "").trim(), rows });
-    if (sections.length >= 2) {
-      break;
-    }
   }
 
   if (sections.length < 2) {
     return null;
   }
 
+  // Consecutive section pairs form one map; the last complete pair is the current map.
+  const lastPairStart = (Math.floor(sections.length / 2) - 1) * 2;
+  const mapSections = sections.slice(lastPairStart, lastPairStart + 2);
+
   const normRad = normalizeTeamName(match.radiant_team || "");
   const normDire = normalizeTeamName(match.dire_team || "");
-  const radSection = sections.find((s) => normalizeTeamName(s.teamName) === normRad) || sections[0];
-  const direSection = sections.find((s) => normalizeTeamName(s.teamName) === normDire) || sections[1];
+  const radSection = mapSections.find((s) => normalizeTeamName(s.teamName) === normRad) || mapSections[0];
+  const direSection = mapSections.find((s) => normalizeTeamName(s.teamName) === normDire) || mapSections[1];
 
   if (radSection === direSection) {
     return null;
