@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Dota-inspired mark">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d96e4b"/>
+      <stop offset="1" stop-color="#7e2618"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="108" height="108" rx="20" fill="url(#g)"/>
+  <rect x="24" y="24" width="80" height="80" rx="11" fill="#f3e8da"/>
+
+  <!-- stylized carved shards -->
+  <path d="M34 35 L58 31 L53 54 L32 60 Z" fill="#7e2618"/>
+  <path d="M86 31 L97 33 L86 57 L75 55 Z" fill="#7e2618"/>
+  <path d="M30 81 L54 72 L50 97 L35 101 Z" fill="#7e2618"/>
+  <path d="M73 73 L97 63 L92 97 L69 101 Z" fill="#7e2618"/>
+
+  <!-- central strike -->
+  <path d="M63 45 L73 48 L65 83 L55 80 Z" fill="#7e2618"/>
+</svg>

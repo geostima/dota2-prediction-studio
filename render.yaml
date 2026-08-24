@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: d2p
+    runtime: static
+    staticPublishPath: standalone_site
+    pullRequestPreviewsEnabled: false
