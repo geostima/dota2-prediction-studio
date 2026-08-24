@@ -1812,9 +1812,10 @@ function renderLiveMatchCards(matches) {
         expandedLiveMatchIds.delete(matchKey);
       } else {
         expandedLiveMatchIds.add(matchKey);
-        enrichMatchInBackground(match, renderLiveBoard);
         if (match.status === "ended") {
           ensureSeriesMaps(match, matchKey, renderLiveBoard);
+        } else {
+          enrichMatchInBackground(match, renderLiveBoard);
         }
       }
       renderLiveBoard();
@@ -1923,10 +1924,13 @@ function renderLiveMatchCards(matches) {
       return list;
     };
 
-    details.appendChild(buildLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
-    details.appendChild(buildLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
+    // Ended matches rely on the per-map tabs, so the series-level placeholder lineup is skipped.
+    if (match.status !== "ended") {
+      details.appendChild(buildLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
+      details.appendChild(buildLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
+    }
 
-    if (expanded && pendingEnrichmentKeys.has(String(match.match_id || match.match_url || ""))) {
+    if (expanded && match.status !== "ended" && pendingEnrichmentKeys.has(String(match.match_id || match.match_url || ""))) {
       const loading = document.createElement("p");
       loading.className = "lineup-loading";
       loading.textContent = "Fetching lineup details from DLTV mirror...";
@@ -1939,7 +1943,9 @@ function renderLiveMatchCards(matches) {
 
     card.appendChild(top);
     card.appendChild(teams);
-    card.appendChild(draft);
+    if (match.status !== "ended") {
+      card.appendChild(draft);
+    }
     card.appendChild(details);
     board.appendChild(card);
   });

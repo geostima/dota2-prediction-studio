@@ -312,6 +312,10 @@ h1 {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 10px;
 }
+.live-details > .series-maps:first-child {
+  border-top: none;
+  padding-top: 0;
+}
 .series-maps-title {
   margin: 0;
   font-size: 0.9rem;
