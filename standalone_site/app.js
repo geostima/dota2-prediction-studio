@@ -47,9 +47,9 @@ const STRATZ_LOGO_BASE_URL = "https://cdn.stratz.com/images/dota2/teams/";
 const ENRICH_TIMEOUT_MS = 12000;
 const OPENDOTA_LIVE_URL = "https://api.opendota.com/api/live";
 const OPENDOTA_TEAMS_URL = "https://api.opendota.com/api/teams";
-const CYBERSCORE_JINA_URL = "https://r.jina.ai/http://cyberscore.live/en/";
-const DLTV_JINA_URL = "https://r.jina.ai/http://dltv.org/matches";
-const DLTV_RESULTS_JINA_BASE_URL = "https://r.jina.ai/http://dltv.org/results?date=";
+const CYBERSCORE_JINA_URL = "https://r.jina.ai/https://cyberscore.live/en/";
+const DLTV_JINA_URL = "https://r.jina.ai/https://dltv.org/matches";
+const DLTV_RESULTS_JINA_BASE_URL = "https://r.jina.ai/https://dltv.org/results?date=";
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -344,7 +344,7 @@ async function enrichDltvMatch(match) {
   }
 
   const parsed = new URL(match.match_url);
-  const mirrorUrl = `https://r.jina.ai/http://${parsed.host}${parsed.pathname}`;
+  const mirrorUrl = `https://r.jina.ai/https://${parsed.host}${parsed.pathname}`;
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), ENRICH_TIMEOUT_MS);
   let response;
@@ -1238,7 +1238,7 @@ function normalizeLiveMatches(payloadMatches) {
 
 function normalizeCyberscoreJinaMatches(markdownText) {
   const text = String(markdownText || "");
-  const regex = /\[([^\]]+)\]\((https:\/\/cyberscore\.live\/en\/matches\/[^)]+)\)/g;
+  const regex = /\[([^\]]+)\]\((https?:\/\/cyberscore\.live\/en\/matches\/[^)]+)\)/g;
   const out = [];
   const seen = new Set();
   let m;
@@ -1321,7 +1321,7 @@ function normalizeCyberscoreJinaMatches(markdownText) {
 
 function normalizeDltvJinaMatches(markdownText) {
   const text = String(markdownText || "");
-  const urlRegex = /https:\/\/dltv\.org\/matches\/(\d+)\/([a-z0-9-]+)(?:#[^)\s]+)?/gi;
+  const urlRegex = /https?:\/\/dltv\.org\/matches\/(\d+)\/([a-z0-9-]+)(?:#[^)\s]+)?/gi;
   const out = [];
   const seenIds = new Set();
   let m;
@@ -1425,9 +1425,9 @@ function normalizeDltvResultsJinaMatches(markdownText) {
       continue;
     }
 
-    if (/^\[\]\(https:\/\/dltv\.org\/events\//i.test(line)) {
+    if (/^\[\]\(https?:\/\/dltv\.org\/events\//i.test(line)) {
       const next = nextNonEmptyIndex(i + 1);
-      if (next > 0 && lines[next] && !lines[next].startsWith("[](https://")) {
+      if (next > 0 && lines[next] && !/^\[\]\(https?:\/\//i.test(lines[next])) {
         currentLeague = lines[next];
       }
       continue;
@@ -1446,7 +1446,7 @@ function normalizeDltvResultsJinaMatches(markdownText) {
       continue;
     }
 
-    const linkMatch = line.match(/^\[\]\(https:\/\/dltv\.org\/matches\/(\d+)\/([a-z0-9-]+)\)$/i);
+    const linkMatch = line.match(/^\[\]\(https?:\/\/dltv\.org\/matches\/(\d+)\/([a-z0-9-]+)\)$/i);
     if (!linkMatch) {
       continue;
     }
