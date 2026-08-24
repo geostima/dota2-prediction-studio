@@ -13,6 +13,7 @@ let playerNormalizedMap = null;
 let playerNormalizedEntries = [];
 let teamRosters = {};
 let teamRosterKeys = [];
+let teamRosterOverrides = {};
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -57,7 +58,16 @@ function initPlayerResolvers() {
 }
 
 function initTeamRosters() {
-  teamRosters = modelBundle.team_rosters || {};
+  teamRosters = { ...(modelBundle.team_rosters || {}) };
+
+  // Trusted manual overrides take priority over exported snapshot data.
+  Object.entries(teamRosterOverrides).forEach(([team, players]) => {
+    if (!Array.isArray(players) || players.length === 0) {
+      return;
+    }
+    teamRosters[team] = players.slice(0, 5);
+  });
+
   teamRosterKeys = Object.keys(teamRosters);
 }
 
@@ -452,6 +462,17 @@ async function init() {
   try {
     const response = await fetch("model_bundle.json", { cache: "no-store" });
     modelBundle = await response.json();
+
+    // Optional file for manual per-team roster corrections.
+    try {
+      const overrideResponse = await fetch("team_roster_overrides.json", { cache: "no-store" });
+      if (overrideResponse.ok) {
+        teamRosterOverrides = await overrideResponse.json();
+      }
+    } catch (overrideErr) {
+      teamRosterOverrides = {};
+    }
+
     initPlayerResolvers();
     initTeamRosters();
     document.getElementById("statusText").textContent = `Model ready. Heroes: ${Object.keys(modelBundle.hero_name_to_id).length}, Players: ${Object.keys(modelBundle.player_name_to_id).length}`;
