@@ -65,6 +65,15 @@ To include a secondary live source for tournament visibility (such as EPL), depl
 
 This bridge merges OpenDota live data with Cyberscore schedule links and returns a normalized JSON feed for the static site.
 
+Provider order in the static site:
+1. render-proxy (preferred)
+2. opendota-direct (fallback)
+
+Live match source badges:
+- OpenDota: match came from OpenDota feed only.
+- Cyberscore: match came from Cyberscore schedule extraction only.
+- Cyberscore + OpenDota: same match seen in both feeds and merged.
+
 ## How to Update Snapshot Later
 
 When you want fresh predictions, run these two commands locally in this order:

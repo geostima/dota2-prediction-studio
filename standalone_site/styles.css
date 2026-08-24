@@ -191,9 +191,24 @@ h1 {
   display: grid;
   gap: 4px;
 }
+.live-league-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
 .live-league {
   font-size: 0.97rem;
   font-weight: 700;
+}
+.source-badge {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  color: #e7d5bd;
+  background: rgba(215, 162, 82, 0.16);
 }
 .live-info {
   color: var(--muted);

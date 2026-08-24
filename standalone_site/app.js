@@ -194,6 +194,23 @@ function formatUtcTime(epochSeconds) {
   });
 }
 
+function sourceBadgeLabel(sourceName) {
+  const source = String(sourceName || "").toLowerCase();
+  if (source.includes("cyberscore") && source.includes("opendota")) {
+    return "Cyberscore + OpenDota";
+  }
+  if (source.includes("cyberscore")) {
+    return "Cyberscore";
+  }
+  if (source.includes("opendota")) {
+    return "OpenDota";
+  }
+  if (source.includes("render-proxy")) {
+    return "Proxy";
+  }
+  return "Unknown";
+}
+
 function findTeamRoster(teamName) {
   const raw = (teamName || "").trim();
   if (!raw) {
@@ -786,6 +803,7 @@ function normalizeLiveMatches(payloadMatches) {
     normalized.push({
       match_id: matchId,
       idx,
+      source: "opendota-direct",
       status,
       league_name: leagueName,
       league_id: leagueId,
@@ -857,9 +875,16 @@ function renderLiveMatchCards(matches) {
     const meta = document.createElement("div");
     meta.className = "live-meta";
 
+    const leagueRow = document.createElement("div");
+    leagueRow.className = "live-league-row";
+
     const league = document.createElement("div");
     league.className = "live-league";
     league.textContent = match.league_name || "Unknown Tournament";
+
+    const sourceBadge = document.createElement("span");
+    sourceBadge.className = "source-badge";
+    sourceBadge.textContent = sourceBadgeLabel(match.source);
 
     const info = document.createElement("div");
     info.className = "live-info";
@@ -870,7 +895,9 @@ function renderLiveMatchCards(matches) {
     const timeText = match.status === "live" ? formatClock(match.live_seconds) : formatUtcTime(match.start_time);
     info.textContent = `${String(match.status).toUpperCase()} | ${formatSeries(match.series_type)} | ${scoreText} | ${timeText}`;
 
-    meta.appendChild(league);
+    leagueRow.appendChild(league);
+    leagueRow.appendChild(sourceBadge);
+    meta.appendChild(leagueRow);
     meta.appendChild(info);
 
     const actions = document.createElement("div");
