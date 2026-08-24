@@ -16,6 +16,11 @@ let teamRosterKeys = [];
 let teamRosterOverrides = {};
 let teamAliasOverrides = {};
 let playerAliasOverrides = {};
+let liveMatches = [];
+let filteredLiveMatches = [];
+let liveRefreshAt = null;
+let liveRefreshTimerId = null;
+const expandedLiveMatchIds = new Set();
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -71,6 +76,108 @@ function initTeamRosters() {
   });
 
   teamRosterKeys = Object.keys(teamRosters);
+}
+
+function toInt(value, fallback = 0) {
+  const parsed = Number.parseInt(value, 10);
+  return Number.isFinite(parsed) ? parsed : fallback;
+}
+
+function padToFive(items) {
+  const output = Array.isArray(items) ? items.slice(0, 5) : [];
+  while (output.length < 5) {
+    output.push("");
+  }
+  return output;
+}
+
+function resolveLiveTeam(playerObj) {
+  if (Object.prototype.hasOwnProperty.call(playerObj, "isRadiant")) {
+    return playerObj.isRadiant ? "radiant" : "dire";
+  }
+
+  const teamValue = playerObj.team;
+  if (teamValue === 0 || teamValue === "0" || teamValue === "radiant" || teamValue === "Radiant") {
+    return "radiant";
+  }
+  if (teamValue === 1 || teamValue === "1" || teamValue === "dire" || teamValue === "Dire") {
+    return "dire";
+  }
+
+  const slot = toInt(playerObj.player_slot, 999);
+  return slot < 128 ? "radiant" : "dire";
+}
+
+function heroIdToNameMap() {
+  const idToName = {};
+  if (!modelBundle || !modelBundle.hero_name_to_id) {
+    return idToName;
+  }
+
+  Object.entries(modelBundle.hero_name_to_id).forEach(([heroName, heroId]) => {
+    const hid = toInt(heroId, 0);
+    if (hid > 0 && !idToName[hid]) {
+      idToName[hid] = heroName;
+    }
+  });
+  return idToName;
+}
+
+function accountIdToPlayerNameMap() {
+  const idToName = {};
+  if (!modelBundle || !modelBundle.player_name_to_id) {
+    return idToName;
+  }
+
+  Object.entries(modelBundle.player_name_to_id).forEach(([playerName, accountId]) => {
+    const aid = toInt(accountId, 0);
+    if (aid > 0 && !idToName[aid]) {
+      idToName[aid] = playerName;
+    }
+  });
+  return idToName;
+}
+
+function formatSeries(seriesType) {
+  const n = toInt(seriesType, -1);
+  if (n === 0) return "BO1";
+  if (n === 1) return "BO3";
+  if (n === 2) return "BO5";
+  return "Series";
+}
+
+function seriesBestOf(seriesType) {
+  const n = toInt(seriesType, -1);
+  if (n === 0) return 1;
+  if (n === 1) return 3;
+  if (n === 2) return 5;
+  return 0;
+}
+
+function formatClock(secondsValue) {
+  const total = toInt(secondsValue, 0);
+  if (total <= 0) {
+    return "00:00";
+  }
+  const mins = Math.floor(total / 60);
+  const secs = total % 60;
+  return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+}
+
+function formatUtcTime(epochSeconds) {
+  const raw = toInt(epochSeconds, 0);
+  if (raw <= 0) {
+    return "TBD";
+  }
+  const date = new Date(raw * 1000);
+  return date.toLocaleString([], {
+    hour12: false,
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZoneName: "short",
+  });
 }
 
 function findTeamRoster(teamName) {
@@ -477,6 +584,400 @@ function loadSuggestions() {
   });
 }
 
+function setLiveStatus(text) {
+  document.getElementById("liveMatchStatus").textContent = text;
+}
+
+function createTeamBadge(name, logoUrl) {
+  if (logoUrl) {
+    const logo = document.createElement("img");
+    logo.className = "team-logo";
+    logo.src = logoUrl;
+    logo.alt = `${name} logo`;
+    logo.loading = "lazy";
+    logo.referrerPolicy = "no-referrer";
+    logo.onerror = () => {
+      logo.replaceWith(createTeamBadge(name, ""));
+    };
+    return logo;
+  }
+
+  const fallback = document.createElement("span");
+  fallback.className = "team-logo fallback";
+  const words = (name || "?").trim().split(/\s+/).filter(Boolean);
+  fallback.textContent = (words[0]?.[0] || "?") + (words[1]?.[0] || "");
+  return fallback;
+}
+
+function applyLiveMatchToForm(match, sourceLabel = "live board") {
+  document.getElementById("radiantTeam").value = match.radiant_team || "Radiant";
+  document.getElementById("direTeam").value = match.dire_team || "Dire";
+
+  for (let i = 0; i < 5; i += 1) {
+    document.getElementById(`radiantPlayer${i}`).value = (match.radiant_players || [])[i] || "";
+    document.getElementById(`direPlayer${i}`).value = (match.dire_players || [])[i] || "";
+    document.getElementById(`radiantHero${i}`).value = (match.radiant_heroes || [])[i] || "";
+    document.getElementById(`direHero${i}`).value = (match.dire_heroes || [])[i] || "";
+  }
+
+  const hasUnpicked = [...(match.radiant_heroes || []), ...(match.dire_heroes || [])].some((hero) => !hero);
+  if (hasUnpicked) {
+    setLiveStatus(`Applied from ${sourceLabel}. Some heroes are not picked yet, so those hero fields were left blank.`);
+  } else {
+    setLiveStatus(`Applied from ${sourceLabel}. Teams, players, and heroes are now prefilled.`);
+  }
+}
+
+function getLiveFilters() {
+  return {
+    status: document.getElementById("liveFilterStatus").value,
+    series: document.getElementById("liveFilterSeries").value,
+    query: document.getElementById("liveFilterTournament").value.trim().toLowerCase(),
+  };
+}
+
+function applyLiveFilters(matches) {
+  const filters = getLiveFilters();
+  return (matches || []).filter((match) => {
+    if (filters.status !== "all" && String(match.status || "") !== filters.status) {
+      return false;
+    }
+
+    if (filters.series !== "all") {
+      if (String(seriesBestOf(match.series_type)) !== filters.series) {
+        return false;
+      }
+    }
+
+    if (filters.query) {
+      const haystack = [
+        String(match.league_name || "").toLowerCase(),
+        String(match.radiant_team || "").toLowerCase(),
+        String(match.dire_team || "").toLowerCase(),
+      ].join(" ");
+      if (!haystack.includes(filters.query)) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+}
+
+function normalizeLiveMatches(payloadMatches) {
+  const heroNamesById = heroIdToNameMap();
+  const playerNamesByAccount = accountIdToPlayerNameMap();
+
+  const normalized = [];
+
+  (payloadMatches || []).forEach((match, idx) => {
+    const matchId = toInt(match.match_id, 0);
+    if (!matchId) {
+      return;
+    }
+
+    const radiantRows = [];
+    const direRows = [];
+
+    (match.players || []).forEach((player) => {
+      const side = resolveLiveTeam(player);
+      if (side !== "radiant" && side !== "dire") {
+        return;
+      }
+
+      const accountId = toInt(player.account_id, 0);
+      const heroId = toInt(player.hero_id, 0);
+      const slot = toInt(player.player_slot, 999);
+
+      const playerName =
+        (player.name || "").trim()
+        || (player.personaname || "").trim()
+        || playerNamesByAccount[accountId]
+        || (accountId ? `Player ${accountId}` : "");
+
+      const heroName = heroNamesById[heroId] || "";
+
+      if (side === "radiant") {
+        radiantRows.push([slot, playerName, heroName]);
+      } else {
+        direRows.push([slot, playerName, heroName]);
+      }
+    });
+
+    radiantRows.sort((a, b) => a[0] - b[0]);
+    direRows.sort((a, b) => a[0] - b[0]);
+
+    const radiantPlayers = radiantRows.map((row) => row[1]);
+    const direPlayers = direRows.map((row) => row[1]);
+    const radiantHeroes = radiantRows.map((row) => row[2]);
+    const direHeroes = direRows.map((row) => row[2]);
+
+    if (radiantPlayers.length === 0 || direPlayers.length === 0) {
+      return;
+    }
+
+    const radiantTeamObj = match.radiant_team || {};
+    const direTeamObj = match.dire_team || {};
+    const radiantTeam = (radiantTeamObj.team_name || "").trim() || (match.radiant_name || "").trim() || "Radiant";
+    const direTeam = (direTeamObj.team_name || "").trim() || (match.dire_name || "").trim() || "Dire";
+    const leagueName = (match.league_name || "").trim();
+
+    const scoreboard = match.scoreboard || {};
+    const liveSeconds = toInt(scoreboard.duration, 0);
+    const startTime = toInt(match.start_time, 0);
+    const radiantScore = toInt(match.radiant_score, -1);
+    const direScore = toInt(match.dire_score, -1);
+    const knownPicks = [...radiantHeroes, ...direHeroes].filter((h) => h).length;
+
+    let status = "draft";
+    if (liveSeconds > 0) {
+      status = "live";
+    } else if (startTime > Math.floor(Date.now() / 1000)) {
+      status = "upcoming";
+    }
+
+    normalized.push({
+      match_id: matchId,
+      idx,
+      status,
+      league_name: leagueName,
+      radiant_team: radiantTeam,
+      dire_team: direTeam,
+      radiant_logo_url: (radiantTeamObj.logo_url || "").trim() || (radiantTeamObj.logo || "").trim(),
+      dire_logo_url: (direTeamObj.logo_url || "").trim() || (direTeamObj.logo || "").trim(),
+      radiant_score: radiantScore < 0 ? null : radiantScore,
+      dire_score: direScore < 0 ? null : direScore,
+      live_seconds: liveSeconds,
+      start_time: startTime,
+      series_type: toInt(match.series_type, 0),
+      known_picks: knownPicks,
+      radiant_players: padToFive(radiantPlayers),
+      dire_players: padToFive(direPlayers),
+      radiant_heroes: padToFive(radiantHeroes),
+      dire_heroes: padToFive(direHeroes),
+    });
+  });
+
+  return normalized;
+}
+
+function renderLiveMatchCards(matches) {
+  const board = document.getElementById("liveMatchCards");
+  board.innerHTML = "";
+
+  if (!matches || matches.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "live-empty";
+    empty.textContent = "No live matches detected from OpenDota right now.";
+    board.appendChild(empty);
+    return;
+  }
+
+  matches.forEach((match) => {
+    const card = document.createElement("article");
+    card.className = "live-card";
+    const matchKey = String(match.match_id);
+    const expanded = expandedLiveMatchIds.has(matchKey);
+
+    const top = document.createElement("div");
+    top.className = "live-top";
+
+    const meta = document.createElement("div");
+    meta.className = "live-meta";
+
+    const league = document.createElement("div");
+    league.className = "live-league";
+    league.textContent = match.league_name || "Unknown Tournament";
+
+    const info = document.createElement("div");
+    info.className = "live-info";
+    const scoreText =
+      match.radiant_score !== null && match.dire_score !== null
+        ? `${match.radiant_score} - ${match.dire_score}`
+        : "Score N/A";
+    const timeText = match.status === "live" ? formatClock(match.live_seconds) : formatUtcTime(match.start_time);
+    info.textContent = `${String(match.status).toUpperCase()} | ${formatSeries(match.series_type)} | ${scoreText} | ${timeText}`;
+
+    meta.appendChild(league);
+    meta.appendChild(info);
+
+    const actions = document.createElement("div");
+    actions.className = "live-actions";
+
+    const detailsBtn = document.createElement("button");
+    detailsBtn.className = "btn btn-ghost live-toggle";
+    detailsBtn.type = "button";
+    detailsBtn.textContent = expanded ? "Hide Details" : "Show Details";
+    detailsBtn.addEventListener("click", () => {
+      if (expandedLiveMatchIds.has(matchKey)) {
+        expandedLiveMatchIds.delete(matchKey);
+      } else {
+        expandedLiveMatchIds.add(matchKey);
+      }
+      renderLiveBoard();
+    });
+
+    const applyBtn = document.createElement("button");
+    applyBtn.className = "btn btn-ghost live-apply";
+    applyBtn.type = "button";
+    applyBtn.textContent = "Use This Match";
+    applyBtn.addEventListener("click", () => {
+      applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
+    });
+
+    const predictBtn = document.createElement("button");
+    predictBtn.className = "btn btn-primary live-predict";
+    predictBtn.type = "button";
+    predictBtn.textContent = "Predict This Match";
+    predictBtn.addEventListener("click", () => {
+      applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
+      predict();
+      document.querySelector(".results-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    actions.appendChild(detailsBtn);
+    actions.appendChild(applyBtn);
+    actions.appendChild(predictBtn);
+
+    top.appendChild(meta);
+    top.appendChild(actions);
+
+    const teams = document.createElement("div");
+    teams.className = "live-teams";
+
+    const radiant = document.createElement("div");
+    radiant.className = "live-team radiant";
+    radiant.appendChild(createTeamBadge(match.radiant_team, match.radiant_logo_url));
+    const radName = document.createElement("span");
+    radName.className = "team-name";
+    radName.textContent = match.radiant_team;
+    radiant.appendChild(radName);
+
+    const versus = document.createElement("span");
+    versus.className = "versus";
+    versus.textContent = "VS";
+
+    const dire = document.createElement("div");
+    dire.className = "live-team dire";
+    dire.appendChild(createTeamBadge(match.dire_team, match.dire_logo_url));
+    const direName = document.createElement("span");
+    direName.className = "team-name";
+    direName.textContent = match.dire_team;
+    dire.appendChild(direName);
+
+    teams.appendChild(radiant);
+    teams.appendChild(versus);
+    teams.appendChild(dire);
+
+    const draft = document.createElement("div");
+    draft.className = "live-draft";
+    draft.textContent = `Draft progress: ${Number(match.known_picks || 0)}/10 picks known`;
+
+    const details = document.createElement("div");
+    details.className = "live-details";
+    if (!expanded) {
+      details.classList.add("hidden");
+    }
+
+    const radList = document.createElement("div");
+    radList.className = "lineup radiant";
+    const radTitle = document.createElement("h4");
+    radTitle.textContent = `${match.radiant_team} lineup`;
+    radList.appendChild(radTitle);
+    const radUl = document.createElement("ul");
+    for (let i = 0; i < 5; i += 1) {
+      const li = document.createElement("li");
+      const player = match.radiant_players[i] || `Player ${i + 1}`;
+      const hero = match.radiant_heroes[i] || "(hero not picked)";
+      li.textContent = `${player} - ${hero}`;
+      radUl.appendChild(li);
+    }
+    radList.appendChild(radUl);
+
+    const direList = document.createElement("div");
+    direList.className = "lineup dire";
+    const direTitle = document.createElement("h4");
+    direTitle.textContent = `${match.dire_team} lineup`;
+    direList.appendChild(direTitle);
+    const direUl = document.createElement("ul");
+    for (let i = 0; i < 5; i += 1) {
+      const li = document.createElement("li");
+      const player = match.dire_players[i] || `Player ${i + 1}`;
+      const hero = match.dire_heroes[i] || "(hero not picked)";
+      li.textContent = `${player} - ${hero}`;
+      direUl.appendChild(li);
+    }
+    direList.appendChild(direUl);
+
+    details.appendChild(radList);
+    details.appendChild(direList);
+
+    card.appendChild(top);
+    card.appendChild(teams);
+    card.appendChild(draft);
+    card.appendChild(details);
+    board.appendChild(card);
+  });
+}
+
+function renderLiveBoard() {
+  filteredLiveMatches = applyLiveFilters(liveMatches);
+  renderLiveMatchCards(filteredLiveMatches);
+
+  if (liveMatches.length === 0) {
+    setLiveStatus("No live matches available right now.");
+    return;
+  }
+
+  const refreshText = liveRefreshAt ? liveRefreshAt.toLocaleTimeString() : "not yet";
+  setLiveStatus(`Showing ${filteredLiveMatches.length}/${liveMatches.length} match(es). Last refresh: ${refreshText}.`);
+}
+
+async function loadLiveMatches() {
+  const refreshBtn = document.getElementById("refreshLiveBtn");
+  if (refreshBtn.disabled) {
+    return;
+  }
+
+  refreshBtn.disabled = true;
+  refreshBtn.textContent = "Loading...";
+
+  try {
+    const response = await fetch("https://api.opendota.com/api/live", { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`OpenDota live endpoint returned ${response.status}`);
+    }
+
+    const payload = await response.json();
+    liveMatches = normalizeLiveMatches(payload || []);
+    liveRefreshAt = new Date();
+    renderLiveBoard();
+  } catch (err) {
+    liveMatches = [];
+    filteredLiveMatches = [];
+    renderLiveMatchCards([]);
+    setLiveStatus(`Live matches unavailable: ${err.message}`);
+  } finally {
+    refreshBtn.disabled = false;
+    refreshBtn.textContent = "Refresh Live Matches";
+  }
+}
+
+function setupLiveAutoRefresh() {
+  const checkbox = document.getElementById("liveAutoRefresh");
+
+  if (liveRefreshTimerId) {
+    clearInterval(liveRefreshTimerId);
+    liveRefreshTimerId = null;
+  }
+
+  if (checkbox.checked) {
+    liveRefreshTimerId = setInterval(() => {
+      loadLiveMatches();
+    }, 45000);
+  }
+}
+
 async function init() {
   createRows("radiant");
   createRows("dire");
@@ -487,6 +988,12 @@ async function init() {
   document.getElementById("direAutofillBtn").addEventListener("click", () => autofillPlayersForSide("dire"));
   document.getElementById("radiantTeam").addEventListener("change", () => autofillPlayersForSide("radiant", false));
   document.getElementById("direTeam").addEventListener("change", () => autofillPlayersForSide("dire", false));
+  document.getElementById("refreshLiveBtn").addEventListener("click", loadLiveMatches);
+  document.getElementById("liveAutoRefresh").addEventListener("change", setupLiveAutoRefresh);
+  document.getElementById("liveFilterStatus").addEventListener("change", renderLiveBoard);
+  document.getElementById("liveFilterSeries").addEventListener("change", renderLiveBoard);
+  document.getElementById("liveFilterTournament").addEventListener("input", renderLiveBoard);
+  setupLiveAutoRefresh();
 
   try {
     const response = await fetch("model_bundle.json", { cache: "no-store" });
@@ -529,9 +1036,11 @@ async function init() {
     document.getElementById("bundleUpdatedText").textContent = `Model bundle last updated: ${generatedAt}`;
     renderMetrics(modelBundle.last_train_metrics || {});
     loadSuggestions();
+    await loadLiveMatches();
   } catch (err) {
     document.getElementById("statusText").textContent = `Failed to load model bundle: ${err.message}`;
     document.getElementById("bundleUpdatedText").textContent = "Model bundle timestamp unavailable.";
+    setLiveStatus("Live matches unavailable until model bundle loads.");
   }
 }
 
