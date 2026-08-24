@@ -8,6 +8,11 @@ const sampleData = {
 };
 
 let modelBundle = null;
+let playerExactMap = null;
+let playerNormalizedMap = null;
+let playerNormalizedEntries = [];
+let teamRosters = {};
+let teamRosterKeys = [];
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -15,6 +20,152 @@ function sigmoid(x) {
 
 function smoothedWinRate(wins, games) {
   return (wins + 1) / (games + 2);
+}
+
+function normalizePlayerName(name) {
+  return (name || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function normalizeTeamName(name) {
+  return (name || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]/g, "");
+}
+
+function initPlayerResolvers() {
+  playerExactMap = modelBundle.player_name_to_id || {};
+  playerNormalizedMap = {};
+  playerNormalizedEntries = [];
+
+  Object.entries(playerExactMap).forEach(([name, id]) => {
+    const normalized = normalizePlayerName(name);
+    if (!normalized) {
+      return;
+    }
+
+    if (playerNormalizedMap[normalized] === undefined) {
+      playerNormalizedMap[normalized] = id;
+    }
+    playerNormalizedEntries.push([normalized, id]);
+  });
+}
+
+function initTeamRosters() {
+  teamRosters = modelBundle.team_rosters || {};
+  teamRosterKeys = Object.keys(teamRosters);
+}
+
+function findTeamRoster(teamName) {
+  const raw = (teamName || "").trim();
+  if (!raw) {
+    return null;
+  }
+
+  const exact = teamRosters[raw];
+  if (exact && exact.length) {
+    return { teamKey: raw, players: exact };
+  }
+
+  const lower = raw.toLowerCase();
+  const caseInsensitive = teamRosterKeys.find((k) => k.toLowerCase() === lower);
+  if (caseInsensitive) {
+    return { teamKey: caseInsensitive, players: teamRosters[caseInsensitive] };
+  }
+
+  const normalizedInput = normalizeTeamName(raw);
+  if (!normalizedInput) {
+    return null;
+  }
+
+  const candidates = teamRosterKeys.filter((k) => normalizeTeamName(k) === normalizedInput);
+  if (candidates.length === 1) {
+    return { teamKey: candidates[0], players: teamRosters[candidates[0]] };
+  }
+
+  const loose = teamRosterKeys.filter((k) => {
+    const nk = normalizeTeamName(k);
+    return nk.includes(normalizedInput) || normalizedInput.includes(nk);
+  });
+  if (loose.length === 1) {
+    return { teamKey: loose[0], players: teamRosters[loose[0]] };
+  }
+
+  return null;
+}
+
+function autofillPlayersForSide(side, showStatus = true) {
+  if (!modelBundle) {
+    return;
+  }
+
+  const teamInput = document.getElementById(`${side}Team`);
+  const teamName = teamInput.value.trim();
+  const match = findTeamRoster(teamName);
+
+  if (!match || !match.players || !match.players.length) {
+    if (showStatus && teamName) {
+      document.getElementById("statusText").textContent = `No roster match found for team: ${teamName}`;
+    }
+    return;
+  }
+
+  for (let i = 0; i < 5; i += 1) {
+    const playerInput = document.getElementById(`${side}Player${i}`);
+    if (match.players[i]) {
+      playerInput.value = match.players[i];
+    }
+  }
+
+  if (showStatus) {
+    document.getElementById("statusText").textContent = `Auto-filled ${side} players from roster: ${match.teamKey}`;
+  }
+}
+
+function resolvePlayerId(inputName) {
+  const raw = (inputName || "").trim();
+  if (!raw) {
+    return 0;
+  }
+
+  const exact = playerExactMap[raw.toLowerCase()];
+  if (exact) {
+    return exact;
+  }
+
+  const normalizedInput = normalizePlayerName(raw);
+  if (!normalizedInput) {
+    return 0;
+  }
+
+  const normalizedHit = playerNormalizedMap[normalizedInput];
+  if (normalizedHit) {
+    return normalizedHit;
+  }
+
+  // As a final fallback, try a unique fuzzy match on normalized tokens.
+  if (normalizedInput.length >= 4) {
+    const candidateIds = new Set();
+    for (const [candidateNorm, candidateId] of playerNormalizedEntries) {
+      if (candidateNorm.includes(normalizedInput) || normalizedInput.includes(candidateNorm)) {
+        candidateIds.add(candidateId);
+        if (candidateIds.size > 1) {
+          break;
+        }
+      }
+    }
+
+    if (candidateIds.size === 1) {
+      return Array.from(candidateIds)[0];
+    }
+  }
+
+  return 0;
 }
 
 function createRows(side) {
@@ -190,13 +341,13 @@ function predict() {
 
   const unresolvedPlayers = [];
   const radiantPlayerIds = radiant.players.map((p) => {
-    const id = playerMap[p.toLowerCase()] || 0;
+    const id = resolvePlayerId(p);
     if (!id && p) unresolvedPlayers.push(p);
     return id;
   });
 
   const direPlayerIds = dire.players.map((p) => {
-    const id = playerMap[p.toLowerCase()] || 0;
+    const id = resolvePlayerId(p);
     if (!id && p) unresolvedPlayers.push(p);
     return id;
   });
@@ -233,7 +384,7 @@ function predict() {
   const direProb01 = 1 - radiantProb01;
 
   const note = unresolvedPlayers.length > 0
-    ? `Fallback baseline used for unresolved players: ${unresolvedPlayers.join(", ")}`
+    ? `Fallback baseline used for unresolved players: ${unresolvedPlayers.join(", ")}. If these are active pros, refresh and re-export the snapshot.`
     : "All players resolved from snapshot.";
 
   renderResult({
@@ -262,9 +413,11 @@ function loadSampleData() {
 function loadSuggestions() {
   const heroDatalist = document.getElementById("heroSuggestions");
   const playerDatalist = document.getElementById("playerSuggestions");
+  const teamDatalist = document.getElementById("teamSuggestions");
 
   heroDatalist.innerHTML = "";
   playerDatalist.innerHTML = "";
+  teamDatalist.innerHTML = "";
 
   Object.keys(modelBundle.hero_name_to_id).sort().forEach((hero) => {
     const option = document.createElement("option");
@@ -277,6 +430,12 @@ function loadSuggestions() {
     option.value = player;
     playerDatalist.appendChild(option);
   });
+
+  teamRosterKeys.sort().forEach((team) => {
+    const option = document.createElement("option");
+    option.value = team;
+    teamDatalist.appendChild(option);
+  });
 }
 
 async function init() {
@@ -285,10 +444,16 @@ async function init() {
 
   document.getElementById("sampleBtn").addEventListener("click", loadSampleData);
   document.getElementById("predictBtn").addEventListener("click", predict);
+  document.getElementById("radiantAutofillBtn").addEventListener("click", () => autofillPlayersForSide("radiant"));
+  document.getElementById("direAutofillBtn").addEventListener("click", () => autofillPlayersForSide("dire"));
+  document.getElementById("radiantTeam").addEventListener("change", () => autofillPlayersForSide("radiant", false));
+  document.getElementById("direTeam").addEventListener("change", () => autofillPlayersForSide("dire", false));
 
   try {
     const response = await fetch("model_bundle.json", { cache: "no-store" });
     modelBundle = await response.json();
+    initPlayerResolvers();
+    initTeamRosters();
     document.getElementById("statusText").textContent = `Model ready. Heroes: ${Object.keys(modelBundle.hero_name_to_id).length}, Players: ${Object.keys(modelBundle.player_name_to_id).length}`;
     const generatedAt = modelBundle.generated_at
       ? new Date(modelBundle.generated_at).toLocaleString()

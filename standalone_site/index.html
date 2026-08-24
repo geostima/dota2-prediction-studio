@@ -37,13 +37,15 @@
     <section class="teams-grid">
       <article class="panel team-panel radiant">
         <h2>Radiant Team</h2>
-        <label>Team Name <input id="radiantTeam" placeholder="Enter Radiant team"></label>
+        <label>Team Name <input id="radiantTeam" placeholder="Enter Radiant team" list="teamSuggestions"></label>
+        <button id="radiantAutofillBtn" class="btn btn-ghost btn-small" type="button">Auto Fill Players</button>
         <div class="input-grid" id="radiantRows"></div>
       </article>
 
       <article class="panel team-panel dire">
         <h2>Dire Team</h2>
-        <label>Team Name <input id="direTeam" placeholder="Enter Dire team"></label>
+        <label>Team Name <input id="direTeam" placeholder="Enter Dire team" list="teamSuggestions"></label>
+        <button id="direAutofillBtn" class="btn btn-ghost btn-small" type="button">Auto Fill Players</button>
         <div class="input-grid" id="direRows"></div>
       </article>
     </section>
@@ -62,6 +64,7 @@
 
   <datalist id="heroSuggestions"></datalist>
   <datalist id="playerSuggestions"></datalist>
+  <datalist id="teamSuggestions"></datalist>
 
   <script src="app.js"></script>
 </body>
