@@ -21,7 +21,7 @@ let filteredLiveMatches = [];
 let liveRefreshAt = null;
 let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
-const MAX_LIVE_MATCHES = 12;
+const MAX_LIVE_MATCHES = 30;
 let liveFetchStats = null;
 
 function sigmoid(x) {
@@ -731,9 +731,9 @@ function normalizeLiveMatches(payloadMatches) {
     const radiantHeroes = radiantRows.map((row) => row[2]);
     const direHeroes = direRows.map((row) => row[2]);
 
-    if (radiantPlayers.length === 0 || direPlayers.length === 0) {
+    const lineupAvailable = radiantPlayers.length > 0 && direPlayers.length > 0;
+    if (!lineupAvailable) {
       stats.dropped_no_players += 1;
-      return;
     }
 
     const radiantTeamObj = match.radiant_team || {};
@@ -787,6 +787,7 @@ function normalizeLiveMatches(payloadMatches) {
       start_time: startTime,
       series_type: toInt(match.series_type, 0),
       known_picks: knownPicks,
+      lineup_available: lineupAvailable,
       radiant_players: padToFive(radiantPlayers),
       dire_players: padToFive(direPlayers),
       radiant_heroes: padToFive(radiantHeroes),
@@ -894,6 +895,11 @@ function renderLiveMatchCards(matches) {
       document.querySelector(".results-panel").scrollIntoView({ behavior: "smooth", block: "start" });
     });
 
+    if (!match.lineup_available || Number(match.known_picks || 0) < 10) {
+      predictBtn.disabled = true;
+      predictBtn.title = "Prediction requires full detected lineup and all 10 hero picks.";
+    }
+
     actions.appendChild(detailsBtn);
     actions.appendChild(applyBtn);
     actions.appendChild(predictBtn);
@@ -930,7 +936,11 @@ function renderLiveMatchCards(matches) {
 
     const draft = document.createElement("div");
     draft.className = "live-draft";
-    draft.textContent = `Draft progress: ${Number(match.known_picks || 0)}/10 picks known`;
+    if (!match.lineup_available) {
+      draft.textContent = "Lineup data is not yet exposed by feed. Team/tournament info only for now.";
+    } else {
+      draft.textContent = `Draft progress: ${Number(match.known_picks || 0)}/10 picks known`;
+    }
 
     const details = document.createElement("div");
     details.className = "live-details";
