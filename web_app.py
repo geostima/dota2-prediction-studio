@@ -1,9 +1,10 @@
 from datetime import datetime
 from threading import Lock
+import sqlite3
 
 from flask import Flask, jsonify, render_template, request
 
-from dota_predictor_advanced import DotaPredictionV2, init_advanced_db
+from dota_predictor_advanced import DB_NAME, DotaPredictionV2, init_advanced_db
 
 app = Flask(__name__)
 model_lock = Lock()
@@ -55,6 +56,37 @@ def _train_model(refresh_data=False, match_limit=400, min_matches=120):
         state["training"] = False
 
 
+def _resolve_live_team(player_obj):
+    if "isRadiant" in player_obj:
+        return "radiant" if bool(player_obj.get("isRadiant")) else "dire"
+
+    team_value = player_obj.get("team")
+    if team_value in (0, "0", "radiant", "Radiant"):
+        return "radiant"
+    if team_value in (1, "1", "dire", "Dire"):
+        return "dire"
+
+    slot = player_obj.get("player_slot")
+    if isinstance(slot, int):
+        return "radiant" if slot < 128 else "dire"
+
+    return None
+
+
+def _pad_to_five(items):
+    output = list(items[:5])
+    while len(output) < 5:
+        output.append("")
+    return output
+
+
+def _to_int(value, default=0):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -88,6 +120,147 @@ def get_options():
         players = sorted(predictor.player_name_to_id.keys())[:4000]
 
         return jsonify({"heroes": heroes, "players": players})
+
+
+@app.route("/api/live_matches", methods=["GET"])
+def get_live_matches():
+    limit = request.args.get("limit", default=20, type=int) or 20
+    if limit < 1:
+        limit = 1
+    if limit > 50:
+        limit = 50
+
+    with model_lock:
+        predictor = _get_or_create_predictor()
+
+        conn = sqlite3.connect(DB_NAME)
+        hero_rows = conn.execute("SELECT id, localized_name FROM heroes").fetchall()
+        player_rows = conn.execute("SELECT account_id, name, personaname FROM pro_players").fetchall()
+        conn.close()
+
+        hero_id_to_name = {int(hero_id): localized_name for hero_id, localized_name in hero_rows if localized_name}
+        account_id_to_name = {}
+        for account_id, name, personaname in player_rows:
+            label = (name or "").strip() or (personaname or "").strip()
+            if label:
+                account_id_to_name[int(account_id)] = label
+
+        try:
+            response = predictor.session.get("https://api.opendota.com/api/live", timeout=10)
+            response.raise_for_status()
+            payload = response.json() or []
+        except Exception as exc:
+            return jsonify({"error": f"Failed to fetch live matches: {exc}", "matches": []}), 502
+
+        live_matches = []
+        for match in payload:
+            match_id = int(match.get("match_id") or 0)
+            if not match_id:
+                continue
+
+            match_players = match.get("players") or []
+            radiant_rows = []
+            dire_rows = []
+
+            for player in match_players:
+                side = _resolve_live_team(player)
+                if side not in ("radiant", "dire"):
+                    continue
+
+                account_id = int(player.get("account_id") or 0)
+                hero_id = int(player.get("hero_id") or 0)
+                slot = _to_int(player.get("player_slot"), 999)
+
+                player_name = (
+                    (player.get("name") or "").strip()
+                    or (player.get("personaname") or "").strip()
+                    or account_id_to_name.get(account_id, "")
+                    or (f"Player {account_id}" if account_id else "")
+                )
+                hero_name = hero_id_to_name.get(hero_id, "")
+
+                if side == "radiant":
+                    radiant_rows.append((slot, player_name, hero_name))
+                else:
+                    dire_rows.append((slot, player_name, hero_name))
+
+            radiant_rows.sort(key=lambda row: row[0])
+            dire_rows.sort(key=lambda row: row[0])
+
+            radiant_players = [row[1] for row in radiant_rows]
+            radiant_heroes = [row[2] for row in radiant_rows]
+            dire_players = [row[1] for row in dire_rows]
+            dire_heroes = [row[2] for row in dire_rows]
+
+            if len(radiant_players) == 0 or len(dire_players) == 0:
+                continue
+
+            radiant_team_obj = match.get("radiant_team") or {}
+            dire_team_obj = match.get("dire_team") or {}
+            radiant_team = (
+                (radiant_team_obj.get("team_name") or "").strip()
+                or (match.get("radiant_name") or "").strip()
+                or "Radiant"
+            )
+            dire_team = (
+                (dire_team_obj.get("team_name") or "").strip()
+                or (match.get("dire_name") or "").strip()
+                or "Dire"
+            )
+            league_name = (match.get("league_name") or "").strip()
+            scoreboard = match.get("scoreboard") or {}
+            live_seconds = _to_int(scoreboard.get("duration"), 0)
+            start_time = _to_int(match.get("start_time"), 0)
+            radiant_score = _to_int(match.get("radiant_score"), -1)
+            dire_score = _to_int(match.get("dire_score"), -1)
+            known_picks = len([h for h in radiant_heroes + dire_heroes if h])
+
+            if live_seconds > 0:
+                match_status = "live"
+            elif start_time > int(datetime.utcnow().timestamp()):
+                match_status = "upcoming"
+            else:
+                match_status = "draft"
+
+            live_matches.append(
+                {
+                    "match_id": match_id,
+                    "label": (
+                        f"{radiant_team} vs {dire_team}"
+                        + (f" | {league_name}" if league_name else "")
+                        + (" | draft in progress" if known_picks < 10 else "")
+                    ),
+                    "status": match_status,
+                    "radiant_team": radiant_team,
+                    "dire_team": dire_team,
+                    "radiant_logo_url": (
+                        (radiant_team_obj.get("logo_url") or "").strip()
+                        or (radiant_team_obj.get("logo") or "").strip()
+                    ),
+                    "dire_logo_url": (
+                        (dire_team_obj.get("logo_url") or "").strip()
+                        or (dire_team_obj.get("logo") or "").strip()
+                    ),
+                    "radiant_score": None if radiant_score < 0 else radiant_score,
+                    "dire_score": None if dire_score < 0 else dire_score,
+                    "live_seconds": live_seconds,
+                    "start_time": start_time,
+                    "series_type": _to_int(match.get("series_type"), 0),
+                    "series_id": _to_int(match.get("series_id"), 0),
+                    "league_id": _to_int(match.get("league_id"), 0),
+                    "radiant_players": _pad_to_five(radiant_players),
+                    "dire_players": _pad_to_five(dire_players),
+                    "radiant_heroes": _pad_to_five(radiant_heroes),
+                    "dire_heroes": _pad_to_five(dire_heroes),
+                    "league_name": league_name,
+                    "known_picks": known_picks,
+                }
+            )
+
+            if len(live_matches) >= limit:
+                break
+
+        return jsonify({"matches": live_matches})
 
 
 @app.route("/api/train", methods=["POST"])

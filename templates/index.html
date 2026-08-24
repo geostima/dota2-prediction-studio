@@ -36,6 +36,45 @@
         <button id="trainBtn" class="btn btn-secondary">Refresh Data + Retrain</button>
       </div>
       <div id="metricsBox" class="metrics-box"></div>
+
+      <div class="live-panel">
+        <div class="live-panel-header">
+          <h3>Live Detected Matches</h3>
+          <div class="live-panel-tools">
+            <label class="live-auto-refresh">
+              <input id="liveAutoRefresh" type="checkbox" checked>
+              Auto refresh (45s)
+            </label>
+            <button id="refreshLiveBtn" class="btn btn-ghost" type="button">Refresh Live Matches</button>
+          </div>
+        </div>
+        <div class="live-filters">
+          <label>
+            Status
+            <select id="liveFilterStatus">
+              <option value="all">All</option>
+              <option value="live">Live</option>
+              <option value="upcoming">Upcoming</option>
+              <option value="draft">Draft</option>
+            </select>
+          </label>
+          <label>
+            Series
+            <select id="liveFilterSeries">
+              <option value="all">All</option>
+              <option value="1">BO1</option>
+              <option value="3">BO3</option>
+              <option value="5">BO5</option>
+            </select>
+          </label>
+          <label>
+            Tournament
+            <input id="liveFilterTournament" type="text" placeholder="Search tournament or team">
+          </label>
+        </div>
+        <div id="liveMatchCards" class="live-cards"></div>
+        <p id="liveMatchStatus" class="live-status">Load live matches to prefill teams, players, and picked heroes.</p>
+      </div>
     </section>
 
     <section class="teams-grid">
