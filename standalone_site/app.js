@@ -33,6 +33,8 @@ let proMatchesCache = null;
 let proMatchesFetchedAt = 0;
 const PRO_MATCHES_URL = "https://api.opendota.com/api/proMatches";
 const PRO_MATCHES_TTL_MS = 5 * 60 * 1000;
+const PRO_MATCHES_PAGES = 2;
+const SERIES_MAPS_TTL_MS = 60000;
 const OPENDOTA_MATCH_BASE_URL = "https://api.opendota.com/api/matches/";
 const MAX_LIVE_MATCHES = 150;
 const LIVE_PAGE_SIZE = 10;
@@ -489,38 +491,84 @@ async function getProMatches() {
     return proMatchesCache;
   }
 
-  const response = await fetch(PRO_MATCHES_URL, { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error(`proMatches returned ${response.status}`);
+  const collected = [];
+  let lessThanMatchId = 0;
+
+  for (let page = 0; page < PRO_MATCHES_PAGES; page += 1) {
+    const url = lessThanMatchId
+      ? `${PRO_MATCHES_URL}?less_than_match_id=${lessThanMatchId}`
+      : PRO_MATCHES_URL;
+    const response = await fetch(url, { cache: "no-store" });
+    if (!response.ok) {
+      if (collected.length === 0) {
+        throw new Error(`proMatches returned ${response.status}`);
+      }
+      break;
+    }
+
+    const data = await response.json();
+    if (!Array.isArray(data) || data.length === 0) {
+      break;
+    }
+    collected.push(...data);
+    lessThanMatchId = toInt(data[data.length - 1].match_id, 0);
+    if (!lessThanMatchId) {
+      break;
+    }
   }
 
-  const data = await response.json();
-  proMatchesCache = Array.isArray(data) ? data : [];
+  proMatchesCache = collected;
   proMatchesFetchedAt = Date.now();
   return proMatchesCache;
 }
 
-// Recovers the individual maps of a finished series by matching team pairs in OpenDota pro matches.
+// Feeds disagree on org names ("Syntax" vs "team syntax"), so allow a containment match.
+function teamNamesMatch(a, b) {
+  const left = normalizeTeamName(a);
+  const right = normalizeTeamName(b);
+  if (!left || !right) {
+    return false;
+  }
+  if (left === right) {
+    return true;
+  }
+  if (Math.min(left.length, right.length) < 4) {
+    return false;
+  }
+  return left.includes(right) || right.includes(left);
+}
+
+function getSeriesMaps(matchKey) {
+  const entry = seriesMapsCache.get(matchKey);
+  return entry ? entry.maps : undefined;
+}
+
+// Recovers the individual maps of a series by matching team pairs in OpenDota pro matches.
 function ensureSeriesMaps(match, matchKey, onDone) {
-  if (seriesMapsCache.has(matchKey) || pendingSeriesKeys.has(matchKey)) {
+  const cached = seriesMapsCache.get(matchKey);
+  const isFresh = cached && (match.status === "ended" || Date.now() - cached.at < SERIES_MAPS_TTL_MS);
+  if (isFresh || pendingSeriesKeys.has(matchKey)) {
     return;
   }
 
   pendingSeriesKeys.add(matchKey);
   getProMatches()
     .then((proMatches) => {
-      const teamA = normalizeTeamName(match.radiant_team);
-      const teamB = normalizeTeamName(match.dire_team);
+      const teamA = match.radiant_team;
+      const teamB = match.dire_team;
+      const cutoff = Math.floor(Date.now() / 1000) - 86400;
       const maps = (proMatches || []).filter((pm) => {
-        const rad = normalizeTeamName(pm.radiant_name);
-        const dire = normalizeTeamName(pm.dire_name);
-        return (rad === teamA && dire === teamB) || (rad === teamB && dire === teamA);
+        if (toInt(pm.start_time, 0) < cutoff) {
+          return false;
+        }
+        return (teamNamesMatch(pm.radiant_name, teamA) && teamNamesMatch(pm.dire_name, teamB))
+          || (teamNamesMatch(pm.radiant_name, teamB) && teamNamesMatch(pm.dire_name, teamA));
       });
       maps.sort((a, b) => toInt(a.match_id, 0) - toInt(b.match_id, 0));
-      seriesMapsCache.set(matchKey, maps);
+      seriesMapsCache.set(matchKey, { at: Date.now(), maps });
     })
     .catch(() => {
-      seriesMapsCache.set(matchKey, []);
+      seriesMapsCache.set(matchKey, { at: Date.now(), maps: [] });
     })
     .finally(() => {
       pendingSeriesKeys.delete(matchKey);
@@ -1775,35 +1823,87 @@ function buildMapPanel(mapSummary) {
   return panel;
 }
 
+function buildLiveMapPanel(match) {
+  const panel = document.createElement("div");
+  panel.className = "map-panel";
+
+  const summary = document.createElement("p");
+  summary.className = "map-summary";
+  const score = (match.radiant_score !== null && match.dire_score !== null)
+    ? `${match.radiant_score} - ${match.dire_score}`
+    : "score pending";
+  summary.textContent = `In progress | ${score} | ${formatClock(match.live_seconds)} | `
+    + `${toInt(match.known_picks, 0)}/10 picks known`;
+  panel.appendChild(summary);
+
+  const grid = document.createElement("div");
+  grid.className = "map-lineups";
+  grid.appendChild(buildDraftLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
+  grid.appendChild(buildDraftLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
+  panel.appendChild(grid);
+
+  return panel;
+}
+
+function buildDraftLineup(side, teamName, players, heroes) {
+  const list = document.createElement("div");
+  list.className = `lineup ${side}`;
+  const title = document.createElement("h4");
+  title.textContent = teamName;
+  list.appendChild(title);
+
+  const ul = document.createElement("ul");
+  for (let i = 0; i < 5; i += 1) {
+    const li = document.createElement("li");
+    const player = (players || [])[i] || `Player ${i + 1}`;
+    const hero = (heroes || [])[i] || "(hero not picked)";
+    li.textContent = `${player} - ${hero}`;
+    ul.appendChild(li);
+  }
+  list.appendChild(ul);
+  return list;
+}
+
 function buildSeriesMapsSection(match, matchKey) {
   const wrapper = document.createElement("div");
   wrapper.className = "series-maps";
 
   const heading = document.createElement("h4");
   heading.className = "series-maps-title";
-  heading.textContent = "Maps played";
+  heading.textContent = "Maps";
   wrapper.appendChild(heading);
 
-  const maps = seriesMapsCache.get(matchKey);
-  if (!maps) {
+  const finishedMaps = getSeriesMaps(matchKey);
+  const hasLiveMap = match.status !== "ended";
+  const entries = (finishedMaps || []).map((data) => ({ live: false, data }));
+  if (hasLiveMap) {
+    entries.push({ live: true, data: match });
+  }
+
+  if (!finishedMaps && !hasLiveMap) {
     wrapper.appendChild(buildLoadingNote("Looking up per-map results on OpenDota..."));
     return wrapper;
   }
 
-  if (maps.length === 0) {
+  if (entries.length === 0) {
     wrapper.appendChild(buildLoadingNote("Per-map stats are not published for this series."));
     return wrapper;
   }
 
-  const activeIndex = Math.min(toInt(selectedMapTabByMatch.get(matchKey), 0), maps.length - 1);
+  const storedIndex = selectedMapTabByMatch.get(matchKey);
+  // Live series open on the map currently being played.
+  const defaultIndex = hasLiveMap ? entries.length - 1 : 0;
+  const activeIndex = storedIndex === undefined
+    ? defaultIndex
+    : Math.min(Math.max(toInt(storedIndex, 0), 0), entries.length - 1);
 
   const tabs = document.createElement("div");
   tabs.className = "map-tabs";
-  maps.forEach((mapSummary, index) => {
+  entries.forEach((entry, index) => {
     const tab = document.createElement("button");
     tab.type = "button";
     tab.className = `map-tab${index === activeIndex ? " active" : ""}`;
-    tab.textContent = `Map ${index + 1}`;
+    tab.textContent = entry.live ? `Map ${index + 1} (Live)` : `Map ${index + 1}`;
     tab.addEventListener("click", () => {
       selectedMapTabByMatch.set(matchKey, index);
       renderLiveBoard();
@@ -1811,7 +1911,13 @@ function buildSeriesMapsSection(match, matchKey) {
     tabs.appendChild(tab);
   });
   wrapper.appendChild(tabs);
-  wrapper.appendChild(buildMapPanel(maps[activeIndex]));
+
+  const active = entries[activeIndex];
+  wrapper.appendChild(active.live ? buildLiveMapPanel(active.data) : buildMapPanel(active.data));
+
+  if (!finishedMaps && hasLiveMap) {
+    wrapper.appendChild(buildLoadingNote("Looking up earlier maps of this series..."));
+  }
 
   return wrapper;
 }
@@ -1886,10 +1992,11 @@ function renderLiveMatchCards(matches) {
         expandedLiveMatchIds.delete(matchKey);
       } else {
         expandedLiveMatchIds.add(matchKey);
-        if (match.status === "ended") {
-          ensureSeriesMaps(match, matchKey, renderLiveBoard);
-        } else {
+        if (match.status !== "ended") {
           enrichMatchInBackground(match, renderLiveBoard);
+        }
+        if (match.status === "ended" || match.status === "live" || match.status === "draft") {
+          ensureSeriesMaps(match, matchKey, renderLiveBoard);
         }
       }
       renderLiveBoard();
@@ -1980,28 +2087,12 @@ function renderLiveMatchCards(matches) {
       details.classList.add("hidden");
     }
 
-    const buildLineup = (side, teamName, players, heroes) => {
-      const list = document.createElement("div");
-      list.className = `lineup ${side}`;
-      const title = document.createElement("h4");
-      title.textContent = `${teamName} lineup`;
-      list.appendChild(title);
-      const ul = document.createElement("ul");
-      for (let i = 0; i < 5; i += 1) {
-        const li = document.createElement("li");
-        const player = (players || [])[i] || `Player ${i + 1}`;
-        const hero = (heroes || [])[i] || "(hero not picked)";
-        li.textContent = `${player} - ${hero}`;
-        ul.appendChild(li);
-      }
-      list.appendChild(ul);
-      return list;
-    };
+    // Series in progress or finished are shown as per-map tabs instead of one flat lineup.
+    const usesMapTabs = match.status === "ended" || match.status === "live" || match.status === "draft";
 
-    // Ended matches rely on the per-map tabs, so the series-level placeholder lineup is skipped.
-    if (match.status !== "ended") {
-      details.appendChild(buildLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
-      details.appendChild(buildLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
+    if (!usesMapTabs) {
+      details.appendChild(buildDraftLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
+      details.appendChild(buildDraftLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
     }
 
     if (expanded && match.status !== "ended" && pendingEnrichmentKeys.has(String(match.match_id || match.match_url || ""))) {
@@ -2011,7 +2102,7 @@ function renderLiveMatchCards(matches) {
       details.appendChild(loading);
     }
 
-    if (expanded && match.status === "ended") {
+    if (expanded && usesMapTabs) {
       details.appendChild(buildSeriesMapsSection(match, matchKey));
     }
 
@@ -2176,9 +2267,14 @@ async function loadLiveMatches() {
     liveMatches = mergedMatches;
     // A refresh replaces match objects, so expanded cards need their draft data re-applied.
     liveMatches.forEach((match) => {
-      if (expandedLiveMatchIds.has(String(match.match_id))) {
+      const matchKey = String(match.match_id);
+      if (!expandedLiveMatchIds.has(matchKey)) {
+        return;
+      }
+      if (match.status !== "ended") {
         enrichMatchInBackground(match, renderLiveBoard);
       }
+      ensureSeriesMaps(match, matchKey, renderLiveBoard);
     });
     liveFetchStats = {
       ...(openDotaNormalized.stats || {}),
