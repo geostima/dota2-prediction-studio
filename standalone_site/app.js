@@ -23,6 +23,18 @@ let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
 const MAX_LIVE_MATCHES = 30;
 let liveFetchStats = null;
+const LIVE_FEED_PROVIDERS = [
+  {
+    name: "render-proxy",
+    url: "https://d2p-live-proxy.onrender.com/api/live_matches",
+    type: "normalized",
+  },
+  {
+    name: "opendota-direct",
+    url: "https://api.opendota.com/api/live",
+    type: "opendota",
+  },
+];
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -1006,7 +1018,10 @@ function renderLiveBoard() {
   }
 
   const refreshText = liveRefreshAt ? liveRefreshAt.toLocaleTimeString() : "not yet";
-  setLiveStatus(`Showing ${filteredLiveMatches.length}/${liveMatches.length} match(es). Last refresh: ${refreshText}.`);
+  const provider = (liveFetchStats && liveFetchStats.provider) ? liveFetchStats.provider : "unknown";
+  setLiveStatus(
+    `Showing ${filteredLiveMatches.length}/${liveMatches.length} match(es). Source: ${provider}. Last refresh: ${refreshText}.`
+  );
 }
 
 async function loadLiveMatches() {
@@ -1019,15 +1034,52 @@ async function loadLiveMatches() {
   refreshBtn.textContent = "Loading...";
 
   try {
-    const response = await fetch("https://api.opendota.com/api/live", { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error(`OpenDota live endpoint returned ${response.status}`);
+    let resolved = null;
+    let lastError = "";
+
+    for (const provider of LIVE_FEED_PROVIDERS) {
+      try {
+        const response = await fetch(provider.url, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`${provider.name} returned ${response.status}`);
+        }
+
+        const payload = await response.json();
+        if (provider.type === "normalized") {
+          const matches = Array.isArray(payload.matches) ? payload.matches : [];
+          resolved = {
+            matches,
+            stats: {
+              raw: matches.length,
+              dropped_no_match_id: 0,
+              dropped_duplicate: 0,
+              dropped_no_players: 0,
+              dropped_unknown_teams: 0,
+              dropped_no_league: 0,
+              kept: matches.length,
+              provider: provider.name,
+              errors: (payload.meta && payload.meta.errors) || [],
+            },
+          };
+          break;
+        }
+
+        if (provider.type === "opendota") {
+          resolved = normalizeLiveMatches(payload || []);
+          resolved.stats.provider = provider.name;
+          break;
+        }
+      } catch (providerErr) {
+        lastError = String(providerErr.message || providerErr);
+      }
     }
 
-    const payload = await response.json();
-    const normalized = normalizeLiveMatches(payload || []);
-    liveMatches = normalized.matches;
-    liveFetchStats = normalized.stats;
+    if (!resolved) {
+      throw new Error(lastError || "No live provider responded");
+    }
+
+    liveMatches = resolved.matches;
+    liveFetchStats = resolved.stats;
     liveRefreshAt = new Date();
     renderLiveBoard();
   } catch (err) {

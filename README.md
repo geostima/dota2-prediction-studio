@@ -54,6 +54,17 @@ http://127.0.0.1:8080/standalone_site/
 
 If using render.yaml blueprint, Render auto-detects static publish path.
 
+## Secondary Live Data Source (Bridge)
+
+The static frontend cannot read Cyberscore/DLTV pages directly due CORS restrictions.
+To include a secondary live source for tournament visibility (such as EPL), deploy the Python live bridge service defined in render.yaml:
+
+- service name: d2p-live-proxy
+- app file: live_feed_proxy.py
+- endpoint used by frontend: https://d2p-live-proxy.onrender.com/api/live_matches
+
+This bridge merges OpenDota live data with Cyberscore schedule links and returns a normalized JSON feed for the static site.
+
 ## How to Update Snapshot Later
 
 When you want fresh predictions, run these two commands locally in this order:
