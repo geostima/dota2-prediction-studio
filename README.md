@@ -58,7 +58,8 @@ If using render.yaml blueprint, Render auto-detects static publish path.
 
 The static site now uses a fully free client-side provider chain:
 1. OpenDota live API
-2. Cyberscore page mirror via r.jina.ai (used to surface additional tournament matches such as EPL)
+2. Cyberscore page mirror via r.jina.ai
+3. DLTV matches page mirror via r.jina.ai (used to surface additional tournament matches such as EPL)
 
 No extra paid Render web service is required for this mode.
 
@@ -66,6 +67,8 @@ Live match source badges:
 - OpenDota: match came from OpenDota feed only.
 - Cyberscore: match came from Cyberscore mirror extraction only.
 - Cyberscore + OpenDota: same match was detected in both feeds and merged.
+- DLTV: match came from DLTV mirror extraction only.
+- DLTV + OpenDota: same match was detected in both feeds and merged.
 
 Optional: if you want server-side control later, live_feed_proxy.py can still be deployed separately, but it is not required for free operation.
 

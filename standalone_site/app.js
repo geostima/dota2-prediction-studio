@@ -25,6 +25,7 @@ const MAX_LIVE_MATCHES = 30;
 let liveFetchStats = null;
 const OPENDOTA_LIVE_URL = "https://api.opendota.com/api/live";
 const CYBERSCORE_JINA_URL = "https://r.jina.ai/http://cyberscore.live/en/";
+const DLTV_JINA_URL = "https://r.jina.ai/http://dltv.org/matches";
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -186,8 +187,14 @@ function formatUtcTime(epochSeconds) {
 
 function sourceBadgeLabel(sourceName) {
   const source = String(sourceName || "").toLowerCase();
+  if (source.includes("dltv") && source.includes("opendota")) {
+    return "DLTV + OpenDota";
+  }
   if (source.includes("cyberscore") && source.includes("opendota")) {
     return "Cyberscore + OpenDota";
+  }
+  if (source.includes("dltv")) {
+    return "DLTV";
   }
   if (source.includes("cyberscore")) {
     return "Cyberscore";
@@ -207,6 +214,31 @@ function slugToTeamName(slugText) {
     return "Unknown Team";
   }
   return words.join(" ");
+}
+
+function cleanDltvRightTeamSlug(rawRight) {
+  const markers = [
+    "-epl-",
+    "-dreamleague-",
+    "-ultras-",
+    "-destiny-",
+    "-mad-dogs-",
+    "-pgl-",
+    "-esl-",
+    "-blast-",
+    "-fissure-",
+    "-the-international-",
+    "-ti-",
+  ];
+  let out = String(rawRight || "");
+  for (const marker of markers) {
+    const idx = out.indexOf(marker);
+    if (idx > 0) {
+      out = out.slice(0, idx);
+      break;
+    }
+  }
+  return out;
 }
 
 function findTeamRoster(teamName) {
@@ -932,12 +964,91 @@ function normalizeCyberscoreJinaMatches(markdownText) {
   return out;
 }
 
-function mergeOpenDotaAndCyberscore(opendotaMatches, cyberscoreMatches) {
+function normalizeDltvJinaMatches(markdownText) {
+  const text = String(markdownText || "");
+  const urlRegex = /https:\/\/dltv\.org\/matches\/(\d+)\/([a-z0-9-]+)(?:#[^)\s]+)?/gi;
+  const out = [];
+  const seenIds = new Set();
+  let m;
+
+  while ((m = urlRegex.exec(text)) !== null) {
+    const matchId = toInt(m[1], 0);
+    const slug = String(m[2] || "");
+    if (!matchId || !slug.includes("-vs-")) {
+      continue;
+    }
+    if (seenIds.has(matchId)) {
+      continue;
+    }
+    seenIds.add(matchId);
+
+    const slugParts = slug.split("-vs-");
+    const leftSlug = slugParts[0] || "";
+    const rightRaw = slugParts.slice(1).join("-vs-");
+    const rightSlug = cleanDltvRightTeamSlug(rightRaw);
+
+    const contextStart = Math.max(0, m.index - 450);
+    const contextEnd = Math.min(text.length, m.index + 900);
+    const ctx = text.slice(contextStart, contextEnd);
+
+    const leagueMatch = ctx.match(/\n\n([A-Za-z0-9 .:'\-]{4,80})\n\n(?:Group Stage|Playoffs|Swiss|bo\d)/i);
+    const scoreMatch = ctx.match(/\*\*(\d+)\*\*\(\d+\)[\s\S]{0,120}\*\*(\d+)\*\*\(\d+\)/i) || ctx.match(/(\d+)\s*-\s*(\d+)/);
+    const timeMatch = ctx.match(/\*\*(\d{1,2}:\d{2})\*\*/);
+
+    const status = /\*\*Live\*\*/i.test(ctx) ? "live" : (/Starts in:\*\*/i.test(ctx) ? "upcoming" : "draft");
+
+    let liveSeconds = 0;
+    if (timeMatch) {
+      const [mm, ss] = timeMatch[1].split(":");
+      liveSeconds = (Number(mm) || 0) * 60 + (Number(ss) || 0);
+    }
+
+    out.push({
+      match_id: matchId,
+      source: "dltv-jina",
+      idx: out.length,
+      status,
+      league_name: leagueMatch ? leagueMatch[1].trim() : "",
+      league_id: 0,
+      radiant_team: slugToTeamName(leftSlug),
+      dire_team: slugToTeamName(rightSlug),
+      radiant_logo_url: "",
+      dire_logo_url: "",
+      radiant_score: scoreMatch ? toInt(scoreMatch[1], 0) : null,
+      dire_score: scoreMatch ? toInt(scoreMatch[2], 0) : null,
+      live_seconds: liveSeconds,
+      start_time: 0,
+      series_type: /bo5/i.test(ctx) ? 2 : (/bo3/i.test(ctx) ? 1 : 0),
+      known_picks: 0,
+      lineup_available: false,
+      radiant_players: padToFive([]),
+      dire_players: padToFive([]),
+      radiant_heroes: padToFive([]),
+      dire_heroes: padToFive([]),
+      match_url: `https://dltv.org/matches/${matchId}/${slug}`,
+    });
+
+    if (out.length >= 80) {
+      break;
+    }
+  }
+
+  return out;
+}
+
+function mergeLiveSources(opendotaMatches, cyberscoreMatches, dltvMatches) {
   const byKey = new Map();
   const makeKey = (m) => `${String(m.radiant_team || "").toLowerCase()}|${String(m.dire_team || "").toLowerCase()}|${String(m.league_name || "").toLowerCase()}`;
 
   (cyberscoreMatches || []).forEach((m) => {
     byKey.set(makeKey(m), { ...m });
+  });
+
+  (dltvMatches || []).forEach((m) => {
+    const key = makeKey(m);
+    if (!byKey.has(key)) {
+      byKey.set(key, { ...m });
+    }
   });
 
   (opendotaMatches || []).forEach((m) => {
@@ -948,7 +1059,11 @@ function mergeOpenDotaAndCyberscore(opendotaMatches, cyberscoreMatches) {
     }
 
     const existing = byKey.get(key);
-    existing.source = "cyberscore+opendota";
+    if (String(existing.source || "").includes("dltv")) {
+      existing.source = "dltv+opendota";
+    } else {
+      existing.source = "cyberscore+opendota";
+    }
     existing.radiant_logo_url = existing.radiant_logo_url || m.radiant_logo_url;
     existing.dire_logo_url = existing.dire_logo_url || m.dire_logo_url;
     existing.live_seconds = m.live_seconds || existing.live_seconds;
@@ -983,7 +1098,7 @@ function renderLiveMatchCards(matches) {
   if (!matches || matches.length === 0) {
     const empty = document.createElement("div");
     empty.className = "live-empty";
-    empty.textContent = "No live matches detected from OpenDota right now.";
+    empty.textContent = "No live matches detected from available sources right now.";
     board.appendChild(empty);
     return;
   }
@@ -1188,6 +1303,7 @@ async function loadLiveMatches() {
   try {
     let openDotaNormalized = { matches: [], stats: { provider: "opendota-direct" } };
     let cyberscoreMatches = [];
+    let dltvMatches = [];
     const warnings = [];
 
     try {
@@ -1211,7 +1327,21 @@ async function loadLiveMatches() {
       warnings.push(`cyberscore-jina: ${String(e.message || e)}`);
     }
 
-    const mergedMatches = mergeOpenDotaAndCyberscore(openDotaNormalized.matches || [], cyberscoreMatches || []);
+    try {
+      const rDltv = await fetch(DLTV_JINA_URL, { cache: "no-store" });
+      if (!rDltv.ok) {
+        throw new Error(`dltv-jina returned ${rDltv.status}`);
+      }
+      dltvMatches = normalizeDltvJinaMatches(await rDltv.text());
+    } catch (e) {
+      warnings.push(`dltv-jina: ${String(e.message || e)}`);
+    }
+
+    const mergedMatches = mergeLiveSources(
+      openDotaNormalized.matches || [],
+      cyberscoreMatches || [],
+      dltvMatches || []
+    );
     if (mergedMatches.length === 0) {
       throw new Error(warnings.join(" | ") || "No live providers returned matches");
     }
@@ -1222,6 +1352,7 @@ async function loadLiveMatches() {
       provider: "opendota+cyberscore-jina",
       opendota_count: (openDotaNormalized.matches || []).length,
       cyberscore_count: (cyberscoreMatches || []).length,
+      dltv_count: (dltvMatches || []).length,
       merged_count: mergedMatches.length,
       warnings,
     };
