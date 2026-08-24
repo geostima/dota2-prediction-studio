@@ -16,6 +16,7 @@ let teamRosterKeys = [];
 let teamRosterOverrides = {};
 let teamAliasOverrides = {};
 let playerAliasOverrides = {};
+let heroNamesByNormalizedSlug = null;
 let liveMatches = [];
 let filteredLiveMatches = [];
 let liveRefreshAt = null;
@@ -45,6 +46,7 @@ const TEAM_LOGO_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const TEAM_LOGO_PLACEHOLDER = "assets/teams/_placeholder.svg";
 const STRATZ_LOGO_BASE_URL = "https://cdn.stratz.com/images/dota2/teams/";
 const ENRICH_TIMEOUT_MS = 12000;
+const ENRICH_CACHE_TTL_MS = 45000;
 const OPENDOTA_LIVE_URL = "https://api.opendota.com/api/live";
 const OPENDOTA_TEAMS_URL = "https://api.opendota.com/api/teams";
 const CYBERSCORE_JINA_URL = "https://r.jina.ai/https://cyberscore.live/en/";
@@ -332,14 +334,79 @@ function extractDltvLineups(markdownText, match) {
   };
 }
 
+function heroNameFromSlug(slug) {
+  const normalized = String(slug || "").replace(/[^a-z0-9]/gi, "").toLowerCase();
+  if (!normalized || !modelBundle || !modelBundle.hero_name_to_id) {
+    return "";
+  }
+
+  if (!heroNamesByNormalizedSlug) {
+    heroNamesByNormalizedSlug = {};
+    Object.keys(modelBundle.hero_name_to_id).forEach((heroName) => {
+      const key = heroName.replace(/[^a-z0-9]/gi, "").toLowerCase();
+      if (key && !heroNamesByNormalizedSlug[key]) {
+        heroNamesByNormalizedSlug[key] = heroName;
+      }
+    });
+  }
+
+  return heroNamesByNormalizedSlug[normalized] || "";
+}
+
+// DLTV renders the live draft as player links whose fragment carries the picked hero slug.
+function extractDltvPicks(markdownText, match) {
+  const text = String(markdownText || "");
+  const sectionRegex = /\[([^\]]+?) picks&bans\]\([^)]*\)([\s\S]*?)(?=\[[^\]]+? picks&bans\]|Additional data|$)/gi;
+  const sections = [];
+  let sm;
+
+  while ((sm = sectionRegex.exec(text)) !== null) {
+    const rows = [];
+    const rowRegex = /#hero-([a-z0-9-]+)\)\[([^\]]+)\]\(https?:\/\/dltv\.org\/players\//gi;
+    let rm;
+    while ((rm = rowRegex.exec(sm[2] || "")) !== null) {
+      rows.push({ hero: heroNameFromSlug(rm[1]), player: (rm[2] || "").trim() });
+      if (rows.length >= 5) {
+        break;
+      }
+    }
+    sections.push({ teamName: (sm[1] || "").trim(), rows });
+    if (sections.length >= 2) {
+      break;
+    }
+  }
+
+  if (sections.length < 2) {
+    return null;
+  }
+
+  const normRad = normalizeTeamName(match.radiant_team || "");
+  const normDire = normalizeTeamName(match.dire_team || "");
+  const radSection = sections.find((s) => normalizeTeamName(s.teamName) === normRad) || sections[0];
+  const direSection = sections.find((s) => normalizeTeamName(s.teamName) === normDire) || sections[1];
+
+  if (radSection === direSection) {
+    return null;
+  }
+
+  return {
+    radiantPlayers: padToFive(radSection.rows.map((r) => r.player)),
+    direPlayers: padToFive(direSection.rows.map((r) => r.player)),
+    radiantHeroes: padToFive(radSection.rows.map((r) => r.hero)),
+    direHeroes: padToFive(direSection.rows.map((r) => r.hero)),
+  };
+}
+
 async function enrichDltvMatch(match) {
   if (!match || !match.match_url || !String(match.match_url).includes("dltv.org")) {
     return;
   }
 
   const cacheKey = String(match.match_id || match.match_url);
-  if (liveEnrichmentCache.has(cacheKey)) {
-    Object.assign(match, liveEnrichmentCache.get(cacheKey));
+  const cached = liveEnrichmentCache.get(cacheKey);
+  // Drafts keep changing, so only finished matches are cached indefinitely.
+  if (cached && (match.status === "ended" || Date.now() - cached.at < ENRICH_CACHE_TTL_MS)) {
+    Object.assign(match, cached.update);
     return;
   }
 
@@ -360,15 +427,25 @@ async function enrichDltvMatch(match) {
   const md = await response.text();
   const update = {};
 
-  const lineups = extractDltvLineups(md, match);
-  if (lineups) {
-    update.radiant_players = lineups.radiantPlayers;
-    update.dire_players = lineups.direPlayers;
-    const hasPlayerData =
-      lineups.radiantPlayers.some((x) => x) ||
-      lineups.direPlayers.some((x) => x);
-    if (hasPlayerData) {
-      update.lineup_available = true;
+  const picks = extractDltvPicks(md, match);
+  if (picks) {
+    update.radiant_players = picks.radiantPlayers;
+    update.dire_players = picks.direPlayers;
+    update.radiant_heroes = picks.radiantHeroes;
+    update.dire_heroes = picks.direHeroes;
+    update.known_picks = [...picks.radiantHeroes, ...picks.direHeroes].filter((h) => h).length;
+    update.lineup_available = true;
+  } else {
+    const lineups = extractDltvLineups(md, match);
+    if (lineups) {
+      update.radiant_players = lineups.radiantPlayers;
+      update.dire_players = lineups.direPlayers;
+      const hasPlayerData =
+        lineups.radiantPlayers.some((x) => x) ||
+        lineups.direPlayers.some((x) => x);
+      if (hasPlayerData) {
+        update.lineup_available = true;
+      }
     }
   }
 
@@ -377,7 +454,7 @@ async function enrichDltvMatch(match) {
     update.series_score = seriesScore;
   }
 
-  liveEnrichmentCache.set(cacheKey, update);
+  liveEnrichmentCache.set(cacheKey, { at: Date.now(), update });
   Object.assign(match, update);
 }
 
@@ -394,10 +471,7 @@ async function ensureMatchEnriched(match) {
 // Enriches in the background so the UI never waits on the slow mirror fetch.
 function enrichMatchInBackground(match, onDone) {
   const key = String(match.match_id || match.match_url || "");
-  if (!String(match.source || "").toLowerCase().includes("dltv")) {
-    return;
-  }
-  if (liveEnrichmentCache.has(String(match.match_id || match.match_url)) || pendingEnrichmentKeys.has(key)) {
+  if (!String(match.source || "").toLowerCase().includes("dltv") || pendingEnrichmentKeys.has(key)) {
     return;
   }
 
@@ -2100,6 +2174,12 @@ async function loadLiveMatches() {
     }
 
     liveMatches = mergedMatches;
+    // A refresh replaces match objects, so expanded cards need their draft data re-applied.
+    liveMatches.forEach((match) => {
+      if (expandedLiveMatchIds.has(String(match.match_id))) {
+        enrichMatchInBackground(match, renderLiveBoard);
+      }
+    });
     liveFetchStats = {
       ...(openDotaNormalized.stats || {}),
       provider: "opendota+cyberscore-jina+dltv-results",
