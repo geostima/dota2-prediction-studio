@@ -21,6 +21,8 @@ let filteredLiveMatches = [];
 let liveRefreshAt = null;
 let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
+const MAX_LIVE_MATCHES = 12;
+let liveFetchStats = null;
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -669,12 +671,29 @@ function normalizeLiveMatches(payloadMatches) {
   const playerNamesByAccount = accountIdToPlayerNameMap();
 
   const normalized = [];
+  const seenMatchIds = new Set();
+  const stats = {
+    raw: Array.isArray(payloadMatches) ? payloadMatches.length : 0,
+    dropped_no_match_id: 0,
+    dropped_duplicate: 0,
+    dropped_no_players: 0,
+    dropped_unknown_teams: 0,
+    dropped_no_league: 0,
+    kept: 0,
+  };
 
   (payloadMatches || []).forEach((match, idx) => {
     const matchId = toInt(match.match_id, 0);
     if (!matchId) {
+      stats.dropped_no_match_id += 1;
       return;
     }
+
+    if (seenMatchIds.has(matchId)) {
+      stats.dropped_duplicate += 1;
+      return;
+    }
+    seenMatchIds.add(matchId);
 
     const radiantRows = [];
     const direRows = [];
@@ -713,6 +732,7 @@ function normalizeLiveMatches(payloadMatches) {
     const direHeroes = direRows.map((row) => row[2]);
 
     if (radiantPlayers.length === 0 || direPlayers.length === 0) {
+      stats.dropped_no_players += 1;
       return;
     }
 
@@ -721,6 +741,21 @@ function normalizeLiveMatches(payloadMatches) {
     const radiantTeam = (radiantTeamObj.team_name || "").trim() || (match.radiant_name || "").trim() || "Radiant";
     const direTeam = (direTeamObj.team_name || "").trim() || (match.dire_name || "").trim() || "Dire";
     const leagueName = (match.league_name || "").trim();
+    const leagueId = toInt(match.league_id, 0);
+
+    const hasNamedTeams =
+      radiantTeam && direTeam
+      && radiantTeam.toLowerCase() !== "radiant"
+      && direTeam.toLowerCase() !== "dire";
+    if (!hasNamedTeams) {
+      stats.dropped_unknown_teams += 1;
+      return;
+    }
+
+    if (!leagueName && leagueId <= 0) {
+      stats.dropped_no_league += 1;
+      return;
+    }
 
     const scoreboard = match.scoreboard || {};
     const liveSeconds = toInt(scoreboard.duration, 0);
@@ -741,6 +776,7 @@ function normalizeLiveMatches(payloadMatches) {
       idx,
       status,
       league_name: leagueName,
+      league_id: leagueId,
       radiant_team: radiantTeam,
       dire_team: direTeam,
       radiant_logo_url: (radiantTeamObj.logo_url || "").trim() || (radiantTeamObj.logo || "").trim(),
@@ -756,9 +792,32 @@ function normalizeLiveMatches(payloadMatches) {
       radiant_heroes: padToFive(radiantHeroes),
       dire_heroes: padToFive(direHeroes),
     });
+    stats.kept += 1;
   });
 
-  return normalized;
+  const statusRank = { live: 0, draft: 1, upcoming: 2 };
+  normalized.sort((a, b) => {
+    const rankA = statusRank[a.status] ?? 9;
+    const rankB = statusRank[b.status] ?? 9;
+    if (rankA !== rankB) {
+      return rankA - rankB;
+    }
+
+    if (a.status === "upcoming") {
+      return (a.start_time || 0) - (b.start_time || 0);
+    }
+
+    if (a.status === "live" || a.status === "draft") {
+      return (b.live_seconds || 0) - (a.live_seconds || 0);
+    }
+
+    return b.match_id - a.match_id;
+  });
+
+  return {
+    matches: normalized.slice(0, MAX_LIVE_MATCHES),
+    stats,
+  };
 }
 
 function renderLiveMatchCards(matches) {
@@ -925,7 +984,14 @@ function renderLiveBoard() {
   renderLiveMatchCards(filteredLiveMatches);
 
   if (liveMatches.length === 0) {
-    setLiveStatus("No live matches available right now.");
+    if (liveFetchStats) {
+      setLiveStatus(
+        `No valid pro matches right now (raw: ${liveFetchStats.raw}, dropped unnamed/no-league lobbies: `
+        + `${liveFetchStats.dropped_unknown_teams + liveFetchStats.dropped_no_league}).`
+      );
+    } else {
+      setLiveStatus("No live matches available right now.");
+    }
     return;
   }
 
@@ -949,12 +1015,15 @@ async function loadLiveMatches() {
     }
 
     const payload = await response.json();
-    liveMatches = normalizeLiveMatches(payload || []);
+    const normalized = normalizeLiveMatches(payload || []);
+    liveMatches = normalized.matches;
+    liveFetchStats = normalized.stats;
     liveRefreshAt = new Date();
     renderLiveBoard();
   } catch (err) {
     liveMatches = [];
     filteredLiveMatches = [];
+    liveFetchStats = null;
     renderLiveMatchCards([]);
     setLiveStatus(`Live matches unavailable: ${err.message}`);
   } finally {
