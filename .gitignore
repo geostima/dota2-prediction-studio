@@ -1,0 +1,19 @@
+# Python cache and envs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and model artifacts
+*.db
+*.sqlite
+*.sqlite3
+advanced_model_state.pkl
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log

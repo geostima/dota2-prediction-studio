@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dota 2 Prediction Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <main class="page">
+    <header class="hero">
+      <p class="kicker">Dota 2 Pro Match Intelligence</p>
+      <h1>Prediction Studio</h1>
+      <p class="subtitle">Input two full lineups and get model-driven win probabilities, comfort scores, and quick diagnostics.</p>
+    </header>
+
+    <section class="panel status-panel">
+      <div>
+        <h2>Model Status</h2>
+        <p id="statusText">Loading...</p>
+      </div>
+      <div class="status-actions">
+        <label>
+          Match Fetch Limit
+          <input id="matchLimit" type="number" min="100" max="2000" value="500">
+        </label>
+        <label>
+          Minimum Matches
+          <input id="minMatches" type="number" min="40" max="2000" value="120">
+        </label>
+        <button id="trainBtn" class="btn btn-secondary">Refresh Data + Retrain</button>
+      </div>
+      <div id="metricsBox" class="metrics-box"></div>
+    </section>
+
+    <section class="teams-grid">
+      <article class="panel team-panel radiant">
+        <h2>Radiant Team</h2>
+        <label>Team Name <input id="radiantTeam" value="Nemiga Gaming"></label>
+        <div class="input-grid" id="radiantRows"></div>
+      </article>
+
+      <article class="panel team-panel dire">
+        <h2>Dire Team</h2>
+        <label>Team Name <input id="direTeam" value="IC x Insanity"></label>
+        <div class="input-grid" id="direRows"></div>
+      </article>
+    </section>
+
+    <section class="panel action-panel">
+      <button id="predictBtn" class="btn btn-primary">Generate Prediction</button>
+      <button id="sampleBtn" class="btn btn-ghost">Load Sample Data</button>
+    </section>
+
+    <section class="panel results-panel" id="resultsPanel">
+      <h2>Prediction Results</h2>
+      <div id="resultPlaceholder" class="placeholder">Run a prediction to see detailed output.</div>
+      <div id="resultContent" class="hidden"></div>
+    </section>
+  </main>
+
+  <datalist id="heroSuggestions"></datalist>
+  <datalist id="playerSuggestions"></datalist>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
