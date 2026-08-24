@@ -54,25 +54,20 @@ http://127.0.0.1:8080/standalone_site/
 
 If using render.yaml blueprint, Render auto-detects static publish path.
 
-## Secondary Live Data Source (Bridge)
+## Secondary Live Data Source (Free Mode)
 
-The static frontend cannot read Cyberscore/DLTV pages directly due CORS restrictions.
-To include a secondary live source for tournament visibility (such as EPL), deploy the Python live bridge service defined in render.yaml:
+The static site now uses a fully free client-side provider chain:
+1. OpenDota live API
+2. Cyberscore page mirror via r.jina.ai (used to surface additional tournament matches such as EPL)
 
-- service name: d2p-live-proxy
-- app file: live_feed_proxy.py
-- endpoint used by frontend: https://d2p-live-proxy.onrender.com/api/live_matches
-
-This bridge merges OpenDota live data with Cyberscore schedule links and returns a normalized JSON feed for the static site.
-
-Provider order in the static site:
-1. render-proxy (preferred)
-2. opendota-direct (fallback)
+No extra paid Render web service is required for this mode.
 
 Live match source badges:
 - OpenDota: match came from OpenDota feed only.
-- Cyberscore: match came from Cyberscore schedule extraction only.
-- Cyberscore + OpenDota: same match seen in both feeds and merged.
+- Cyberscore: match came from Cyberscore mirror extraction only.
+- Cyberscore + OpenDota: same match was detected in both feeds and merged.
+
+Optional: if you want server-side control later, live_feed_proxy.py can still be deployed separately, but it is not required for free operation.
 
 ## How to Update Snapshot Later
 

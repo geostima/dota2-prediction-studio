@@ -23,18 +23,8 @@ let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
 const MAX_LIVE_MATCHES = 30;
 let liveFetchStats = null;
-const LIVE_FEED_PROVIDERS = [
-  {
-    name: "render-proxy",
-    url: "https://d2p-live-proxy.onrender.com/api/live_matches",
-    type: "normalized",
-  },
-  {
-    name: "opendota-direct",
-    url: "https://api.opendota.com/api/live",
-    type: "opendota",
-  },
-];
+const OPENDOTA_LIVE_URL = "https://api.opendota.com/api/live";
+const CYBERSCORE_JINA_URL = "https://r.jina.ai/http://cyberscore.live/en/";
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -209,6 +199,14 @@ function sourceBadgeLabel(sourceName) {
     return "Proxy";
   }
   return "Unknown";
+}
+
+function slugToTeamName(slugText) {
+  const words = String(slugText || "").split("-").filter(Boolean);
+  if (words.length === 0) {
+    return "Unknown Team";
+  }
+  return words.join(" ");
 }
 
 function findTeamRoster(teamName) {
@@ -851,6 +849,133 @@ function normalizeLiveMatches(payloadMatches) {
   };
 }
 
+function normalizeCyberscoreJinaMatches(markdownText) {
+  const text = String(markdownText || "");
+  const regex = /\[([^\]]+)\]\((https:\/\/cyberscore\.live\/en\/matches\/[^)]+)\)/g;
+  const out = [];
+  const seen = new Set();
+  let m;
+
+  while ((m = regex.exec(text)) !== null) {
+    const label = m[1] || "";
+    const url = m[2] || "";
+    if (!url.includes("/en/matches/")) {
+      continue;
+    }
+
+    const slug = url.replace(/\/+$/, "").split("/").pop() || "";
+    if (!slug.includes("-vs-")) {
+      continue;
+    }
+    if (seen.has(slug)) {
+      continue;
+    }
+    seen.add(slug);
+
+    const slugParts = slug.split("-vs-");
+    if (slugParts.length < 2) {
+      continue;
+    }
+
+    const leftSlug = slugParts[0];
+    const rightWithId = slugParts[1];
+    const rightSlug = rightWithId.replace(/-\d+$/, "");
+
+    const scoreMatch = label.match(/(\d+)\s*-\s*(\d+)/);
+    const timeMatch = label.match(/(\d{1,2}:\d{2})/);
+    const leagueMatch = label.match(/TIER-\d+\s+(.+)$/i);
+
+    const status =
+      label.startsWith("LIVE") || label.startsWith("WAIT")
+        ? "live"
+        : (label.toLowerCase().includes("draft") ? "draft" : "upcoming");
+
+    let liveSeconds = 0;
+    if (timeMatch) {
+      const [mm, ss] = timeMatch[1].split(":");
+      liveSeconds = (Number(mm) || 0) * 60 + (Number(ss) || 0);
+    }
+
+    const matchIdMatch = slug.match(/(\d+)$/);
+    const matchId = matchIdMatch ? toInt(matchIdMatch[1], 0) : 0;
+
+    out.push({
+      match_id: matchId || toInt(Math.abs((leftSlug + rightSlug).split("").reduce((a, c) => a + c.charCodeAt(0), 0)), 0),
+      source: "cyberscore-jina",
+      idx: out.length,
+      status,
+      league_name: leagueMatch ? leagueMatch[1].trim() : "",
+      league_id: 0,
+      radiant_team: slugToTeamName(leftSlug),
+      dire_team: slugToTeamName(rightSlug),
+      radiant_logo_url: "",
+      dire_logo_url: "",
+      radiant_score: scoreMatch ? toInt(scoreMatch[1], 0) : null,
+      dire_score: scoreMatch ? toInt(scoreMatch[2], 0) : null,
+      live_seconds: liveSeconds,
+      start_time: 0,
+      series_type: label.includes("BO5") ? 2 : (label.includes("BO3") ? 1 : 0),
+      known_picks: 0,
+      lineup_available: false,
+      radiant_players: padToFive([]),
+      dire_players: padToFive([]),
+      radiant_heroes: padToFive([]),
+      dire_heroes: padToFive([]),
+      match_url: url,
+    });
+
+    if (out.length >= 60) {
+      break;
+    }
+  }
+
+  return out;
+}
+
+function mergeOpenDotaAndCyberscore(opendotaMatches, cyberscoreMatches) {
+  const byKey = new Map();
+  const makeKey = (m) => `${String(m.radiant_team || "").toLowerCase()}|${String(m.dire_team || "").toLowerCase()}|${String(m.league_name || "").toLowerCase()}`;
+
+  (cyberscoreMatches || []).forEach((m) => {
+    byKey.set(makeKey(m), { ...m });
+  });
+
+  (opendotaMatches || []).forEach((m) => {
+    const key = makeKey(m);
+    if (!byKey.has(key)) {
+      byKey.set(key, { ...m });
+      return;
+    }
+
+    const existing = byKey.get(key);
+    existing.source = "cyberscore+opendota";
+    existing.radiant_logo_url = existing.radiant_logo_url || m.radiant_logo_url;
+    existing.dire_logo_url = existing.dire_logo_url || m.dire_logo_url;
+    existing.live_seconds = m.live_seconds || existing.live_seconds;
+    existing.radiant_score = m.radiant_score !== null ? m.radiant_score : existing.radiant_score;
+    existing.dire_score = m.dire_score !== null ? m.dire_score : existing.dire_score;
+    existing.status = m.status || existing.status;
+    existing.lineup_available = Boolean(m.lineup_available) || Boolean(existing.lineup_available);
+    existing.radiant_players = m.radiant_players || existing.radiant_players;
+    existing.dire_players = m.dire_players || existing.dire_players;
+    existing.radiant_heroes = m.radiant_heroes || existing.radiant_heroes;
+    existing.dire_heroes = m.dire_heroes || existing.dire_heroes;
+  });
+
+  const merged = Array.from(byKey.values());
+  const statusRank = { live: 0, draft: 1, upcoming: 2 };
+  merged.sort((a, b) => {
+    const rankA = statusRank[a.status] ?? 9;
+    const rankB = statusRank[b.status] ?? 9;
+    if (rankA !== rankB) {
+      return rankA - rankB;
+    }
+    return (b.live_seconds || 0) - (a.live_seconds || 0);
+  });
+
+  return merged.slice(0, MAX_LIVE_MATCHES);
+}
+
 function renderLiveMatchCards(matches) {
   const board = document.getElementById("liveMatchCards");
   board.innerHTML = "";
@@ -1061,52 +1186,45 @@ async function loadLiveMatches() {
   refreshBtn.textContent = "Loading...";
 
   try {
-    let resolved = null;
-    let lastError = "";
+    let openDotaNormalized = { matches: [], stats: { provider: "opendota-direct" } };
+    let cyberscoreMatches = [];
+    const warnings = [];
 
-    for (const provider of LIVE_FEED_PROVIDERS) {
-      try {
-        const response = await fetch(provider.url, { cache: "no-store" });
-        if (!response.ok) {
-          throw new Error(`${provider.name} returned ${response.status}`);
-        }
-
-        const payload = await response.json();
-        if (provider.type === "normalized") {
-          const matches = Array.isArray(payload.matches) ? payload.matches : [];
-          resolved = {
-            matches,
-            stats: {
-              raw: matches.length,
-              dropped_no_match_id: 0,
-              dropped_duplicate: 0,
-              dropped_no_players: 0,
-              dropped_unknown_teams: 0,
-              dropped_no_league: 0,
-              kept: matches.length,
-              provider: provider.name,
-              errors: (payload.meta && payload.meta.errors) || [],
-            },
-          };
-          break;
-        }
-
-        if (provider.type === "opendota") {
-          resolved = normalizeLiveMatches(payload || []);
-          resolved.stats.provider = provider.name;
-          break;
-        }
-      } catch (providerErr) {
-        lastError = String(providerErr.message || providerErr);
+    try {
+      const rOpen = await fetch(OPENDOTA_LIVE_URL, { cache: "no-store" });
+      if (!rOpen.ok) {
+        throw new Error(`OpenDota returned ${rOpen.status}`);
       }
+      openDotaNormalized = normalizeLiveMatches(await rOpen.json());
+      openDotaNormalized.stats.provider = "opendota-direct";
+    } catch (e) {
+      warnings.push(`opendota: ${String(e.message || e)}`);
     }
 
-    if (!resolved) {
-      throw new Error(lastError || "No live provider responded");
+    try {
+      const rCyber = await fetch(CYBERSCORE_JINA_URL, { cache: "no-store" });
+      if (!rCyber.ok) {
+        throw new Error(`cyberscore-jina returned ${rCyber.status}`);
+      }
+      cyberscoreMatches = normalizeCyberscoreJinaMatches(await rCyber.text());
+    } catch (e) {
+      warnings.push(`cyberscore-jina: ${String(e.message || e)}`);
     }
 
-    liveMatches = resolved.matches;
-    liveFetchStats = resolved.stats;
+    const mergedMatches = mergeOpenDotaAndCyberscore(openDotaNormalized.matches || [], cyberscoreMatches || []);
+    if (mergedMatches.length === 0) {
+      throw new Error(warnings.join(" | ") || "No live providers returned matches");
+    }
+
+    liveMatches = mergedMatches;
+    liveFetchStats = {
+      ...(openDotaNormalized.stats || {}),
+      provider: "opendota+cyberscore-jina",
+      opendota_count: (openDotaNormalized.matches || []).length,
+      cyberscore_count: (cyberscoreMatches || []).length,
+      merged_count: mergedMatches.length,
+      warnings,
+    };
     liveRefreshAt = new Date();
     renderLiveBoard();
   } catch (err) {
