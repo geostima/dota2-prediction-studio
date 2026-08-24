@@ -21,6 +21,7 @@ let filteredLiveMatches = [];
 let liveRefreshAt = null;
 let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
+const liveEnrichmentCache = new Map();
 const MAX_LIVE_MATCHES = 30;
 let liveFetchStats = null;
 const OPENDOTA_LIVE_URL = "https://api.opendota.com/api/live";
@@ -239,6 +240,118 @@ function cleanDltvRightTeamSlug(rawRight) {
     }
   }
   return out;
+}
+
+function escapeRegExp(text) {
+  return String(text || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function parseRolePlayersFromBlock(blockText) {
+  const roleOrder = ["Core", "Mid", "Offlane", "Support", "Full Support"];
+  const names = [];
+
+  roleOrder.forEach((role) => {
+    const regex = new RegExp(`${escapeRegExp(role)}\\s+[-\\d]+\\s+([A-Za-z0-9_.-]+)`, "i");
+    const m = blockText.match(regex);
+    if (m && m[1]) {
+      names.push(m[1]);
+    }
+  });
+
+  return names.slice(0, 5);
+}
+
+function parseDltvSeriesScore(markdownText) {
+  const m = String(markdownText || "").match(/\*\*\d+\*\*\((\d+)\)[\s\S]{0,200}\*\*\d+\*\*\((\d+)\)/i);
+  if (!m) {
+    return "";
+  }
+  return `${m[1]} - ${m[2]}`;
+}
+
+function extractDltvLineups(markdownText, match) {
+  const text = String(markdownText || "");
+  const blockRegex = /\[([^\]]+?) World Rank:[^\]]*\]([\s\S]*?)(?=\[[^\]]+? World Rank:|Date range|Highlighted Stats|Pre-match odds)/gi;
+  const blocks = [];
+  let bm;
+
+  while ((bm = blockRegex.exec(text)) !== null) {
+    blocks.push({
+      teamName: (bm[1] || "").trim(),
+      block: bm[2] || "",
+      players: parseRolePlayersFromBlock(bm[2] || ""),
+    });
+    if (blocks.length >= 4) {
+      break;
+    }
+  }
+
+  if (blocks.length < 2) {
+    return null;
+  }
+
+  const normRad = normalizeTeamName(match.radiant_team || "");
+  const normDire = normalizeTeamName(match.dire_team || "");
+
+  const radBlock = blocks.find((b) => normalizeTeamName(b.teamName) === normRad) || blocks[0];
+  const direBlock = blocks.find((b) => normalizeTeamName(b.teamName) === normDire) || blocks[1];
+
+  return {
+    radiantPlayers: padToFive(radBlock.players || []),
+    direPlayers: padToFive(direBlock.players || []),
+  };
+}
+
+async function enrichDltvMatch(match) {
+  if (!match || !match.match_url || !String(match.match_url).includes("dltv.org")) {
+    return;
+  }
+
+  const cacheKey = String(match.match_id || match.match_url);
+  if (liveEnrichmentCache.has(cacheKey)) {
+    Object.assign(match, liveEnrichmentCache.get(cacheKey));
+    return;
+  }
+
+  const parsed = new URL(match.match_url);
+  const mirrorUrl = `https://r.jina.ai/http://${parsed.host}${parsed.pathname}`;
+  const response = await fetch(mirrorUrl, { cache: "no-store" });
+  if (!response.ok) {
+    return;
+  }
+
+  const md = await response.text();
+  const update = {};
+
+  const lineups = extractDltvLineups(md, match);
+  if (lineups) {
+    update.radiant_players = lineups.radiantPlayers;
+    update.dire_players = lineups.direPlayers;
+    const hasPlayerData =
+      lineups.radiantPlayers.some((x) => x) ||
+      lineups.direPlayers.some((x) => x);
+    if (hasPlayerData) {
+      update.lineup_available = true;
+    }
+  }
+
+  const seriesScore = parseDltvSeriesScore(md);
+  if (seriesScore) {
+    update.series_score = seriesScore;
+  }
+
+  liveEnrichmentCache.set(cacheKey, update);
+  Object.assign(match, update);
+}
+
+async function ensureMatchEnriched(match) {
+  try {
+    if (String(match.source || "").toLowerCase().includes("dltv")) {
+      await enrichDltvMatch(match);
+    }
+  } catch (e) {
+    // Ignore enrichment failures and keep base data visible.
+  }
 }
 
 function findTeamRoster(teamName) {
@@ -1128,10 +1241,13 @@ function renderLiveMatchCards(matches) {
 
     const info = document.createElement("div");
     info.className = "live-info";
-    const scoreText =
-      match.radiant_score !== null && match.dire_score !== null
+    const scoreText = match.series_score
+      ? match.series_score
+      : (
+        match.radiant_score !== null && match.dire_score !== null
         ? `${match.radiant_score} - ${match.dire_score}`
-        : "Score N/A";
+        : "Score N/A"
+      );
     const timeText = match.status === "live" ? formatClock(match.live_seconds) : formatUtcTime(match.start_time);
     info.textContent = `${String(match.status).toUpperCase()} | ${formatSeries(match.series_type)} | ${scoreText} | ${timeText}`;
 
@@ -1147,7 +1263,8 @@ function renderLiveMatchCards(matches) {
     detailsBtn.className = "btn btn-ghost live-toggle";
     detailsBtn.type = "button";
     detailsBtn.textContent = expanded ? "Hide Details" : "Show Details";
-    detailsBtn.addEventListener("click", () => {
+    detailsBtn.addEventListener("click", async () => {
+      await ensureMatchEnriched(match);
       if (expandedLiveMatchIds.has(matchKey)) {
         expandedLiveMatchIds.delete(matchKey);
       } else {
@@ -1160,18 +1277,22 @@ function renderLiveMatchCards(matches) {
     applyBtn.className = "btn btn-ghost live-apply";
     applyBtn.type = "button";
     applyBtn.textContent = "Use This Match";
-    applyBtn.addEventListener("click", () => {
+    applyBtn.addEventListener("click", async () => {
+      await ensureMatchEnriched(match);
       applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
+      renderLiveBoard();
     });
 
     const predictBtn = document.createElement("button");
     predictBtn.className = "btn btn-primary live-predict";
     predictBtn.type = "button";
     predictBtn.textContent = "Predict This Match";
-    predictBtn.addEventListener("click", () => {
+    predictBtn.addEventListener("click", async () => {
+      await ensureMatchEnriched(match);
       applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
       predict();
       document.querySelector(".results-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+      renderLiveBoard();
     });
 
     if (!match.lineup_available || Number(match.known_picks || 0) < 10) {
@@ -1400,6 +1521,7 @@ async function init() {
   document.getElementById("liveFilterStatus").addEventListener("change", renderLiveBoard);
   document.getElementById("liveFilterSeries").addEventListener("change", renderLiveBoard);
   document.getElementById("liveFilterTournament").addEventListener("input", renderLiveBoard);
+  document.getElementById("liveFilterStatus").value = "live";
   setupLiveAutoRefresh();
 
   try {
