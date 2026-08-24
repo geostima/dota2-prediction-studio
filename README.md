@@ -106,8 +106,13 @@ Teams present in the exported model bundle rosters are always included. Images a
 128px when Pillow is installed.
 
 This downloads images into standalone_site/assets/teams/ and rewrites standalone_site/team_logo_overrides.json
-(team name -> relative image path). To fix a single team manually, drop a PNG into standalone_site/assets/teams/
-and add an entry to team_logo_overrides.json. Resolution order at runtime is:
+(team name -> relative image path).
+
+To add a logo by hand: drop the image into standalone_site/assets/teams/ and add an entry to
+team_logo_overrides.json, for example "PARIVISION": "assets/teams/parivision.png". The key must match the
+team name shown on the live board. Manual entries are preserved by the script as long as the file exists.
+
+Resolution order at runtime is:
 repo override -> OpenDota team index (cached in localStorage for 24h) -> feed URL -> assets/teams/_placeholder.svg.
 
 ## Recommended Update Checklist

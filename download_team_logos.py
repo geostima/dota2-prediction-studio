@@ -117,6 +117,22 @@ def select_teams(teams, min_rating: int, active_days: int, limit: int) -> list:
     return [team for _, team in scored[:limit]]
 
 
+def existing_manual_entries() -> dict:
+    """Hand-added mappings are kept as long as their image is still in the repo."""
+    if not OVERRIDES_FILE.exists():
+        return {}
+    try:
+        current = json.loads(OVERRIDES_FILE.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+    kept = {}
+    for name, rel_path in current.items():
+        if isinstance(rel_path, str) and (Path("standalone_site") / rel_path).exists():
+            kept[name] = rel_path
+    return kept
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Download tier 1-3 team logos for the static site.")
     parser.add_argument("--min-rating", type=int, default=1000, help="Minimum OpenDota rating to count as tier 1-3.")
@@ -140,6 +156,7 @@ def main() -> None:
             seen_ids.add(team["team_id"])
 
     mapping = {}
+    manual = existing_manual_entries()
     downloaded = 0
 
     for team in selected:
@@ -164,6 +181,8 @@ def main() -> None:
             mapping[name] = rel_path
             downloaded += 1
             print(f"saved {name} -> {rel_path}")
+
+    mapping.update(manual)
 
     OVERRIDES_FILE.write_text(
         json.dumps(mapping, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
