@@ -244,8 +244,10 @@ h1 {
 .team-logo {
   width: 30px;
   height: 30px;
+  flex: 0 0 auto;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 2px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   background: rgba(0, 0, 0, 0.32);
 }
@@ -296,6 +298,79 @@ h1 {
   display: grid;
   gap: 5px;
   font-size: 0.86rem;
+}
+.lineup-loading {
+  grid-column: 1 / -1;
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.series-maps {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+}
+.series-maps-title {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.map-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.map-tab {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--ink);
+  border-radius: 8px;
+  padding: 5px 12px;
+  font-family: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+.map-tab.active {
+  background: rgba(255, 255, 255, 0.16);
+  font-weight: 700;
+}
+.map-summary {
+  margin: 0;
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+.map-lineups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.live-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+}
+.live-pagination.hidden {
+  display: none;
+}
+.page-btn {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+}
+.page-btn.current {
+  background: rgba(255, 255, 255, 0.16);
+  font-weight: 700;
+}
+.page-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.page-label {
+  margin-left: auto;
+  font-size: 0.82rem;
+  color: var(--muted);
 }
 .live-status {
   margin: 0;

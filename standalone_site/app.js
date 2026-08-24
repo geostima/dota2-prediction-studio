@@ -22,9 +22,31 @@ let liveRefreshAt = null;
 let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
 const liveEnrichmentCache = new Map();
-const MAX_LIVE_MATCHES = 30;
+const pendingEnrichmentKeys = new Set();
+const seriesMapsCache = new Map();
+const matchDetailsCache = new Map();
+const selectedMapTabByMatch = new Map();
+const pendingSeriesKeys = new Set();
+const pendingMapDetailIds = new Set();
+let proMatchesCache = null;
+let proMatchesFetchedAt = 0;
+const PRO_MATCHES_URL = "https://api.opendota.com/api/proMatches";
+const PRO_MATCHES_TTL_MS = 5 * 60 * 1000;
+const OPENDOTA_MATCH_BASE_URL = "https://api.opendota.com/api/matches/";
+const MAX_LIVE_MATCHES = 150;
+const LIVE_PAGE_SIZE = 10;
+let liveMatchPage = 1;
 let liveFetchStats = null;
+let teamLogoOverrides = {};
+const teamLogoByNormalizedName = new Map();
+const teamLogoOverrideByNormalizedName = new Map();
+const TEAM_LOGO_CACHE_KEY = "dota_team_logo_index_v1";
+const TEAM_LOGO_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
+const TEAM_LOGO_PLACEHOLDER = "assets/teams/_placeholder.svg";
+const STRATZ_LOGO_BASE_URL = "https://cdn.stratz.com/images/dota2/teams/";
+const ENRICH_TIMEOUT_MS = 12000;
 const OPENDOTA_LIVE_URL = "https://api.opendota.com/api/live";
+const OPENDOTA_TEAMS_URL = "https://api.opendota.com/api/teams";
 const CYBERSCORE_JINA_URL = "https://r.jina.ai/http://cyberscore.live/en/";
 const DLTV_JINA_URL = "https://r.jina.ai/http://dltv.org/matches";
 const DLTV_RESULTS_JINA_BASE_URL = "https://r.jina.ai/http://dltv.org/results?date=";
@@ -323,7 +345,14 @@ async function enrichDltvMatch(match) {
 
   const parsed = new URL(match.match_url);
   const mirrorUrl = `https://r.jina.ai/http://${parsed.host}${parsed.pathname}`;
-  const response = await fetch(mirrorUrl, { cache: "no-store" });
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), ENRICH_TIMEOUT_MS);
+  let response;
+  try {
+    response = await fetch(mirrorUrl, { cache: "no-store", signal: controller.signal });
+  } finally {
+    clearTimeout(timeoutId);
+  }
   if (!response.ok) {
     return;
   }
@@ -359,6 +388,199 @@ async function ensureMatchEnriched(match) {
     }
   } catch (e) {
     // Ignore enrichment failures and keep base data visible.
+  }
+}
+
+// Enriches in the background so the UI never waits on the slow mirror fetch.
+function enrichMatchInBackground(match, onDone) {
+  const key = String(match.match_id || match.match_url || "");
+  if (!String(match.source || "").toLowerCase().includes("dltv")) {
+    return;
+  }
+  if (liveEnrichmentCache.has(String(match.match_id || match.match_url)) || pendingEnrichmentKeys.has(key)) {
+    return;
+  }
+
+  pendingEnrichmentKeys.add(key);
+  ensureMatchEnriched(match).finally(() => {
+    pendingEnrichmentKeys.delete(key);
+    if (typeof onDone === "function") {
+      onDone();
+    }
+  });
+}
+
+async function getProMatches() {
+  if (proMatchesCache && Date.now() - proMatchesFetchedAt < PRO_MATCHES_TTL_MS) {
+    return proMatchesCache;
+  }
+
+  const response = await fetch(PRO_MATCHES_URL, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`proMatches returned ${response.status}`);
+  }
+
+  const data = await response.json();
+  proMatchesCache = Array.isArray(data) ? data : [];
+  proMatchesFetchedAt = Date.now();
+  return proMatchesCache;
+}
+
+// Recovers the individual maps of a finished series by matching team pairs in OpenDota pro matches.
+function ensureSeriesMaps(match, matchKey, onDone) {
+  if (seriesMapsCache.has(matchKey) || pendingSeriesKeys.has(matchKey)) {
+    return;
+  }
+
+  pendingSeriesKeys.add(matchKey);
+  getProMatches()
+    .then((proMatches) => {
+      const teamA = normalizeTeamName(match.radiant_team);
+      const teamB = normalizeTeamName(match.dire_team);
+      const maps = (proMatches || []).filter((pm) => {
+        const rad = normalizeTeamName(pm.radiant_name);
+        const dire = normalizeTeamName(pm.dire_name);
+        return (rad === teamA && dire === teamB) || (rad === teamB && dire === teamA);
+      });
+      maps.sort((a, b) => toInt(a.match_id, 0) - toInt(b.match_id, 0));
+      seriesMapsCache.set(matchKey, maps);
+    })
+    .catch(() => {
+      seriesMapsCache.set(matchKey, []);
+    })
+    .finally(() => {
+      pendingSeriesKeys.delete(matchKey);
+      if (typeof onDone === "function") {
+        onDone();
+      }
+    });
+}
+
+function ensureMapDetails(matchId, onDone) {
+  const id = toInt(matchId, 0);
+  if (!id || matchDetailsCache.has(id) || pendingMapDetailIds.has(id)) {
+    return;
+  }
+
+  pendingMapDetailIds.add(id);
+  fetch(`${OPENDOTA_MATCH_BASE_URL}${id}`, { cache: "no-store" })
+    .then((response) => (response.ok ? response.json() : null))
+    .then((data) => {
+      matchDetailsCache.set(id, data || null);
+    })
+    .catch(() => {
+      matchDetailsCache.set(id, null);
+    })
+    .finally(() => {
+      pendingMapDetailIds.delete(id);
+      if (typeof onDone === "function") {
+        onDone();
+      }
+    });
+}
+
+function registerTeamLogo(teamName, logoUrl) {
+  const key = normalizeTeamName(teamName);
+  const url = String(logoUrl || "").trim();
+  if (!key || !url || teamLogoByNormalizedName.has(key)) {
+    return;
+  }
+  teamLogoByNormalizedName.set(key, url);
+}
+
+// Covers orgs missing from the repo snapshot, such as newly formed teams.
+function teamLogoFromLiveTeam(teamObj) {
+  const teamId = toInt((teamObj || {}).team_id, 0);
+  if (teamId > 0) {
+    return `${STRATZ_LOGO_BASE_URL}${teamId}.png`;
+  }
+  return String((teamObj || {}).logo_url || (teamObj || {}).logo || "").trim();
+}
+
+// Ordered candidates: repo-hosted override, remote index, then whatever the feed gave us.
+function resolveTeamLogoCandidates(teamName, fallbackUrl) {
+  const keys = [normalizeTeamName(teamName)];
+  const aliasTarget = teamAliasOverrides[String(teamName || "").trim().toLowerCase()];
+  if (typeof aliasTarget === "string") {
+    keys.push(normalizeTeamName(aliasTarget));
+  }
+
+  const candidates = [];
+  keys.forEach((key) => {
+    if (key && teamLogoOverrideByNormalizedName.has(key)) {
+      candidates.push(teamLogoOverrideByNormalizedName.get(key));
+    }
+  });
+  keys.forEach((key) => {
+    if (key && teamLogoByNormalizedName.has(key)) {
+      candidates.push(teamLogoByNormalizedName.get(key));
+    }
+  });
+
+  const fallback = String(fallbackUrl || "").trim();
+  if (fallback) {
+    candidates.push(fallback);
+  }
+  candidates.push(TEAM_LOGO_PLACEHOLDER);
+
+  return Array.from(new Set(candidates.filter(Boolean)));
+}
+
+async function loadTeamLogoIndex() {
+  Object.entries(teamLogoOverrides || {}).forEach(([name, url]) => {
+    const key = normalizeTeamName(name);
+    const value = String(url || "").trim();
+    if (key && value) {
+      teamLogoOverrideByNormalizedName.set(key, value);
+    }
+  });
+
+  try {
+    const cachedRaw = localStorage.getItem(TEAM_LOGO_CACHE_KEY);
+    if (cachedRaw) {
+      const cached = JSON.parse(cachedRaw);
+      if (cached && Date.now() - toInt(cached.saved_at, 0) < TEAM_LOGO_CACHE_TTL_MS) {
+        Object.entries(cached.logos || {}).forEach(([key, url]) => {
+          if (!teamLogoByNormalizedName.has(key)) {
+            teamLogoByNormalizedName.set(key, url);
+          }
+        });
+        return;
+      }
+    }
+  } catch (cacheErr) {
+    // Corrupt or unavailable cache is not fatal.
+  }
+
+  try {
+    const response = await fetch(OPENDOTA_TEAMS_URL, { cache: "no-store" });
+    if (!response.ok) {
+      return;
+    }
+
+    const teams = await response.json();
+    const fresh = {};
+    (Array.isArray(teams) ? teams : []).forEach((team) => {
+      const url = String(team.logo_url || "").trim();
+      if (!url) {
+        return;
+      }
+      [team.name, team.tag].forEach((label) => {
+        const key = normalizeTeamName(label);
+        if (key && !fresh[key]) {
+          fresh[key] = url;
+        }
+        registerTeamLogo(label, url);
+      });
+    });
+
+    try {
+      localStorage.setItem(TEAM_LOGO_CACHE_KEY, JSON.stringify({ saved_at: Date.now(), logos: fresh }));
+    } catch (storeErr) {
+      // Storage quota issues are non-fatal.
+    }
+  } catch (err) {
+    // Without the team index we still fall back to initials badges.
   }
 }
 
@@ -770,17 +992,29 @@ function setLiveStatus(text) {
   document.getElementById("liveMatchStatus").textContent = text;
 }
 
-function createTeamBadge(name, logoUrl) {
-  if (logoUrl) {
+function createTeamBadge(name, logoSource) {
+  const candidates = (Array.isArray(logoSource) ? logoSource : [logoSource])
+    .map((url) => String(url || "").trim())
+    .filter(Boolean);
+
+  if (candidates.length > 0) {
     const logo = document.createElement("img");
     logo.className = "team-logo";
-    logo.src = logoUrl;
     logo.alt = `${name} logo`;
     logo.loading = "lazy";
     logo.referrerPolicy = "no-referrer";
+
+    let attempt = 0;
     logo.onerror = () => {
-      logo.replaceWith(createTeamBadge(name, ""));
+      attempt += 1;
+      if (attempt < candidates.length) {
+        logo.src = candidates[attempt];
+        return;
+      }
+      logo.onerror = null;
+      logo.replaceWith(createTeamBadge(name, []));
     };
+    logo.src = candidates[0];
     return logo;
   }
 
@@ -960,8 +1194,8 @@ function normalizeLiveMatches(payloadMatches) {
       league_id: leagueId,
       radiant_team: radiantTeam,
       dire_team: direTeam,
-      radiant_logo_url: (radiantTeamObj.logo_url || "").trim() || (radiantTeamObj.logo || "").trim(),
-      dire_logo_url: (direTeamObj.logo_url || "").trim() || (direTeamObj.logo || "").trim(),
+      radiant_logo_url: teamLogoFromLiveTeam(radiantTeamObj),
+      dire_logo_url: teamLogoFromLiveTeam(direTeamObj),
       radiant_score: radiantScore < 0 ? null : radiantScore,
       dire_score: direScore < 0 ? null : direScore,
       live_seconds: liveSeconds,
@@ -1397,6 +1631,117 @@ function mergeLiveSources(opendotaMatches, cyberscoreMatches, dltvMatches, dltvR
   return merged.slice(0, MAX_LIVE_MATCHES);
 }
 
+function buildLoadingNote(text) {
+  const note = document.createElement("p");
+  note.className = "lineup-loading";
+  note.textContent = text;
+  return note;
+}
+
+function buildMapLineup(side, teamName, players, heroNamesById) {
+  const list = document.createElement("div");
+  list.className = `lineup ${side}`;
+  const title = document.createElement("h4");
+  title.textContent = teamName;
+  list.appendChild(title);
+
+  const ul = document.createElement("ul");
+  players.forEach((player) => {
+    const li = document.createElement("li");
+    const hero = heroNamesById[toInt(player.hero_id, 0)] || "Unknown hero";
+    const who = player.name || player.personaname || "Unknown player";
+    const kda = `${toInt(player.kills, 0)}/${toInt(player.deaths, 0)}/${toInt(player.assists, 0)}`;
+    const netWorth = toInt(player.net_worth, 0);
+    li.textContent = netWorth > 0
+      ? `${who} - ${hero} (${kda}, ${Math.round(netWorth / 100) / 10}k net)`
+      : `${who} - ${hero} (${kda})`;
+    ul.appendChild(li);
+  });
+  list.appendChild(ul);
+  return list;
+}
+
+function buildMapPanel(mapSummary) {
+  const panel = document.createElement("div");
+  panel.className = "map-panel";
+
+  const radiantName = mapSummary.radiant_name || "Radiant";
+  const direName = mapSummary.dire_name || "Dire";
+  const summary = document.createElement("p");
+  summary.className = "map-summary";
+  summary.textContent =
+    `${radiantName} ${toInt(mapSummary.radiant_score, 0)} - ${toInt(mapSummary.dire_score, 0)} ${direName}`
+    + ` | ${formatClock(mapSummary.duration)} | Winner: ${mapSummary.radiant_win ? radiantName : direName}`;
+  panel.appendChild(summary);
+
+  const id = toInt(mapSummary.match_id, 0);
+  const detail = matchDetailsCache.get(id);
+
+  if (detail === undefined) {
+    ensureMapDetails(id, renderLiveBoard);
+    panel.appendChild(buildLoadingNote("Loading hero picks for this map..."));
+    return panel;
+  }
+
+  if (!detail || !Array.isArray(detail.players)) {
+    panel.appendChild(buildLoadingNote("Hero picks are not available for this map yet."));
+    return panel;
+  }
+
+  const heroNamesById = heroIdToNameMap();
+  const radiantPlayers = detail.players.filter((p) => resolveLiveTeam(p) === "radiant");
+  const direPlayers = detail.players.filter((p) => resolveLiveTeam(p) === "dire");
+
+  const grid = document.createElement("div");
+  grid.className = "map-lineups";
+  grid.appendChild(buildMapLineup("radiant", detail.radiant_name || radiantName, radiantPlayers, heroNamesById));
+  grid.appendChild(buildMapLineup("dire", detail.dire_name || direName, direPlayers, heroNamesById));
+  panel.appendChild(grid);
+
+  return panel;
+}
+
+function buildSeriesMapsSection(match, matchKey) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "series-maps";
+
+  const heading = document.createElement("h4");
+  heading.className = "series-maps-title";
+  heading.textContent = "Maps played";
+  wrapper.appendChild(heading);
+
+  const maps = seriesMapsCache.get(matchKey);
+  if (!maps) {
+    wrapper.appendChild(buildLoadingNote("Looking up per-map results on OpenDota..."));
+    return wrapper;
+  }
+
+  if (maps.length === 0) {
+    wrapper.appendChild(buildLoadingNote("Per-map stats are not published for this series."));
+    return wrapper;
+  }
+
+  const activeIndex = Math.min(toInt(selectedMapTabByMatch.get(matchKey), 0), maps.length - 1);
+
+  const tabs = document.createElement("div");
+  tabs.className = "map-tabs";
+  maps.forEach((mapSummary, index) => {
+    const tab = document.createElement("button");
+    tab.type = "button";
+    tab.className = `map-tab${index === activeIndex ? " active" : ""}`;
+    tab.textContent = `Map ${index + 1}`;
+    tab.addEventListener("click", () => {
+      selectedMapTabByMatch.set(matchKey, index);
+      renderLiveBoard();
+    });
+    tabs.appendChild(tab);
+  });
+  wrapper.appendChild(tabs);
+  wrapper.appendChild(buildMapPanel(maps[activeIndex]));
+
+  return wrapper;
+}
+
 function renderLiveMatchCards(matches) {
   const board = document.getElementById("liveMatchCards");
   board.innerHTML = "";
@@ -1441,12 +1786,14 @@ function renderLiveMatchCards(matches) {
         ? `${match.radiant_score} - ${match.dire_score}`
         : "Score N/A"
       );
-    const timeText = match.status === "live"
-      ? formatClock(match.live_seconds)
-      : (match.status === "ended" && match.ended_time_label
-        ? match.ended_time_label
-        : formatUtcTime(match.start_time));
-    info.textContent = `${String(match.status).toUpperCase()} | ${formatSeries(match.series_type)} | ${scoreText} | ${timeText}`;
+    const infoParts = [String(match.status).toUpperCase(), formatSeries(match.series_type), scoreText];
+    // Ended matches carry no trustworthy timestamp from the feeds, so the time slot is dropped.
+    if (match.status === "live") {
+      infoParts.push(formatClock(match.live_seconds));
+    } else if (match.status !== "ended") {
+      infoParts.push(formatUtcTime(match.start_time));
+    }
+    info.textContent = infoParts.join(" | ");
 
     leagueRow.appendChild(league);
     leagueRow.appendChild(sourceBadge);
@@ -1460,12 +1807,15 @@ function renderLiveMatchCards(matches) {
     detailsBtn.className = "btn btn-ghost live-toggle";
     detailsBtn.type = "button";
     detailsBtn.textContent = expanded ? "Hide Details" : "Show Details";
-    detailsBtn.addEventListener("click", async () => {
-      await ensureMatchEnriched(match);
+    detailsBtn.addEventListener("click", () => {
       if (expandedLiveMatchIds.has(matchKey)) {
         expandedLiveMatchIds.delete(matchKey);
       } else {
         expandedLiveMatchIds.add(matchKey);
+        enrichMatchInBackground(match, renderLiveBoard);
+        if (match.status === "ended") {
+          ensureSeriesMaps(match, matchKey, renderLiveBoard);
+        }
       }
       renderLiveBoard();
     });
@@ -1475,7 +1825,12 @@ function renderLiveMatchCards(matches) {
     applyBtn.type = "button";
     applyBtn.textContent = "Use This Match";
     applyBtn.addEventListener("click", async () => {
-      await ensureMatchEnriched(match);
+      applyBtn.disabled = true;
+      try {
+        await ensureMatchEnriched(match);
+      } finally {
+        applyBtn.disabled = false;
+      }
       applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
       renderLiveBoard();
     });
@@ -1485,7 +1840,12 @@ function renderLiveMatchCards(matches) {
     predictBtn.type = "button";
     predictBtn.textContent = "Predict This Match";
     predictBtn.addEventListener("click", async () => {
-      await ensureMatchEnriched(match);
+      predictBtn.disabled = true;
+      try {
+        await ensureMatchEnriched(match);
+      } finally {
+        predictBtn.disabled = false;
+      }
       applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
       predict();
       document.querySelector(".results-panel").scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1509,7 +1869,7 @@ function renderLiveMatchCards(matches) {
 
     const radiant = document.createElement("div");
     radiant.className = "live-team radiant";
-    radiant.appendChild(createTeamBadge(match.radiant_team, match.radiant_logo_url));
+    radiant.appendChild(createTeamBadge(match.radiant_team, resolveTeamLogoCandidates(match.radiant_team, match.radiant_logo_url)));
     const radName = document.createElement("span");
     radName.className = "team-name";
     radName.textContent = match.radiant_team;
@@ -1521,7 +1881,7 @@ function renderLiveMatchCards(matches) {
 
     const dire = document.createElement("div");
     dire.className = "live-team dire";
-    dire.appendChild(createTeamBadge(match.dire_team, match.dire_logo_url));
+    dire.appendChild(createTeamBadge(match.dire_team, resolveTeamLogoCandidates(match.dire_team, match.dire_logo_url)));
     const direName = document.createElement("span");
     direName.className = "team-name";
     direName.textContent = match.dire_team;
@@ -1545,38 +1905,37 @@ function renderLiveMatchCards(matches) {
       details.classList.add("hidden");
     }
 
-    const radList = document.createElement("div");
-    radList.className = "lineup radiant";
-    const radTitle = document.createElement("h4");
-    radTitle.textContent = `${match.radiant_team} lineup`;
-    radList.appendChild(radTitle);
-    const radUl = document.createElement("ul");
-    for (let i = 0; i < 5; i += 1) {
-      const li = document.createElement("li");
-      const player = match.radiant_players[i] || `Player ${i + 1}`;
-      const hero = match.radiant_heroes[i] || "(hero not picked)";
-      li.textContent = `${player} - ${hero}`;
-      radUl.appendChild(li);
-    }
-    radList.appendChild(radUl);
+    const buildLineup = (side, teamName, players, heroes) => {
+      const list = document.createElement("div");
+      list.className = `lineup ${side}`;
+      const title = document.createElement("h4");
+      title.textContent = `${teamName} lineup`;
+      list.appendChild(title);
+      const ul = document.createElement("ul");
+      for (let i = 0; i < 5; i += 1) {
+        const li = document.createElement("li");
+        const player = (players || [])[i] || `Player ${i + 1}`;
+        const hero = (heroes || [])[i] || "(hero not picked)";
+        li.textContent = `${player} - ${hero}`;
+        ul.appendChild(li);
+      }
+      list.appendChild(ul);
+      return list;
+    };
 
-    const direList = document.createElement("div");
-    direList.className = "lineup dire";
-    const direTitle = document.createElement("h4");
-    direTitle.textContent = `${match.dire_team} lineup`;
-    direList.appendChild(direTitle);
-    const direUl = document.createElement("ul");
-    for (let i = 0; i < 5; i += 1) {
-      const li = document.createElement("li");
-      const player = match.dire_players[i] || `Player ${i + 1}`;
-      const hero = match.dire_heroes[i] || "(hero not picked)";
-      li.textContent = `${player} - ${hero}`;
-      direUl.appendChild(li);
-    }
-    direList.appendChild(direUl);
+    details.appendChild(buildLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
+    details.appendChild(buildLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
 
-    details.appendChild(radList);
-    details.appendChild(direList);
+    if (expanded && pendingEnrichmentKeys.has(String(match.match_id || match.match_url || ""))) {
+      const loading = document.createElement("p");
+      loading.className = "lineup-loading";
+      loading.textContent = "Fetching lineup details from DLTV mirror...";
+      details.appendChild(loading);
+    }
+
+    if (expanded && match.status === "ended") {
+      details.appendChild(buildSeriesMapsSection(match, matchKey));
+    }
 
     card.appendChild(top);
     card.appendChild(teams);
@@ -1586,9 +1945,58 @@ function renderLiveMatchCards(matches) {
   });
 }
 
+function renderLivePagination(totalItems, totalPages) {
+  const container = document.getElementById("livePagination");
+  container.innerHTML = "";
+
+  if (totalPages <= 1) {
+    container.classList.add("hidden");
+    return;
+  }
+  container.classList.remove("hidden");
+
+  const makeButton = (label, targetPage, isCurrent = false, disabled = false) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = `btn btn-ghost page-btn${isCurrent ? " current" : ""}`;
+    btn.textContent = label;
+    btn.disabled = disabled;
+    if (!disabled && !isCurrent) {
+      btn.addEventListener("click", () => {
+        liveMatchPage = targetPage;
+        renderLiveBoard();
+        document.querySelector(".live-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+    return btn;
+  };
+
+  container.appendChild(makeButton("Prev", liveMatchPage - 1, false, liveMatchPage <= 1));
+
+  const windowStart = Math.max(1, Math.min(liveMatchPage - 2, totalPages - 4));
+  const windowEnd = Math.min(totalPages, Math.max(liveMatchPage + 2, 5));
+  for (let page = windowStart; page <= windowEnd; page += 1) {
+    container.appendChild(makeButton(String(page), page, page === liveMatchPage));
+  }
+
+  container.appendChild(makeButton("Next", liveMatchPage + 1, false, liveMatchPage >= totalPages));
+
+  const label = document.createElement("span");
+  label.className = "page-label";
+  label.textContent = `Page ${liveMatchPage} of ${totalPages} (${totalItems} matches)`;
+  container.appendChild(label);
+}
+
 function renderLiveBoard() {
   filteredLiveMatches = applyLiveFilters(liveMatches);
-  renderLiveMatchCards(filteredLiveMatches);
+
+  const totalPages = Math.max(1, Math.ceil(filteredLiveMatches.length / LIVE_PAGE_SIZE));
+  liveMatchPage = Math.min(Math.max(1, liveMatchPage), totalPages);
+  const startIndex = (liveMatchPage - 1) * LIVE_PAGE_SIZE;
+  const pageMatches = filteredLiveMatches.slice(startIndex, startIndex + LIVE_PAGE_SIZE);
+
+  renderLiveMatchCards(pageMatches);
+  renderLivePagination(filteredLiveMatches.length, totalPages);
 
   if (liveMatches.length === 0) {
     if (liveFetchStats) {
@@ -1604,9 +2012,17 @@ function renderLiveBoard() {
 
   const refreshText = liveRefreshAt ? liveRefreshAt.toLocaleTimeString() : "not yet";
   const provider = (liveFetchStats && liveFetchStats.provider) ? liveFetchStats.provider : "unknown";
+  const shownFrom = filteredLiveMatches.length === 0 ? 0 : startIndex + 1;
+  const shownTo = startIndex + pageMatches.length;
   setLiveStatus(
-    `Showing ${filteredLiveMatches.length}/${liveMatches.length} match(es). Source: ${provider}. Last refresh: ${refreshText}.`
+    `Showing ${shownFrom}-${shownTo} of ${filteredLiveMatches.length} filtered match(es) `
+    + `(${liveMatches.length} total). Source: ${provider}. Last refresh: ${refreshText}.`
   );
+}
+
+function resetLivePageAndRender() {
+  liveMatchPage = 1;
+  renderLiveBoard();
 }
 
 async function loadLiveMatches() {
@@ -1689,12 +2105,15 @@ async function loadLiveMatches() {
       warnings,
     };
     liveRefreshAt = new Date();
+    liveMatchPage = 1;
     renderLiveBoard();
   } catch (err) {
     liveMatches = [];
     filteredLiveMatches = [];
     liveFetchStats = null;
+    liveMatchPage = 1;
     renderLiveMatchCards([]);
+    renderLivePagination(0, 1);
     setLiveStatus(`Live matches unavailable: ${err.message}`);
   } finally {
     refreshBtn.disabled = false;
@@ -1729,9 +2148,9 @@ async function init() {
   document.getElementById("direTeam").addEventListener("change", () => autofillPlayersForSide("dire", false));
   document.getElementById("refreshLiveBtn").addEventListener("click", loadLiveMatches);
   document.getElementById("liveAutoRefresh").addEventListener("change", setupLiveAutoRefresh);
-  document.getElementById("liveFilterStatus").addEventListener("change", renderLiveBoard);
-  document.getElementById("liveFilterSeries").addEventListener("change", renderLiveBoard);
-  document.getElementById("liveFilterTournament").addEventListener("input", renderLiveBoard);
+  document.getElementById("liveFilterStatus").addEventListener("change", resetLivePageAndRender);
+  document.getElementById("liveFilterSeries").addEventListener("change", resetLivePageAndRender);
+  document.getElementById("liveFilterTournament").addEventListener("input", resetLivePageAndRender);
   document.getElementById("liveFilterStatus").value = "live";
   setupLiveAutoRefresh();
 
@@ -1766,6 +2185,17 @@ async function init() {
     } catch (aliasPlayerErr) {
       playerAliasOverrides = {};
     }
+
+    try {
+      const logoResponse = await fetch("team_logo_overrides.json", { cache: "no-store" });
+      if (logoResponse.ok) {
+        teamLogoOverrides = await logoResponse.json();
+      }
+    } catch (logoErr) {
+      teamLogoOverrides = {};
+    }
+
+    await loadTeamLogoIndex();
 
     initPlayerResolvers();
     initTeamRosters();

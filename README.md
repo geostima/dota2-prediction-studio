@@ -92,6 +92,24 @@ Then publish it:
 1. Commit and push changes to GitHub.
 2. Render auto-deploys (or click Deploy latest commit in Render).
 
+## Team Logos
+
+Team logos are served from the repo instead of hotlinked feeds (most feed logo URLs are dead).
+Only active tier 1-3 teams are stored; anything else shows a placeholder crest.
+
+Refresh them with:
+
+python download_team_logos.py --prune
+
+Tuning flags: --min-rating (default 1000), --active-days (default 400), --limit (default 250).
+Teams present in the exported model bundle rosters are always included. Images are downscaled to
+128px when Pillow is installed.
+
+This downloads images into standalone_site/assets/teams/ and rewrites standalone_site/team_logo_overrides.json
+(team name -> relative image path). To fix a single team manually, drop a PNG into standalone_site/assets/teams/
+and add an entry to team_logo_overrides.json. Resolution order at runtime is:
+repo override -> OpenDota team index (cached in localStorage for 24h) -> feed URL -> assets/teams/_placeholder.svg.
+
 ## Recommended Update Checklist
 
 1. Run train_model_once.py
