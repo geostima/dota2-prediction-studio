@@ -14,6 +14,8 @@ let playerNormalizedEntries = [];
 let teamRosters = {};
 let teamRosterKeys = [];
 let teamRosterOverrides = {};
+let teamAliasOverrides = {};
+let playerAliasOverrides = {};
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -75,6 +77,15 @@ function findTeamRoster(teamName) {
   const raw = (teamName || "").trim();
   if (!raw) {
     return null;
+  }
+
+  const aliasTarget = teamAliasOverrides[raw.toLowerCase()];
+  if (typeof aliasTarget === "string" && aliasTarget.trim()) {
+    const canonical = aliasTarget.trim();
+    const fromAlias = teamRosters[canonical];
+    if (fromAlias && fromAlias.length) {
+      return { teamKey: canonical, players: fromAlias };
+    }
   }
 
   const exact = teamRosters[raw];
@@ -143,7 +154,25 @@ function resolvePlayerId(inputName) {
     return 0;
   }
 
-  const exact = playerExactMap[raw.toLowerCase()];
+  const rawLower = raw.toLowerCase();
+
+  const aliasTarget = playerAliasOverrides[rawLower];
+  if (typeof aliasTarget === "number") {
+    return aliasTarget;
+  }
+  if (typeof aliasTarget === "string" && aliasTarget.trim()) {
+    const aliasText = aliasTarget.trim();
+    const aliasExact = playerExactMap[aliasText.toLowerCase()];
+    if (aliasExact) {
+      return aliasExact;
+    }
+    const aliasNormalized = normalizePlayerName(aliasText);
+    if (aliasNormalized && playerNormalizedMap[aliasNormalized]) {
+      return playerNormalizedMap[aliasNormalized];
+    }
+  }
+
+  const exact = playerExactMap[rawLower];
   if (exact) {
     return exact;
   }
@@ -471,6 +500,24 @@ async function init() {
       }
     } catch (overrideErr) {
       teamRosterOverrides = {};
+    }
+
+    try {
+      const aliasTeamResponse = await fetch("team_alias_overrides.json", { cache: "no-store" });
+      if (aliasTeamResponse.ok) {
+        teamAliasOverrides = await aliasTeamResponse.json();
+      }
+    } catch (aliasTeamErr) {
+      teamAliasOverrides = {};
+    }
+
+    try {
+      const aliasPlayerResponse = await fetch("player_alias_overrides.json", { cache: "no-store" });
+      if (aliasPlayerResponse.ok) {
+        playerAliasOverrides = await aliasPlayerResponse.json();
+      }
+    } catch (aliasPlayerErr) {
+      playerAliasOverrides = {};
     }
 
     initPlayerResolvers();
