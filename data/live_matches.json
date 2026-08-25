@@ -1,0 +1,281 @@
+{
+  "generated_at": 1787678629,
+  "generated_at_iso": "2026-08-25T17:23:53.339989+00:00",
+  "matches": [
+    {
+      "match_id": 1649542,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Play-In season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Team Synapse",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 139124,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 755,
+      "live_map_number": 2,
+      "start_time": 1787673600,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "Jeezy",
+        "Mercer",
+        "Stoic",
+        "punpun",
+        "\u2744\ufe0fUzuki\u2744"
+      ],
+      "dire_players": [
+        ".",
+        "gameruinermentality",
+        "kidaro",
+        "self control",
+        "self sabotage"
+      ],
+      "radiant_heroes": [
+        "Mirana",
+        "Bloodseeker",
+        "Bane",
+        "Dark Seer",
+        "Ember Spirit"
+      ],
+      "dire_heroes": [
+        "Doom",
+        "Huskar",
+        "Winter Wyvern",
+        "Night Stalker",
+        "Bounty Hunter"
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137417
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1649558,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Play-In season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "RE.Arise",
+      "dire_team": "Spirit Academy",
+      "radiant_team_id": 138858,
+      "dire_team_id": 137540,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138858/re_arise_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 722,
+      "live_map_number": 2,
+      "start_time": 1787673600,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "Ankou \u2661",
+        "jack",
+        "run it up",
+        "senim",
+        "ww_zayac"
+      ],
+      "dire_players": [
+        "Aidar",
+        "YeS.kae",
+        "fox river escapee",
+        "inori",
+        "no enemy"
+      ],
+      "radiant_heroes": [
+        "Centaur Warrunner",
+        "Undying",
+        "Shadow Fiend",
+        "Snapfire",
+        "Techies"
+      ],
+      "dire_heroes": [
+        "Lion",
+        "Largo",
+        "Lina",
+        "Winter Wyvern",
+        "Ember Spirit"
+      ],
+      "match_url": "https://www.youtube.com/watch?v=FCFRkiEVU3o",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137540
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1649559,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "summer bear",
+      "dire_team": "Spirit Academy",
+      "radiant_team_id": 138760,
+      "dire_team_id": 137540,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1787684400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1649543,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "DYNASTY",
+      "dire_team": "Team Synapse",
+      "radiant_team_id": 139123,
+      "dire_team_id": 139124,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1787684400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "running_count": 2,
+    "upcoming_count": 17,
+    "past_count": 30,
+    "citoapi_calls_this_month": 3,
+    "errors": []
+  }
+}

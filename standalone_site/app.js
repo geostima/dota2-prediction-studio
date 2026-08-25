@@ -21,11 +21,6 @@ let filteredLiveMatches = [];
 let liveRefreshAt = null;
 let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
-// Hero picks come from a separate on-demand CitoAPI lookup (see ensureHeroPicks),
-// fetched only when a live match's details are expanded, to respect its small
-// free-tier quota (500 calls/month) — never part of the auto-refresh polling loop.
-const heroPicksCache = new Map();
-const pendingHeroPicksKeys = new Set();
 const MAX_LIVE_MATCHES = 150;
 const LIVE_PAGE_SIZE = 10;
 let liveMatchPage = 1;
@@ -37,10 +32,11 @@ const TEAM_LOGO_CACHE_KEY = "dota_team_logo_index_v1";
 const TEAM_LOGO_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const TEAM_LOGO_PLACEHOLDER = "assets/teams/_placeholder.svg";
 const OPENDOTA_TEAMS_URL = "https://api.opendota.com/api/teams";
-// Live match data comes from our own PandaScore proxy so the API token never
-// reaches the browser. Configure the deployed proxy URL in proxy_config.json;
-// this default only works when live_feed_proxy.py is running locally.
-let LIVE_FEED_PROXY_URL = "http://127.0.0.1:5050";
+// No backend: a GitHub Action refreshes this file every ~10 minutes (see
+// .github/workflows/update-live-data.yml + scripts/fetch_live_snapshot.py) and
+// the browser reads it straight from GitHub's raw content CDN. API tokens
+// only ever exist as GitHub Actions secrets, never in this file or the browser.
+const LIVE_MATCHES_URL = "https://raw.githubusercontent.com/geostima/dota2-prediction-studio/main/data/live_matches.json";
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -702,16 +698,13 @@ function applyLiveMatchToForm(match, sourceLabel = "live board") {
   document.getElementById("radiantTeam").value = match.radiant_team || "Radiant";
   document.getElementById("direTeam").value = match.dire_team || "Dire";
 
-  // CitoAPI hero picks (fetched on-demand via Show Details) take priority since
-  // PandaScore's free plan never exposes them.
-  const cachedPicks = heroPicksCache.get(String(match.match_id));
-  const picksAvailable = Boolean(cachedPicks && cachedPicks.available);
+  const picksAvailable = Boolean(match.lineup_available);
 
   for (let i = 0; i < 5; i += 1) {
-    document.getElementById(`radiantPlayer${i}`).value = picksAvailable ? (cachedPicks.radiant_players || [])[i] || "" : "";
-    document.getElementById(`direPlayer${i}`).value = picksAvailable ? (cachedPicks.dire_players || [])[i] || "" : "";
-    document.getElementById(`radiantHero${i}`).value = picksAvailable ? (cachedPicks.radiant_heroes || [])[i] || "" : "";
-    document.getElementById(`direHero${i}`).value = picksAvailable ? (cachedPicks.dire_heroes || [])[i] || "" : "";
+    document.getElementById(`radiantPlayer${i}`).value = picksAvailable ? (match.radiant_players || [])[i] || "" : "";
+    document.getElementById(`direPlayer${i}`).value = picksAvailable ? (match.dire_players || [])[i] || "" : "";
+    document.getElementById(`radiantHero${i}`).value = picksAvailable ? (match.radiant_heroes || [])[i] || "" : "";
+    document.getElementById(`direHero${i}`).value = picksAvailable ? (match.dire_heroes || [])[i] || "" : "";
   }
 
   if (picksAvailable) {
@@ -844,32 +837,8 @@ function buildSeriesMapsSection(match) {
   return wrapper;
 }
 
-// Fetches hero picks/bans from the proxy's CitoAPI-backed lookup exactly once per
-// match, on demand (see the comment on heroPicksCache for the quota reasoning).
-function ensureHeroPicks(match, onDone) {
-  const key = String(match.match_id);
-  if (heroPicksCache.has(key) || pendingHeroPicksKeys.has(key)) {
-    return;
-  }
-
-  pendingHeroPicksKeys.add(key);
-  const params = new URLSearchParams({ radiant: match.radiant_team, dire: match.dire_team });
-  fetch(`${LIVE_FEED_PROXY_URL}/api/hero_picks?${params.toString()}`, { cache: "no-store" })
-    .then((response) => (response.ok ? response.json() : { available: false }))
-    .then((data) => {
-      heroPicksCache.set(key, data || { available: false });
-    })
-    .catch(() => {
-      heroPicksCache.set(key, { available: false });
-    })
-    .finally(() => {
-      pendingHeroPicksKeys.delete(key);
-      if (typeof onDone === "function") {
-        onDone();
-      }
-    });
-}
-
+// Hero picks (when CitoAPI enrichment succeeded for this match in the latest
+// scheduled snapshot) are already embedded in match.radiant_heroes/dire_heroes.
 function buildHeroPicksSection(match) {
   const wrapper = document.createElement("div");
   wrapper.className = "hero-picks";
@@ -879,23 +848,15 @@ function buildHeroPicksSection(match) {
   heading.textContent = "Hero Picks";
   wrapper.appendChild(heading);
 
-  const key = String(match.match_id);
-  const cached = heroPicksCache.get(key);
-
-  if (pendingHeroPicksKeys.has(key)) {
-    wrapper.appendChild(buildLoadingNote("Looking up hero picks..."));
-    return wrapper;
-  }
-
-  if (!cached || !cached.available) {
+  if (!match.lineup_available) {
     wrapper.appendChild(buildLoadingNote("Hero picks are not available for this match yet."));
     return wrapper;
   }
 
   const grid = document.createElement("div");
   grid.className = "map-lineups";
-  grid.appendChild(buildDraftLineup("radiant", match.radiant_team, cached.radiant_players, cached.radiant_heroes));
-  grid.appendChild(buildDraftLineup("dire", match.dire_team, cached.dire_players, cached.dire_heroes));
+  grid.appendChild(buildDraftLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
+  grid.appendChild(buildDraftLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
   wrapper.appendChild(grid);
 
   return wrapper;
@@ -990,9 +951,6 @@ function renderLiveMatchCards(matches) {
         expandedLiveMatchIds.delete(matchKey);
       } else {
         expandedLiveMatchIds.add(matchKey);
-        if (match.status === "live") {
-          ensureHeroPicks(match, renderLiveBoard);
-        }
       }
       renderLiveBoard();
     });
@@ -1001,18 +959,8 @@ function renderLiveMatchCards(matches) {
     applyBtn.className = "btn btn-primary live-apply";
     applyBtn.type = "button";
     applyBtn.textContent = "Use This Match";
-    applyBtn.title = "Prefills teams, rosters, and hero picks when available (live matches look these up on demand).";
+    applyBtn.title = "Prefills teams, rosters, and hero picks when available in the latest snapshot.";
     applyBtn.addEventListener("click", () => {
-      const matchKeyStr = String(match.match_id);
-      if (match.status === "live" && !heroPicksCache.has(matchKeyStr)) {
-        applyBtn.disabled = true;
-        ensureHeroPicks(match, () => {
-          applyBtn.disabled = false;
-          applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
-          renderLiveBoard();
-        });
-        return;
-      }
       applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
       renderLiveBoard();
       document.querySelector(".teams-grid")?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1164,20 +1112,18 @@ async function loadLiveMatches() {
   refreshBtn.textContent = "Loading...";
 
   try {
-    const response = await fetch(`${LIVE_FEED_PROXY_URL}/api/live_matches`, { cache: "no-store" });
+    // Cache-bust so we don't get a stale GitHub-CDN copy between snapshot refreshes.
+    const response = await fetch(`${LIVE_MATCHES_URL}?t=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) {
-      throw new Error(`proxy returned ${response.status}`);
+      throw new Error(`snapshot fetch returned ${response.status}`);
     }
 
     const payload = await response.json();
-    if (payload.error) {
-      throw new Error(payload.error);
-    }
 
     const normalized = normalizeProxyMatches(payload.matches);
     liveMatches = normalized;
     liveFetchStats = payload.meta || null;
-    liveRefreshAt = new Date();
+    liveRefreshAt = payload.generated_at ? new Date(payload.generated_at * 1000) : new Date();
     liveMatchPage = 1;
     renderLiveBoard();
   } catch (err) {
@@ -1187,7 +1133,7 @@ async function loadLiveMatches() {
     liveMatchPage = 1;
     renderLiveMatchCards([]);
     renderLivePagination(0, 1);
-    setLiveStatus(`Live matches unavailable: ${err.message}. Is live_feed_proxy.py running and reachable at ${LIVE_FEED_PROXY_URL}?`);
+    setLiveStatus(`Live matches unavailable: ${err.message}.`);
   } finally {
     refreshBtn.disabled = false;
     refreshBtn.textContent = "Refresh Live Matches";
@@ -1266,20 +1212,6 @@ async function init() {
       }
     } catch (logoErr) {
       teamLogoOverrides = {};
-    }
-
-    // Points the live board at the deployed live_feed_proxy.py service; see
-    // proxy_config.example.json for the format.
-    try {
-      const proxyConfigResponse = await fetch("proxy_config.json", { cache: "no-store" });
-      if (proxyConfigResponse.ok) {
-        const proxyConfig = await proxyConfigResponse.json();
-        if (proxyConfig && typeof proxyConfig.proxy_base_url === "string" && proxyConfig.proxy_base_url.trim()) {
-          LIVE_FEED_PROXY_URL = proxyConfig.proxy_base_url.trim().replace(/\/$/, "");
-        }
-      }
-    } catch (proxyConfigErr) {
-      // Fall back to the default LIVE_FEED_PROXY_URL.
     }
 
     await loadTeamLogoIndex();
