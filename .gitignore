@@ -15,5 +15,9 @@ advanced_model_state.pkl
 .DS_Store
 Thumbs.db
 
+# Secrets
+.env
+*.env
+
 # Build artifacts
 *.log

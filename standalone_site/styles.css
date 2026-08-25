@@ -316,6 +316,13 @@ h1 {
   border-top: none;
   padding-top: 0;
 }
+.hero-picks {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 10px;
+}
 .series-maps-title {
   margin: 0;
   font-size: 0.9rem;
@@ -348,6 +355,20 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
+}
+.live-stream-link {
+  grid-column: 1 / -1;
+  color: var(--accent, #7dd3fc);
+  font-size: 0.86rem;
+  text-decoration: underline;
+}
+.series-maps-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 4px;
+  font-size: 0.86rem;
+  color: var(--muted);
 }
 .live-pagination {
   display: flex;

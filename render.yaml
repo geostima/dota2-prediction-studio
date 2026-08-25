@@ -4,3 +4,18 @@ services:
     runtime: static
     staticPublishPath: standalone_site
     pullRequestPreviewsEnabled: false
+
+  # Server-side proxy that holds the PandaScore API token and serves the
+  # normalized live-match feed to the static site above. Set PANDASCORE_API_TOKEN
+  # in the Render dashboard (Environment tab) instead of committing it here.
+  - type: web
+    name: d2p-live-proxy
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 1 --threads 4 -b 0.0.0.0:$PORT live_feed_proxy:app
+    envVars:
+      - key: PANDASCORE_API_TOKEN
+        sync: false
+      - key: CITOAPI_API_KEY
+        sync: false

@@ -16,26 +16,16 @@ let teamRosterKeys = [];
 let teamRosterOverrides = {};
 let teamAliasOverrides = {};
 let playerAliasOverrides = {};
-let heroNamesByNormalizedSlug = null;
 let liveMatches = [];
 let filteredLiveMatches = [];
 let liveRefreshAt = null;
 let liveRefreshTimerId = null;
 const expandedLiveMatchIds = new Set();
-const liveEnrichmentCache = new Map();
-const pendingEnrichmentKeys = new Set();
-const seriesMapsCache = new Map();
-const matchDetailsCache = new Map();
-const selectedMapTabByMatch = new Map();
-const pendingSeriesKeys = new Set();
-const pendingMapDetailIds = new Set();
-let proMatchesCache = null;
-let proMatchesFetchedAt = 0;
-const PRO_MATCHES_URL = "https://api.opendota.com/api/proMatches";
-const PRO_MATCHES_TTL_MS = 5 * 60 * 1000;
-const PRO_MATCHES_PAGES = 2;
-const SERIES_MAPS_TTL_MS = 60000;
-const OPENDOTA_MATCH_BASE_URL = "https://api.opendota.com/api/matches/";
+// Hero picks come from a separate on-demand CitoAPI lookup (see ensureHeroPicks),
+// fetched only when a live match's details are expanded, to respect its small
+// free-tier quota (500 calls/month) — never part of the auto-refresh polling loop.
+const heroPicksCache = new Map();
+const pendingHeroPicksKeys = new Set();
 const MAX_LIVE_MATCHES = 150;
 const LIVE_PAGE_SIZE = 10;
 let liveMatchPage = 1;
@@ -46,20 +36,11 @@ const teamLogoOverrideByNormalizedName = new Map();
 const TEAM_LOGO_CACHE_KEY = "dota_team_logo_index_v1";
 const TEAM_LOGO_CACHE_TTL_MS = 24 * 60 * 60 * 1000;
 const TEAM_LOGO_PLACEHOLDER = "assets/teams/_placeholder.svg";
-const STRATZ_LOGO_BASE_URL = "https://cdn.stratz.com/images/dota2/teams/";
-const ENRICH_TIMEOUT_MS = 12000;
-const ENRICH_CACHE_TTL_MS = 45000;
-const OPENDOTA_LIVE_URL = "https://api.opendota.com/api/live";
 const OPENDOTA_TEAMS_URL = "https://api.opendota.com/api/teams";
-const CYBERSCORE_JINA_URL = "https://r.jina.ai/https://cyberscore.live/en/";
-const DLTV_JINA_URL = "https://r.jina.ai/https://dltv.org/matches";
-const DLTV_RESULTS_JINA_BASE_URL = "https://r.jina.ai/https://dltv.org/results?date=";
-
-// r.jina.ai replays a cached snapshot by default, which served a finished map's
-// draft, clock and score while a later map of the same series was already live.
-function fetchMirror(url, options) {
-  return fetch(url, { cache: "no-store", headers: { "x-no-cache": "true" }, ...(options || {}) });
-}
+// Live match data comes from our own PandaScore proxy so the API token never
+// reaches the browser. Configure the deployed proxy URL in proxy_config.json;
+// this default only works when live_feed_proxy.py is running locally.
+let LIVE_FEED_PROXY_URL = "http://127.0.0.1:5050";
 
 function sigmoid(x) {
   return 1 / (1 + Math.exp(-x));
@@ -130,53 +111,6 @@ function padToFive(items) {
   return output;
 }
 
-function resolveLiveTeam(playerObj) {
-  if (Object.prototype.hasOwnProperty.call(playerObj, "isRadiant")) {
-    return playerObj.isRadiant ? "radiant" : "dire";
-  }
-
-  const teamValue = playerObj.team;
-  if (teamValue === 0 || teamValue === "0" || teamValue === "radiant" || teamValue === "Radiant") {
-    return "radiant";
-  }
-  if (teamValue === 1 || teamValue === "1" || teamValue === "dire" || teamValue === "Dire") {
-    return "dire";
-  }
-
-  const slot = toInt(playerObj.player_slot, 999);
-  return slot < 128 ? "radiant" : "dire";
-}
-
-function heroIdToNameMap() {
-  const idToName = {};
-  if (!modelBundle || !modelBundle.hero_name_to_id) {
-    return idToName;
-  }
-
-  Object.entries(modelBundle.hero_name_to_id).forEach(([heroName, heroId]) => {
-    const hid = toInt(heroId, 0);
-    if (hid > 0 && !idToName[hid]) {
-      idToName[hid] = heroName;
-    }
-  });
-  return idToName;
-}
-
-function accountIdToPlayerNameMap() {
-  const idToName = {};
-  if (!modelBundle || !modelBundle.player_name_to_id) {
-    return idToName;
-  }
-
-  Object.entries(modelBundle.player_name_to_id).forEach(([playerName, accountId]) => {
-    const aid = toInt(accountId, 0);
-    if (aid > 0 && !idToName[aid]) {
-      idToName[aid] = playerName;
-    }
-  });
-  return idToName;
-}
-
 function formatSeries(seriesType) {
   const n = toInt(seriesType, -1);
   if (n === 0) return "BO1";
@@ -219,404 +153,12 @@ function formatUtcTime(epochSeconds) {
   });
 }
 
-function formatDateYmd(dateObj = new Date()) {
-  const y = dateObj.getFullYear();
-  const m = String(dateObj.getMonth() + 1).padStart(2, "0");
-  const d = String(dateObj.getDate()).padStart(2, "0");
-  return `${y}-${m}-${d}`;
-}
-
 function sourceBadgeLabel(sourceName) {
   const source = String(sourceName || "").toLowerCase();
-  if (source.includes("dltv") && source.includes("opendota")) {
-    return "DLTV + OpenDota";
-  }
-  if (source.includes("cyberscore") && source.includes("opendota")) {
-    return "Cyberscore + OpenDota";
-  }
-  if (source.includes("dltv")) {
-    return "DLTV";
-  }
-  if (source.includes("cyberscore")) {
-    return "Cyberscore";
-  }
-  if (source.includes("opendota")) {
-    return "OpenDota";
-  }
-  if (source.includes("render-proxy")) {
-    return "Proxy";
+  if (source.includes("pandascore")) {
+    return "PandaScore";
   }
   return "Unknown";
-}
-
-function slugToTeamName(slugText) {
-  const words = String(slugText || "").split("-").filter(Boolean);
-  if (words.length === 0) {
-    return "Unknown Team";
-  }
-  return words.join(" ");
-}
-
-function cleanDltvRightTeamSlug(rawRight) {
-  const markers = [
-    "-epl-",
-    "-dreamleague-",
-    "-ultras-",
-    "-destiny-",
-    "-mad-dogs-",
-    "-pgl-",
-    "-esl-",
-    "-blast-",
-    "-fissure-",
-    "-the-international-",
-    "-ti-",
-  ];
-  let out = String(rawRight || "");
-  for (const marker of markers) {
-    const idx = out.indexOf(marker);
-    if (idx > 0) {
-      out = out.slice(0, idx);
-      break;
-    }
-  }
-  return out;
-}
-
-function escapeRegExp(text) {
-  return String(text || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-function parseRolePlayersFromBlock(blockText) {
-  const roleOrder = ["Core", "Mid", "Offlane", "Support", "Full Support"];
-  const names = [];
-
-  roleOrder.forEach((role) => {
-    const regex = new RegExp(`${escapeRegExp(role)}\\s+[-\\d]+\\s+([A-Za-z0-9_.-]+)`, "i");
-    const m = blockText.match(regex);
-    if (m && m[1]) {
-      names.push(m[1]);
-    }
-  });
-
-  return names.slice(0, 5);
-}
-
-function parseDltvSeriesScore(markdownText) {
-  const m = String(markdownText || "").match(/\*\*\d+\*\*\((\d+)\)[\s\S]{0,200}\*\*\d+\*\*\((\d+)\)/i);
-  if (!m) {
-    return "";
-  }
-  return `${m[1]} - ${m[2]}`;
-}
-
-function extractDltvLineups(markdownText, match) {
-  const text = String(markdownText || "");
-  const blockRegex = /\[([^\]]+?) World Rank:[^\]]*\]([\s\S]*?)(?=\[[^\]]+? World Rank:|Date range|Highlighted Stats|Pre-match odds)/gi;
-  const blocks = [];
-  let bm;
-
-  while ((bm = blockRegex.exec(text)) !== null) {
-    blocks.push({
-      teamName: (bm[1] || "").trim(),
-      block: bm[2] || "",
-      players: parseRolePlayersFromBlock(bm[2] || ""),
-    });
-    if (blocks.length >= 4) {
-      break;
-    }
-  }
-
-  if (blocks.length < 2) {
-    return null;
-  }
-
-  const normRad = normalizeTeamName(match.radiant_team || "");
-  const normDire = normalizeTeamName(match.dire_team || "");
-
-  const radBlock = blocks.find((b) => normalizeTeamName(b.teamName) === normRad) || blocks[0];
-  const direBlock = blocks.find((b) => normalizeTeamName(b.teamName) === normDire) || blocks[1];
-
-  return {
-    radiantPlayers: padToFive(radBlock.players || []),
-    direPlayers: padToFive(direBlock.players || []),
-  };
-}
-
-function heroNameFromSlug(slug) {
-  const normalized = String(slug || "").replace(/[^a-z0-9]/gi, "").toLowerCase();
-  if (!normalized || !modelBundle || !modelBundle.hero_name_to_id) {
-    return "";
-  }
-
-  if (!heroNamesByNormalizedSlug) {
-    heroNamesByNormalizedSlug = {};
-    Object.keys(modelBundle.hero_name_to_id).forEach((heroName) => {
-      const key = heroName.replace(/[^a-z0-9]/gi, "").toLowerCase();
-      if (key && !heroNamesByNormalizedSlug[key]) {
-        heroNamesByNormalizedSlug[key] = heroName;
-      }
-    });
-  }
-
-  return heroNamesByNormalizedSlug[normalized] || "";
-}
-
-// DLTV renders the live draft as player links whose fragment carries the picked hero slug.
-// A series page stacks one picks&bans block per team per map, in map order.
-function extractDltvPicks(markdownText, match) {
-  const text = String(markdownText || "");
-  const sectionRegex = /\[([^\]]+?) picks&bans\]\([^)]*\)([\s\S]*?)(?=\[[^\]]+? picks&bans\]|Additional data|$)/gi;
-  const sections = [];
-  let sm;
-
-  while ((sm = sectionRegex.exec(text)) !== null) {
-    const rows = [];
-    const rowRegex = /#hero-([a-z0-9-]+)\)\[([^\]]+)\]\(https?:\/\/dltv\.org\/players\//gi;
-    let rm;
-    while ((rm = rowRegex.exec(sm[2] || "")) !== null) {
-      rows.push({ hero: heroNameFromSlug(rm[1]), player: (rm[2] || "").trim() });
-      if (rows.length >= 5) {
-        break;
-      }
-    }
-    sections.push({ teamName: (sm[1] || "").trim(), rows });
-  }
-
-  if (sections.length < 2) {
-    return null;
-  }
-
-  // Consecutive section pairs form one map; the last complete pair is the current map.
-  const lastPairStart = (Math.floor(sections.length / 2) - 1) * 2;
-  const mapSections = sections.slice(lastPairStart, lastPairStart + 2);
-
-  const normRad = normalizeTeamName(match.radiant_team || "");
-  const normDire = normalizeTeamName(match.dire_team || "");
-  const radSection = mapSections.find((s) => normalizeTeamName(s.teamName) === normRad) || mapSections[0];
-  const direSection = mapSections.find((s) => normalizeTeamName(s.teamName) === normDire) || mapSections[1];
-
-  if (radSection === direSection) {
-    return null;
-  }
-
-  return {
-    radiantPlayers: padToFive(radSection.rows.map((r) => r.player)),
-    direPlayers: padToFive(direSection.rows.map((r) => r.player)),
-    radiantHeroes: padToFive(radSection.rows.map((r) => r.hero)),
-    direHeroes: padToFive(direSection.rows.map((r) => r.hero)),
-  };
-}
-
-async function enrichDltvMatch(match) {
-  if (!match || !match.match_url || !String(match.match_url).includes("dltv.org")) {
-    return;
-  }
-
-  const cacheKey = String(match.match_id || match.match_url);
-  const cached = liveEnrichmentCache.get(cacheKey);
-  // Drafts keep changing, so only finished matches are cached indefinitely.
-  if (cached && (match.status === "ended" || Date.now() - cached.at < ENRICH_CACHE_TTL_MS)) {
-    Object.assign(match, cached.update);
-    return;
-  }
-
-  const parsed = new URL(match.match_url);
-  const mirrorUrl = `https://r.jina.ai/https://${parsed.host}${parsed.pathname}`;
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), ENRICH_TIMEOUT_MS);
-  let response;
-  try {
-    response = await fetchMirror(mirrorUrl, { signal: controller.signal });
-  } finally {
-    clearTimeout(timeoutId);
-  }
-  if (!response.ok) {
-    return;
-  }
-
-  const md = await response.text();
-  const update = {};
-
-  const picks = extractDltvPicks(md, match);
-  if (picks) {
-    update.radiant_players = picks.radiantPlayers;
-    update.dire_players = picks.direPlayers;
-    update.radiant_heroes = picks.radiantHeroes;
-    update.dire_heroes = picks.direHeroes;
-    update.known_picks = [...picks.radiantHeroes, ...picks.direHeroes].filter((h) => h).length;
-    update.lineup_available = true;
-  } else {
-    const lineups = extractDltvLineups(md, match);
-    if (lineups) {
-      update.radiant_players = lineups.radiantPlayers;
-      update.dire_players = lineups.direPlayers;
-      const hasPlayerData =
-        lineups.radiantPlayers.some((x) => x) ||
-        lineups.direPlayers.some((x) => x);
-      if (hasPlayerData) {
-        update.lineup_available = true;
-      }
-    }
-  }
-
-  const seriesScore = parseDltvSeriesScore(md);
-  if (seriesScore) {
-    update.series_score = seriesScore;
-  }
-
-  // The match page carries the authoritative clock of the map being played right now.
-  const liveMapNumber = md.match(/Live Scoreboard Map\s*#(\d+)/i);
-  if (liveMapNumber) {
-    update.live_map_number = toInt(liveMapNumber[1], 0);
-  }
-  const liveClock = md.match(/(\d{1,3}):(\d{2})\s*[\r\n\s]*Duration/i);
-  if (liveClock && match.status !== "ended") {
-    update.live_seconds = (toInt(liveClock[1], 0) * 60) + toInt(liveClock[2], 0);
-  }
-
-  liveEnrichmentCache.set(cacheKey, { at: Date.now(), update });
-  Object.assign(match, update);
-}
-
-async function ensureMatchEnriched(match) {
-  try {
-    if (String(match.source || "").toLowerCase().includes("dltv")) {
-      await enrichDltvMatch(match);
-    }
-  } catch (e) {
-    // Ignore enrichment failures and keep base data visible.
-  }
-}
-
-// Enriches in the background so the UI never waits on the slow mirror fetch.
-function enrichMatchInBackground(match, onDone) {
-  const key = String(match.match_id || match.match_url || "");
-  if (!String(match.source || "").toLowerCase().includes("dltv") || pendingEnrichmentKeys.has(key)) {
-    return;
-  }
-
-  pendingEnrichmentKeys.add(key);
-  ensureMatchEnriched(match).finally(() => {
-    pendingEnrichmentKeys.delete(key);
-    if (typeof onDone === "function") {
-      onDone();
-    }
-  });
-}
-
-async function getProMatches() {
-  if (proMatchesCache && Date.now() - proMatchesFetchedAt < PRO_MATCHES_TTL_MS) {
-    return proMatchesCache;
-  }
-
-  const collected = [];
-  let lessThanMatchId = 0;
-
-  for (let page = 0; page < PRO_MATCHES_PAGES; page += 1) {
-    const url = lessThanMatchId
-      ? `${PRO_MATCHES_URL}?less_than_match_id=${lessThanMatchId}`
-      : PRO_MATCHES_URL;
-    const response = await fetch(url, { cache: "no-store" });
-    if (!response.ok) {
-      if (collected.length === 0) {
-        throw new Error(`proMatches returned ${response.status}`);
-      }
-      break;
-    }
-
-    const data = await response.json();
-    if (!Array.isArray(data) || data.length === 0) {
-      break;
-    }
-    collected.push(...data);
-    lessThanMatchId = toInt(data[data.length - 1].match_id, 0);
-    if (!lessThanMatchId) {
-      break;
-    }
-  }
-
-  proMatchesCache = collected;
-  proMatchesFetchedAt = Date.now();
-  return proMatchesCache;
-}
-
-// Feeds disagree on org names ("Syntax" vs "team syntax"), so allow a containment match.
-function teamNamesMatch(a, b) {
-  const left = normalizeTeamName(a);
-  const right = normalizeTeamName(b);
-  if (!left || !right) {
-    return false;
-  }
-  if (left === right) {
-    return true;
-  }
-  if (Math.min(left.length, right.length) < 4) {
-    return false;
-  }
-  return left.includes(right) || right.includes(left);
-}
-
-function getSeriesMaps(matchKey) {
-  const entry = seriesMapsCache.get(matchKey);
-  return entry ? entry.maps : undefined;
-}
-
-// Recovers the individual maps of a series by matching team pairs in OpenDota pro matches.
-function ensureSeriesMaps(match, matchKey, onDone) {
-  const cached = seriesMapsCache.get(matchKey);
-  const isFresh = cached && (match.status === "ended" || Date.now() - cached.at < SERIES_MAPS_TTL_MS);
-  if (isFresh || pendingSeriesKeys.has(matchKey)) {
-    return;
-  }
-
-  pendingSeriesKeys.add(matchKey);
-  getProMatches()
-    .then((proMatches) => {
-      const teamA = match.radiant_team;
-      const teamB = match.dire_team;
-      const cutoff = Math.floor(Date.now() / 1000) - 86400;
-      const maps = (proMatches || []).filter((pm) => {
-        if (toInt(pm.start_time, 0) < cutoff) {
-          return false;
-        }
-        return (teamNamesMatch(pm.radiant_name, teamA) && teamNamesMatch(pm.dire_name, teamB))
-          || (teamNamesMatch(pm.radiant_name, teamB) && teamNamesMatch(pm.dire_name, teamA));
-      });
-      maps.sort((a, b) => toInt(a.match_id, 0) - toInt(b.match_id, 0));
-      seriesMapsCache.set(matchKey, { at: Date.now(), maps });
-    })
-    .catch(() => {
-      seriesMapsCache.set(matchKey, { at: Date.now(), maps: [] });
-    })
-    .finally(() => {
-      pendingSeriesKeys.delete(matchKey);
-      if (typeof onDone === "function") {
-        onDone();
-      }
-    });
-}
-
-function ensureMapDetails(matchId, onDone) {
-  const id = toInt(matchId, 0);
-  if (!id || matchDetailsCache.has(id) || pendingMapDetailIds.has(id)) {
-    return;
-  }
-
-  pendingMapDetailIds.add(id);
-  fetch(`${OPENDOTA_MATCH_BASE_URL}${id}`, { cache: "no-store" })
-    .then((response) => (response.ok ? response.json() : null))
-    .then((data) => {
-      matchDetailsCache.set(id, data || null);
-    })
-    .catch(() => {
-      matchDetailsCache.set(id, null);
-    })
-    .finally(() => {
-      pendingMapDetailIds.delete(id);
-      if (typeof onDone === "function") {
-        onDone();
-      }
-    });
 }
 
 function registerTeamLogo(teamName, logoUrl) {
@@ -629,15 +171,6 @@ function registerTeamLogo(teamName, logoUrl) {
 }
 
 // Covers orgs missing from the repo snapshot, such as newly formed teams.
-function teamLogoFromLiveTeam(teamObj) {
-  const teamId = toInt((teamObj || {}).team_id, 0);
-  if (teamId > 0) {
-    return `${STRATZ_LOGO_BASE_URL}${teamId}.png`;
-  }
-  return String((teamObj || {}).logo_url || (teamObj || {}).logo || "").trim();
-}
-
-// Ordered candidates: repo-hosted override, remote index, then whatever the feed gave us.
 function resolveTeamLogoCandidates(teamName, fallbackUrl) {
   const keys = [normalizeTeamName(teamName)];
   const aliasTarget = teamAliasOverrides[String(teamName || "").trim().toLowerCase()];
@@ -1169,19 +702,28 @@ function applyLiveMatchToForm(match, sourceLabel = "live board") {
   document.getElementById("radiantTeam").value = match.radiant_team || "Radiant";
   document.getElementById("direTeam").value = match.dire_team || "Dire";
 
+  // CitoAPI hero picks (fetched on-demand via Show Details) take priority since
+  // PandaScore's free plan never exposes them.
+  const cachedPicks = heroPicksCache.get(String(match.match_id));
+  const picksAvailable = Boolean(cachedPicks && cachedPicks.available);
+
   for (let i = 0; i < 5; i += 1) {
-    document.getElementById(`radiantPlayer${i}`).value = (match.radiant_players || [])[i] || "";
-    document.getElementById(`direPlayer${i}`).value = (match.dire_players || [])[i] || "";
-    document.getElementById(`radiantHero${i}`).value = (match.radiant_heroes || [])[i] || "";
-    document.getElementById(`direHero${i}`).value = (match.dire_heroes || [])[i] || "";
+    document.getElementById(`radiantPlayer${i}`).value = picksAvailable ? (cachedPicks.radiant_players || [])[i] || "" : "";
+    document.getElementById(`direPlayer${i}`).value = picksAvailable ? (cachedPicks.dire_players || [])[i] || "" : "";
+    document.getElementById(`radiantHero${i}`).value = picksAvailable ? (cachedPicks.radiant_heroes || [])[i] || "" : "";
+    document.getElementById(`direHero${i}`).value = picksAvailable ? (cachedPicks.dire_heroes || [])[i] || "" : "";
   }
 
-  const hasUnpicked = [...(match.radiant_heroes || []), ...(match.dire_heroes || [])].some((hero) => !hero);
-  if (hasUnpicked) {
-    setLiveStatus(`Applied from ${sourceLabel}. Some heroes are not picked yet, so those hero fields were left blank.`);
-  } else {
-    setLiveStatus(`Applied from ${sourceLabel}. Teams, players, and heroes are now prefilled.`);
+  if (picksAvailable) {
+    setLiveStatus(`Applied from ${sourceLabel}. Teams, players, and hero picks are prefilled.`);
+    return;
   }
+
+  // Fall back to the known roster for each team and leave hero fields for manual entry.
+  autofillPlayersForSide("radiant", false);
+  autofillPlayersForSide("dire", false);
+
+  setLiveStatus(`Applied from ${sourceLabel}. Teams and known rosters are prefilled; enter hero picks manually.`);
 }
 
 function getLiveFilters() {
@@ -1220,567 +762,36 @@ function applyLiveFilters(matches) {
   });
 }
 
-function normalizeLiveMatches(payloadMatches) {
-  const heroNamesById = heroIdToNameMap();
-  const playerNamesByAccount = accountIdToPlayerNameMap();
-
-  const normalized = [];
-  const seenMatchIds = new Set();
-  const stats = {
-    raw: Array.isArray(payloadMatches) ? payloadMatches.length : 0,
-    dropped_no_match_id: 0,
-    dropped_duplicate: 0,
-    dropped_no_players: 0,
-    dropped_unknown_teams: 0,
-    dropped_no_league: 0,
-    kept: 0,
-  };
-
-  (payloadMatches || []).forEach((match, idx) => {
-    const matchId = toInt(match.match_id, 0);
-    if (!matchId) {
-      stats.dropped_no_match_id += 1;
-      return;
-    }
-
-    if (seenMatchIds.has(matchId)) {
-      stats.dropped_duplicate += 1;
-      return;
-    }
-    seenMatchIds.add(matchId);
-
-    const radiantRows = [];
-    const direRows = [];
-
-    (match.players || []).forEach((player) => {
-      const side = resolveLiveTeam(player);
-      if (side !== "radiant" && side !== "dire") {
-        return;
-      }
-
-      const accountId = toInt(player.account_id, 0);
-      const heroId = toInt(player.hero_id, 0);
-      const slot = toInt(player.player_slot, 999);
-
-      const playerName =
-        (player.name || "").trim()
-        || (player.personaname || "").trim()
-        || playerNamesByAccount[accountId]
-        || (accountId ? `Player ${accountId}` : "");
-
-      const heroName = heroNamesById[heroId] || "";
-
-      if (side === "radiant") {
-        radiantRows.push([slot, playerName, heroName]);
-      } else {
-        direRows.push([slot, playerName, heroName]);
-      }
-    });
-
-    radiantRows.sort((a, b) => a[0] - b[0]);
-    direRows.sort((a, b) => a[0] - b[0]);
-
-    const radiantPlayers = radiantRows.map((row) => row[1]);
-    const direPlayers = direRows.map((row) => row[1]);
-    const radiantHeroes = radiantRows.map((row) => row[2]);
-    const direHeroes = direRows.map((row) => row[2]);
-
-    const lineupAvailable = radiantPlayers.length > 0 && direPlayers.length > 0;
-    if (!lineupAvailable) {
-      stats.dropped_no_players += 1;
-    }
-
-    const radiantTeamObj = match.radiant_team || {};
-    const direTeamObj = match.dire_team || {};
-    const radiantTeam = (radiantTeamObj.team_name || "").trim() || (match.radiant_name || "").trim() || "Radiant";
-    const direTeam = (direTeamObj.team_name || "").trim() || (match.dire_name || "").trim() || "Dire";
-    const leagueName = (match.league_name || "").trim();
-    const leagueId = toInt(match.league_id, 0);
-
-    const hasNamedTeams =
-      radiantTeam && direTeam
-      && radiantTeam.toLowerCase() !== "radiant"
-      && direTeam.toLowerCase() !== "dire";
-    if (!hasNamedTeams) {
-      stats.dropped_unknown_teams += 1;
-      return;
-    }
-
-    if (!leagueName && leagueId <= 0) {
-      stats.dropped_no_league += 1;
-      return;
-    }
-
-    const scoreboard = match.scoreboard || {};
-    const liveSeconds = toInt(scoreboard.duration, 0);
-    const startTime = toInt(match.start_time, 0);
-    const radiantScore = toInt(match.radiant_score, -1);
-    const direScore = toInt(match.dire_score, -1);
-    const knownPicks = [...radiantHeroes, ...direHeroes].filter((h) => h).length;
-
-    let status = "draft";
-    if (liveSeconds > 0) {
-      status = "live";
-    } else if (startTime > Math.floor(Date.now() / 1000)) {
-      status = "upcoming";
-    }
-
-    normalized.push({
-      match_id: matchId,
-      idx,
-      source: "opendota-direct",
-      status,
-      league_name: leagueName,
-      league_id: leagueId,
-      radiant_team: radiantTeam,
-      dire_team: direTeam,
-      radiant_logo_url: teamLogoFromLiveTeam(radiantTeamObj),
-      dire_logo_url: teamLogoFromLiveTeam(direTeamObj),
-      radiant_score: radiantScore < 0 ? null : radiantScore,
-      dire_score: direScore < 0 ? null : direScore,
-      live_seconds: liveSeconds,
-      start_time: startTime,
-      series_type: toInt(match.series_type, 0),
-      known_picks: knownPicks,
-      lineup_available: lineupAvailable,
-      radiant_players: padToFive(radiantPlayers),
-      dire_players: padToFive(direPlayers),
-      radiant_heroes: padToFive(radiantHeroes),
-      dire_heroes: padToFive(direHeroes),
-    });
-    stats.kept += 1;
-  });
-
-  const statusRank = { live: 0, draft: 1, upcoming: 2 };
-  normalized.sort((a, b) => {
-    const rankA = statusRank[a.status] ?? 9;
-    const rankB = statusRank[b.status] ?? 9;
-    if (rankA !== rankB) {
-      return rankA - rankB;
-    }
-
-    if (a.status === "upcoming") {
-      return (a.start_time || 0) - (b.start_time || 0);
-    }
-
-    if (a.status === "live" || a.status === "draft") {
-      return (b.live_seconds || 0) - (a.live_seconds || 0);
-    }
-
-    return b.match_id - a.match_id;
-  });
-
-  return {
-    matches: normalized.slice(0, MAX_LIVE_MATCHES),
-    stats,
-  };
-}
-
-function normalizeCyberscoreJinaMatches(markdownText) {
-  const text = String(markdownText || "");
-  const regex = /\[([^\]]+)\]\((https?:\/\/cyberscore\.live\/en\/matches\/[^)]+)\)/g;
-  const out = [];
-  const seen = new Set();
-  let m;
-
-  while ((m = regex.exec(text)) !== null) {
-    const label = m[1] || "";
-    const url = m[2] || "";
-    if (!url.includes("/en/matches/")) {
-      continue;
-    }
-
-    const slug = url.replace(/\/+$/, "").split("/").pop() || "";
-    if (!slug.includes("-vs-")) {
-      continue;
-    }
-    if (seen.has(slug)) {
-      continue;
-    }
-    seen.add(slug);
-
-    const slugParts = slug.split("-vs-");
-    if (slugParts.length < 2) {
-      continue;
-    }
-
-    const leftSlug = slugParts[0];
-    const rightWithId = slugParts[1];
-    const rightSlug = rightWithId.replace(/-\d+$/, "");
-
-    const scoreMatch = label.match(/(\d+)\s*-\s*(\d+)/);
-    const timeMatch = label.match(/(\d{1,2}:\d{2})/);
-    const leagueMatch = label.match(/TIER-\d+\s+(.+)$/i);
-
-    const status =
-      label.startsWith("LIVE") || label.startsWith("WAIT")
-        ? "live"
-        : (label.toLowerCase().includes("draft") ? "draft" : "upcoming");
-
-    let liveSeconds = 0;
-    if (timeMatch) {
-      const [mm, ss] = timeMatch[1].split(":");
-      liveSeconds = (Number(mm) || 0) * 60 + (Number(ss) || 0);
-    }
-
-    const matchIdMatch = slug.match(/(\d+)$/);
-    const matchId = matchIdMatch ? toInt(matchIdMatch[1], 0) : 0;
-
-    out.push({
-      match_id: matchId || toInt(Math.abs((leftSlug + rightSlug).split("").reduce((a, c) => a + c.charCodeAt(0), 0)), 0),
-      source: "cyberscore-jina",
-      idx: out.length,
-      status,
-      league_name: leagueMatch ? leagueMatch[1].trim() : "",
-      league_id: 0,
-      radiant_team: slugToTeamName(leftSlug),
-      dire_team: slugToTeamName(rightSlug),
-      radiant_logo_url: "",
-      dire_logo_url: "",
-      radiant_score: scoreMatch ? toInt(scoreMatch[1], 0) : null,
-      dire_score: scoreMatch ? toInt(scoreMatch[2], 0) : null,
-      live_seconds: liveSeconds,
-      start_time: 0,
-      series_type: label.includes("BO5") ? 2 : (label.includes("BO3") ? 1 : 0),
-      known_picks: 0,
-      lineup_available: false,
-      radiant_players: padToFive([]),
-      dire_players: padToFive([]),
-      radiant_heroes: padToFive([]),
-      dire_heroes: padToFive([]),
-      match_url: url,
-    });
-
-    if (out.length >= 60) {
-      break;
-    }
-  }
-
-  return out;
-}
-
-function normalizeDltvJinaMatches(markdownText) {
-  const text = String(markdownText || "");
-  const urlRegex = /https?:\/\/dltv\.org\/matches\/(\d+)\/([a-z0-9-]+)(?:#[^)\s]+)?/gi;
-  const out = [];
-  const seenIds = new Set();
-  let m;
-
-  while ((m = urlRegex.exec(text)) !== null) {
-    const matchId = toInt(m[1], 0);
-    const slug = String(m[2] || "");
-    if (!matchId || !slug.includes("-vs-")) {
-      continue;
-    }
-    if (seenIds.has(matchId)) {
-      continue;
-    }
-    seenIds.add(matchId);
-
-    const slugParts = slug.split("-vs-");
-    const leftSlug = slugParts[0] || "";
-    const rightRaw = slugParts.slice(1).join("-vs-");
-    const rightSlug = cleanDltvRightTeamSlug(rightRaw);
-
-    const contextStart = Math.max(0, m.index - 450);
-    const contextEnd = Math.min(text.length, m.index + 900);
-    const ctx = text.slice(contextStart, contextEnd);
-    // The scoreboard of a row always follows its match link, so the clock and map
-    // number are read forward only to avoid picking up the previous row's values.
-    const after = text.slice(m.index, contextEnd);
-
-    const leagueMatch = ctx.match(/\n\n([A-Za-z0-9 .:'\-]{4,80})\n\n(?:Group Stage|Playoffs|Swiss|bo\d)/i);
-    const mapScoreMatch = ctx.match(/\*\*(\d+)\*\*\(\d+\)[\s\S]{0,120}\*\*(\d+)\*\*\(\d+\)/i) || ctx.match(/(\d+)\s*-\s*(\d+)/);
-    const seriesScoreMatch = ctx.match(/\*\*\d+\*\*\((\d+)\)[\s\S]{0,120}\*\*\d+\*\*\((\d+)\)/i);
-    const timeMatch = after.match(/\*\*(\d{1,2}:\d{2})\*\*/);
-    const mapNumberMatch = after.match(/\bMap\s*#?(\d+)/i);
-
-    let status = "draft";
-    if (/\*\*Live\*\*/i.test(ctx)) {
-      status = "live";
-    } else if (/Starts in:\*\*/i.test(ctx)) {
-      status = "upcoming";
-    } else if (/Finished maps|Stats/i.test(ctx)) {
-      status = "ended";
-    }
-
-    let liveSeconds = 0;
-    if (timeMatch && status === "live") {
-      const [mm, ss] = timeMatch[1].split(":");
-      liveSeconds = (Number(mm) || 0) * 60 + (Number(ss) || 0);
-    }
-
-    out.push({
-      match_id: matchId,
-      source: "dltv-jina",
-      idx: out.length,
-      status,
-      league_name: leagueMatch ? leagueMatch[1].trim() : "",
-      league_id: 0,
-      radiant_team: slugToTeamName(leftSlug),
-      dire_team: slugToTeamName(rightSlug),
-      radiant_logo_url: "",
-      dire_logo_url: "",
-      radiant_score: mapScoreMatch ? toInt(mapScoreMatch[1], 0) : null,
-      dire_score: mapScoreMatch ? toInt(mapScoreMatch[2], 0) : null,
-      series_score: seriesScoreMatch ? `${seriesScoreMatch[1]} - ${seriesScoreMatch[2]}` : "",
-      live_seconds: liveSeconds,
-      live_map_number: (status === "live" && mapNumberMatch) ? toInt(mapNumberMatch[1], 0) : 0,
-      start_time: 0,
-      series_type: /bo5/i.test(ctx) ? 2 : (/bo3/i.test(ctx) ? 1 : 0),
-      known_picks: 0,
-      lineup_available: false,
-      radiant_players: padToFive([]),
-      dire_players: padToFive([]),
-      radiant_heroes: padToFive([]),
-      dire_heroes: padToFive([]),
-      match_url: `https://dltv.org/matches/${matchId}/${slug}`,
-    });
-
-    if (out.length >= 80) {
-      break;
-    }
-  }
-
-  return out;
-}
-
-function normalizeDltvResultsJinaMatches(markdownText) {
-  const text = String(markdownText || "");
-  const lines = text.split(/\r?\n/).map((line) => line.trim());
-  const out = [];
-  const seenIds = new Set();
-
-  let currentLeague = "";
-  let currentSeriesType = 0;
-
-  function nextNonEmptyIndex(startAt) {
-    for (let k = startAt; k < lines.length; k += 1) {
-      if (lines[k]) {
-        return k;
-      }
-    }
-    return -1;
-  }
-
-  for (let i = 0; i < lines.length; i += 1) {
-    const line = lines[i];
-
-    if (!line) {
-      continue;
-    }
-
-    if (/^\[\]\(https?:\/\/dltv\.org\/events\//i.test(line)) {
-      const next = nextNonEmptyIndex(i + 1);
-      if (next > 0 && lines[next] && !/^\[\]\(https?:\/\//i.test(lines[next])) {
-        currentLeague = lines[next];
-      }
-      continue;
-    }
-
-    if (/^bo1$/i.test(line)) {
-      currentSeriesType = 0;
-      continue;
-    }
-    if (/^bo3$/i.test(line)) {
-      currentSeriesType = 1;
-      continue;
-    }
-    if (/^bo5$/i.test(line)) {
-      currentSeriesType = 2;
-      continue;
-    }
-
-    const linkMatch = line.match(/^\[\]\(https?:\/\/dltv\.org\/matches\/(\d+)\/([a-z0-9-]+)\)$/i);
-    if (!linkMatch) {
-      continue;
-    }
-
-    const matchId = toInt(linkMatch[1], 0);
-    const slug = linkMatch[2];
-    if (!matchId || seenIds.has(matchId)) {
-      continue;
-    }
-
-    const teamAIdx = nextNonEmptyIndex(i + 1);
-    const scoreAIdx = nextNonEmptyIndex(teamAIdx + 1);
-    const dateIdx = nextNonEmptyIndex(scoreAIdx + 1);
-    const scoreBIdx = nextNonEmptyIndex(dateIdx + 1);
-    const teamBIdx = nextNonEmptyIndex(scoreBIdx + 1);
-
-    if (teamAIdx < 0 || scoreAIdx < 0 || dateIdx < 0 || scoreBIdx < 0 || teamBIdx < 0) {
-      continue;
-    }
-
-    const teamA = lines[teamAIdx];
-    const teamB = lines[teamBIdx];
-    const scoreAMatch = lines[scoreAIdx].match(/^\*\*(\d+)\*\*$/);
-    const scoreBMatch = lines[scoreBIdx].match(/^\*\*(\d+)\*\*$/);
-
-    if (!teamA || !teamB || !scoreAMatch || !scoreBMatch) {
-      continue;
-    }
-
-    seenIds.add(matchId);
-    out.push({
-      match_id: matchId,
-      source: "dltv-results-jina",
-      idx: out.length,
-      status: "ended",
-      league_name: currentLeague,
-      league_id: 0,
-      radiant_team: teamA,
-      dire_team: teamB,
-      radiant_logo_url: "",
-      dire_logo_url: "",
-      radiant_score: toInt(scoreAMatch[1], 0),
-      dire_score: toInt(scoreBMatch[1], 0),
-      series_score: `${scoreAMatch[1]} - ${scoreBMatch[1]}`,
-      ended_time_label: lines[dateIdx].replace(/\*\*/g, "").trim(),
-      live_seconds: 0,
-      start_time: 0,
-      series_type: currentSeriesType,
-      known_picks: 0,
-      lineup_available: false,
-      radiant_players: padToFive([]),
-      dire_players: padToFive([]),
-      radiant_heroes: padToFive([]),
-      dire_heroes: padToFive([]),
-      match_url: `https://dltv.org/matches/${matchId}/${slug}`,
-    });
-  }
-
-  return out;
-}
-
-function mergeLiveSources(opendotaMatches, cyberscoreMatches, dltvMatches, dltvResultsMatches) {
-  const byKey = new Map();
-  const byMatchId = new Map();
-
-  const makeKey = (m) => `${String(m.radiant_team || "").toLowerCase()}|${String(m.dire_team || "").toLowerCase()}|${String(m.league_name || "").toLowerCase()}`;
-
-  function findExisting(incoming) {
-    const mid = toInt(incoming.match_id, 0);
-    if (mid > 0 && byMatchId.has(mid)) {
-      return byMatchId.get(mid);
-    }
-    const key = makeKey(incoming);
-    if (byKey.has(key)) {
-      return byKey.get(key);
-    }
-    return null;
-  }
-
-  function register(record) {
-    const mid = toInt(record.match_id, 0);
-    if (mid > 0) {
-      byMatchId.set(mid, record);
-    }
-    byKey.set(makeKey(record), record);
-  }
-
-  function mergeInto(existing, incoming) {
-    const incomingSource = String(incoming.source || "");
-    const existingSource = String(existing.source || "");
-
-    if (incomingSource && !existingSource.includes(incomingSource)) {
-      if (existingSource.includes("dltv") && incomingSource.includes("opendota")) {
-        existing.source = "dltv+opendota";
-      } else if (existingSource.includes("cyberscore") && incomingSource.includes("opendota")) {
-        existing.source = "cyberscore+opendota";
-      } else if (incomingSource.includes("results") && existingSource.includes("dltv")) {
-        existing.source = "dltv+results";
-      } else {
-        existing.source = existingSource ? `${existingSource}+${incomingSource}` : incomingSource;
-      }
-    }
-
-    existing.league_name = existing.league_name || incoming.league_name;
-    existing.radiant_logo_url = existing.radiant_logo_url || incoming.radiant_logo_url;
-    existing.dire_logo_url = existing.dire_logo_url || incoming.dire_logo_url;
-    // Never keep the highest clock seen: on a new map of the same series that would
-    // freeze the timer at the previous map's duration.
-    if (toInt(incoming.live_seconds, 0) > 0) {
-      existing.live_seconds = toInt(incoming.live_seconds, 0);
-    }
-    if (toInt(incoming.live_map_number, 0) > 0) {
-      existing.live_map_number = toInt(incoming.live_map_number, 0);
-    }
-
-    if (incoming.radiant_score !== null && incoming.radiant_score !== undefined) {
-      existing.radiant_score = incoming.radiant_score;
-    }
-    if (incoming.dire_score !== null && incoming.dire_score !== undefined) {
-      existing.dire_score = incoming.dire_score;
-    }
-    if (incoming.series_score) {
-      existing.series_score = incoming.series_score;
-    }
-    if (incoming.ended_time_label) {
-      existing.ended_time_label = incoming.ended_time_label;
-    }
-
-    if (incoming.status === "ended") {
-      existing.status = "ended";
-    } else if (existing.status !== "ended" && incoming.status) {
-      existing.status = incoming.status;
-    }
-
-    existing.lineup_available = Boolean(existing.lineup_available) || Boolean(incoming.lineup_available);
-    existing.known_picks = Math.max(toInt(existing.known_picks, 0), toInt(incoming.known_picks, 0));
-
-    const hasIncomingRadPlayers = Array.isArray(incoming.radiant_players) && incoming.radiant_players.some((x) => x);
-    const hasIncomingDirePlayers = Array.isArray(incoming.dire_players) && incoming.dire_players.some((x) => x);
-    if (hasIncomingRadPlayers) {
-      existing.radiant_players = incoming.radiant_players;
-    }
-    if (hasIncomingDirePlayers) {
-      existing.dire_players = incoming.dire_players;
-    }
-
-    const hasIncomingRadHeroes = Array.isArray(incoming.radiant_heroes) && incoming.radiant_heroes.some((x) => x);
-    const hasIncomingDireHeroes = Array.isArray(incoming.dire_heroes) && incoming.dire_heroes.some((x) => x);
-    if (hasIncomingRadHeroes) {
-      existing.radiant_heroes = incoming.radiant_heroes;
-    }
-    if (hasIncomingDireHeroes) {
-      existing.dire_heroes = incoming.dire_heroes;
-    }
-  }
-
-  function upsert(incoming) {
-    const existing = findExisting(incoming);
-    if (!existing) {
-      register({ ...incoming });
-      return;
-    }
-
-    mergeInto(existing, incoming);
-    register(existing);
-  }
-
-  (cyberscoreMatches || []).forEach(upsert);
-  (dltvMatches || []).forEach(upsert);
-  (dltvResultsMatches || []).forEach(upsert);
-  (opendotaMatches || []).forEach(upsert);
-
-  const merged = Array.from(new Set(byKey.values()));
-  const statusRank = { live: 0, draft: 1, upcoming: 2, ended: 3 };
-  merged.sort((a, b) => {
-    const rankA = statusRank[a.status] ?? 9;
-    const rankB = statusRank[b.status] ?? 9;
-    if (rankA !== rankB) {
-      return rankA - rankB;
-    }
-
-    if (a.status === "ended" || b.status === "ended") {
-      return toInt(b.match_id, 0) - toInt(a.match_id, 0);
-    }
-
-    return (b.live_seconds || 0) - (a.live_seconds || 0);
-  });
-
-  return merged.slice(0, MAX_LIVE_MATCHES);
+// The proxy already returns fully normalized matches (see live_feed_proxy.py's
+// _normalize_match); this just applies client-side defaults/limits.
+function normalizeProxyMatches(payloadMatches) {
+  const normalized = (Array.isArray(payloadMatches) ? payloadMatches : []).map((match) => ({
+    match_id: toInt(match.match_id, 0),
+    source: match.source || "pandascore",
+    status: match.status || "upcoming",
+    league_name: match.league_name || "Unknown Tournament",
+    league_id: toInt(match.league_id, 0),
+    radiant_team: match.radiant_team || "TBD",
+    dire_team: match.dire_team || "TBD",
+    radiant_logo_url: match.radiant_logo_url || "",
+    dire_logo_url: match.dire_logo_url || "",
+    radiant_score: match.radiant_score === undefined ? null : match.radiant_score,
+    dire_score: match.dire_score === undefined ? null : match.dire_score,
+    live_seconds: toInt(match.live_seconds, 0),
+    live_map_number: toInt(match.live_map_number, 0),
+    start_time: toInt(match.start_time, 0),
+    series_type: toInt(match.series_type, 0),
+    known_picks: toInt(match.known_picks, 0),
+    lineup_available: Boolean(match.lineup_available),
+    radiant_players: padToFive(match.radiant_players || []),
+    dire_players: padToFive(match.dire_players || []),
+    radiant_heroes: padToFive(match.radiant_heroes || []),
+    dire_heroes: padToFive(match.dire_heroes || []),
+    match_url: match.match_url || "",
+    games: Array.isArray(match.games) ? match.games : [],
+  }));
+
+  return normalized.filter((m) => m.match_id > 0).slice(0, MAX_LIVE_MATCHES);
 }
 
 function buildLoadingNote(text) {
@@ -1790,89 +801,104 @@ function buildLoadingNote(text) {
   return note;
 }
 
-function buildMapLineup(side, teamName, players, heroNamesById) {
-  const list = document.createElement("div");
-  list.className = `lineup ${side}`;
-  const title = document.createElement("h4");
-  title.textContent = teamName;
-  list.appendChild(title);
+// PandaScore's free plan reports per-map status/winner but not hero picks or
+// player stats, so the series view is a simple map-by-map scoreline.
+function buildSeriesMapsSection(match) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "series-maps";
 
-  const ul = document.createElement("ul");
-  players.forEach((player) => {
+  const heading = document.createElement("h4");
+  heading.className = "series-maps-title";
+  heading.textContent = "Maps";
+  wrapper.appendChild(heading);
+
+  const games = Array.isArray(match.games) ? match.games : [];
+  if (games.length === 0) {
+    wrapper.appendChild(buildLoadingNote("No per-map data published for this series yet."));
+    return wrapper;
+  }
+
+  const list = document.createElement("ul");
+  list.className = "series-maps-list";
+  games.forEach((game) => {
     const li = document.createElement("li");
-    const hero = heroNamesById[toInt(player.hero_id, 0)] || "Unknown hero";
-    const who = player.name || player.personaname || "Unknown player";
-    const kda = `${toInt(player.kills, 0)}/${toInt(player.deaths, 0)}/${toInt(player.assists, 0)}`;
-    const netWorth = toInt(player.net_worth, 0);
-    li.textContent = netWorth > 0
-      ? `${who} - ${hero} (${kda}, ${Math.round(netWorth / 100) / 10}k net)`
-      : `${who} - ${hero} (${kda})`;
-    ul.appendChild(li);
+    const position = toInt(game.position, 0) || "?";
+    let label = `Map ${position}: not started`;
+    if (game.status === "running") {
+      label = `Map ${position}: live now (${formatClock(match.live_seconds)})`;
+    } else if (game.status === "finished") {
+      const winnerId = game.winner_id;
+      let winnerName = "Unknown";
+      if (winnerId && winnerId === match.radiant_team_id) {
+        winnerName = match.radiant_team;
+      } else if (winnerId && winnerId === match.dire_team_id) {
+        winnerName = match.dire_team;
+      }
+      label = `Map ${position}: finished - won by ${winnerName}`;
+    }
+    li.textContent = label;
+    list.appendChild(li);
   });
-  list.appendChild(ul);
-  return list;
+  wrapper.appendChild(list);
+
+  return wrapper;
 }
 
-function buildMapPanel(mapSummary) {
-  const panel = document.createElement("div");
-  panel.className = "map-panel";
-
-  const radiantName = mapSummary.radiant_name || "Radiant";
-  const direName = mapSummary.dire_name || "Dire";
-  const summary = document.createElement("p");
-  summary.className = "map-summary";
-  summary.textContent =
-    `${radiantName} ${toInt(mapSummary.radiant_score, 0)} - ${toInt(mapSummary.dire_score, 0)} ${direName}`
-    + ` | ${formatClock(mapSummary.duration)} | Winner: ${mapSummary.radiant_win ? radiantName : direName}`;
-  panel.appendChild(summary);
-
-  const id = toInt(mapSummary.match_id, 0);
-  const detail = matchDetailsCache.get(id);
-
-  if (detail === undefined) {
-    ensureMapDetails(id, renderLiveBoard);
-    panel.appendChild(buildLoadingNote("Loading hero picks for this map..."));
-    return panel;
+// Fetches hero picks/bans from the proxy's CitoAPI-backed lookup exactly once per
+// match, on demand (see the comment on heroPicksCache for the quota reasoning).
+function ensureHeroPicks(match, onDone) {
+  const key = String(match.match_id);
+  if (heroPicksCache.has(key) || pendingHeroPicksKeys.has(key)) {
+    return;
   }
 
-  if (!detail || !Array.isArray(detail.players)) {
-    panel.appendChild(buildLoadingNote("Hero picks are not available for this map yet."));
-    return panel;
+  pendingHeroPicksKeys.add(key);
+  const params = new URLSearchParams({ radiant: match.radiant_team, dire: match.dire_team });
+  fetch(`${LIVE_FEED_PROXY_URL}/api/hero_picks?${params.toString()}`, { cache: "no-store" })
+    .then((response) => (response.ok ? response.json() : { available: false }))
+    .then((data) => {
+      heroPicksCache.set(key, data || { available: false });
+    })
+    .catch(() => {
+      heroPicksCache.set(key, { available: false });
+    })
+    .finally(() => {
+      pendingHeroPicksKeys.delete(key);
+      if (typeof onDone === "function") {
+        onDone();
+      }
+    });
+}
+
+function buildHeroPicksSection(match) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "hero-picks";
+
+  const heading = document.createElement("h4");
+  heading.className = "series-maps-title";
+  heading.textContent = "Hero Picks";
+  wrapper.appendChild(heading);
+
+  const key = String(match.match_id);
+  const cached = heroPicksCache.get(key);
+
+  if (pendingHeroPicksKeys.has(key)) {
+    wrapper.appendChild(buildLoadingNote("Looking up hero picks..."));
+    return wrapper;
   }
 
-  const heroNamesById = heroIdToNameMap();
-  const radiantPlayers = detail.players.filter((p) => resolveLiveTeam(p) === "radiant");
-  const direPlayers = detail.players.filter((p) => resolveLiveTeam(p) === "dire");
+  if (!cached || !cached.available) {
+    wrapper.appendChild(buildLoadingNote("Hero picks are not available for this match yet."));
+    return wrapper;
+  }
 
   const grid = document.createElement("div");
   grid.className = "map-lineups";
-  grid.appendChild(buildMapLineup("radiant", detail.radiant_name || radiantName, radiantPlayers, heroNamesById));
-  grid.appendChild(buildMapLineup("dire", detail.dire_name || direName, direPlayers, heroNamesById));
-  panel.appendChild(grid);
+  grid.appendChild(buildDraftLineup("radiant", match.radiant_team, cached.radiant_players, cached.radiant_heroes));
+  grid.appendChild(buildDraftLineup("dire", match.dire_team, cached.dire_players, cached.dire_heroes));
+  wrapper.appendChild(grid);
 
-  return panel;
-}
-
-function buildLiveMapPanel(match) {
-  const panel = document.createElement("div");
-  panel.className = "map-panel";
-
-  const summary = document.createElement("p");
-  summary.className = "map-summary";
-  const score = (match.radiant_score !== null && match.dire_score !== null)
-    ? `${match.radiant_score} - ${match.dire_score}`
-    : "score pending";
-  summary.textContent = `In progress | ${score} | ${formatClock(match.live_seconds)} | `
-    + `${toInt(match.known_picks, 0)}/10 picks known`;
-  panel.appendChild(summary);
-
-  const grid = document.createElement("div");
-  grid.className = "map-lineups";
-  grid.appendChild(buildDraftLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
-  grid.appendChild(buildDraftLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
-  panel.appendChild(grid);
-
-  return panel;
+  return wrapper;
 }
 
 function buildDraftLineup(side, teamName, players, heroes) {
@@ -1886,73 +912,12 @@ function buildDraftLineup(side, teamName, players, heroes) {
   for (let i = 0; i < 5; i += 1) {
     const li = document.createElement("li");
     const player = (players || [])[i] || `Player ${i + 1}`;
-    const hero = (heroes || [])[i] || "(hero not picked)";
+    const hero = (heroes || [])[i] || "(unknown)";
     li.textContent = `${player} - ${hero}`;
     ul.appendChild(li);
   }
   list.appendChild(ul);
   return list;
-}
-
-function buildSeriesMapsSection(match, matchKey) {
-  const wrapper = document.createElement("div");
-  wrapper.className = "series-maps";
-
-  const heading = document.createElement("h4");
-  heading.className = "series-maps-title";
-  heading.textContent = "Maps";
-  wrapper.appendChild(heading);
-
-  const finishedMaps = getSeriesMaps(matchKey);
-  const hasLiveMap = match.status !== "ended";
-  const entries = (finishedMaps || []).map((data) => ({ live: false, data }));
-  if (hasLiveMap) {
-    entries.push({ live: true, data: match });
-  }
-
-  if (!finishedMaps && !hasLiveMap) {
-    wrapper.appendChild(buildLoadingNote("Looking up per-map results on OpenDota..."));
-    return wrapper;
-  }
-
-  if (entries.length === 0) {
-    wrapper.appendChild(buildLoadingNote("Per-map stats are not published for this series."));
-    return wrapper;
-  }
-
-  const storedIndex = selectedMapTabByMatch.get(matchKey);
-  // Live series open on the map currently being played.
-  const defaultIndex = hasLiveMap ? entries.length - 1 : 0;
-  const activeIndex = storedIndex === undefined
-    ? defaultIndex
-    : Math.min(Math.max(toInt(storedIndex, 0), 0), entries.length - 1);
-
-  const tabs = document.createElement("div");
-  tabs.className = "map-tabs";
-  const liveMapNumber = toInt(match.live_map_number, 0);
-  entries.forEach((entry, index) => {
-    const tab = document.createElement("button");
-    tab.type = "button";
-    tab.className = `map-tab${index === activeIndex ? " active" : ""}`;
-    tab.textContent = entry.live
-      ? `Map ${liveMapNumber > 0 ? liveMapNumber : index + 1} (Live)`
-      : `Map ${index + 1}`;
-    tab.addEventListener("click", () => {
-      selectedMapTabByMatch.set(matchKey, index);
-      renderLiveBoard();
-    });
-    tabs.appendChild(tab);
-  });
-  wrapper.appendChild(tabs);
-
-  const active = entries[activeIndex];
-  wrapper.appendChild(active.live ? buildLiveMapPanel(active.data) : buildMapPanel(active.data));
-
-  if (!finishedMaps && hasLiveMap) {
-    wrapper.appendChild(buildLoadingNote("Looking up earlier maps of this series..."));
-  }
-
-  return wrapper;
 }
 
 function renderLiveMatchCards(matches) {
@@ -2025,56 +990,36 @@ function renderLiveMatchCards(matches) {
         expandedLiveMatchIds.delete(matchKey);
       } else {
         expandedLiveMatchIds.add(matchKey);
-        if (match.status !== "ended") {
-          enrichMatchInBackground(match, renderLiveBoard);
-        }
-        if (match.status === "ended" || match.status === "live" || match.status === "draft") {
-          ensureSeriesMaps(match, matchKey, renderLiveBoard);
+        if (match.status === "live") {
+          ensureHeroPicks(match, renderLiveBoard);
         }
       }
       renderLiveBoard();
     });
 
     const applyBtn = document.createElement("button");
-    applyBtn.className = "btn btn-ghost live-apply";
+    applyBtn.className = "btn btn-primary live-apply";
     applyBtn.type = "button";
     applyBtn.textContent = "Use This Match";
-    applyBtn.addEventListener("click", async () => {
-      applyBtn.disabled = true;
-      try {
-        await ensureMatchEnriched(match);
-      } finally {
-        applyBtn.disabled = false;
+    applyBtn.title = "Prefills teams, rosters, and hero picks when available (live matches look these up on demand).";
+    applyBtn.addEventListener("click", () => {
+      const matchKeyStr = String(match.match_id);
+      if (match.status === "live" && !heroPicksCache.has(matchKeyStr)) {
+        applyBtn.disabled = true;
+        ensureHeroPicks(match, () => {
+          applyBtn.disabled = false;
+          applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
+          renderLiveBoard();
+        });
+        return;
       }
       applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
       renderLiveBoard();
+      document.querySelector(".teams-grid")?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
-
-    const predictBtn = document.createElement("button");
-    predictBtn.className = "btn btn-primary live-predict";
-    predictBtn.type = "button";
-    predictBtn.textContent = "Predict This Match";
-    predictBtn.addEventListener("click", async () => {
-      predictBtn.disabled = true;
-      try {
-        await ensureMatchEnriched(match);
-      } finally {
-        predictBtn.disabled = false;
-      }
-      applyLiveMatchToForm(match, `${match.radiant_team} vs ${match.dire_team}`);
-      predict();
-      document.querySelector(".results-panel").scrollIntoView({ behavior: "smooth", block: "start" });
-      renderLiveBoard();
-    });
-
-    if (!match.lineup_available || Number(match.known_picks || 0) < 10) {
-      predictBtn.disabled = true;
-      predictBtn.title = "Prediction requires full detected lineup and all 10 hero picks.";
-    }
 
     actions.appendChild(detailsBtn);
     actions.appendChild(applyBtn);
-    actions.appendChild(predictBtn);
 
     top.appendChild(meta);
     top.appendChild(actions);
@@ -2106,44 +1051,32 @@ function renderLiveMatchCards(matches) {
     teams.appendChild(versus);
     teams.appendChild(dire);
 
-    const draft = document.createElement("div");
-    draft.className = "live-draft";
-    if (!match.lineup_available) {
-      draft.textContent = "Lineup data is not yet exposed by feed. Team/tournament info only for now.";
-    } else {
-      draft.textContent = `Draft progress: ${Number(match.known_picks || 0)}/10 picks known`;
-    }
-
     const details = document.createElement("div");
     details.className = "live-details";
     if (!expanded) {
       details.classList.add("hidden");
     }
 
-    // Series in progress or finished are shown as per-map tabs instead of one flat lineup.
-    const usesMapTabs = match.status === "ended" || match.status === "live" || match.status === "draft";
-
-    if (!usesMapTabs) {
-      details.appendChild(buildDraftLineup("radiant", match.radiant_team, match.radiant_players, match.radiant_heroes));
-      details.appendChild(buildDraftLineup("dire", match.dire_team, match.dire_players, match.dire_heroes));
-    }
-
-    if (expanded && match.status !== "ended" && pendingEnrichmentKeys.has(String(match.match_id || match.match_url || ""))) {
-      const loading = document.createElement("p");
-      loading.className = "lineup-loading";
-      loading.textContent = "Fetching lineup details from DLTV mirror...";
-      details.appendChild(loading);
-    }
-
-    if (expanded && usesMapTabs) {
-      details.appendChild(buildSeriesMapsSection(match, matchKey));
+    if (expanded) {
+      if (match.match_url) {
+        const streamLink = document.createElement("a");
+        streamLink.className = "live-stream-link";
+        streamLink.href = match.match_url;
+        streamLink.target = "_blank";
+        streamLink.rel = "noopener noreferrer";
+        streamLink.textContent = "Watch stream";
+        details.appendChild(streamLink);
+      }
+      if ((match.series_type || 0) > 0 || (match.games || []).length > 0) {
+        details.appendChild(buildSeriesMapsSection(match));
+      }
+      if (match.status === "live") {
+        details.appendChild(buildHeroPicksSection(match));
+      }
     }
 
     card.appendChild(top);
     card.appendChild(teams);
-    if (match.status !== "ended") {
-      card.appendChild(draft);
-    }
     card.appendChild(details);
     board.appendChild(card);
   });
@@ -2203,24 +1136,16 @@ function renderLiveBoard() {
   renderLivePagination(filteredLiveMatches.length, totalPages);
 
   if (liveMatches.length === 0) {
-    if (liveFetchStats) {
-      setLiveStatus(
-        `No valid pro matches right now (raw: ${liveFetchStats.raw}, dropped unnamed/no-league lobbies: `
-        + `${liveFetchStats.dropped_unknown_teams + liveFetchStats.dropped_no_league}).`
-      );
-    } else {
-      setLiveStatus("No live matches available right now.");
-    }
+    setLiveStatus("No live matches available right now.");
     return;
   }
 
   const refreshText = liveRefreshAt ? liveRefreshAt.toLocaleTimeString() : "not yet";
-  const provider = (liveFetchStats && liveFetchStats.provider) ? liveFetchStats.provider : "unknown";
   const shownFrom = filteredLiveMatches.length === 0 ? 0 : startIndex + 1;
   const shownTo = startIndex + pageMatches.length;
   setLiveStatus(
     `Showing ${shownFrom}-${shownTo} of ${filteredLiveMatches.length} filtered match(es) `
-    + `(${liveMatches.length} total). Source: ${provider}. Last refresh: ${refreshText}.`
+    + `(${liveMatches.length} total). Source: PandaScore. Last refresh: ${refreshText}.`
   );
 }
 
@@ -2239,86 +1164,19 @@ async function loadLiveMatches() {
   refreshBtn.textContent = "Loading...";
 
   try {
-    let openDotaNormalized = { matches: [], stats: { provider: "opendota-direct" } };
-    let cyberscoreMatches = [];
-    let dltvMatches = [];
-    let dltvResultsMatches = [];
-    const warnings = [];
-
-    try {
-      const rOpen = await fetch(OPENDOTA_LIVE_URL, { cache: "no-store" });
-      if (!rOpen.ok) {
-        throw new Error(`OpenDota returned ${rOpen.status}`);
-      }
-      openDotaNormalized = normalizeLiveMatches(await rOpen.json());
-      openDotaNormalized.stats.provider = "opendota-direct";
-    } catch (e) {
-      warnings.push(`opendota: ${String(e.message || e)}`);
+    const response = await fetch(`${LIVE_FEED_PROXY_URL}/api/live_matches`, { cache: "no-store" });
+    if (!response.ok) {
+      throw new Error(`proxy returned ${response.status}`);
     }
 
-    try {
-      const rCyber = await fetchMirror(CYBERSCORE_JINA_URL);
-      if (!rCyber.ok) {
-        throw new Error(`cyberscore-jina returned ${rCyber.status}`);
-      }
-      cyberscoreMatches = normalizeCyberscoreJinaMatches(await rCyber.text());
-    } catch (e) {
-      warnings.push(`cyberscore-jina: ${String(e.message || e)}`);
+    const payload = await response.json();
+    if (payload.error) {
+      throw new Error(payload.error);
     }
 
-    try {
-      const rDltv = await fetchMirror(DLTV_JINA_URL);
-      if (!rDltv.ok) {
-        throw new Error(`dltv-jina returned ${rDltv.status}`);
-      }
-      dltvMatches = normalizeDltvJinaMatches(await rDltv.text());
-    } catch (e) {
-      warnings.push(`dltv-jina: ${String(e.message || e)}`);
-    }
-
-    try {
-      const dateUrl = `${DLTV_RESULTS_JINA_BASE_URL}${formatDateYmd()}`;
-      const rDltvResults = await fetchMirror(dateUrl);
-      if (!rDltvResults.ok) {
-        throw new Error(`dltv-results-jina returned ${rDltvResults.status}`);
-      }
-      dltvResultsMatches = normalizeDltvResultsJinaMatches(await rDltvResults.text());
-    } catch (e) {
-      warnings.push(`dltv-results-jina: ${String(e.message || e)}`);
-    }
-
-    const mergedMatches = mergeLiveSources(
-      openDotaNormalized.matches || [],
-      cyberscoreMatches || [],
-      dltvMatches || [],
-      dltvResultsMatches || []
-    );
-    if (mergedMatches.length === 0) {
-      throw new Error(warnings.join(" | ") || "No live providers returned matches");
-    }
-
-    liveMatches = mergedMatches;
-    // A refresh replaces match objects, so expanded cards need their draft data re-applied.
-    liveMatches.forEach((match) => {
-      const matchKey = String(match.match_id);
-      if (!expandedLiveMatchIds.has(matchKey)) {
-        return;
-      }
-      if (match.status !== "ended") {
-        enrichMatchInBackground(match, renderLiveBoard);
-      }
-      ensureSeriesMaps(match, matchKey, renderLiveBoard);
-    });
-    liveFetchStats = {
-      ...(openDotaNormalized.stats || {}),
-      provider: "opendota+cyberscore-jina+dltv-results",
-      opendota_count: (openDotaNormalized.matches || []).length,
-      cyberscore_count: (cyberscoreMatches || []).length,
-      dltv_count: (dltvMatches || []).length,
-      dltv_results_count: (dltvResultsMatches || []).length,
-      merged_count: mergedMatches.length,
-      warnings,
-    };
+    const normalized = normalizeProxyMatches(payload.matches);
+    liveMatches = normalized;
+    liveFetchStats = payload.meta || null;
     liveRefreshAt = new Date();
     liveMatchPage = 1;
     renderLiveBoard();
@@ -2329,7 +1187,7 @@ async function loadLiveMatches() {
     liveMatchPage = 1;
     renderLiveMatchCards([]);
     renderLivePagination(0, 1);
-    setLiveStatus(`Live matches unavailable: ${err.message}`);
+    setLiveStatus(`Live matches unavailable: ${err.message}. Is live_feed_proxy.py running and reachable at ${LIVE_FEED_PROXY_URL}?`);
   } finally {
     refreshBtn.disabled = false;
     refreshBtn.textContent = "Refresh Live Matches";
@@ -2408,6 +1266,20 @@ async function init() {
       }
     } catch (logoErr) {
       teamLogoOverrides = {};
+    }
+
+    // Points the live board at the deployed live_feed_proxy.py service; see
+    // proxy_config.example.json for the format.
+    try {
+      const proxyConfigResponse = await fetch("proxy_config.json", { cache: "no-store" });
+      if (proxyConfigResponse.ok) {
+        const proxyConfig = await proxyConfigResponse.json();
+        if (proxyConfig && typeof proxyConfig.proxy_base_url === "string" && proxyConfig.proxy_base_url.trim()) {
+          LIVE_FEED_PROXY_URL = proxyConfig.proxy_base_url.trim().replace(/\/$/, "");
+        }
+      }
+    } catch (proxyConfigErr) {
+      // Fall back to the default LIVE_FEED_PROXY_URL.
     }
 
     await loadTeamLogoIndex();
