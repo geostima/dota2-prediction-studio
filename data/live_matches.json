@@ -1,74 +1,7 @@
 {
-  "generated_at": 1788025397,
-  "generated_at_iso": "2026-08-29T17:43:17.924389+00:00",
+  "generated_at": 1788033576,
+  "generated_at_iso": "2026-08-29T19:59:44.035554+00:00",
   "matches": [
-    {
-      "match_id": 1655409,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Europe Closed Qualifier season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "HULIGANI",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 138842,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3971,
-      "live_map_number": 3,
-      "start_time": 1788012000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/rlg_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138842
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 136531
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1649551,
       "source": "pandascore",
@@ -82,40 +15,40 @@
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 760,
-      "live_map_number": 2,
+      "dire_score": 1,
+      "live_seconds": 3219,
+      "live_map_number": 3,
       "start_time": 1788019200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Jeezy",
+        "deadinside16yo",
+        "plaki plaki mmr",
+        "punpun",
+        "\u2744\ufe0fUzuki\u2744"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        ":(",
+        "one step ahead",
+        "reckless driver",
+        "true sight",
+        "\u0441\u043f\u043e\u0440\u0442\u0438\u043a"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Bounty Hunter",
+        "Doom",
+        "Dark Seer",
+        "Mirana",
+        "Puck"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Hoodwink",
+        "Windranger",
+        "Sven",
+        "Lycan",
+        "Ember Spirit"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -126,12 +59,12 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 128357
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -139,7 +72,7 @@
     {
       "match_id": 1655410,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Europe Closed Qualifier season 8 2026",
       "league_id": 5319,
       "radiant_team": "Pipsqueak+4",
@@ -149,51 +82,51 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "dire_score": 1,
+      "live_seconds": 3095,
+      "live_map_number": 2,
       "start_time": 1788026400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "99%",
+        "LOVE",
+        "frong",
+        "rin",
+        "\u89e3\u653e~"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "???",
+        "adbadbadbad",
+        "strong",
+        "\u041c\u0435\u0447\u0442\u0430.",
+        "\u2666"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Underlord",
+        "Ember Spirit",
+        "Mirana",
+        "Shadow Fiend",
+        "Undying"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dark Willow",
+        "Pangolier",
+        "Luna",
+        "Dazzle",
+        "Largo"
       ],
       "match_url": "https://www.twitch.tv/rlg_dota2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1948
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -219,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788030000,
+      "start_time": 1788033600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -273,9 +206,9 @@
   ],
   "meta": {
     "running_count": 2,
-    "upcoming_count": 10,
+    "upcoming_count": 9,
     "past_count": 30,
-    "citoapi_calls_this_month": 12,
+    "citoapi_calls_this_month": 15,
     "errors": []
   }
 }
