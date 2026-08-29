@@ -1,158 +1,24 @@
 {
-  "generated_at": 1787943246,
-  "generated_at_iso": "2026-08-28T18:54:08.543382+00:00",
+  "generated_at": 1787968721,
+  "generated_at_iso": "2026-08-29T01:58:41.060470+00:00",
   "matches": [
     {
-      "match_id": 1649545,
+      "match_id": 1656397,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Team Synapse",
-      "dire_team": "FTS",
-      "radiant_team_id": 139124,
-      "dire_team_id": 139079,
+      "status": "upcoming",
+      "league_name": "BLAST Slam - China Closed Qualifier 2026",
+      "league_id": 5319,
+      "radiant_team": "Nexus Gaming",
+      "dire_team": "Crescent",
+      "radiant_team_id": 139150,
+      "dire_team_id": 139151,
       "radiant_logo_url": "",
       "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1230,
-      "live_map_number": 2,
-      "start_time": 1787937000,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Jeezy",
-        "deadinside16yo",
-        "plaki plaki mmr",
-        "punpun",
-        "\u2744\ufe0fUzuki\u2744"
-      ],
-      "dire_players": [
-        "awwwfulloverdosed",
-        "dum dumb and dumber",
-        "extract",
-        "gloss of blood",
-        "mx"
-      ],
-      "radiant_heroes": [
-        "Dark Willow",
-        "Luna",
-        "Underlord",
-        "Hoodwink",
-        "Lina"
-      ],
-      "dire_heroes": [
-        "Lycan",
-        "Techies",
-        "Sven",
-        "Ember Spirit",
-        "Winter Wyvern"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1649549,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "DYNASTY",
-      "dire_team": "PuckChamp",
-      "radiant_team_id": 139123,
-      "dire_team_id": 128357,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1003,
-      "live_map_number": 2,
-      "start_time": 1787939700,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "jessica 2010",
-        "mirele+sematary",
-        "\u043b\u0430\u0434\u043d\u043e.",
-        "\u043e\u0431\u043d\u0443\u043b\u0435\u043d\u0438\u0435 \u0435\u043d\u0436\u043e\u0435\u0440",
-        "\u043e\u0442\u0448\u0435\u043b\u044c\u043d\u0438\u043a"
-      ],
-      "dire_players": [
-        ":(",
-        "kimi",
-        "one step ahead",
-        "reckless driver",
-        "\u0441\u043f\u043e\u0440\u0442\u0438\u043a"
-      ],
-      "radiant_heroes": [
-        "Slardar",
-        "Mirana",
-        "Clockwerk",
-        "Lina",
-        "Centaur Warrunner"
-      ],
-      "dire_heroes": [
-        "Winter Wyvern",
-        "Beastmaster",
-        "Hoodwink",
-        "Lifestealer",
-        "Earth Spirit"
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139123
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1649563,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL Masters - Play-In season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Klim Sani4",
-      "dire_team": "RE.Arise",
-      "radiant_team_id": 133873,
-      "dire_team_id": 138858,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138858/re_arise_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1787947200,
+      "start_time": 1787968800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.twitch.tv/jester_andrew",
       "games": [
         {
           "position": 1,
@@ -204,22 +70,22 @@
       ]
     },
     {
-      "match_id": 1649546,
+      "match_id": 1655417,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "EPL Masters - Play-In season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "FTS",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 139079,
-      "dire_team_id": 2227,
+      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Direborn",
+      "dire_team": "Satan666",
+      "radiant_team_id": 138753,
+      "dire_team_id": 138455,
       "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1787947200,
+      "start_time": 1787968800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -251,7 +117,141 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://www.twitch.tv/rlg_dota2_b",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1656398,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - China Closed Qualifier 2026",
+      "league_id": 5319,
+      "radiant_team": "Cloud Rising",
+      "dire_team": "Novus Gaming",
+      "radiant_team_id": 137428,
+      "dire_team_id": 139152,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1787979600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1655418,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Team 6seven",
+      "radiant_team_id": 136650,
+      "dire_team_id": 139136,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1787979600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/rlg_dota2_b",
       "games": [
         {
           "position": 1,
@@ -272,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 0,
     "upcoming_count": 27,
     "past_count": 30,
     "citoapi_calls_this_month": 6,
