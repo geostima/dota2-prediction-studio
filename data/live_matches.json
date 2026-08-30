@@ -1,7 +1,141 @@
 {
-  "generated_at": 1788042927,
-  "generated_at_iso": "2026-08-29T22:35:27.737623+00:00",
+  "generated_at": 1788050375,
+  "generated_at_iso": "2026-08-30T00:39:35.445258+00:00",
   "matches": [
+    {
+      "match_id": 1655423,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Ice Cream Men",
+      "dire_team": "Execration",
+      "radiant_team_id": 139147,
+      "dire_team_id": 1660,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788055200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1656400,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - China Closed Qualifier 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Resilience",
+      "dire_team": "Crescent",
+      "radiant_team_id": 138494,
+      "dire_team_id": 139151,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788066000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1655421,
       "source": "pandascore",
@@ -18,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788055200,
+      "start_time": 1788066000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -72,7 +206,7 @@
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 8,
+    "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 15,
     "errors": []
