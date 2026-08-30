@@ -1,225 +1,24 @@
 {
-  "generated_at": 1788068975,
-  "generated_at_iso": "2026-08-30T05:49:50.551252+00:00",
+  "generated_at": 1788086625,
+  "generated_at_iso": "2026-08-30T10:43:47.606917+00:00",
   "matches": [
-    {
-      "match_id": 1656401,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - China Closed Qualifier 2026",
-      "league_id": 5319,
-      "radiant_team": "Cloud Rising",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 137428,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2922,
-      "live_map_number": 1,
-      "start_time": 1788066000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_dota_ru3",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1655421,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Direborn",
-      "dire_team": "Team Nemesis",
-      "radiant_team_id": 138753,
-      "dire_team_id": 136650,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788069600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/rlg_dota2_b",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1656400,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - China Closed Qualifier 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Crescent",
-      "radiant_team_id": 138494,
-      "dire_team_id": 139151,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788075000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1655428,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 8 2026",
       "league_id": 5319,
-      "radiant_team": "Execration",
-      "dire_team": "TBD",
-      "radiant_team_id": 1660,
-      "dire_team_id": null,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": null,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788076800,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Execration",
+      "radiant_team_id": 136650,
+      "dire_team_id": 1660,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 2319,
+      "live_map_number": 2,
+      "start_time": 1788079200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -255,146 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136650
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1655412,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Europe Closed Qualifier season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Lynx",
-      "dire_team": "Level UP",
-      "radiant_team_id": 136531,
-      "dire_team_id": 1948,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788076800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/rlg_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1659378,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Inner Circle x Insanity",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 137417,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788080400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -407,20 +72,154 @@
     {
       "match_id": 1656402,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - China Closed Qualifier 2026",
       "league_id": 5319,
-      "radiant_team": "TBD",
-      "dire_team": "TBD",
-      "radiant_team_id": null,
-      "dire_team_id": null,
-      "radiant_logo_url": "",
+      "radiant_team": "Team Resilience",
+      "dire_team": "Yakult Brothers",
+      "radiant_team_id": 138494,
+      "dire_team_id": 135697,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 1545,
+      "live_map_number": 3,
+      "start_time": 1788078600,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "Gao[o]ne-",
+        "K",
+        "Nikaido^HirO",
+        "Try it now",
+        "wa"
+      ],
+      "dire_players": [
+        "TOTO",
+        "present",
+        "\u7070\u8272\u8f68\u8ff9",
+        "\u8ffd\u7375\u8005",
+        "\u9999\u83dc\u7c89\u4e1d"
+      ],
+      "radiant_heroes": [
+        "Bane",
+        "Keeper of the Light",
+        "Pangolier",
+        "Tiny",
+        "Doom"
+      ],
+      "dire_heroes": [
+        "Hoodwink",
+        "Windranger",
+        "Lycan",
+        "Puck",
+        "Lion"
+      ],
+      "match_url": "https://www.twitch.tv/betboom_dota_ru3",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 135697
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 138494
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1655412,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Europe Closed Qualifier season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Lynx",
+      "dire_team": "Level UP",
+      "radiant_team_id": 136531,
+      "dire_team_id": 1948,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 383,
+      "live_map_number": 3,
+      "start_time": 1788076800,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "astpowered",
+        "big jungle",
+        "dota maniac",
+        "kreker is my idol",
+        "\u043a\u0440\u0435\u043a\u0435\u0440"
+      ],
+      "dire_players": [
+        "???",
+        "adbadbadbad",
+        "strong",
+        "\u041c\u0435\u0447\u0442\u0430.",
+        "\u2666"
+      ],
+      "radiant_heroes": [
+        "Shadow Fiend",
+        "Tidehunter",
+        "Earth Spirit",
+        "Dark Willow",
+        "Clockwerk"
+      ],
+      "dire_heroes": [
+        "Ring Master",
+        "Ember Spirit",
+        "Luna",
+        "Mirana",
+        "Slardar"
+      ],
+      "match_url": "https://www.twitch.tv/rlg_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1948
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 136531
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1659378,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Inner Circle x Insanity",
+      "dire_team": "Team Synapse",
+      "radiant_team_id": 137417,
+      "dire_team_id": 139124,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "dire_logo_url": "",
-      "radiant_score": null,
-      "dire_score": null,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788087600,
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 203,
+      "live_map_number": 2,
+      "start_time": 1788081300,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -452,16 +251,16 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139124
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -537,15 +336,147 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1659379,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Team Lynx",
+      "dire_team": "RE.Arise",
+      "radiant_team_id": 136531,
+      "dire_team_id": 138858,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138858/re_arise_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788091200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1659380,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Level UP",
+      "dire_team": "Power Rangers",
+      "radiant_team_id": 1948,
+      "dire_team_id": 137870,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788102000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 50,
+    "running_count": 4,
+    "upcoming_count": 44,
     "past_count": 30,
-    "citoapi_calls_this_month": 15,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "citoapi_calls_this_month": 18,
+    "errors": []
   }
 }
