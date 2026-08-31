@@ -1,24 +1,91 @@
 {
-  "generated_at": 1788162142,
-  "generated_at_iso": "2026-08-31T07:42:22.629165+00:00",
+  "generated_at": 1788190273,
+  "generated_at_iso": "2026-08-31T15:31:14.919010+00:00",
   "matches": [
     {
-      "match_id": 1659394,
+      "match_id": 1659395,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Team Synapse",
+      "dire_team": "Team Lynx",
+      "radiant_team_id": 139124,
+      "dire_team_id": 136531,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2536,
+      "live_map_number": 3,
+      "start_time": 1788178200,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "Jeezy",
+        "deadinside16yo",
+        "plaki plaki mmr",
+        "punpun",
+        "\u2744\ufe0fUzuki\u2744"
+      ],
+      "dire_players": [
+        "astpowered",
+        "big jungle",
+        "dota maniac",
+        "kreker is my idol",
+        "\u043a\u0440\u0435\u043a\u0435\u0440"
+      ],
+      "radiant_heroes": [
+        "Keeper of the Light",
+        "Sven",
+        "Beastmaster",
+        "Mirana",
+        "Puck"
+      ],
+      "dire_heroes": [
+        "Clinkz",
+        "Dark Seer",
+        "Ember Spirit",
+        "Spirit Breaker",
+        "Hoodwink"
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 136531
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139124
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1659396,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
-      "radiant_team": "PuckChamp",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 128357,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_team": "4ikibamboni",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 138761,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788166800,
+      "start_time": 1788192000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -70,22 +137,22 @@
       ]
     },
     {
-      "match_id": 1659395,
+      "match_id": 1659397,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 139124,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "radiant_team": "Spirit Academy",
+      "dire_team": "Pipsqueak+4",
+      "radiant_team_id": 137540,
+      "dire_team_id": 137354,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788177600,
+      "start_time": 1788199200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -138,10 +205,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 40,
+    "running_count": 1,
+    "upcoming_count": 38,
     "past_count": 30,
-    "citoapi_calls_this_month": 21,
+    "citoapi_calls_this_month": 23,
     "errors": []
   }
 }
