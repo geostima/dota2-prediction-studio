@@ -1,11 +1,11 @@
 {
-  "generated_at": 1788275105,
-  "generated_at_iso": "2026-09-01T15:05:05.777832+00:00",
+  "generated_at": 1788287156,
+  "generated_at_iso": "2026-09-01T18:25:57.056166+00:00",
   "matches": [
     {
       "match_id": 1659400,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "Team Synapse",
@@ -14,57 +14,57 @@
       "dire_team_id": 1948,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 3124,
+      "live_map_number": 3,
       "start_time": 1788275700,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Jeezy",
+        "deadinside16yo",
+        "plaki plaki mmr",
+        "punpun",
+        "\u2744\ufe0fUzuki\u2744"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "???",
+        "adbadbadbad",
+        "strong",
+        "\u041c\u0435\u0447\u0442\u0430.",
+        "\u2666"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Pugna",
+        "Luna",
+        "Doom",
+        "Clockwerk",
+        "Invoker"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dark Willow",
+        "Pangolier",
+        "Alchemist",
+        "Winter Wyvern",
+        "Enigma"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1948
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139124
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788285600,
+      "start_time": 1788288000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -138,10 +138,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 2,
+    "citoapi_calls_this_month": 4,
     "errors": []
   }
 }
