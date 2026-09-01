@@ -1,74 +1,7 @@
 {
-  "generated_at": 1788297164,
-  "generated_at_iso": "2026-09-01T21:12:44.508434+00:00",
+  "generated_at": 1788304887,
+  "generated_at_iso": "2026-09-01T23:21:27.465960+00:00",
   "matches": [
-    {
-      "match_id": 1659401,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "Spirit Academy",
-      "radiant_team_id": 135854,
-      "dire_team_id": 137540,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 1204,
-      "live_map_number": 3,
-      "start_time": 1788289200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137540
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1665205,
       "source": "pandascore",
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 4,
