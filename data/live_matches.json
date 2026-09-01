@@ -1,80 +1,12 @@
 {
-  "generated_at": 1788210228,
-  "generated_at_iso": "2026-08-31T21:03:49.817322+00:00",
-  "matches": [
-    {
-      "match_id": 1659397,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Spirit Academy",
-      "dire_team": "Pipsqueak+4",
-      "radiant_team_id": 137540,
-      "dire_team_id": 137354,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3157,
-      "live_map_number": 1,
-      "start_time": 1788207000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1788222887,
+  "generated_at_iso": "2026-09-01T00:34:47.429639+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 36,
     "past_count": 30,
-    "citoapi_calls_this_month": 25,
+    "citoapi_calls_this_month": 0,
     "errors": []
   }
 }
