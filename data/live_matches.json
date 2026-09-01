@@ -1,78 +1,11 @@
 {
-  "generated_at": 1788287156,
-  "generated_at_iso": "2026-09-01T18:25:57.056166+00:00",
+  "generated_at": 1788297164,
+  "generated_at_iso": "2026-09-01T21:12:44.508434+00:00",
   "matches": [
-    {
-      "match_id": 1659400,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Level UP",
-      "radiant_team_id": 139124,
-      "dire_team_id": 1948,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3124,
-      "live_map_number": 3,
-      "start_time": 1788275700,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Jeezy",
-        "deadinside16yo",
-        "plaki plaki mmr",
-        "punpun",
-        "\u2744\ufe0fUzuki\u2744"
-      ],
-      "dire_players": [
-        "???",
-        "adbadbadbad",
-        "strong",
-        "\u041c\u0435\u0447\u0442\u0430.",
-        "\u2666"
-      ],
-      "radiant_heroes": [
-        "Pugna",
-        "Luna",
-        "Doom",
-        "Clockwerk",
-        "Invoker"
-      ],
-      "dire_heroes": [
-        "Dark Willow",
-        "Pangolier",
-        "Alchemist",
-        "Winter Wyvern",
-        "Enigma"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1948
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659401,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "Zero Tenacity",
@@ -81,11 +14,11 @@
       "dire_team_id": 137540,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788288000,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 1204,
+      "live_map_number": 3,
+      "start_time": 1788289200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -118,6 +51,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137540
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 135854
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1665205,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Kinetix",
+      "dire_team": "Team Nemesis",
+      "radiant_team_id": 139148,
+      "dire_team_id": 136650,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788318000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
