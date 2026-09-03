@@ -1,6 +1,6 @@
 {
-  "generated_at": 1788390861,
-  "generated_at_iso": "2026-09-02T23:14:21.367407+00:00",
+  "generated_at": 1788397773,
+  "generated_at_iso": "2026-09-03T01:09:33.258681+00:00",
   "matches": [
     {
       "match_id": 1665207,
@@ -19,6 +19,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1788404400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1665208,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Yangon Galacticos",
+      "radiant_team_id": 136650,
+      "dire_team_id": 128080,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788415200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
