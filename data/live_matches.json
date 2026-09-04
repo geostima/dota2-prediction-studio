@@ -1,74 +1,7 @@
 {
-  "generated_at": 1788530370,
-  "generated_at_iso": "2026-09-04T13:59:30.157864+00:00",
+  "generated_at": 1788543141,
+  "generated_at_iso": "2026-09-04T17:32:21.334481+00:00",
   "matches": [
-    {
-      "match_id": 1659904,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Power Rangers",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 137870,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788534000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659905,
       "source": "pandascore",
@@ -139,7 +72,7 @@
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 49,
+    "upcoming_count": 48,
     "past_count": 30,
     "citoapi_calls_this_month": 14,
     "errors": []
