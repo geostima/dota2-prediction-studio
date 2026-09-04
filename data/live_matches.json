@@ -1,24 +1,24 @@
 {
-  "generated_at": 1788483397,
-  "generated_at_iso": "2026-09-04T00:56:37.509822+00:00",
+  "generated_at": 1788500148,
+  "generated_at_iso": "2026-09-04T05:35:48.793260+00:00",
   "matches": [
     {
-      "match_id": 1665223,
+      "match_id": 1665211,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL World Series - Southeast Asia season 17 2026",
       "league_id": 4884,
-      "radiant_team": "D family",
-      "dire_team": "\u042f\u0427\u0401123",
-      "radiant_team_id": 138655,
-      "dire_team_id": 137547,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Direborn",
+      "radiant_team_id": 136650,
+      "dire_team_id": 138753,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788490800,
+      "start_time": 1788501600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -70,22 +70,22 @@
       ]
     },
     {
-      "match_id": 1665211,
+      "match_id": 1665212,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL World Series - Southeast Asia season 17 2026",
       "league_id": 4884,
-      "radiant_team": "Team Nemesis",
-      "dire_team": "Direborn",
-      "radiant_team_id": 136650,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "radiant_team": "\u042f\u0427\u0401123",
+      "dire_team": "Yangon Galacticos",
+      "radiant_team_id": 137547,
+      "dire_team_id": 128080,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788501600,
+      "start_time": 1788512400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -118,6 +118,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1659902,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Zero Tenacity",
+      "dire_team": "Pipsqueak+4",
+      "radiant_team_id": 135854,
+      "dire_team_id": 137354,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788512400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
