@@ -1,6 +1,6 @@
 {
-  "generated_at": 1788632497,
-  "generated_at_iso": "2026-09-05T18:21:38.642476+00:00",
+  "generated_at": 1788640463,
+  "generated_at_iso": "2026-09-05T20:34:23.568954+00:00",
   "matches": [
     {
       "match_id": 1659913,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 888,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 3739,
+      "live_map_number": 2,
       "start_time": 1788631800,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137540
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
