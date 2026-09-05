@@ -1,11 +1,11 @@
 {
-  "generated_at": 1788624839,
-  "generated_at_iso": "2026-09-05T16:13:59.670656+00:00",
+  "generated_at": 1788632497,
+  "generated_at_iso": "2026-09-05T18:21:38.642476+00:00",
   "matches": [
     {
       "match_id": 1659913,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "DYNASTY",
@@ -16,9 +16,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788631200,
+      "live_seconds": 888,
+      "live_map_number": 1,
+      "start_time": 1788631800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -71,10 +71,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 42,
+    "running_count": 1,
+    "upcoming_count": 41,
     "past_count": 30,
-    "citoapi_calls_this_month": 18,
+    "citoapi_calls_this_month": 20,
     "errors": []
   }
 }
