@@ -1,24 +1,24 @@
 {
-  "generated_at": 1788571623,
-  "generated_at_iso": "2026-09-05T01:27:03.723900+00:00",
+  "generated_at": 1788588582,
+  "generated_at_iso": "2026-09-05T06:09:42.176865+00:00",
   "matches": [
     {
-      "match_id": 1665213,
+      "match_id": 1665228,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL World Series - Southeast Asia season 17 2026",
       "league_id": 4884,
-      "radiant_team": "Team Kinetix",
-      "dire_team": "\u042f\u0427\u0401123",
-      "radiant_team_id": 139148,
-      "dire_team_id": 137547,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Carstensz",
+      "radiant_team_id": 136650,
+      "dire_team_id": 132981,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/132981/285px_carstensz_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788577200,
+      "start_time": 1788588600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -70,22 +70,22 @@
       ]
     },
     {
-      "match_id": 1665228,
+      "match_id": 1665215,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL World Series - Southeast Asia season 17 2026",
       "league_id": 4884,
-      "radiant_team": "Team Nemesis",
-      "dire_team": "Carstensz",
-      "radiant_team_id": 136650,
-      "dire_team_id": 132981,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/132981/285px_carstensz_allmode.png",
+      "radiant_team": "Direborn",
+      "dire_team": "Yangon Galacticos",
+      "radiant_team_id": 138753,
+      "dire_team_id": 128080,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788588000,
+      "start_time": 1788598800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -135,11 +135,145 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1659906,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Team Lynx",
+      "dire_team": "Power Rangers",
+      "radiant_team_id": 136531,
+      "dire_team_id": 137870,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788598800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1659907,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Pipsqueak+4",
+      "dire_team": "PuckChamp",
+      "radiant_team_id": 137354,
+      "dire_team_id": 128357,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788609600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 47,
+    "upcoming_count": 46,
     "past_count": 30,
     "citoapi_calls_this_month": 16,
     "errors": []
