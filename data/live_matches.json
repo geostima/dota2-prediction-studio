@@ -1,74 +1,7 @@
 {
-  "generated_at": 1788615101,
-  "generated_at_iso": "2026-09-05T13:31:41.444421+00:00",
+  "generated_at": 1788624839,
+  "generated_at_iso": "2026-09-05T16:13:59.670656+00:00",
   "matches": [
-    {
-      "match_id": 1659907,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Pipsqueak+4",
-      "dire_team": "PuckChamp",
-      "radiant_team_id": 137354,
-      "dire_team_id": 128357,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 220,
-      "live_map_number": 2,
-      "start_time": 1788609600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137354
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659913,
       "source": "pandascore",
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 42,
     "past_count": 30,
     "citoapi_calls_this_month": 18,
