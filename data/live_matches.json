@@ -1,65 +1,65 @@
 {
-  "generated_at": 1788723008,
-  "generated_at_iso": "2026-09-06T19:30:10.465623+00:00",
+  "generated_at": 1788730687,
+  "generated_at_iso": "2026-09-06T21:38:07.589646+00:00",
   "matches": [
     {
-      "match_id": 1659786,
+      "match_id": 1665219,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Level UP",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 1948,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 1,
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Direborn",
+      "dire_team": "Team Kinetix",
+      "radiant_team_id": 138753,
+      "dire_team_id": 139148,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1570,
-      "live_map_number": 2,
-      "start_time": 1788717600,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788750000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "???",
-        "adbadbadbad",
-        "strong",
-        "\u041c\u0435\u0447\u0442\u0430.",
-        "\u2666"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "1nonly",
-        "big jungle",
-        "dota maniac",
-        "kreker is my idol",
-        "\u043a\u0440\u0435\u043a\u0435\u0440"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Dark Willow",
-        "Ember Spirit",
-        "Luna",
-        "Winter Wyvern",
-        "Lycan"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Io",
-        "Underlord",
-        "Batrider",
-        "Windranger",
-        "Clockwerk"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 1948
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -71,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 34,
     "past_count": 30,
     "citoapi_calls_this_month": 22,
