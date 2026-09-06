@@ -1,74 +1,7 @@
 {
-  "generated_at": 1788708289,
-  "generated_at_iso": "2026-09-06T15:25:04.511599+00:00",
+  "generated_at": 1788716312,
+  "generated_at_iso": "2026-09-06T17:38:32.144320+00:00",
   "matches": [
-    {
-      "match_id": 1659908,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Level UP",
-      "dire_team": "4ikibamboni",
-      "radiant_team_id": 1948,
-      "dire_team_id": 138761,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1275,
-      "live_map_number": 1,
-      "start_time": 1788706800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659786,
       "source": "pandascore",
@@ -138,12 +71,10 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 35,
     "past_count": 30,
     "citoapi_calls_this_month": 20,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "errors": []
   }
 }
