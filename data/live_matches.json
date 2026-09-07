@@ -1,78 +1,11 @@
 {
-  "generated_at": 1788783695,
-  "generated_at_iso": "2026-09-07T12:21:37.180333+00:00",
+  "generated_at": 1788803373,
+  "generated_at_iso": "2026-09-07T17:49:35.805916+00:00",
   "matches": [
-    {
-      "match_id": 1659335,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "HULIGANI",
-      "dire_team": "Klim Sani4",
-      "radiant_team_id": 138842,
-      "dire_team_id": 133873,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1068,
-      "live_map_number": 1,
-      "start_time": 1788782400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659336,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "MOUZ",
@@ -81,53 +14,53 @@
       "dire_team_id": 139124,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
+      "radiant_score": 1,
+      "dire_score": 1,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788793200,
+      "start_time": 1788793800,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "No!ob\u2122",
+        "humble god",
+        "nem\u00e1\u0161 za\u010d",
+        "the darkest times in matchmaking",
+        "whatthefvkhaveyoudonelately"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Jeezy",
+        "deadinside16yo",
+        "punpun",
+        "tv\u00e5k\u00e5",
+        "\u2744\ufe0fUzuki\u2744"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Lina",
+        "Bounty Hunter",
+        "Timbersaw",
+        "Lifestealer",
+        "Disruptor"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Ring Master",
+        "Terrorblade",
+        "Centaur Warrunner",
+        "Treant Protector",
+        "Batrider"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139124
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 134559
         },
         {
           "position": 3,
@@ -152,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788804000,
+      "start_time": 1788807600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -206,9 +139,9 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 29,
+    "upcoming_count": 28,
     "past_count": 30,
-    "citoapi_calls_this_month": 24,
+    "citoapi_calls_this_month": 26,
     "errors": []
   }
 }
