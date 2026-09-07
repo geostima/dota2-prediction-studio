@@ -1,24 +1,24 @@
 {
-  "generated_at": 1788814111,
-  "generated_at_iso": "2026-09-07T20:48:31.940413+00:00",
+  "generated_at": 1788822125,
+  "generated_at_iso": "2026-09-07T23:02:05.848715+00:00",
   "matches": [
     {
-      "match_id": 1659337,
+      "match_id": 1665210,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "GamerLegion",
-      "dire_team": "Pipsqueak+4",
-      "radiant_team_id": 137588,
-      "dire_team_id": 137354,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/900px_gamer_legion_cs_2023_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
-      "radiant_score": 1,
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "D family",
+      "dire_team": "InterActive Philippines",
+      "radiant_team_id": 138655,
+      "dire_team_id": 129891,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 533,
-      "live_map_number": 2,
-      "start_time": 1788808800,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788836400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,16 +50,16 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 137588
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -71,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 27,
     "past_count": 30,
     "citoapi_calls_this_month": 26,
