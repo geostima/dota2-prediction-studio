@@ -1,78 +1,11 @@
 {
-  "generated_at": 1788803373,
-  "generated_at_iso": "2026-09-07T17:49:35.805916+00:00",
+  "generated_at": 1788814111,
+  "generated_at_iso": "2026-09-07T20:48:31.940413+00:00",
   "matches": [
-    {
-      "match_id": 1659336,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "MOUZ",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 134559,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788793800,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "No!ob\u2122",
-        "humble god",
-        "nem\u00e1\u0161 za\u010d",
-        "the darkest times in matchmaking",
-        "whatthefvkhaveyoudonelately"
-      ],
-      "dire_players": [
-        "Jeezy",
-        "deadinside16yo",
-        "punpun",
-        "tv\u00e5k\u00e5",
-        "\u2744\ufe0fUzuki\u2744"
-      ],
-      "radiant_heroes": [
-        "Lina",
-        "Bounty Hunter",
-        "Timbersaw",
-        "Lifestealer",
-        "Disruptor"
-      ],
-      "dire_heroes": [
-        "Ring Master",
-        "Terrorblade",
-        "Centaur Warrunner",
-        "Treant Protector",
-        "Batrider"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 134559
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659337,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "GamerLegion",
@@ -81,11 +14,11 @@
       "dire_team_id": 137354,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/900px_gamer_legion_cs_2023_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788807600,
+      "live_seconds": 533,
+      "live_map_number": 2,
+      "start_time": 1788808800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137588
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -139,7 +72,7 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 28,
+    "upcoming_count": 27,
     "past_count": 30,
     "citoapi_calls_this_month": 26,
     "errors": []
