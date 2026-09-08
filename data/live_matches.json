@@ -1,6 +1,6 @@
 {
-  "generated_at": 1788822125,
-  "generated_at_iso": "2026-09-07T23:02:05.848715+00:00",
+  "generated_at": 1788829719,
+  "generated_at_iso": "2026-09-08T01:08:39.674151+00:00",
   "matches": [
     {
       "match_id": 1665210,
@@ -19,6 +19,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1788836400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1665225,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Carstensz",
+      "dire_team": "Direborn",
+      "radiant_team_id": 132981,
+      "dire_team_id": 138753,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/132981/285px_carstensz_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788847200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
