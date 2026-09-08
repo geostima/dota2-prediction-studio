@@ -1,78 +1,11 @@
 {
-  "generated_at": 1788878828,
-  "generated_at_iso": "2026-09-08T14:47:11.102747+00:00",
+  "generated_at": 1788890880,
+  "generated_at_iso": "2026-09-08T18:08:00.074160+00:00",
   "matches": [
-    {
-      "match_id": 1659351,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Pipsqueak+4",
-      "radiant_team_id": 139124,
-      "dire_team_id": 137354,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3260,
-      "live_map_number": 2,
-      "start_time": 1788871200,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Jeezy",
-        "deadinside16yo",
-        "punpun",
-        "tv\u00e5k\u00e5",
-        "\u2744\ufe0fUzuki\u2744"
-      ],
-      "dire_players": [
-        "99%",
-        "LOVE",
-        "frong",
-        "rin",
-        "\u707d\u798d~"
-      ],
-      "radiant_heroes": [
-        "Mirana",
-        "Shadow Fiend",
-        "Necrophos",
-        "Bane",
-        "Puck"
-      ],
-      "dire_heroes": [
-        "Undying",
-        "Slardar",
-        "Keeper of the Light",
-        "Kez",
-        "Hoodwink"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137354
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659338,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "Natus Vincere",
@@ -81,11 +14,11 @@
       "dire_team_id": 133873,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788879600,
+      "live_seconds": 298,
+      "live_map_number": 2,
+      "start_time": 1788885600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1699
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -152,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1788890400,
+      "start_time": 1788895800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -206,7 +139,7 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 22,
+    "upcoming_count": 21,
     "past_count": 30,
     "citoapi_calls_this_month": 31,
     "errors": []
