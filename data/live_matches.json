@@ -1,78 +1,11 @@
 {
-  "generated_at": 1788890880,
-  "generated_at_iso": "2026-09-08T18:08:00.074160+00:00",
+  "generated_at": 1788901602,
+  "generated_at_iso": "2026-09-08T21:06:44.679722+00:00",
   "matches": [
-    {
-      "match_id": 1659338,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Natus Vincere",
-      "dire_team": "Klim Sani4",
-      "radiant_team_id": 1699,
-      "dire_team_id": 133873,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 298,
-      "live_map_number": 2,
-      "start_time": 1788885600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1699
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659339,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "MOUZ",
@@ -83,9 +16,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/900px_gamer_legion_cs_2023_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788895800,
+      "live_seconds": 1779,
+      "live_map_number": 1,
+      "start_time": 1788900300,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -139,9 +72,9 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 21,
+    "upcoming_count": 20,
     "past_count": 30,
-    "citoapi_calls_this_month": 31,
+    "citoapi_calls_this_month": 33,
     "errors": []
   }
 }
