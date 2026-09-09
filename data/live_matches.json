@@ -1,74 +1,7 @@
 {
-  "generated_at": 1788934848,
-  "generated_at_iso": "2026-09-09T06:20:48.237202+00:00",
+  "generated_at": 1788954068,
+  "generated_at_iso": "2026-09-09T11:41:08.457381+00:00",
   "matches": [
-    {
-      "match_id": 1659341,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Natus Vincere",
-      "dire_team": "GamerLegion",
-      "radiant_team_id": 1699,
-      "dire_team_id": 137588,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/900px_gamer_legion_cs_2023_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788948000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659348,
       "source": "pandascore",
@@ -135,11 +68,78 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1659349,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Klim Sani4",
+      "dire_team": "Team Synapse",
+      "radiant_team_id": 133873,
+      "dire_team_id": 139124,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788966000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 20,
+    "upcoming_count": 39,
     "past_count": 30,
     "citoapi_calls_this_month": 33,
     "errors": []
