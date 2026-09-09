@@ -1,91 +1,24 @@
 {
-  "generated_at": 1788979408,
-  "generated_at_iso": "2026-09-09T18:43:28.374632+00:00",
+  "generated_at": 1788988518,
+  "generated_at_iso": "2026-09-09T21:15:19.597226+00:00",
   "matches": [
     {
-      "match_id": 1659349,
+      "match_id": 1659345,
       "source": "pandascore",
       "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
-      "radiant_team": "Klim Sani4",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 133873,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 683,
-      "live_map_number": 2,
-      "start_time": 1788971400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1659345,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
       "radiant_team": "MOUZ",
-      "dire_team": "TBD",
+      "dire_team": "Klim Sani4",
       "radiant_team_id": 134559,
-      "dire_team_id": null,
+      "dire_team_id": 133873,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1788980400,
+      "dire_score": 0,
+      "live_seconds": 894,
+      "live_map_number": 1,
+      "start_time": 1788987600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -139,9 +72,9 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 37,
+    "upcoming_count": 36,
     "past_count": 30,
-    "citoapi_calls_this_month": 35,
+    "citoapi_calls_this_month": 36,
     "errors": []
   }
 }
