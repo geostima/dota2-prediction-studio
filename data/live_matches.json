@@ -1,11 +1,11 @@
 {
-  "generated_at": 1788954068,
-  "generated_at_iso": "2026-09-09T11:41:08.457381+00:00",
+  "generated_at": 1788967200,
+  "generated_at_iso": "2026-09-09T15:20:03.643998+00:00",
   "matches": [
     {
       "match_id": 1659348,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "MOUZ",
@@ -14,57 +14,57 @@
       "dire_team_id": 138842,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 5158,
+      "live_map_number": 3,
       "start_time": 1788955200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "^",
+        "humble god",
+        "nem\u00e1\u0161 za\u010d",
+        "the darkest times in matchmaking",
+        "whatthefvkhaveyoudonelately"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "I cum blood",
+        "M",
+        "Trident.Munkushi~",
+        "humblegod",
+        "supervillian"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Puck",
+        "Bounty Hunter",
+        "Largo",
+        "Drow Ranger",
+        "Mirana"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Techies",
+        "Pangolier",
+        "Slardar",
+        "Spirit Breaker",
+        "Lifestealer"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138842
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 134559
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -135,13 +135,80 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1659345,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "TBD",
+      "dire_team": "TBD",
+      "radiant_team_id": null,
+      "dire_team_id": null,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": null,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788976800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 39,
+    "running_count": 1,
+    "upcoming_count": 38,
     "past_count": 30,
-    "citoapi_calls_this_month": 33,
+    "citoapi_calls_this_month": 35,
     "errors": []
   }
 }
