@@ -1,6 +1,6 @@
 {
-  "generated_at": 1788988518,
-  "generated_at_iso": "2026-09-09T21:15:19.597226+00:00",
+  "generated_at": 1788995972,
+  "generated_at_iso": "2026-09-09T23:19:32.599880+00:00",
   "matches": [
     {
       "match_id": 1659345,
@@ -14,10 +14,10 @@
       "dire_team_id": 133873,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 894,
-      "live_map_number": 1,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1788987600,
       "series_type": 1,
       "known_picks": 0,
@@ -54,13 +54,13 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 133873
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 134559
         },
         {
           "position": 3,
