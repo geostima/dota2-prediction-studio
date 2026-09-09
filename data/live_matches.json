@@ -1,7 +1,142 @@
 {
-  "generated_at": 1788916892,
-  "generated_at_iso": "2026-09-09T01:21:32.925543+00:00",
-  "matches": [],
+  "generated_at": 1788934848,
+  "generated_at_iso": "2026-09-09T06:20:48.237202+00:00",
+  "matches": [
+    {
+      "match_id": 1659341,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "Natus Vincere",
+      "dire_team": "GamerLegion",
+      "radiant_team_id": 1699,
+      "dire_team_id": 137588,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/900px_gamer_legion_cs_2023_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788948000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1659348,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 2 2026",
+      "league_id": 5544,
+      "radiant_team": "MOUZ",
+      "dire_team": "HULIGANI",
+      "radiant_team_id": 134559,
+      "dire_team_id": 138842,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1788955200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 20,
