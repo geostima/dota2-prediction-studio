@@ -1,78 +1,11 @@
 {
-  "generated_at": 1789038702,
-  "generated_at_iso": "2026-09-10T11:11:42.781412+00:00",
+  "generated_at": 1789052461,
+  "generated_at_iso": "2026-09-10T15:01:14.481654+00:00",
   "matches": [
-    {
-      "match_id": 1680158,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Recrent Club",
-      "dire_team": "Daxak Club",
-      "radiant_team_id": 139232,
-      "dire_team_id": 138719,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139232/recrent_club.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138719/554px_daxak_club_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789041600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1659344,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 2 2026",
       "league_id": 5544,
       "radiant_team": "GamerLegion",
@@ -82,51 +15,51 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "dire_score": 1,
+      "live_seconds": 4034,
+      "live_map_number": 2,
       "start_time": 1789041600,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "))",
+        "Speeed",
+        "ak b",
+        "discovery subscription",
+        "firestarter"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Rein",
+        "deadmm",
+        "jorj",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u012b"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Earth Spirit",
+        "Mirana",
+        "Largo",
+        "Dark Willow",
+        "Windranger"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Witch Doctor",
+        "Storm Spirit",
+        "Keeper of the Light",
+        "Centaur Warrunner",
+        "Kez"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 133873
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -137,22 +70,22 @@
       ]
     },
     {
-      "match_id": 1680132,
+      "match_id": 1680158,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Winline Star Series - Season 4 2026",
       "league_id": 5490,
-      "radiant_team": "Rostikfacekid Club",
-      "dire_team": "YBN Club",
-      "radiant_team_id": 138721,
-      "dire_team_id": 139234,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
+      "radiant_team": "Recrent Club",
+      "dire_team": "Daxak Club",
+      "radiant_team_id": 139232,
+      "dire_team_id": 138719,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139232/recrent_club.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138719/554px_daxak_club_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789052400,
+      "dire_score": 1,
+      "live_seconds": 3767,
+      "live_map_number": 2,
+      "start_time": 1789042500,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,16 +117,16 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/y0nd",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138719
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -279,13 +212,147 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1680132,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Rostikfacekid Club",
+      "dire_team": "YBN Club",
+      "radiant_team_id": 138721,
+      "dire_team_id": 139234,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789054200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1680164,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "NS Club",
+      "dire_team": "VooDooSh Club",
+      "radiant_team_id": 138725,
+      "dire_team_id": 138723,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138725/554px_ns_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789063200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 42,
+    "running_count": 2,
+    "upcoming_count": 40,
     "past_count": 30,
-    "citoapi_calls_this_month": 36,
+    "citoapi_calls_this_month": 38,
     "errors": []
   }
 }
