@@ -1,168 +1,24 @@
 {
-  "generated_at": 1789064550,
-  "generated_at_iso": "2026-09-10T18:22:30.355965+00:00",
+  "generated_at": 1789074192,
+  "generated_at_iso": "2026-09-10T21:03:12.151481+00:00",
   "matches": [
     {
-      "match_id": 1680132,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Rostikfacekid Club",
-      "dire_team": "YBN Club",
-      "radiant_team_id": 138721,
-      "dire_team_id": 139234,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2703,
-      "live_map_number": 2,
-      "start_time": 1789057800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/blindzonexgod",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138721
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1659342,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 2 2026",
-      "league_id": 5544,
-      "radiant_team": "Natus Vincere",
-      "dire_team": "Klim Sani4",
-      "radiant_team_id": 1699,
-      "dire_team_id": 133873,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "radiant_score": 2,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789056000,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1699
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1699
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1680164,
+      "match_id": 1665214,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "NS Club",
-      "dire_team": "VooDooSh Club",
-      "radiant_team_id": 138725,
-      "dire_team_id": 138723,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138725/554px_ns_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "InterActive Philippines",
+      "radiant_team_id": 136650,
+      "dire_team_id": 129891,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789066800,
+      "start_time": 1789095600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -194,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
@@ -215,8 +71,8 @@
     }
   ],
   "meta": {
-    "running_count": 2,
-    "upcoming_count": 38,
+    "running_count": 0,
+    "upcoming_count": 37,
     "past_count": 30,
     "citoapi_calls_this_month": 38,
     "errors": []
