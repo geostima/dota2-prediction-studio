@@ -1,6 +1,6 @@
 {
-  "generated_at": 1789081604,
-  "generated_at_iso": "2026-09-10T23:06:44.826017+00:00",
+  "generated_at": 1789088482,
+  "generated_at_iso": "2026-09-11T01:01:22.738196+00:00",
   "matches": [
     {
       "match_id": 1665214,
@@ -19,6 +19,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1789095600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1665215,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Direborn",
+      "dire_team": "Yangon Galacticos",
+      "radiant_team_id": 138753,
+      "dire_team_id": 128080,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789106400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
