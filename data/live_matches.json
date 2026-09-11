@@ -1,78 +1,11 @@
 {
-  "generated_at": 1789137368,
-  "generated_at_iso": "2026-09-11T14:36:11.171770+00:00",
+  "generated_at": 1789149200,
+  "generated_at_iso": "2026-09-11T17:53:20.908558+00:00",
   "matches": [
-    {
-      "match_id": 1680134,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Stray Club",
-      "dire_team": "Rostik999 Club",
-      "radiant_team_id": 138722,
-      "dire_team_id": 138720,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138720/554px_rostik999_club_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789132800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/stray228",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138722
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1680166,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Winline Star Series - Season 4 2026",
       "league_id": 5490,
       "radiant_team": "Recrent Club",
@@ -82,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139232/recrent_club.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "dire_score": 1,
+      "live_seconds": 2867,
+      "live_map_number": 2,
       "start_time": 1789142400,
       "series_type": 1,
       "known_picks": 0,
@@ -117,16 +50,16 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/c_a_k_e",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138723
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -206,7 +139,7 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 41,
+    "upcoming_count": 40,
     "past_count": 30,
     "citoapi_calls_this_month": 41,
     "errors": []
