@@ -1,74 +1,7 @@
 {
-  "generated_at": 1789158308,
-  "generated_at_iso": "2026-09-11T20:25:23.979960+00:00",
+  "generated_at": 1789166563,
+  "generated_at_iso": "2026-09-11T22:42:43.842804+00:00",
   "matches": [
-    {
-      "match_id": 1680133,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Cooman Club",
-      "dire_team": "YBN Club",
-      "radiant_team_id": 139233,
-      "dire_team_id": 139234,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139233/cooman_club.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789153200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/mariachi",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139233
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1683865,
       "source": "pandascore",
@@ -138,12 +71,10 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 39,
     "past_count": 30,
     "citoapi_calls_this_month": 41,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "errors": []
   }
 }
