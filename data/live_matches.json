@@ -1,91 +1,24 @@
 {
-  "generated_at": 1789106040,
-  "generated_at_iso": "2026-09-11T05:54:01.382775+00:00",
+  "generated_at": 1789122892,
+  "generated_at_iso": "2026-09-11T10:34:52.095628+00:00",
   "matches": [
     {
-      "match_id": 1665214,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 17 2026",
-      "league_id": 4884,
-      "radiant_team": "Team Nemesis",
-      "dire_team": "InterActive Philippines",
-      "radiant_team_id": 136650,
-      "dire_team_id": 129891,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 725,
-      "live_map_number": 3,
-      "start_time": 1789096500,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Jabz",
-        "for revenge",
-        "fw00",
-        "matar",
-        "xd"
-      ],
-      "dire_players": [
-        "All-in",
-        "TYGA",
-        "[][]",
-        "lorelaine",
-        "stay chill"
-      ],
-      "radiant_heroes": [
-        "Underlord",
-        "Tusk",
-        "Nature's Prophet",
-        "Hoodwink",
-        "Ember Spirit"
-      ],
-      "dire_heroes": [
-        "Mirana",
-        "Timbersaw",
-        "Earth Spirit",
-        "Io",
-        "Bane"
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136650
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 129891
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1665215,
+      "match_id": 1680134,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 17 2026",
-      "league_id": 4884,
-      "radiant_team": "Direborn",
-      "dire_team": "Yangon Galacticos",
-      "radiant_team_id": 138753,
-      "dire_team_id": 128080,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Stray Club",
+      "dire_team": "Rostik999 Club",
+      "radiant_team_id": 138722,
+      "dire_team_id": 138720,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138720/554px_rostik999_club_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789108200,
+      "start_time": 1789131600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -117,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "",
       "games": [
         {
           "position": 1,
@@ -137,22 +70,22 @@
       ]
     },
     {
-      "match_id": 1665231,
+      "match_id": 1680166,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 17 2026",
-      "league_id": 4884,
-      "radiant_team": "D family",
-      "dire_team": "Team Kinetix",
-      "radiant_team_id": 138655,
-      "dire_team_id": 139148,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Recrent Club",
+      "dire_team": "VooDooSh Club",
+      "radiant_team_id": 139232,
+      "dire_team_id": 138723,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139232/recrent_club.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789117200,
+      "start_time": 1789142400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "",
       "games": [
         {
           "position": 1,
@@ -205,8 +138,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 43,
+    "running_count": 0,
+    "upcoming_count": 42,
     "past_count": 30,
     "citoapi_calls_this_month": 40,
     "errors": []
