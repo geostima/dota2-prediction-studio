@@ -1,11 +1,11 @@
 {
-  "generated_at": 1789122892,
-  "generated_at_iso": "2026-09-11T10:34:52.095628+00:00",
+  "generated_at": 1789137368,
+  "generated_at_iso": "2026-09-11T14:36:11.171770+00:00",
   "matches": [
     {
       "match_id": 1680134,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Winline Star Series - Season 4 2026",
       "league_id": 5490,
       "radiant_team": "Stray Club",
@@ -14,11 +14,11 @@
       "dire_team_id": 138720,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138720/554px_rostik999_club_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789131600,
+      "start_time": 1789132800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,12 +50,12 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/stray228",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138722
         },
         {
           "position": 2,
@@ -135,13 +135,80 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1680133,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Cooman Club",
+      "dire_team": "YBN Club",
+      "radiant_team_id": 139233,
+      "dire_team_id": 139234,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139233/cooman_club.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789153200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 42,
+    "running_count": 1,
+    "upcoming_count": 41,
     "past_count": 30,
-    "citoapi_calls_this_month": 40,
+    "citoapi_calls_this_month": 41,
     "errors": []
   }
 }
