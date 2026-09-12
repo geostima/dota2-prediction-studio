@@ -1,158 +1,24 @@
 {
-  "generated_at": 1789204816,
-  "generated_at_iso": "2026-09-12T09:20:19.116062+00:00",
+  "generated_at": 1789217978,
+  "generated_at_iso": "2026-09-12T12:59:38.946271+00:00",
   "matches": [
     {
-      "match_id": 1683867,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Execration",
-      "dire_team": "Yangon Galacticos",
-      "radiant_team_id": 1660,
-      "dire_team_id": 128080,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 967,
-      "live_map_number": 2,
-      "start_time": 1789200600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/rlg_dota2_b",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1660
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1680159,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Daxak Club",
-      "dire_team": "NS Club",
-      "radiant_team_id": 138719,
-      "dire_team_id": 138725,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138719/554px_daxak_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138725/554px_ns_club_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 900,
-      "live_map_number": 1,
-      "start_time": 1789203600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/just_ns",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1682254,
+      "match_id": 1682255,
       "source": "pandascore",
       "status": "live",
       "league_name": "BLAST Slam - Europe Closed Qualifier season 9 2026",
       "league_id": 5319,
-      "radiant_team": "Natus Vincere",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 1699,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_team": "Pipsqueak+4",
+      "dire_team": "GamerLegion",
+      "radiant_team_id": 137354,
+      "dire_team_id": 137588,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789200000,
+      "live_seconds": 3020,
+      "live_map_number": 2,
+      "start_time": 1789210800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -189,11 +55,11 @@
         {
           "position": 1,
           "status": "finished",
-          "winner_id": 1699
+          "winner_id": 137354
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -206,7 +72,7 @@
     {
       "match_id": 1683868,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 9 2026",
       "league_id": 5319,
       "radiant_team": "Xipto Esports",
@@ -216,10 +82,10 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789210800,
+      "dire_score": 1,
+      "live_seconds": 1335,
+      "live_map_number": 2,
+      "start_time": 1789212000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -255,79 +121,12 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139240
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1682255,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Europe Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Pipsqueak+4",
-      "dire_team": "GamerLegion",
-      "radiant_team_id": 137354,
-      "dire_team_id": 137588,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789210800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/rlg_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -340,7 +139,7 @@
     {
       "match_id": 1680160,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Winline Star Series - Season 4 2026",
       "league_id": 5490,
       "radiant_team": "Stariy Bog Club",
@@ -350,7 +149,7 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138727/554px_stariy_bog_club_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138719/554px_daxak_club_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
+      "dire_score": 1,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1789214400,
@@ -385,12 +184,12 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/daxak",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138719
         },
         {
           "position": 2,
@@ -519,6 +318,140 @@
         "",
         ""
       ],
+      "match_url": "https://www.twitch.tv/voodoosh",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1682257,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Europe Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "HULIGANI",
+      "dire_team": "Klim Sani4",
+      "radiant_team_id": 138842,
+      "dire_team_id": 133873,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789232400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/rlg_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1680140,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Rostik999 Club",
+      "dire_team": "YBN Club",
+      "radiant_team_id": 138720,
+      "dire_team_id": 139234,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138720/554px_rostik999_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789236000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
       "match_url": "",
       "games": [
         {
@@ -541,7 +474,7 @@
   ],
   "meta": {
     "running_count": 3,
-    "upcoming_count": 33,
+    "upcoming_count": 30,
     "past_count": 30,
     "citoapi_calls_this_month": 45,
     "errors": []
