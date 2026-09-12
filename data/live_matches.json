@@ -1,74 +1,7 @@
 {
-  "generated_at": 1789237622,
-  "generated_at_iso": "2026-09-12T18:27:02.270705+00:00",
+  "generated_at": 1789246109,
+  "generated_at_iso": "2026-09-12T20:48:30.744260+00:00",
   "matches": [
-    {
-      "match_id": 1682257,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Europe Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "HULIGANI",
-      "dire_team": "Klim Sani4",
-      "radiant_team_id": 138842,
-      "dire_team_id": 133873,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133873/649px_klim_sani4_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1595,
-      "live_map_number": 2,
-      "start_time": 1789232400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/rlg_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 133873
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1680140,
       "source": "pandascore",
@@ -81,10 +14,10 @@
       "dire_team_id": 139234,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138720/554px_rostik999_club_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1155,
-      "live_map_number": 1,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2405,
+      "live_map_number": 3,
       "start_time": 1789236000,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +54,74 @@
       "games": [
         {
           "position": 1,
+          "status": "finished",
+          "winner_id": 138720
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139234
+        },
+        {
+          "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1683869,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Direborn",
+      "radiant_team_id": 136650,
+      "dire_team_id": 138753,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789264800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/rlg_dota2_b",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -138,10 +138,10 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 26,
     "past_count": 30,
-    "citoapi_calls_this_month": 47,
+    "citoapi_calls_this_month": 48,
     "errors": []
   }
 }
