@@ -1,65 +1,65 @@
 {
-  "generated_at": 1789258810,
-  "generated_at_iso": "2026-09-13T00:20:10.332945+00:00",
+  "generated_at": 1789275559,
+  "generated_at_iso": "2026-09-13T04:59:21.452946+00:00",
   "matches": [
     {
-      "match_id": 1683869,
+      "match_id": 1665232,
       "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Nemesis",
-      "dire_team": "Direborn",
-      "radiant_team_id": 136650,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "status": "live",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Carstensz",
+      "dire_team": "Team Kinetix",
+      "radiant_team_id": 132981,
+      "dire_team_id": 139148,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/132981/285px_carstensz_allmode.png",
+      "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789264800,
+      "dire_score": 1,
+      "live_seconds": 2382,
+      "live_map_number": 2,
+      "start_time": 1789268400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Carrot~",
+        "Lifehouse - Everything",
+        "Picora",
+        "bias",
+        "\u7d14\u7c8b\u3055"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "BKB",
+        "Scz",
+        "hok player",
+        "not serious",
+        "sdasdsd"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Ring Master",
+        "Night Stalker",
+        "Tusk",
+        "Shadow Fiend",
+        "Snapfire"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Naga Siren",
+        "Lina",
+        "Bane",
+        "Dark Willow",
+        "Brewmaster"
       ],
-      "match_url": "https://www.twitch.tv/rlg_dota2_b",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139148
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -70,68 +70,68 @@
       ]
     },
     {
-      "match_id": 1665232,
+      "match_id": 1683869,
       "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 17 2026",
-      "league_id": 4884,
-      "radiant_team": "Carstensz",
-      "dire_team": "Team Kinetix",
-      "radiant_team_id": 132981,
-      "dire_team_id": 139148,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/132981/285px_carstensz_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789268400,
+      "status": "live",
+      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Direborn",
+      "radiant_team_id": 136650,
+      "dire_team_id": 138753,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 959,
+      "live_map_number": 3,
+      "start_time": 1789264800,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Jabz",
+        "for revenge",
+        "fw00",
+        "matar",
+        "xd"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        ":)",
+        "PAKDUL",
+        "beautiful suffering",
+        "noelzxc911",
+        "reckless"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Snapfire",
+        "Clockwerk",
+        "Terrorblade",
+        "Mirana",
+        "Void Spirit"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Treant Protector",
+        "Puck",
+        "Kez",
+        "Doom",
+        "Dark Willow"
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.twitch.tv/rlg_dota2_b",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138753
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136650
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789275600,
+      "start_time": 1789277400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -269,13 +269,214 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1683871,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Southeast Asia Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "TBD",
+      "dire_team": "TBD",
+      "radiant_team_id": null,
+      "dire_team_id": null,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": null,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789286400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/rlg_dota2_b",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1682258,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Europe Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Natus Vincere",
+      "dire_team": "Pipsqueak+4",
+      "radiant_team_id": 1699,
+      "dire_team_id": 137354,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/800px_pipsqueak+4_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789286400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/rlg_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1665238,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "\u042f\u0427\u0401123",
+      "dire_team": "Carstensz",
+      "radiant_team_id": 137547,
+      "dire_team_id": 132981,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/132981/285px_carstensz_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789290000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 26,
+    "running_count": 2,
+    "upcoming_count": 24,
     "past_count": 30,
-    "citoapi_calls_this_month": 48,
+    "citoapi_calls_this_month": 51,
     "errors": []
   }
 }
