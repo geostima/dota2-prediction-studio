@@ -1,11 +1,78 @@
 {
-  "generated_at": 1789320486,
-  "generated_at_iso": "2026-09-13T17:28:06.088632+00:00",
+  "generated_at": 1789328466,
+  "generated_at_iso": "2026-09-13T19:41:08.172917+00:00",
   "matches": [
+    {
+      "match_id": 1680135,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Stray Club",
+      "dire_team": "YBN Club",
+      "radiant_team_id": 138722,
+      "dire_team_id": 139234,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 1681,
+      "live_map_number": 2,
+      "start_time": 1789323300,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/vovapain",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139234
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1687965,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "European Pro League - Season 40 2026",
       "league_id": 4807,
       "radiant_team": "Kalmychata",
@@ -14,11 +81,11 @@
       "dire_team_id": 137540,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789322400,
+      "start_time": 1789323300,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -54,75 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1680135,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Stray Club",
-      "dire_team": "YBN Club",
-      "radiant_team_id": 138722,
-      "dire_team_id": 139234,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139234/ybn_club.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789322400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/stariy_bog",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 134208
         },
         {
           "position": 2,
@@ -138,10 +138,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 44,
+    "running_count": 2,
+    "upcoming_count": 42,
     "past_count": 30,
-    "citoapi_calls_this_month": 53,
+    "citoapi_calls_this_month": 55,
     "errors": []
   }
 }
