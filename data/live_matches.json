@@ -1,158 +1,24 @@
 {
-  "generated_at": 1789412767,
-  "generated_at_iso": "2026-09-14T19:06:08.903526+00:00",
+  "generated_at": 1789424841,
+  "generated_at_iso": "2026-09-14T22:27:21.233912+00:00",
   "matches": [
     {
-      "match_id": 1680137,
+      "match_id": 1665243,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Rostik999 Club",
-      "dire_team": "Cooman Club",
-      "radiant_team_id": 138720,
-      "dire_team_id": 139233,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138720/554px_rostik999_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139233/cooman_club.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3577,
-      "live_map_number": 3,
-      "start_time": 1789399200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/justcooman",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138720
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139233
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1680139,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Rostikfacekid Club",
-      "dire_team": "Stray Club",
-      "radiant_team_id": 138721,
-      "dire_team_id": 138722,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1124,
-      "live_map_number": 1,
-      "start_time": 1789411500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/vovapain",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1688035,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Spirit Academy",
-      "dire_team": "uralan",
-      "radiant_team_id": 137540,
-      "dire_team_id": 131077,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "\u042f\u0427\u0401123",
+      "dire_team": "Team Kinetix",
+      "radiant_team_id": 137547,
+      "dire_team_id": 139148,
+      "radiant_logo_url": "",
       "dire_logo_url": "",
-      "radiant_score": 1,
+      "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789408800,
+      "start_time": 1789444800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,12 +50,12 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 137540
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
@@ -205,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 0,
     "upcoming_count": 32,
     "past_count": 30,
     "citoapi_calls_this_month": 58,
