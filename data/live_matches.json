@@ -1,11 +1,11 @@
 {
-  "generated_at": 1789484993,
-  "generated_at_iso": "2026-09-15T15:09:53.822890+00:00",
+  "generated_at": 1789498766,
+  "generated_at_iso": "2026-09-15T18:59:27.991951+00:00",
   "matches": [
     {
       "match_id": 1688039,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "European Pro League - Season 40 2026",
       "league_id": 4807,
       "radiant_team": "Nemiga Gaming",
@@ -14,10 +14,10 @@
       "dire_team_id": 135854,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 4118,
+      "live_map_number": 3,
       "start_time": 1789484400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,151 +54,17 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 2227
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135854
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1680136,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Stray Club",
-      "dire_team": "Cooman Club",
-      "radiant_team_id": 138722,
-      "dire_team_id": 139233,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139233/cooman_club.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789484400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/c_a_k_e",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1688037,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Yellow Submarine",
-      "dire_team": "uralan",
-      "radiant_team_id": 1931,
-      "dire_team_id": 131077,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789495200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -251,7 +117,74 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/avice",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1688037,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Yellow Submarine",
+      "dire_team": "uralan",
+      "radiant_team_id": 1931,
+      "dire_team_id": 131077,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789498800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
@@ -272,10 +205,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 26,
+    "running_count": 1,
+    "upcoming_count": 24,
     "past_count": 30,
-    "citoapi_calls_this_month": 59,
+    "citoapi_calls_this_month": 60,
     "errors": []
   }
 }
