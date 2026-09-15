@@ -1,158 +1,24 @@
 {
-  "generated_at": 1789498766,
-  "generated_at_iso": "2026-09-15T18:59:27.991951+00:00",
+  "generated_at": 1789509914,
+  "generated_at_iso": "2026-09-15T22:05:14.368453+00:00",
   "matches": [
     {
-      "match_id": 1688039,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 2227,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 4118,
-      "live_map_number": 3,
-      "start_time": 1789484400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 2227
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1680141,
+      "match_id": 1665245,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Rostikfacekid Club",
-      "dire_team": "Rostik999 Club",
-      "radiant_team_id": 138721,
-      "dire_team_id": 138720,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138720/554px_rostik999_club_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789495200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/avice",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1688037,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Yellow Submarine",
-      "dire_team": "uralan",
-      "radiant_team_id": 1931,
-      "dire_team_id": 131077,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "league_name": "EPL World Series - Southeast Asia season 17 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "\u042f\u0427\u0401123",
+      "radiant_team_id": 136650,
+      "dire_team_id": 137547,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789498800,
+      "start_time": 1789527600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
@@ -205,8 +71,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 24,
+    "running_count": 0,
+    "upcoming_count": 22,
     "past_count": 30,
     "citoapi_calls_this_month": 60,
     "errors": []
