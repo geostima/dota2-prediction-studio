@@ -1,11 +1,11 @@
 {
-  "generated_at": 1789534524,
-  "generated_at_iso": "2026-09-16T04:55:24.620168+00:00",
+  "generated_at": 1789551624,
+  "generated_at_iso": "2026-09-16T09:40:25.926834+00:00",
   "matches": [
     {
       "match_id": 1665246,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 17 2026",
       "league_id": 4884,
       "radiant_team": "Direborn",
@@ -14,11 +14,11 @@
       "dire_team_id": 136650,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789542000,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2963,
+      "live_map_number": 3,
+      "start_time": 1789539000,
       "series_type": 2,
       "known_picks": 0,
       "lineup_available": false,
@@ -54,17 +54,17 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136650
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138753
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -82,7 +82,7 @@
     {
       "match_id": 1688042,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "European Pro League - Season 40 2026",
       "league_id": 4807,
       "radiant_team": "BALU",
@@ -93,9 +93,143 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
+      "live_seconds": 1975,
+      "live_map_number": 1,
+      "start_time": 1789549200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1688043,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Zero Tenacity",
+      "dire_team": "PuckChamp",
+      "radiant_team_id": 135854,
+      "dire_team_id": 128357,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_score": 0,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789549200,
+      "start_time": 1789560000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1688040,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Inner Circle x Insanity",
+      "dire_team": "uralan",
+      "radiant_team_id": 137417,
+      "dire_team_id": 131077,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789570800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -148,10 +282,12 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 21,
+    "running_count": 2,
+    "upcoming_count": 19,
     "past_count": 30,
     "citoapi_calls_this_month": 60,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
