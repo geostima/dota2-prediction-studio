@@ -1,25 +1,25 @@
 {
-  "generated_at": 1789517629,
-  "generated_at_iso": "2026-09-16T00:13:49.142802+00:00",
+  "generated_at": 1789534524,
+  "generated_at_iso": "2026-09-16T04:55:24.620168+00:00",
   "matches": [
     {
-      "match_id": 1665245,
+      "match_id": 1665246,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL World Series - Southeast Asia season 17 2026",
       "league_id": 4884,
-      "radiant_team": "Team Nemesis",
-      "dire_team": "\u042f\u0427\u0401123",
-      "radiant_team_id": 136650,
-      "dire_team_id": 137547,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "dire_logo_url": "",
+      "radiant_team": "Direborn",
+      "dire_team": "Team Nemesis",
+      "radiant_team_id": 138753,
+      "dire_team_id": 136650,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789527600,
-      "series_type": 1,
+      "start_time": 1789542000,
+      "series_type": 2,
       "known_picks": 0,
       "lineup_available": false,
       "radiant_players": [
@@ -66,13 +66,90 @@
           "position": 3,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1688042,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "BALU",
+      "dire_team": "Team Synapse",
+      "radiant_team_id": 138272,
+      "dire_team_id": 139124,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138272/572px_balu_team_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789549200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
         }
       ]
     }
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 22,
+    "upcoming_count": 21,
     "past_count": 30,
     "citoapi_calls_this_month": 60,
     "errors": []
