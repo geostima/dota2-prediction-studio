@@ -1,6 +1,6 @@
 {
-  "generated_at": 1789676202,
-  "generated_at_iso": "2026-09-17T20:16:42.877621+00:00",
+  "generated_at": 1789685607,
+  "generated_at_iso": "2026-09-17T22:53:28.267870+00:00",
   "matches": [
     {
       "match_id": 1688054,
@@ -14,10 +14,10 @@
       "dire_team_id": 131077,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1693,
-      "live_map_number": 1,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 1453,
+      "live_map_number": 3,
       "start_time": 1789674300,
       "series_type": 1,
       "known_picks": 0,
@@ -54,80 +54,13 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1693776,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Rostikfacekid Club",
-      "dire_team": "VooDooSh Club",
-      "radiant_team_id": 138721,
-      "dire_team_id": 138723,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 21,
-      "live_map_number": 3,
-      "start_time": 1789667400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/blindzonexgod",
-      "games": [
-        {
-          "position": 1,
           "status": "finished",
-          "winner_id": 138723
+          "winner_id": 131077
         },
         {
           "position": 2,
           "status": "finished",
-          "winner_id": 138721
+          "winner_id": 134208
         },
         {
           "position": 3,
@@ -138,10 +71,12 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
