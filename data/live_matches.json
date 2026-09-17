@@ -1,24 +1,24 @@
 {
-  "generated_at": 1789627401,
-  "generated_at_iso": "2026-09-17T06:43:21.472575+00:00",
+  "generated_at": 1789647045,
+  "generated_at_iso": "2026-09-17T12:11:00.769688+00:00",
   "matches": [
     {
-      "match_id": 1687957,
+      "match_id": 1693773,
       "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "BALU",
-      "radiant_team_id": 135854,
-      "dire_team_id": 138272,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138272/572px_balu_team_lightmode.png",
-      "radiant_score": 0,
+      "status": "live",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Daxak Club",
+      "dire_team": "Stray Club",
+      "radiant_team_id": 138719,
+      "dire_team_id": 138722,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138719/554px_daxak_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789635600,
+      "live_seconds": 1019,
+      "live_map_number": 2,
+      "start_time": 1789642800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,11 +50,78 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/ya4iller",
+      "match_url": "https://www.twitch.tv/daxak",
       "games": [
         {
           "position": 1,
+          "status": "finished",
+          "winner_id": 138719
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
           "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1688046,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Two Move",
+      "dire_team": "Spirit Academy",
+      "radiant_team_id": 138669,
+      "dire_team_id": 137540,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 190,
+      "live_map_number": 1,
+      "start_time": 1789646400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
           "winner_id": null
         },
         {
@@ -70,22 +137,22 @@
       ]
     },
     {
-      "match_id": 1693773,
+      "match_id": 1693774,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "Winline Star Series - Season 4 2026",
       "league_id": 5490,
-      "radiant_team": "Daxak Club",
-      "dire_team": "Stray Club",
-      "radiant_team_id": 138719,
-      "dire_team_id": 138722,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138719/554px_daxak_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
+      "radiant_team": "Rostikfacekid Club",
+      "dire_team": "Stariy Bog Club",
+      "radiant_team_id": 138721,
+      "dire_team_id": 138727,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138727/554px_stariy_bog_club_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789642800,
+      "start_time": 1789653600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -137,22 +204,156 @@
       ]
     },
     {
-      "match_id": 1688046,
+      "match_id": 1688045,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "European Pro League - Season 40 2026",
       "league_id": 4807,
-      "radiant_team": "Two Move",
-      "dire_team": "Spirit Academy",
-      "radiant_team_id": 138669,
-      "dire_team_id": 137540,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "radiant_team": "Nemiga Gaming",
+      "dire_team": "Team Lynx",
+      "radiant_team_id": 2227,
+      "dire_team_id": 136531,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789646400,
+      "start_time": 1789657200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1693776,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "VooDooSh Club",
+      "dire_team": "TBD",
+      "radiant_team_id": 138723,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789668000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1688054,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Kalmychata",
+      "dire_team": "uralan",
+      "radiant_team_id": 134208,
+      "dire_team_id": 131077,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789668000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -205,10 +406,12 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
-    "errors": []
+    "errors": [
+      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
+    ]
   }
 }
