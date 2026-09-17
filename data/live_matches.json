@@ -1,212 +1,11 @@
 {
-  "generated_at": 1789647045,
-  "generated_at_iso": "2026-09-17T12:11:00.769688+00:00",
+  "generated_at": 1789664746,
+  "generated_at_iso": "2026-09-17T17:05:47.575564+00:00",
   "matches": [
-    {
-      "match_id": 1693773,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Daxak Club",
-      "dire_team": "Stray Club",
-      "radiant_team_id": 138719,
-      "dire_team_id": 138722,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138719/554px_daxak_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1019,
-      "live_map_number": 2,
-      "start_time": 1789642800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/daxak",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138719
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1688046,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Two Move",
-      "dire_team": "Spirit Academy",
-      "radiant_team_id": 138669,
-      "dire_team_id": 137540,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 190,
-      "live_map_number": 1,
-      "start_time": 1789646400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1693774,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Rostikfacekid Club",
-      "dire_team": "Stariy Bog Club",
-      "radiant_team_id": 138721,
-      "dire_team_id": 138727,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138727/554px_stariy_bog_club_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789653600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1688045,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "European Pro League - Season 40 2026",
       "league_id": 4807,
       "radiant_team": "Nemiga Gaming",
@@ -215,10 +14,10 @@
       "dire_team_id": 136531,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 3712,
+      "live_map_number": 2,
       "start_time": 1789657200,
       "series_type": 1,
       "known_picks": 0,
@@ -255,17 +54,84 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 2227
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
           "position": 3,
           "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1693774,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "Rostikfacekid Club",
+      "dire_team": "Stariy Bog Club",
+      "radiant_team_id": 138721,
+      "dire_team_id": 138727,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138721/554px_rostikfacekid_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138727/554px_stariy_bog_club_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2006,
+      "live_map_number": 3,
+      "start_time": 1789653600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/blindzonexgod",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 138721
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 138727
+        },
+        {
+          "position": 3,
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -318,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/blindzonexgod",
       "games": [
         {
           "position": 1,
@@ -411,7 +277,7 @@
     "past_count": 30,
     "citoapi_calls_this_month": 62,
     "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
     ]
   }
 }
