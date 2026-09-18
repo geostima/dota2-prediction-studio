@@ -1,24 +1,24 @@
 {
-  "generated_at": 1789725869,
-  "generated_at_iso": "2026-09-18T10:04:32.510010+00:00",
+  "generated_at": 1789741606,
+  "generated_at_iso": "2026-09-18T14:26:48.153222+00:00",
   "matches": [
     {
-      "match_id": 1688048,
+      "match_id": 1693778,
       "source": "pandascore",
       "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Team Lynx",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 136531,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "",
+      "league_name": "Winline Star Series - Season 4 2026",
+      "league_id": 5490,
+      "radiant_team": "VooDooSh Club",
+      "dire_team": "Stray Club",
+      "radiant_team_id": 138723,
+      "dire_team_id": 138722,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3233,
+      "live_seconds": 206,
       "live_map_number": 1,
-      "start_time": 1789722000,
+      "start_time": 1789741200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,145 +50,11 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://www.twitch.tv/stray228",
       "games": [
         {
           "position": 1,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1693777,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "Stray Club",
-      "dire_team": "Cooman Club",
-      "radiant_team_id": 138722,
-      "dire_team_id": 139233,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138722/554px_stray_club_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139233/cooman_club.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789727400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1688049,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Spirit Academy",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 137540,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789732800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
           "winner_id": null
         },
         {
@@ -252,73 +118,6 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1693778,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Winline Star Series - Season 4 2026",
-      "league_id": 5490,
-      "radiant_team": "VooDooSh Club",
-      "dire_team": "TBD",
-      "radiant_team_id": 138723,
-      "dire_team_id": null,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138723/554px_voo_doo_sh_club_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": null,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789747200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
       "games": [
         {
           "position": 1,
@@ -403,13 +202,82 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1688051,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "uralan",
+      "dire_team": "Two Move",
+      "radiant_team_id": 131077,
+      "dire_team_id": 138669,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789754400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 49,
+    "upcoming_count": 46,
     "past_count": 30,
     "citoapi_calls_this_month": 64,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
