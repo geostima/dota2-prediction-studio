@@ -1,145 +1,11 @@
 {
-  "generated_at": 1789904476,
-  "generated_at_iso": "2026-09-20T11:41:18.399925+00:00",
+  "generated_at": 1789916050,
+  "generated_at_iso": "2026-09-20T14:54:11.015583+00:00",
   "matches": [
-    {
-      "match_id": 1694717,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PGL - Wallachia season 9 2026",
-      "league_id": 4108,
-      "radiant_team": "1win",
-      "dire_team": "Hokori",
-      "radiant_team_id": 134536,
-      "dire_team_id": 127965,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3192,
-      "live_map_number": 1,
-      "start_time": 1789902000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=udXiSU6OKO8",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1694721,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PGL - Wallachia season 9 2026",
-      "league_id": 4108,
-      "radiant_team": "GamerLegion",
-      "dire_team": "LGD Gaming",
-      "radiant_team_id": 137588,
-      "dire_team_id": 1657,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1293,
-      "live_map_number": 1,
-      "start_time": 1789902900,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/dota2_paragon_ru",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1687956,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "European Pro League - Season 40 2026",
       "league_id": 4807,
       "radiant_team": "Team Lynx",
@@ -148,10 +14,10 @@
       "dire_team_id": 128357,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 1454,
+      "live_map_number": 3,
       "start_time": 1789905600,
       "series_type": 1,
       "known_picks": 0,
@@ -188,84 +54,17 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 128357
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136531
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1694722,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "PGL - Wallachia season 9 2026",
-      "league_id": 4108,
-      "radiant_team": "Aurora",
-      "dire_team": "Natus Vincere",
-      "radiant_team_id": 133882,
-      "dire_team_id": 1699,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789909200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=lry3rVhMbMA",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -273,7 +72,7 @@
     {
       "match_id": 1694718,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PGL - Wallachia season 9 2026",
       "league_id": 4108,
       "radiant_team": "Pipsqueak+4",
@@ -283,10 +82,10 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/pipsqueak+4_202609_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1789909200,
+      "dire_score": 1,
+      "live_seconds": 270,
+      "live_map_number": 2,
+      "start_time": 1789910100,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -322,12 +121,79 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135697
         },
         {
           "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
           "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1694722,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "Aurora",
+      "dire_team": "Natus Vincere",
+      "radiant_team_id": 133882,
+      "dire_team_id": 1699,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 132,
+      "live_map_number": 2,
+      "start_time": 1789911600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=lry3rVhMbMA",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1699
+        },
+        {
+          "position": 2,
+          "status": "running",
           "winner_id": null
         },
         {
@@ -353,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1789916400,
+      "start_time": 1789918200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -537,15 +403,80 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1688036,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Kalmychata",
+      "dire_team": "Two Move",
+      "radiant_team_id": 134208,
+      "dire_team_id": 138669,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789927200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 2,
-    "upcoming_count": 38,
+    "running_count": 3,
+    "upcoming_count": 35,
     "past_count": 30,
     "citoapi_calls_this_month": 64,
-    "errors": [
-      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
-    ]
+    "errors": []
   }
 }
