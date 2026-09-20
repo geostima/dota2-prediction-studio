@@ -1,7 +1,142 @@
 {
-  "generated_at": 1789859607,
-  "generated_at_iso": "2026-09-19T23:13:27.190743+00:00",
-  "matches": [],
+  "generated_at": 1789866905,
+  "generated_at_iso": "2026-09-20T01:15:05.309922+00:00",
+  "matches": [
+    {
+      "match_id": 1694720,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "Conventus Stellarum",
+      "dire_team": "Xtreme Gaming",
+      "radiant_team_id": 139267,
+      "dire_team_id": 128329,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789887600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1694716,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "PlayTime",
+      "dire_team": "Team Cobra",
+      "radiant_team_id": 137885,
+      "dire_team_id": 137509,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137509/218px_team_cobra_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789887600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 43,
