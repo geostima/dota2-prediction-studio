@@ -1,6 +1,6 @@
 {
-  "generated_at": 1789866905,
-  "generated_at_iso": "2026-09-20T01:15:05.309922+00:00",
+  "generated_at": 1789885352,
+  "generated_at_iso": "2026-09-20T06:22:32.210892+00:00",
   "matches": [
     {
       "match_id": 1694720,
@@ -118,6 +118,274 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1687961,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Inner Circle x Insanity",
+      "dire_team": "Yellow Submarine",
+      "radiant_team_id": 137417,
+      "dire_team_id": 1931,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789894800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1694721,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "GamerLegion",
+      "dire_team": "LGD Gaming",
+      "radiant_team_id": 137588,
+      "dire_team_id": 1657,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789898400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1694717,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "1win",
+      "dire_team": "Hokori",
+      "radiant_team_id": 134536,
+      "dire_team_id": 127965,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789898400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1687956,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Team Lynx",
+      "dire_team": "PuckChamp",
+      "radiant_team_id": 136531,
+      "dire_team_id": 128357,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1789905600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
