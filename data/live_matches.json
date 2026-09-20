@@ -1,82 +1,12 @@
 {
-  "generated_at": 1789935749,
-  "generated_at_iso": "2026-09-20T20:22:30.766358+00:00",
-  "matches": [
-    {
-      "match_id": 1688036,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Kalmychata",
-      "dire_team": "Two Move",
-      "radiant_team_id": 134208,
-      "dire_team_id": 138669,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2118,
-      "live_map_number": 2,
-      "start_time": 1789927200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138669
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1789943745,
+  "generated_at_iso": "2026-09-20T22:35:45.813918+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 35,
+    "running_count": 0,
+    "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 64,
-    "errors": [
-      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
-    ]
+    "errors": []
   }
 }
