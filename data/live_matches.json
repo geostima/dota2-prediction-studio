@@ -1,91 +1,24 @@
 {
-  "generated_at": 1790097487,
-  "generated_at_iso": "2026-09-22T17:18:09.459275+00:00",
+  "generated_at": 1790108099,
+  "generated_at_iso": "2026-09-22T20:14:59.362012+00:00",
   "matches": [
     {
-      "match_id": 1704706,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Two Move",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 138669,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1700,
-      "live_map_number": 2,
-      "start_time": 1790091900,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1702946,
+      "match_id": 1702947,
       "source": "pandascore",
       "status": "live",
       "league_name": "BetBoom Streamers Battle - Season 15 2026",
       "league_id": 5368,
-      "radiant_team": "Travoman Team",
-      "dire_team": "NS Team",
-      "radiant_team_id": 136963,
-      "dire_team_id": 139008,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136963/travoman_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139008/ns_team_bbsb14_allmode.png",
+      "radiant_team": "YBN Team",
+      "dire_team": "Stray Team",
+      "radiant_team_id": 136960,
+      "dire_team_id": 136962,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
       "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1163,
-      "live_map_number": 2,
-      "start_time": 1790091900,
+      "dire_score": 0,
+      "live_seconds": 509,
+      "live_map_number": 1,
+      "start_time": 1790107500,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 139008
+          "status": "running",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -139,7 +72,7 @@
     {
       "match_id": 1704705,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "European Pro League - Season 40 2026",
       "league_id": 4807,
       "radiant_team": "Team Synapse",
@@ -148,8 +81,8 @@
       "dire_team_id": 134208,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
+      "radiant_score": 1,
+      "dire_score": 1,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1790100000,
@@ -188,80 +121,13 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 134208
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1702947,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "YBN Team",
-      "dire_team": "Stray Team",
-      "radiant_team_id": 136960,
-      "dire_team_id": 136962,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790100000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139124
         },
         {
           "position": 3,
@@ -273,11 +139,9 @@
   ],
   "meta": {
     "running_count": 2,
-    "upcoming_count": 39,
+    "upcoming_count": 40,
     "past_count": 30,
     "citoapi_calls_this_month": 67,
-    "errors": [
-      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
-    ]
+    "errors": []
   }
 }
