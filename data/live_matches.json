@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790108099,
-  "generated_at_iso": "2026-09-22T20:14:59.362012+00:00",
+  "generated_at": 1790117988,
+  "generated_at_iso": "2026-09-22T22:59:49.237457+00:00",
   "matches": [
     {
       "match_id": 1702947,
@@ -14,10 +14,10 @@
       "dire_team_id": 136962,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 509,
-      "live_map_number": 1,
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 1892,
+      "live_map_number": 3,
       "start_time": 1790107500,
       "series_type": 1,
       "known_picks": 0,
@@ -54,94 +54,29 @@
       "games": [
         {
           "position": 1,
+          "status": "finished",
+          "winner_id": 136962
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 136960
+        },
+        {
+          "position": 3,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1704705,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Kalmychata",
-      "radiant_team_id": 139124,
-      "dire_team_id": 134208,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790100000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 134208
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 3,
-          "status": "not_started",
           "winner_id": null
         }
       ]
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 40,
     "past_count": 30,
     "citoapi_calls_this_month": 67,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
