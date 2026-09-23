@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790126649,
-  "generated_at_iso": "2026-09-23T01:24:09.775492+00:00",
+  "generated_at": 1790144307,
+  "generated_at_iso": "2026-09-23T06:18:27.614488+00:00",
   "matches": [
     {
       "match_id": 1694738,
@@ -51,6 +51,207 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1694739,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "Team Nemesis",
+      "dire_team": "Conventus Stellarum",
+      "radiant_team_id": 136650,
+      "dire_team_id": 139267,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790157600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1706606,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Two Move",
+      "dire_team": "Nemiga Gaming",
+      "radiant_team_id": 138669,
+      "dire_team_id": 2227,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790164800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1702938,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "Cake Team",
+      "dire_team": "Daxak Team",
+      "radiant_team_id": 139285,
+      "dire_team_id": 139007,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790164800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
       "games": [
         {
           "position": 1,
