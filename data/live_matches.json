@@ -1,24 +1,24 @@
 {
-  "generated_at": 1790117988,
-  "generated_at_iso": "2026-09-22T22:59:49.237457+00:00",
+  "generated_at": 1790126649,
+  "generated_at_iso": "2026-09-23T01:24:09.775492+00:00",
   "matches": [
     {
-      "match_id": 1702947,
+      "match_id": 1694738,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "YBN Team",
-      "dire_team": "Stray Team",
-      "radiant_team_id": 136960,
-      "dire_team_id": 136962,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 1892,
-      "live_map_number": 3,
-      "start_time": 1790107500,
+      "status": "upcoming",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "1win",
+      "dire_team": "Pipsqueak+4",
+      "radiant_team_id": 134536,
+      "dire_team_id": 137354,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137354/pipsqueak+4_202609_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790146800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,33 +50,31 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
+      "match_url": "https://www.twitch.tv/pgl_dota2",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 136962
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "finished",
-          "winner_id": 136960
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         }
       ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 40,
     "past_count": 30,
     "citoapi_calls_this_month": 67,
-    "errors": [
-      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
-    ]
+    "errors": []
   }
 }
