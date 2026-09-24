@@ -1,77 +1,9 @@
 {
-  "generated_at": 1790277893,
-  "generated_at_iso": "2026-09-24T19:24:53.815636+00:00",
-  "matches": [
-    {
-      "match_id": 1702951,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Travoman Team",
-      "dire_team": "Stray Team",
-      "radiant_team_id": 136963,
-      "dire_team_id": 136962,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136963/travoman_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790274300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136963
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1790289437,
+  "generated_at_iso": "2026-09-24T22:37:17.306049+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 69,
