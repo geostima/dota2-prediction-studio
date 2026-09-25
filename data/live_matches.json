@@ -1,24 +1,101 @@
 {
-  "generated_at": 1790350086,
-  "generated_at_iso": "2026-09-25T15:28:07.964513+00:00",
+  "generated_at": 1790364438,
+  "generated_at_iso": "2026-09-25T19:27:18.089772+00:00",
   "matches": [
     {
-      "match_id": 1700710,
+      "match_id": 1710203,
       "source": "pandascore",
       "status": "live",
-      "league_name": "PGL - Wallachia season 9 2026",
-      "league_id": 4108,
-      "radiant_team": "Xtreme Gaming",
-      "dire_team": "LGD Gaming",
-      "radiant_team_id": 128329,
-      "dire_team_id": 1657,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
+      "league_name": "European Pro League - Season 40 2026",
+      "league_id": 4807,
+      "radiant_team": "Team Synapse",
+      "dire_team": "Yellow Submarine",
+      "radiant_team_id": 139124,
+      "dire_team_id": 1931,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "radiant_score": 2,
+      "dire_score": 2,
+      "live_seconds": 4244,
+      "live_map_number": 5,
+      "start_time": 1790341200,
+      "series_type": 2,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1931
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 1931
+        },
+        {
+          "position": 3,
+          "status": "finished",
+          "winner_id": 139124
+        },
+        {
+          "position": 4,
+          "status": "finished",
+          "winner_id": 139124
+        },
+        {
+          "position": 5,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1702953,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "YBN Team",
+      "dire_team": "Travoman Team",
+      "radiant_team_id": 136960,
+      "dire_team_id": 136963,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136963/travoman_team_bbsb14_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2712,
+      "live_seconds": 2815,
       "live_map_number": 1,
-      "start_time": 1790347500,
+      "start_time": 1790361600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,7 +127,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
       "games": [
         {
           "position": 1,
@@ -70,220 +147,9 @@
       ]
     },
     {
-      "match_id": 1710203,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 40 2026",
-      "league_id": 4807,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 139124,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 2,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790341200,
-      "series_type": 2,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "1nonly",
-        "Jeezy",
-        "deathborn",
-        "punpun",
-        "tv\u00e5k\u00e5"
-      ],
-      "dire_players": [
-        "Merlin",
-        "Xakoda",
-        "humblegod",
-        "taking over me",
-        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4"
-      ],
-      "radiant_heroes": [
-        "Tiny",
-        "Dark Willow",
-        "Earthshaker",
-        "Lycan",
-        "Mirana"
-      ],
-      "dire_heroes": [
-        "Invoker",
-        "Lich",
-        "Spirit Breaker",
-        "Lone Druid",
-        "Enigma"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1702952,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Stray Team",
-      "dire_team": "Rostik Team",
-      "radiant_team_id": 136962,
-      "dire_team_id": 136967,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136967/rostik_team_bbsb14_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790349900,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1702943,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Cake Team",
-      "dire_team": "gpk Team",
-      "radiant_team_id": 139285,
-      "dire_team_id": 139284,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139284/gpk_team_bbsb15_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790352000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1700711,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PGL - Wallachia season 9 2026",
       "league_id": 4108,
       "radiant_team": "Aurora",
@@ -292,11 +158,11 @@
       "dire_team_id": 137073,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
+      "radiant_score": 1,
+      "dire_score": 1,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790352000,
+      "start_time": 1790357400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -332,80 +198,13 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 133882
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1702953,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "YBN Team",
-      "dire_team": "Travoman Team",
-      "radiant_team_id": 136960,
-      "dire_team_id": 136963,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136963/travoman_team_bbsb14_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790359200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137073
         },
         {
           "position": 3,
@@ -416,7 +215,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 72,
