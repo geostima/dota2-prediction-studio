@@ -1,24 +1,158 @@
 {
-  "generated_at": 1790401880,
-  "generated_at_iso": "2026-09-26T05:51:20.271435+00:00",
+  "generated_at": 1790419647,
+  "generated_at_iso": "2026-09-26T10:47:29.542187+00:00",
   "matches": [
     {
-      "match_id": 1711990,
+      "match_id": 1700716,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
+      "league_name": "PGL - Wallachia season 9 2026",
+      "league_id": 4108,
+      "radiant_team": "Aurora",
+      "dire_team": "Natus Vincere",
+      "radiant_team_id": 133882,
+      "dire_team_id": 1699,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790415600,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "Aura",
+        "I m Going To Be 10k Player",
+        "Shenorita`",
+        "infinite mog",
+        "unlike u"
+      ],
+      "dire_players": [
+        "I dont wanna breathe",
+        "mauvais ton",
+        "pma",
+        "realm",
+        "vv"
+      ],
+      "radiant_heroes": [
+        "Ember Spirit",
+        "Clinkz",
+        "Dark Seer",
+        "Hoodwink",
+        "Winter Wyvern"
+      ],
+      "dire_heroes": [
+        "Axe",
+        "Dark Willow",
+        "Bane",
+        "Lone Druid",
+        "Huskar"
+      ],
+      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1699
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1711991,
+      "source": "pandascore",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 18 2026",
       "league_id": 4884,
-      "radiant_team": "Yangon Galacticos",
-      "dire_team": "\u042f\u0427\u0401123",
-      "radiant_team_id": 128080,
-      "dire_team_id": 137547,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "dire_logo_url": "",
+      "radiant_team": "Xipto Esports",
+      "dire_team": "Ivory",
+      "radiant_team_id": 139239,
+      "dire_team_id": 135546,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790416200,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "Hal Jordan-",
+        "Q",
+        "RKX.Fbz",
+        "okok",
+        "sk"
+      ],
+      "dire_players": [
+        "Akira",
+        "Scz",
+        "jolibepos5",
+        "onebadbish",
+        "z3"
+      ],
+      "radiant_heroes": [
+        "Io",
+        "Dark Willow",
+        "Doom",
+        "Bane",
+        "Ember Spirit"
+      ],
+      "dire_heroes": [
+        "Nature's Prophet",
+        "Largo",
+        "Crystal Maiden",
+        "Underlord",
+        "Hoodwink"
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139239
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1702956,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "Daxak Team",
+      "dire_team": "YBN Team",
+      "radiant_team_id": 139007,
+      "dire_team_id": 136960,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790402400,
+      "start_time": 1790424000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
       "games": [
         {
           "position": 1,
@@ -70,22 +204,22 @@
       ]
     },
     {
-      "match_id": 1700715,
+      "match_id": 1700712,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "PGL - Wallachia season 9 2026",
       "league_id": 4108,
-      "radiant_team": "Xtreme Gaming",
-      "dire_team": "GamerLegion",
-      "radiant_team_id": 128329,
-      "dire_team_id": 137588,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
+      "radiant_team": "LGD Gaming",
+      "dire_team": "Team Yandex",
+      "radiant_team_id": 1657,
+      "dire_team_id": 137073,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790406000,
+      "start_time": 1790427600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -137,22 +271,22 @@
       ]
     },
     {
-      "match_id": 1711991,
+      "match_id": 1702957,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Ivory",
-      "radiant_team_id": 139239,
-      "dire_team_id": 135546,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "Rostik Team",
+      "dire_team": "avice Team",
+      "radiant_team_id": 136967,
+      "dire_team_id": 139006,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136967/rostik_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139006/avice_team_bbsb14_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790413200,
+      "start_time": 1790434800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
       "games": [
         {
           "position": 1,
@@ -204,22 +338,22 @@
       ]
     },
     {
-      "match_id": 1700716,
+      "match_id": 1700717,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "PGL - Wallachia season 9 2026",
       "league_id": 4108,
-      "radiant_team": "Aurora",
-      "dire_team": "Natus Vincere",
-      "radiant_team_id": 133882,
-      "dire_team_id": 1699,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "radiant_team": "Xtreme Gaming",
+      "dire_team": "TBD",
+      "radiant_team_id": 128329,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
+      "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 0,
+      "dire_score": null,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790416800,
+      "start_time": 1790438400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -272,10 +406,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 72,
+    "citoapi_calls_this_month": 75,
     "errors": []
   }
 }
