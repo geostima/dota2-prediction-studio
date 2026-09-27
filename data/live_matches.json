@@ -1,194 +1,60 @@
 {
-  "generated_at": 1790492923,
-  "generated_at_iso": "2026-09-27T07:08:43.753892+00:00",
+  "generated_at": 1790513983,
+  "generated_at_iso": "2026-09-27T12:59:45.696932+00:00",
   "matches": [
     {
-      "match_id": 1711993,
+      "match_id": 1702959,
       "source": "pandascore",
       "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "\u042f\u0427\u0401123",
-      "dire_team": "Direborn",
-      "radiant_team_id": 137547,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790489700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1700718,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "PGL - Wallachia season 9 2026",
-      "league_id": 4108,
-      "radiant_team": "LGD Gaming",
-      "dire_team": "Natus Vincere",
-      "radiant_team_id": 1657,
-      "dire_team_id": 1699,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "YBN Team",
+      "dire_team": "Stray Team",
+      "radiant_team_id": 136960,
+      "dire_team_id": 136962,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790496000,
+      "live_seconds": 2707,
+      "live_map_number": 1,
+      "start_time": 1790511300,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "ANATOLY THE LEGEND",
+        "Fervian",
+        "iseedeadpeople",
+        "\u0411\u0423\u0413\u0418\u041c\u042d\u041d",
+        "\u041a\u0438\u0431\u0435\u0440\u0448\u043b\u044e\u0445\u0430"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "me./ nobody",
+        "san francisco",
+        "\u0412\u0435\u0440\u0442\u0443\u0445\u0430\u0439 87",
+        "\u0421\u041c\u0410\u0415\u0412",
+        "\u0423\u0411\u0418\u0419\u0426\u0410 \u041a\u041b\u0418\u0422\u0415\u0420\u0410"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Snapfire",
+        "Shadow Shaman",
+        "Kez",
+        "Razor",
+        "Primal Beast"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Pangolier",
+        "Chaos Knight",
+        "Ember Spirit",
+        "Dark Willow",
+        "Winter Wyvern"
       ],
-      "match_url": "https://www.twitch.tv/pgl_dota2",
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1711994,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Ivory",
-      "dire_team": "\u042f\u0427\u0401123",
-      "radiant_team_id": 135546,
-      "dire_team_id": 137547,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790499600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -206,7 +72,7 @@
     {
       "match_id": 1702960,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BetBoom Streamers Battle - Season 15 2026",
       "league_id": 5368,
       "radiant_team": "avice Team",
@@ -217,9 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790510400,
+      "live_seconds": 2475,
+      "live_map_number": 1,
+      "start_time": 1790511900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -251,78 +117,11 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
+      "match_url": "https://www.twitch.tv/daxak",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1702959,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "YBN Team",
-      "dire_team": "Stray Team",
-      "radiant_team_id": 136960,
-      "dire_team_id": 136962,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/stray_team_bbsb13_allmode(2).png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790510400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -340,20 +139,20 @@
     {
       "match_id": 1700719,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PGL - Wallachia season 9 2026",
       "league_id": 4108,
       "radiant_team": "Team Yandex",
-      "dire_team": "TBD",
+      "dire_team": "Natus Vincere",
       "radiant_team_id": 137073,
-      "dire_team_id": null,
+      "dire_team_id": 1699,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
       "radiant_score": 0,
-      "dire_score": null,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790510400,
+      "dire_score": 0,
+      "live_seconds": 396,
+      "live_map_number": 1,
+      "start_time": 1790513700,
       "series_type": 2,
       "known_picks": 0,
       "lineup_available": false,
@@ -389,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -413,13 +212,147 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1702958,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "Daxak Team",
+      "dire_team": "Rostik Team",
+      "radiant_team_id": 139007,
+      "dire_team_id": 136967,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136967/rostik_team_bbsb14_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790521200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1702961,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "TBD",
+      "dire_team": "TBD",
+      "radiant_team_id": null,
+      "dire_team_id": null,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": null,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790532000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 77,
+    "citoapi_calls_this_month": 80,
     "errors": []
   }
 }
