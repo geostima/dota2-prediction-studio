@@ -1,78 +1,11 @@
 {
-  "generated_at": 1790530771,
-  "generated_at_iso": "2026-09-27T17:39:32.181755+00:00",
+  "generated_at": 1790540622,
+  "generated_at_iso": "2026-09-27T20:23:42.409457+00:00",
   "matches": [
-    {
-      "match_id": 1702958,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Daxak Team",
-      "dire_team": "Rostik Team",
-      "radiant_team_id": 139007,
-      "dire_team_id": 136967,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136967/rostik_team_bbsb14_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 4567,
-      "live_map_number": 2,
-      "start_time": 1790522700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136967
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1702961,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BetBoom Streamers Battle - Season 15 2026",
       "league_id": 5368,
       "radiant_team": "YBN Team",
@@ -81,11 +14,11 @@
       "dire_team_id": 139285,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136960/ybn_team_bbsb14_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790532000,
+      "live_seconds": 3067,
+      "live_map_number": 2,
+      "start_time": 1790533800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -117,16 +50,16 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
+      "match_url": "https://www.twitch.tv/stray228",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136960
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
