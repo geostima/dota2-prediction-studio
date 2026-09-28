@@ -1,7 +1,75 @@
 {
-  "generated_at": 1790611371,
-  "generated_at_iso": "2026-09-28T16:02:51.320671+00:00",
-  "matches": [],
+  "generated_at": 1790632467,
+  "generated_at_iso": "2026-09-28T21:54:27.023046+00:00",
+  "matches": [
+    {
+      "match_id": 1711998,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Kinetix",
+      "dire_team": "Xipto Esports",
+      "radiant_team_id": 139148,
+      "dire_team_id": 139239,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790650800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 50,
