@@ -1,77 +1,77 @@
 {
-  "generated_at": 1790710017,
-  "generated_at_iso": "2026-09-29T19:26:59.069530+00:00",
+  "generated_at": 1790723190,
+  "generated_at_iso": "2026-09-29T23:06:30.842618+00:00",
   "matches": [
     {
-      "match_id": 1709091,
+      "match_id": 1712001,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Liquid",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 1647,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 1284,
-      "live_map_number": 3,
-      "start_time": 1790701200,
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Cloud Dawning",
+      "dire_team": "Yangon Galacticos",
+      "radiant_team_id": 137529,
+      "dire_team_id": 128080,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790737200,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Boxi",
-        "Wisper",
-        "tOfu",
-        "yondaime",
-        "\u0431\u0440\u0443\u0441\u0441\u043a\u0438\u0439"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "TOTO",
-        "present",
-        "\u7070\u8272\u8f68\u8ff9",
-        "\u8ffd\u7375\u8005",
-        "\u9999\u83dc\u7c89\u4e1d"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Windranger",
-        "Batrider",
-        "Largo",
-        "Nature's Prophet",
-        "Dragon Knight"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Hoodwink",
-        "Clinkz",
-        "Doom",
-        "Storm Spirit",
-        "Winter Wyvern"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 1647
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "finished",
-          "winner_id": 135697
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         }
       ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 89,
