@@ -1,24 +1,24 @@
 {
-  "generated_at": 1790666495,
-  "generated_at_iso": "2026-09-29T07:21:37.532268+00:00",
+  "generated_at": 1790691193,
+  "generated_at_iso": "2026-09-29T14:13:14.569687+00:00",
   "matches": [
     {
-      "match_id": 1711999,
+      "match_id": 1709077,
       "source": "pandascore",
       "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Yangon Galacticos",
-      "dire_team": "InterActive Philippines",
-      "radiant_team_id": 128080,
-      "dire_team_id": 129891,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "1win",
+      "dire_team": "Natus Vincere",
+      "radiant_team_id": 134536,
+      "dire_team_id": 1699,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3740,
-      "live_map_number": 1,
-      "start_time": 1790662500,
+      "dire_score": 1,
+      "live_seconds": 2268,
+      "live_map_number": 2,
+      "start_time": 1790684100,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,7 +50,74 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.twitch.tv/BLASTDotaB",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1699
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1709072,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "LGD Gaming",
+      "dire_team": "Xtreme Gaming",
+      "radiant_team_id": 1657,
+      "dire_team_id": 128329,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 2256,
+      "live_map_number": 1,
+      "start_time": 1790688600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
         {
           "position": 1,
@@ -70,89 +137,22 @@
       ]
     },
     {
-      "match_id": 1712000,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Yangon Galacticos",
-      "dire_team": "Direborn",
-      "radiant_team_id": 128080,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790672400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1709076,
+      "match_id": 1709092,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
-      "radiant_team": "Team Spirit",
-      "dire_team": "Team Nemesis",
-      "radiant_team_id": 1669,
-      "dire_team_id": 136650,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
+      "radiant_team": "Aurora",
+      "dire_team": "GamerLegion",
+      "radiant_team_id": 133882,
+      "dire_team_id": 137588,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790676000,
+      "start_time": 1790697600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -204,156 +204,22 @@
       ]
     },
     {
-      "match_id": 1709071,
+      "match_id": 1709091,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
-      "radiant_team": "PARIVISION",
-      "dire_team": "Level UP",
-      "radiant_team_id": 135712,
-      "dire_team_id": 1948,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
+      "radiant_team": "Team Liquid",
+      "dire_team": "Yakult Brothers",
+      "radiant_team_id": 1647,
+      "dire_team_id": 135697,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790676000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1709077,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "1win",
-      "dire_team": "Natus Vincere",
-      "radiant_team_id": 134536,
-      "dire_team_id": 1699,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790686800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1709072,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "LGD Gaming",
-      "dire_team": "Xtreme Gaming",
-      "radiant_team_id": 1657,
-      "dire_team_id": 128329,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790686800,
+      "start_time": 1790697600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -406,10 +272,10 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 85,
+    "citoapi_calls_this_month": 87,
     "errors": []
   }
 }
