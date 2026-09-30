@@ -1,74 +1,7 @@
 {
-  "generated_at": 1790789124,
-  "generated_at_iso": "2026-09-30T17:25:24.733459+00:00",
+  "generated_at": 1790789897,
+  "generated_at_iso": "2026-09-30T17:38:17.972469+00:00",
   "matches": [
-    {
-      "match_id": 1709079,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Nemesis",
-      "dire_team": "Natus Vincere",
-      "radiant_team_id": 136650,
-      "dire_team_id": 1699,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2108,
-      "live_map_number": 3,
-      "start_time": 1790778000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDotaB",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136650
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1699
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709074,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1635,
+      "live_seconds": 2408,
       "live_map_number": 1,
       "start_time": 1790787600,
       "series_type": 1,
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 45,
     "past_count": 30,
     "citoapi_calls_this_month": 98,
