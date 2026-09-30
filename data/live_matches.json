@@ -1,24 +1,24 @@
 {
-  "generated_at": 1790765811,
-  "generated_at_iso": "2026-09-30T10:56:51.216798+00:00",
+  "generated_at": 1790766984,
+  "generated_at_iso": "2026-09-30T11:16:24.679724+00:00",
   "matches": [
     {
-      "match_id": 1712003,
+      "match_id": 1709086,
       "source": "pandascore",
       "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Ivory",
-      "dire_team": "Team Kinetix",
-      "radiant_team_id": 135546,
-      "dire_team_id": 139148,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Yandex",
+      "dire_team": "MOUZ",
+      "radiant_team_id": 137073,
+      "dire_team_id": 134559,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2626,
-      "live_map_number": 1,
-      "start_time": 1790763000,
+      "live_seconds": 283,
+      "live_map_number": 2,
+      "start_time": 1790762400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,16 +50,16 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137073
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 281,
+      "live_map_number": 2,
       "start_time": 1790762400,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -137,22 +137,22 @@
       ]
     },
     {
-      "match_id": 1709086,
+      "match_id": 1712003,
       "source": "pandascore",
       "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Yandex",
-      "dire_team": "MOUZ",
-      "radiant_team_id": 137073,
-      "dire_team_id": 134559,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Ivory",
+      "dire_team": "Team Kinetix",
+      "radiant_team_id": 135546,
+      "dire_team_id": 139148,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790762400,
+      "start_time": 1790763000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,12 +184,12 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
           "status": "finished",
-          "winner_id": 137073
+          "winner_id": 139148
         },
         {
           "position": 2,
