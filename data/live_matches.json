@@ -1,78 +1,11 @@
 {
-  "generated_at": 1790777599,
-  "generated_at_iso": "2026-09-30T14:13:19.919644+00:00",
+  "generated_at": 1790778933,
+  "generated_at_iso": "2026-09-30T14:35:33.908893+00:00",
   "matches": [
-    {
-      "match_id": 1709087,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "BetBoom Team",
-      "dire_team": "OG",
-      "radiant_team_id": 130768,
-      "dire_team_id": 1654,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 6924,
-      "live_map_number": 3,
-      "start_time": 1790762400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 130768
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1654
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709073,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "PARIVISION",
@@ -83,9 +16,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790777700,
+      "live_seconds": 364,
+      "live_map_number": 1,
+      "start_time": 1790778600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -152,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790784000,
+      "start_time": 1790778000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
+      "match_url": "https://www.twitch.tv/BLASTDotaB",
       "games": [
         {
           "position": 1,
@@ -273,7 +206,7 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 48,
+    "upcoming_count": 47,
     "past_count": 30,
     "citoapi_calls_this_month": 96,
     "errors": []
