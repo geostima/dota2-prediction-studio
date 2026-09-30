@@ -1,7 +1,74 @@
 {
-  "generated_at": 1790787025,
-  "generated_at_iso": "2026-09-30T16:50:25.264193+00:00",
+  "generated_at": 1790788178,
+  "generated_at_iso": "2026-09-30T17:09:38.485974+00:00",
   "matches": [
+    {
+      "match_id": 1709074,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Level UP",
+      "dire_team": "Xtreme Gaming",
+      "radiant_team_id": 1948,
+      "dire_team_id": 128329,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 689,
+      "live_map_number": 1,
+      "start_time": 1790787600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1709079,
       "source": "pandascore",
@@ -68,78 +135,11 @@
           "winner_id": null
         }
       ]
-    },
-    {
-      "match_id": 1709074,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Level UP",
-      "dire_team": "Xtreme Gaming",
-      "radiant_team_id": 1948,
-      "dire_team_id": 128329,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1948/t11113.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790787600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 47,
+    "running_count": 1,
+    "upcoming_count": 46,
     "past_count": 30,
     "citoapi_calls_this_month": 98,
     "errors": []
