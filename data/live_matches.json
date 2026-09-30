@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790764366,
-  "generated_at_iso": "2026-09-30T10:32:46.660268+00:00",
+  "generated_at": 1790765281,
+  "generated_at_iso": "2026-09-30T10:48:01.346249+00:00",
   "matches": [
     {
       "match_id": 1709087,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2062,
+      "live_seconds": 2977,
       "live_map_number": 1,
       "start_time": 1790762400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1845,
+      "live_seconds": 2760,
       "live_map_number": 1,
       "start_time": 1790762400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1181,
+      "live_seconds": 2096,
       "live_map_number": 1,
       "start_time": 1790763000,
       "series_type": 1,
