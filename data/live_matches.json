@@ -1,74 +1,7 @@
 {
-  "generated_at": 1790769270,
-  "generated_at_iso": "2026-09-30T11:54:30.798398+00:00",
+  "generated_at": 1790772524,
+  "generated_at_iso": "2026-09-30T12:48:44.575359+00:00",
   "matches": [
-    {
-      "match_id": 1709086,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Yandex",
-      "dire_team": "MOUZ",
-      "radiant_team_id": 137073,
-      "dire_team_id": 134559,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2569,
-      "live_map_number": 2,
-      "start_time": 1790762400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137073
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709087,
       "source": "pandascore",
@@ -82,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2567,
-      "live_map_number": 2,
+      "dire_score": 1,
+      "live_seconds": 1849,
+      "live_map_number": 3,
       "start_time": 1790762400,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +59,74 @@
         },
         {
           "position": 2,
+          "status": "finished",
+          "winner_id": 1654
+        },
+        {
+          "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1709078,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Spirit",
+      "dire_team": "1win",
+      "radiant_team_id": 1669,
+      "dire_team_id": 134536,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 1789,
+      "live_map_number": 1,
+      "start_time": 1790770800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDotaB",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -148,10 +148,10 @@
       "dire_team_id": 139148,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1989,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1790763000,
       "series_type": 1,
       "known_picks": 0,
@@ -193,75 +193,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1709078,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Spirit",
-      "dire_team": "1win",
-      "radiant_team_id": 1669,
-      "dire_team_id": 134536,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790773200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135546
         },
         {
           "position": 3,
@@ -286,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790773200,
+      "start_time": 1790775000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -474,7 +407,7 @@
   ],
   "meta": {
     "running_count": 3,
-    "upcoming_count": 49,
+    "upcoming_count": 48,
     "past_count": 30,
     "citoapi_calls_this_month": 96,
     "errors": []
