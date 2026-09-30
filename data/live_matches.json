@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790766984,
-  "generated_at_iso": "2026-09-30T11:16:24.679724+00:00",
+  "generated_at": 1790767764,
+  "generated_at_iso": "2026-09-30T11:29:24.635406+00:00",
   "matches": [
     {
       "match_id": 1709086,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 283,
+      "live_seconds": 1063,
       "live_map_number": 2,
       "start_time": 1790762400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 281,
+      "live_seconds": 1061,
       "live_map_number": 2,
       "start_time": 1790762400,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 483,
+      "live_map_number": 2,
       "start_time": 1790763000,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
