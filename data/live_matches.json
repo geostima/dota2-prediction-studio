@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790783355,
-  "generated_at_iso": "2026-09-30T15:49:17.277014+00:00",
+  "generated_at": 1790783885,
+  "generated_at_iso": "2026-09-30T15:58:05.052138+00:00",
   "matches": [
     {
       "match_id": 1709073,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 914,
+      "live_seconds": 1444,
       "live_map_number": 2,
       "start_time": 1790778600,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Dukalis",
-        "Have fun",
-        "Rin",
-        "strafe instructor",
-        "\u0439\u043e\u0443"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "7726",
-        "Forget Her",
-        "Sneyking",
-        "krikor mekhitarian",
-        "stariy_dog"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Techies",
-        "Pangolier",
-        "Lone Druid",
-        "Brewmaster",
-        "Skywrath Mage"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Luna",
-        "Earth Spirit",
-        "Winter Wyvern",
-        "Windranger",
-        "Centaur Warrunner"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
