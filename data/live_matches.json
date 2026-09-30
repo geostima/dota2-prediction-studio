@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790740407,
-  "generated_at_iso": "2026-09-30T03:53:27.571137+00:00",
+  "generated_at": 1790741581,
+  "generated_at_iso": "2026-09-30T04:13:01.793295+00:00",
   "matches": [
     {
       "match_id": 1712001,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2949,
+      "live_seconds": 4123,
       "live_map_number": 1,
       "start_time": 1790737200,
       "series_type": 1,
@@ -185,6 +185,140 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1709087,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "BetBoom Team",
+      "dire_team": "OG",
+      "radiant_team_id": 130768,
+      "dire_team_id": 1654,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790762400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1709086,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Yandex",
+      "dire_team": "MOUZ",
+      "radiant_team_id": 137073,
+      "dire_team_id": 134559,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790762400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
         {
           "position": 1,
