@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790812421,
-  "generated_at_iso": "2026-09-30T23:53:41.307674+00:00",
+  "generated_at": 1790814834,
+  "generated_at_iso": "2026-10-01T00:33:54.176693+00:00",
   "matches": [
     {
       "match_id": 1712004,
@@ -68,13 +68,80 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1712005,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Kinetix",
+      "dire_team": "Cloud Dawning",
+      "radiant_team_id": 139148,
+      "dire_team_id": 137529,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1790834400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 45,
     "past_count": 30,
-    "citoapi_calls_this_month": 98,
+    "citoapi_calls_this_month": 0,
     "errors": []
   }
 }
