@@ -1,74 +1,7 @@
 {
-  "generated_at": 1790876985,
-  "generated_at_iso": "2026-10-01T17:49:45.971660+00:00",
+  "generated_at": 1790877459,
+  "generated_at_iso": "2026-10-01T17:57:39.043074+00:00",
   "matches": [
-    {
-      "match_id": 1709094,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "GamerLegion",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 137588,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 4846,
-      "live_map_number": 2,
-      "start_time": 1790868300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDotaB",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137588
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709093,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 21,
+      "live_seconds": 495,
       "live_map_number": 3,
       "start_time": 1790868600,
       "series_type": 1,
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 38,
     "past_count": 30,
     "citoapi_calls_this_month": 10,
