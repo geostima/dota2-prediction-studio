@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790862367,
-  "generated_at_iso": "2026-10-01T13:46:09.693756+00:00",
+  "generated_at": 1790862956,
+  "generated_at_iso": "2026-10-01T13:55:56.100026+00:00",
   "matches": [
     {
       "match_id": 1709089,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2884,
+      "live_seconds": 3473,
       "live_map_number": 1,
       "start_time": 1790859600,
       "series_type": 1,
@@ -81,10 +81,10 @@
       "dire_team_id": 130768,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2798,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1790859600,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137073
         },
         {
           "position": 2,
