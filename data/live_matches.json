@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790841151,
-  "generated_at_iso": "2026-10-01T07:52:31.601416+00:00",
+  "generated_at": 1790842489,
+  "generated_at_iso": "2026-10-01T08:14:51.491122+00:00",
   "matches": [
     {
       "match_id": 1712005,
@@ -14,41 +14,41 @@
       "dire_team_id": 137529,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1290,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1790835000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Go win",
+        "hok player",
+        "not serious",
+        "sdasdsd",
+        "\ud83d\udeac"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Y_Y",
+        "lla",
+        "zlabuh",
+        "\u30aa\u30ca\u30cb\u30b9\u30c8\u306b\u306a\u308a\u305f\u3044",
+        "\u70ab\u5f69\u9ea6\u5c0f\u86cb"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Necrophos",
+        "Bane",
+        "Windranger",
+        "Centaur Warrunner",
+        "Puck"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Beastmaster",
+        "Void Spirit",
+        "Winter Wyvern",
+        "Clinkz",
+        "Techies"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -59,8 +59,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139148
         },
         {
           "position": 3,
@@ -275,7 +275,7 @@
     "running_count": 1,
     "upcoming_count": 43,
     "past_count": 30,
-    "citoapi_calls_this_month": 2,
+    "citoapi_calls_this_month": 4,
     "errors": []
   }
 }
