@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790874610,
-  "generated_at_iso": "2026-10-01T17:10:12.575866+00:00",
+  "generated_at": 1790875530,
+  "generated_at_iso": "2026-10-01T17:25:30.166160+00:00",
   "matches": [
     {
       "match_id": 1709094,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2471,
+      "live_seconds": 3391,
       "live_map_number": 2,
       "start_time": 1790868300,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "))",
-        "Speeed",
-        "Yuma",
-        "ak b",
-        "discovery subscription"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "TOTO",
-        "present",
-        "\u7070\u8272\u8f68\u8ff9",
-        "\u8ffd\u7375\u8005",
-        "\u9999\u83dc\u7c89\u4e1d"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Pangolier",
-        "Winter Wyvern",
-        "Windranger",
-        "Enigma",
-        "Dark Willow"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Hoodwink",
-        "Tiny",
-        "Underlord",
-        "Puck",
-        "Rubick"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/BLASTDotaB",
       "games": [
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1854,
+      "live_seconds": 2774,
       "live_map_number": 2,
       "start_time": 1790868600,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "I m Going To Be 10k Player",
-        "Shenorita`",
-        "darksystem",
-        "infinite mog",
-        "unlike u"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Boxi",
-        "Wisper",
-        "tOfu",
-        "yondaime",
-        "\u0431\u0440\u0443\u0441\u0441\u043a\u0438\u0439"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Tiny",
-        "Axe",
-        "Monkey King",
-        "Dark Willow",
-        "Phoenix"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Lion",
-        "Dawnbreaker",
-        "Hoodwink",
-        "Windranger",
-        "Ember Spirit"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
