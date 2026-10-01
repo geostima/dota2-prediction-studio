@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790849653,
-  "generated_at_iso": "2026-10-01T10:14:13.032528+00:00",
+  "generated_at": 1790850745,
+  "generated_at_iso": "2026-10-01T10:32:25.197205+00:00",
   "matches": [
     {
       "match_id": 1712006,
@@ -14,10 +14,10 @@
       "dire_team_id": 138753,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2549,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1790847000,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139239
         },
         {
           "position": 2,
