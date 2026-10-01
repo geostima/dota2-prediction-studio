@@ -1,11 +1,11 @@
 {
-  "generated_at": 1790846717,
-  "generated_at_iso": "2026-10-01T09:25:17.124302+00:00",
+  "generated_at": 1790847712,
+  "generated_at_iso": "2026-10-01T09:41:52.717285+00:00",
   "matches": [
     {
       "match_id": 1712006,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 18 2026",
       "league_id": 4884,
       "radiant_team": "Xipto Esports",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 608,
+      "live_map_number": 1,
       "start_time": 1790847000,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -205,8 +205,8 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 43,
+    "running_count": 1,
+    "upcoming_count": 42,
     "past_count": 30,
     "citoapi_calls_this_month": 4,
     "errors": []
