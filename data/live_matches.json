@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790827980,
-  "generated_at_iso": "2026-10-01T04:13:02.413282+00:00",
+  "generated_at": 1790829407,
+  "generated_at_iso": "2026-10-01T04:36:47.249259+00:00",
   "matches": [
     {
       "match_id": 1712004,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 495,
+      "live_seconds": 1922,
       "live_map_number": 2,
       "start_time": 1790824200,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Akira",
-        "Scz",
-        "jolibepos5",
-        "onebadbish",
-        "z3"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "< blank >",
-        "Daredevil",
-        "Mikey",
-        "Mominem",
-        "Ramadan"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Faceless Void",
-        "Pangolier",
-        "Winter Wyvern",
-        "Brewmaster",
-        "Rubick"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Gyrocopter",
-        "Snapfire",
-        "Timbersaw",
-        "Techies",
-        "Slark"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
