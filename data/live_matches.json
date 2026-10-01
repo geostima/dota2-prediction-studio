@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790875530,
-  "generated_at_iso": "2026-10-01T17:25:30.166160+00:00",
+  "generated_at": 1790876357,
+  "generated_at_iso": "2026-10-01T17:39:17.241571+00:00",
   "matches": [
     {
       "match_id": 1709094,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3391,
+      "live_seconds": 4218,
       "live_map_number": 2,
       "start_time": 1790868300,
       "series_type": 1,
@@ -81,10 +81,10 @@
       "dire_team_id": 1647,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2774,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1790868600,
       "series_type": 1,
       "known_picks": 0,
@@ -126,8 +126,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 133882
         },
         {
           "position": 3,
