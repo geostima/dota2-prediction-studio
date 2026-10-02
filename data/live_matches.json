@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790956229,
-  "generated_at_iso": "2026-10-02T15:50:29.925656+00:00",
+  "generated_at": 1790957441,
+  "generated_at_iso": "2026-10-02T16:10:41.535300+00:00",
   "matches": [
     {
       "match_id": 1709075,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1557,
+      "live_seconds": 2769,
       "live_map_number": 3,
       "start_time": 1790946000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1315,
+      "live_seconds": 2527,
       "live_map_number": 1,
       "start_time": 1790955000,
       "series_type": 1,
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1790956800,
+      "start_time": 1790960400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
