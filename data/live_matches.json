@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790954459,
-  "generated_at_iso": "2026-10-02T15:20:59.095944+00:00",
+  "generated_at": 1790955575,
+  "generated_at_iso": "2026-10-02T15:39:35.905031+00:00",
   "matches": [
     {
       "match_id": 1709075,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 903,
+      "live_map_number": 3,
       "start_time": 1790946000,
       "series_type": 1,
       "known_picks": 0,
@@ -64,7 +64,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -72,7 +72,7 @@
     {
       "match_id": 1709095,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "GamerLegion",
@@ -83,9 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1790956800,
+      "live_seconds": 661,
+      "live_map_number": 1,
+      "start_time": 1790955000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -205,8 +205,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 33,
+    "running_count": 2,
+    "upcoming_count": 32,
     "past_count": 30,
     "citoapi_calls_this_month": 16,
     "errors": []
