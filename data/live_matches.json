@@ -1,77 +1,9 @@
 {
-  "generated_at": 1790971807,
-  "generated_at_iso": "2026-10-02T20:10:07.186997+00:00",
-  "matches": [
-    {
-      "match_id": 1709090,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "OG",
-      "dire_team": "BetBoom Team",
-      "radiant_team_id": 1654,
-      "dire_team_id": 130768,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2853,
-      "live_map_number": 3,
-      "start_time": 1790959500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDotaB",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 130768
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1654
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1790972759,
+  "generated_at_iso": "2026-10-02T20:25:59.440858+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 31,
     "past_count": 30,
     "citoapi_calls_this_month": 19,
