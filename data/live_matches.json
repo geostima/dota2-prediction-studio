@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790946663,
-  "generated_at_iso": "2026-10-02T13:11:04.693950+00:00",
+  "generated_at": 1790947960,
+  "generated_at_iso": "2026-10-02T13:32:40.275118+00:00",
   "matches": [
     {
       "match_id": 1709080,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 816,
+      "live_seconds": 2113,
       "live_map_number": 1,
       "start_time": 1790946000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 607,
+      "live_seconds": 1904,
       "live_map_number": 1,
       "start_time": 1790946000,
       "series_type": 1,
