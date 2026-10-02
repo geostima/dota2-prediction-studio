@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790915766,
-  "generated_at_iso": "2026-10-02T04:36:06.443986+00:00",
+  "generated_at": 1790916633,
+  "generated_at_iso": "2026-10-02T04:50:33.385242+00:00",
   "matches": [
     {
       "match_id": 1712007,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 864,
+      "live_map_number": 2,
       "start_time": 1790911200,
       "series_type": 1,
       "known_picks": 0,
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
