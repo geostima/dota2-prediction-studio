@@ -1,11 +1,11 @@
 {
-  "generated_at": 1790934499,
-  "generated_at_iso": "2026-10-02T09:48:19.069980+00:00",
+  "generated_at": 1790935005,
+  "generated_at_iso": "2026-10-02T09:56:45.769968+00:00",
   "matches": [
     {
       "match_id": 1712009,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 18 2026",
       "league_id": 4884,
       "radiant_team": "Cloud Dawning",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 188,
+      "live_map_number": 1,
       "start_time": 1790935200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -205,8 +205,8 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 36,
+    "running_count": 1,
+    "upcoming_count": 35,
     "past_count": 30,
     "citoapi_calls_this_month": 14,
     "errors": []
