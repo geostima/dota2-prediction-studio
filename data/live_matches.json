@@ -1,11 +1,11 @@
 {
-  "generated_at": 1790945512,
-  "generated_at_iso": "2026-10-02T12:51:52.601910+00:00",
+  "generated_at": 1790946663,
+  "generated_at_iso": "2026-10-02T13:11:04.693950+00:00",
   "matches": [
     {
       "match_id": 1709080,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "1win",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 816,
+      "live_map_number": 1,
       "start_time": 1790946000,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -72,7 +72,7 @@
     {
       "match_id": 1709075,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "LGD Gaming",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 607,
+      "live_map_number": 1,
       "start_time": 1790946000,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -272,10 +272,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 35,
+    "running_count": 2,
+    "upcoming_count": 33,
     "past_count": 30,
-    "citoapi_calls_this_month": 14,
+    "citoapi_calls_this_month": 16,
     "errors": []
   }
 }
