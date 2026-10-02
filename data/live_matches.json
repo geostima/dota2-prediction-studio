@@ -1,74 +1,7 @@
 {
-  "generated_at": 1790933698,
-  "generated_at_iso": "2026-10-02T09:34:58.058545+00:00",
+  "generated_at": 1790934499,
+  "generated_at_iso": "2026-10-02T09:48:19.069980+00:00",
   "matches": [
-    {
-      "match_id": 1712008,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "InterActive Philippines",
-      "dire_team": "Team Kinetix",
-      "radiant_team_id": 129891,
-      "dire_team_id": 139148,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 4490,
-      "live_map_number": 2,
-      "start_time": 1790926200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 129891
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1712009,
       "source": "pandascore",
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 36,
     "past_count": 30,
     "citoapi_calls_this_month": 14,
