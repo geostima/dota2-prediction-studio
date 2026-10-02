@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790961394,
-  "generated_at_iso": "2026-10-02T17:16:37.557760+00:00",
+  "generated_at": 1790962241,
+  "generated_at_iso": "2026-10-02T17:30:41.546831+00:00",
   "matches": [
     {
       "match_id": 1709095,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2099,
+      "live_seconds": 2946,
       "live_map_number": 2,
       "start_time": 1790955000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "))",
-        "Speeed",
-        "Yuma",
-        "ak b",
-        "discovery subscription"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Boxi",
-        "Wisper",
-        "tOfu",
-        "yondaime",
-        "\u0431\u0440\u0443\u0441\u0441\u043a\u0438\u0439"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Invoker",
-        "Mirana",
-        "Lone Druid",
-        "Brewmaster",
-        "Lion"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Ring Master",
-        "Slardar",
-        "Witch Doctor",
-        "Lifestealer",
-        "Dragon Knight"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1865,
+      "live_seconds": 2712,
       "live_map_number": 1,
       "start_time": 1790959500,
       "series_type": 1,
