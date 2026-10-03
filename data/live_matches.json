@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791023008,
-  "generated_at_iso": "2026-10-03T10:23:28.852889+00:00",
+  "generated_at": 1791023999,
+  "generated_at_iso": "2026-10-03T10:39:59.648971+00:00",
   "matches": [
     {
       "match_id": 1702962,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2828,
+      "live_seconds": 3819,
       "live_map_number": 1,
       "start_time": 1791019800,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 722,
+      "live_map_number": 2,
       "start_time": 1791019800,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
