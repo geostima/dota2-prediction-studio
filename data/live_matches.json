@@ -1,7 +1,74 @@
 {
-  "generated_at": 1791053029,
-  "generated_at_iso": "2026-10-03T18:43:49.745758+00:00",
+  "generated_at": 1791056527,
+  "generated_at_iso": "2026-10-03T19:42:07.885587+00:00",
   "matches": [
+    {
+      "match_id": 1709114,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Spirit",
+      "dire_team": "Team Yandex",
+      "radiant_team_id": 1669,
+      "dire_team_id": 137073,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2587,
+      "live_map_number": 3,
+      "start_time": 1791047100,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137073
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 1669
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1702963,
       "source": "pandascore",
@@ -15,9 +82,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
       "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3215,
-      "live_map_number": 3,
+      "dire_score": 2,
+      "live_seconds": 742,
+      "live_map_number": 4,
       "start_time": 1791036900,
       "series_type": 2,
       "known_picks": 0,
@@ -64,83 +131,16 @@
         },
         {
           "position": 3,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139285
         },
         {
           "position": 4,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
           "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1709114,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Spirit",
-      "dire_team": "Team Yandex",
-      "radiant_team_id": 1669,
-      "dire_team_id": 137073,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2147,
-      "live_map_number": 2,
-      "start_time": 1791047100,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137073
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
           "status": "not_started",
           "winner_id": null
         }
