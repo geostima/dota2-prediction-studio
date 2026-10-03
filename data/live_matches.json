@@ -1,6 +1,6 @@
 {
-  "generated_at": 1790985153,
-  "generated_at_iso": "2026-10-02T23:52:33.867896+00:00",
+  "generated_at": 1790987224,
+  "generated_at_iso": "2026-10-03T00:27:04.042425+00:00",
   "matches": [
     {
       "match_id": 1712010,
@@ -19,6 +19,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1790996400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1712011,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Direborn",
+      "dire_team": "Ivory",
+      "radiant_team_id": 138753,
+      "dire_team_id": 135546,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791007200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
