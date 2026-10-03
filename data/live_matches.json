@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791023999,
-  "generated_at_iso": "2026-10-03T10:39:59.648971+00:00",
+  "generated_at": 1791025441,
+  "generated_at_iso": "2026-10-03T11:04:01.137304+00:00",
   "matches": [
-    {
-      "match_id": 1702962,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Rostik Team",
-      "dire_team": "Cake Team",
-      "radiant_team_id": 136967,
-      "dire_team_id": 139285,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136967/rostik_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3819,
-      "live_map_number": 1,
-      "start_time": 1791019800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1712012,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 722,
+      "live_seconds": 2164,
       "live_map_number": 2,
       "start_time": 1791019800,
       "series_type": 1,
@@ -127,6 +60,73 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1702962,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "Rostik Team",
+      "dire_team": "Cake Team",
+      "radiant_team_id": 136967,
+      "dire_team_id": 139285,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136967/rostik_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791019800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139285
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
