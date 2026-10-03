@@ -1,7 +1,84 @@
 {
-  "generated_at": 1791035817,
-  "generated_at_iso": "2026-10-03T13:56:57.302422+00:00",
+  "generated_at": 1791039705,
+  "generated_at_iso": "2026-10-03T15:01:45.469065+00:00",
   "matches": [
+    {
+      "match_id": 1702963,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BetBoom Streamers Battle - Season 15 2026",
+      "league_id": 5368,
+      "radiant_team": "Daxak Team",
+      "dire_team": "Cake Team",
+      "radiant_team_id": 139007,
+      "dire_team_id": 139285,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 2462,
+      "live_map_number": 1,
+      "start_time": 1791036900,
+      "series_type": 2,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_sb_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1709115,
       "source": "pandascore",
@@ -15,9 +92,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3509,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 1366,
+      "live_map_number": 2,
       "start_time": 1791032400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,75 +131,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1709113,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "PARIVISION",
-      "dire_team": "Aurora",
-      "radiant_team_id": 135712,
-      "dire_team_id": 133882,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 78,
-      "live_map_number": 2,
-      "start_time": 1791032400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDotaB",
-      "games": [
-        {
-          "position": 1,
           "status": "finished",
-          "winner_id": 135712
+          "winner_id": 137588
         },
         {
           "position": 2,
@@ -131,83 +141,6 @@
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1702963,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Daxak Team",
-      "dire_team": "Cake Team",
-      "radiant_team_id": 139007,
-      "dire_team_id": 139285,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791036000,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
@@ -350,7 +283,7 @@
   ],
   "meta": {
     "running_count": 2,
-    "upcoming_count": 25,
+    "upcoming_count": 24,
     "past_count": 30,
     "citoapi_calls_this_month": 24,
     "errors": []
