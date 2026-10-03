@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791005933,
-  "generated_at_iso": "2026-10-03T05:38:53.121373+00:00",
+  "generated_at": 1791006698,
+  "generated_at_iso": "2026-10-03T05:51:38.274960+00:00",
   "matches": [
     {
       "match_id": 1712010,
@@ -14,10 +14,10 @@
       "dire_team_id": 129891,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 4760,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1790997900,
       "series_type": 1,
       "known_picks": 0,
@@ -59,8 +59,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137529
         },
         {
           "position": 3,
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791007200,
+      "start_time": 1791010800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
