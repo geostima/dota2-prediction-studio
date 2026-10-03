@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791020721,
-  "generated_at_iso": "2026-10-03T09:45:21.641560+00:00",
+  "generated_at": 1791021165,
+  "generated_at_iso": "2026-10-03T09:52:45.147836+00:00",
   "matches": [
     {
       "match_id": 1712012,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 936,
+      "live_seconds": 1380,
       "live_map_number": 1,
       "start_time": 1791019800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 541,
+      "live_seconds": 985,
       "live_map_number": 1,
       "start_time": 1791019800,
       "series_type": 1,
