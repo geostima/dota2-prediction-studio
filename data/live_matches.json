@@ -1,78 +1,11 @@
 {
-  "generated_at": 1791029356,
-  "generated_at_iso": "2026-10-03T12:09:18.007194+00:00",
+  "generated_at": 1791035817,
+  "generated_at_iso": "2026-10-03T13:56:57.302422+00:00",
   "matches": [
-    {
-      "match_id": 1702962,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Rostik Team",
-      "dire_team": "Cake Team",
-      "radiant_team_id": 136967,
-      "dire_team_id": 139285,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136967/rostik_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1851,
-      "live_map_number": 2,
-      "start_time": 1791019800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139285
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709115,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "LGD Gaming",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 3509,
+      "live_map_number": 1,
       "start_time": 1791032400,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -139,7 +72,7 @@
     {
       "match_id": 1709113,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "PARIVISION",
@@ -148,10 +81,10 @@
       "dire_team_id": 133882,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 78,
+      "live_map_number": 2,
       "start_time": 1791032400,
       "series_type": 1,
       "known_picks": 0,
@@ -188,12 +121,12 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135712
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -210,16 +143,16 @@
       "league_name": "BetBoom Streamers Battle - Season 15 2026",
       "league_id": 5368,
       "radiant_team": "Daxak Team",
-      "dire_team": "TBD",
+      "dire_team": "Cake Team",
       "radiant_team_id": 139007,
-      "dire_team_id": null,
+      "dire_team_id": 139285,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791032400,
+      "start_time": 1791036000,
       "series_type": 2,
       "known_picks": 0,
       "lineup_available": false,
@@ -416,8 +349,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 27,
+    "running_count": 2,
+    "upcoming_count": 25,
     "past_count": 30,
     "citoapi_calls_this_month": 24,
     "errors": []
