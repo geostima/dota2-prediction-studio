@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791025441,
-  "generated_at_iso": "2026-10-03T11:04:01.137304+00:00",
+  "generated_at": 1791029356,
+  "generated_at_iso": "2026-10-03T12:09:18.007194+00:00",
   "matches": [
-    {
-      "match_id": 1712012,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "\u042f\u0427\u0401123",
-      "radiant_team_id": 139239,
-      "dire_team_id": 137547,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2164,
-      "live_map_number": 2,
-      "start_time": 1791019800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139239
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1702962,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1851,
+      "live_map_number": 2,
       "start_time": 1791019800,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -251,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
+      "match_url": "https://www.twitch.tv/BLASTDotaB",
       "games": [
         {
           "position": 1,
@@ -395,7 +328,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
+      "match_url": "https://www.twitch.tv/BLASTDotaB",
       "games": [
         {
           "position": 1,
@@ -483,10 +416,10 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 27,
     "past_count": 30,
-    "citoapi_calls_this_month": 23,
+    "citoapi_calls_this_month": 24,
     "errors": []
   }
 }
