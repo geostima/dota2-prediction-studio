@@ -1,87 +1,9 @@
 {
-  "generated_at": 1791059879,
-  "generated_at_iso": "2026-10-03T20:38:00.043313+00:00",
-  "matches": [
-    {
-      "match_id": 1702963,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BetBoom Streamers Battle - Season 15 2026",
-      "league_id": 5368,
-      "radiant_team": "Daxak Team",
-      "dire_team": "Cake Team",
-      "radiant_team_id": 139007,
-      "dire_team_id": 139285,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/daxak_team_bbsb14_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139285/cake_team_bbsb15_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 2,
-      "live_seconds": 4094,
-      "live_map_number": 4,
-      "start_time": 1791036900,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_sb_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139007
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139285
-        },
-        {
-          "position": 3,
-          "status": "finished",
-          "winner_id": 139285
-        },
-        {
-          "position": 4,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1791063867,
+  "generated_at_iso": "2026-10-03T21:44:27.224616+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 22,
     "past_count": 30,
     "citoapi_calls_this_month": 25,
