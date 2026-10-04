@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791107042,
-  "generated_at_iso": "2026-10-04T09:44:02.683954+00:00",
+  "generated_at": 1791112652,
+  "generated_at_iso": "2026-10-04T11:17:32.296681+00:00",
   "matches": [
     {
       "match_id": 1712014,
@@ -14,10 +14,10 @@
       "dire_team_id": 137529,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1645,
-      "live_map_number": 1,
+      "live_seconds": 3509,
+      "live_map_number": 2,
       "start_time": 1791106200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137547
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
