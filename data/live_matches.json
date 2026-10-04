@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791150499,
-  "generated_at_iso": "2026-10-04T21:48:19.777076+00:00",
+  "generated_at": 1791150999,
+  "generated_at_iso": "2026-10-04T21:56:39.365471+00:00",
   "matches": [
     {
       "match_id": 1712015,
@@ -73,8 +73,10 @@
   "meta": {
     "running_count": 0,
     "upcoming_count": 34,
-    "past_count": 30,
+    "past_count": 0,
     "citoapi_calls_this_month": 27,
-    "errors": []
+    "errors": [
+      "past: 500 Server Error: Internal Server Error for url: https://api.pandascore.co/dota2/matches/past?per_page=30&sort=-end_at"
+    ]
   }
 }
