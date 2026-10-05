@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791218499,
-  "generated_at_iso": "2026-10-05T16:41:39.816832+00:00",
+  "generated_at": 1791219317,
+  "generated_at_iso": "2026-10-05T16:55:17.483942+00:00",
   "matches": [
     {
       "match_id": 1727836,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 301,
+      "live_map_number": 3,
       "start_time": 1791208800,
       "series_type": 1,
       "known_picks": 0,
@@ -64,7 +64,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791219600,
+      "start_time": 1791223200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
