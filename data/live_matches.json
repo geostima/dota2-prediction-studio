@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791232192,
-  "generated_at_iso": "2026-10-05T20:29:52.680557+00:00",
+  "generated_at": 1791232866,
+  "generated_at_iso": "2026-10-05T20:41:06.126545+00:00",
   "matches": [
     {
       "match_id": 1727837,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1368,
+      "live_seconds": 2042,
       "live_map_number": 3,
       "start_time": 1791223200,
       "series_type": 1,
