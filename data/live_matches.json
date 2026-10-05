@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791191020,
-  "generated_at_iso": "2026-10-05T09:03:40.971383+00:00",
+  "generated_at": 1791193162,
+  "generated_at_iso": "2026-10-05T09:39:22.696769+00:00",
   "matches": [
-    {
-      "match_id": 1712016,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Direborn",
-      "dire_team": "Cloud Dawning",
-      "radiant_team_id": 138753,
-      "dire_team_id": 137529,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 1664,
-      "live_map_number": 3,
-      "start_time": 1791180900,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137529
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1727834,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1406,
+      "live_map_number": 2,
       "start_time": 1791187200,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 32,
     "past_count": 30,
     "citoapi_calls_this_month": 29,
