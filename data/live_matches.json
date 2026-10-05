@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791228218,
-  "generated_at_iso": "2026-10-05T19:23:38.742759+00:00",
+  "generated_at": 1791229143,
+  "generated_at_iso": "2026-10-05T19:39:05.309777+00:00",
   "matches": [
     {
       "match_id": 1727837,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1830,
+      "live_seconds": 2755,
       "live_map_number": 2,
       "start_time": 1791223200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "elodin",
+        "klid",
+        "mirele",
+        "whatthefvkhaveyoudonelately",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "SSS rank GHOUL",
+        "Serenityy",
+        "VaniLLl",
+        "dark timelinee",
+        "me./ nobody"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dragon Knight",
+        "Beastmaster",
+        "Hoodwink",
+        "Warlock",
+        "Kez"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Phantom Lancer",
+        "Ember Spirit",
+        "Jakiro",
+        "Nyx Assassin",
+        "Enigma"
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -74,7 +74,7 @@
     "running_count": 1,
     "upcoming_count": 28,
     "past_count": 30,
-    "citoapi_calls_this_month": 33,
+    "citoapi_calls_this_month": 35,
     "errors": []
   }
 }
