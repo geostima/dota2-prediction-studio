@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791219317,
-  "generated_at_iso": "2026-10-05T16:55:17.483942+00:00",
+  "generated_at": 1791220171,
+  "generated_at_iso": "2026-10-05T17:09:31.114758+00:00",
   "matches": [
     {
       "match_id": 1727836,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 301,
+      "live_seconds": 1155,
       "live_map_number": 3,
       "start_time": 1791208800,
       "series_type": 1,
