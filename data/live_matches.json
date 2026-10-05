@@ -1,24 +1,24 @@
 {
-  "generated_at": 1791232866,
-  "generated_at_iso": "2026-10-05T20:41:06.126545+00:00",
+  "generated_at": 1791235102,
+  "generated_at_iso": "2026-10-05T21:18:22.306911+00:00",
   "matches": [
     {
-      "match_id": 1727837,
+      "match_id": 1712017,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - Closed Qualifier 2026",
-      "league_id": 5567,
-      "radiant_team": "MOUZ",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 134559,
-      "dire_team_id": 2227,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2042,
-      "live_map_number": 3,
-      "start_time": 1791223200,
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Yangon Galacticos",
+      "dire_team": "InterActive Philippines",
+      "radiant_team_id": 128080,
+      "dire_team_id": 129891,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791255600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,28 +50,28 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/fissure_dota_en",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 134559
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "finished",
-          "winner_id": 2227
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         }
       ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 28,
     "past_count": 30,
     "citoapi_calls_this_month": 35,
