@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791287865,
-  "generated_at_iso": "2026-10-06T11:57:47.143623+00:00",
+  "generated_at": 1791289869,
+  "generated_at_iso": "2026-10-06T12:31:09.597035+00:00",
   "matches": [
-    {
-      "match_id": 1727841,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - Closed Qualifier 2026",
-      "league_id": 5567,
-      "radiant_team": "HULIGANI",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 138842,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2472,
-      "live_map_number": 3,
-      "start_time": 1791274200,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Difference",
-        "Rein",
-        "supervillian",
-        "unconscious state",
-        "\u0430\u043c\u0431\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c"
-      ],
-      "dire_players": [
-        "foxtrot",
-        "strong",
-        "the city of light",
-        "\u041c\u0435\u0447\u0442\u0430.",
-        "\u2666"
-      ],
-      "radiant_heroes": [
-        "Pangolier",
-        "Dazzle",
-        "Naga Siren",
-        "Hoodwink",
-        "Brewmaster"
-      ],
-      "dire_heroes": [
-        "Storm Spirit",
-        "Luna",
-        "Rubick",
-        "Clockwerk",
-        "Enigma"
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 138842
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1712020,
       "source": "pandascore",
@@ -83,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 394,
+      "live_seconds": 2398,
       "live_map_number": 3,
       "start_time": 1791279000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "< blank >",
-        "Daredevil",
-        "Mikey",
-        "Mominem",
-        "Ramadan"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Y_Y",
-        "lla",
-        "zlabuh",
-        "\u30aa\u30ca\u30cb\u30b9\u30c8\u306b\u306a\u308a\u305f\u3044",
-        "\u70ab\u5f69\u9ea6\u5c0f\u86cb"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Hoodwink",
-        "Ember Spirit",
-        "Timbersaw",
-        "Keeper of the Light",
-        "Gyrocopter"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Beastmaster",
-        "Storm Spirit",
-        "Enchantress",
-        "Clinkz",
-        "Dark Willow"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -139,7 +72,7 @@
     {
       "match_id": 1727842,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PARI Universe - Closed Qualifier 2026",
       "league_id": 5567,
       "radiant_team": "Blasterbl",
@@ -150,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 540,
+      "live_map_number": 1,
       "start_time": 1791289200,
       "series_type": 1,
       "known_picks": 0,
@@ -188,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -340,7 +273,7 @@
   ],
   "meta": {
     "running_count": 2,
-    "upcoming_count": 24,
+    "upcoming_count": 23,
     "past_count": 30,
     "citoapi_calls_this_month": 41,
     "errors": []
