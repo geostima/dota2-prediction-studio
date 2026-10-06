@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791283199,
-  "generated_at_iso": "2026-10-06T10:39:59.574216+00:00",
+  "generated_at": 1791283898,
+  "generated_at_iso": "2026-10-06T10:51:38.870177+00:00",
   "matches": [
     {
       "match_id": 1727841,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 4201,
+      "live_seconds": 4900,
       "live_map_number": 2,
       "start_time": 1791274200,
       "series_type": 1,
@@ -81,10 +81,10 @@
       "dire_team_id": 137529,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3926,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791279000,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 128080
         },
         {
           "position": 2,
