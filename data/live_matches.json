@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791295090,
-  "generated_at_iso": "2026-10-06T13:58:10.895143+00:00",
+  "generated_at": 1791296494,
+  "generated_at_iso": "2026-10-06T14:21:34.431726+00:00",
   "matches": [
-    {
-      "match_id": 1727842,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - Closed Qualifier 2026",
-      "league_id": 5567,
-      "radiant_team": "Blasterbl",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 139341,
-      "dire_team_id": 2227,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2221,
-      "live_map_number": 2,
-      "start_time": 1791289200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139341
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1727838,
       "source": "pandascore",
@@ -85,7 +18,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791295200,
+      "start_time": 1791297900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -205,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 23,
     "past_count": 30,
     "citoapi_calls_this_month": 41,
