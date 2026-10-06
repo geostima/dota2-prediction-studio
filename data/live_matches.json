@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791283898,
-  "generated_at_iso": "2026-10-06T10:51:38.870177+00:00",
+  "generated_at": 1791284971,
+  "generated_at_iso": "2026-10-06T11:09:31.221341+00:00",
   "matches": [
-    {
-      "match_id": 1727841,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - Closed Qualifier 2026",
-      "league_id": 5567,
-      "radiant_team": "HULIGANI",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 138842,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 4900,
-      "live_map_number": 2,
-      "start_time": 1791274200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1712020,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 488,
+      "live_map_number": 2,
       "start_time": 1791279000,
       "series_type": 1,
       "known_picks": 0,
@@ -126,8 +59,75 @@
         },
         {
           "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
           "status": "not_started",
           "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1727841,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "PARI Universe - Closed Qualifier 2026",
+      "league_id": 5567,
+      "radiant_team": "HULIGANI",
+      "dire_team": "CyberHero",
+      "radiant_team_id": 138842,
+      "dire_team_id": 139339,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791274200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139339
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 138842
         },
         {
           "position": 3,
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791284400,
+      "start_time": 1791289200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -220,6 +220,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791295200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1727839,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - Closed Qualifier 2026",
+      "league_id": 5567,
+      "radiant_team": "LEGION",
+      "dire_team": "MOUZ",
+      "radiant_team_id": 139340,
+      "dire_team_id": 134559,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791306000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
