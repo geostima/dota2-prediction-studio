@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791291318,
-  "generated_at_iso": "2026-10-06T12:55:18.520384+00:00",
+  "generated_at": 1791292343,
+  "generated_at_iso": "2026-10-06T13:12:23.835817+00:00",
   "matches": [
     {
       "match_id": 1727842,
@@ -14,10 +14,10 @@
       "dire_team_id": 2227,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1989,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791289200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139341
         },
         {
           "position": 2,
