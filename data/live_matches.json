@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791276953,
-  "generated_at_iso": "2026-10-06T08:55:53.053563+00:00",
+  "generated_at": 1791278169,
+  "generated_at_iso": "2026-10-06T09:16:09.509093+00:00",
   "matches": [
     {
       "match_id": 1727841,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2776,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791274200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,79 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1712018,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Direborn",
-      "radiant_team_id": 139239,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1494,
-      "live_map_number": 2,
-      "start_time": 1791268200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
           "status": "finished",
-          "winner_id": 139239
+          "winner_id": 139339
         },
         {
           "position": 2,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -152,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791277200,
+      "start_time": 1791279000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 25,
     "past_count": 30,
     "citoapi_calls_this_month": 38,
