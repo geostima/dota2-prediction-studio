@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791402788,
-  "generated_at_iso": "2026-10-07T19:53:08.920587+00:00",
+  "generated_at": 1791403898,
+  "generated_at_iso": "2026-10-07T20:11:40.349499+00:00",
   "matches": [
     {
       "match_id": 1727845,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2037,
+      "live_seconds": 3147,
       "live_map_number": 2,
       "start_time": 1791396000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "foxtrot",
+        "strong",
+        "the city of light",
+        "\u041c\u0435\u0447\u0442\u0430.",
+        "\u2666"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Hellscream",
+        "HuEGL0t",
+        "nephis",
+        "sustain",
+        "worsrtmmever"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Earth Spirit",
+        "Muerta",
+        "Rubick",
+        "Winter Wyvern",
+        "Doom"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Batrider",
+        "Necrophos",
+        "Windranger",
+        "Clockwerk",
+        "Ember Spirit"
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -74,7 +74,7 @@
     "running_count": 1,
     "upcoming_count": 14,
     "past_count": 30,
-    "citoapi_calls_this_month": 49,
+    "citoapi_calls_this_month": 51,
     "errors": []
   }
 }
