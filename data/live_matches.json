@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791365788,
-  "generated_at_iso": "2026-10-07T09:36:28.385817+00:00",
+  "generated_at": 1791366648,
+  "generated_at_iso": "2026-10-07T09:50:48.762437+00:00",
   "matches": [
     {
       "match_id": 1727843,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1842,
+      "live_seconds": 2702,
       "live_map_number": 1,
       "start_time": 1791363600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 16,
+      "live_seconds": 876,
       "live_map_number": 1,
       "start_time": 1791365400,
       "series_type": 1,
