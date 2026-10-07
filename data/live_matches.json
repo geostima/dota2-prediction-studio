@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791363097,
-  "generated_at_iso": "2026-10-07T08:51:37.321276+00:00",
+  "generated_at": 1791364364,
+  "generated_at_iso": "2026-10-07T09:12:44.404357+00:00",
   "matches": [
     {
       "match_id": 1712019,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1342,
+      "live_seconds": 2609,
       "live_map_number": 3,
       "start_time": 1791352800,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1727843,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PARI Universe - Closed Qualifier 2026",
       "league_id": 5567,
       "radiant_team": "Yellow Submarine",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 418,
+      "live_map_number": 1,
       "start_time": 1791363600,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791363600,
+      "start_time": 1791365400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -269,11 +269,78 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1727840,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - Closed Qualifier 2026",
+      "league_id": 5567,
+      "radiant_team": "Team Synapse",
+      "dire_team": "LEGION",
+      "radiant_team_id": 139124,
+      "dire_team_id": 139340,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791385200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 19,
+    "running_count": 2,
+    "upcoming_count": 18,
     "past_count": 30,
     "citoapi_calls_this_month": 44,
     "errors": []
