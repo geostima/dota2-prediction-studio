@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791371927,
-  "generated_at_iso": "2026-10-07T11:18:47.664342+00:00",
+  "generated_at": 1791372748,
+  "generated_at_iso": "2026-10-07T11:32:28.672815+00:00",
   "matches": [
     {
       "match_id": 1727843,
@@ -14,10 +14,10 @@
       "dire_team_id": 139341,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3138,
-      "live_map_number": 2,
+      "live_seconds": 71,
+      "live_map_number": 3,
       "start_time": 1791363600,
       "series_type": 1,
       "known_picks": 0,
@@ -59,12 +59,12 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1931
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
