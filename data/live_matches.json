@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791370681,
-  "generated_at_iso": "2026-10-07T10:58:01.788917+00:00",
+  "generated_at": 1791371927,
+  "generated_at_iso": "2026-10-07T11:18:47.664342+00:00",
   "matches": [
-    {
-      "match_id": 1712022,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Yangon Galacticos",
-      "dire_team": "Direborn",
-      "radiant_team_id": 128080,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 4909,
-      "live_map_number": 1,
-      "start_time": 1791365400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1727843,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1892,
+      "live_seconds": 3138,
       "live_map_number": 2,
       "start_time": 1791363600,
       "series_type": 1,
@@ -127,6 +60,73 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1712022,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Yangon Galacticos",
+      "dire_team": "Direborn",
+      "radiant_team_id": 128080,
+      "dire_team_id": 138753,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791365400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 128080
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
