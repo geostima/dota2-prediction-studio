@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791399380,
-  "generated_at_iso": "2026-10-07T18:56:20.363747+00:00",
+  "generated_at": 1791400461,
+  "generated_at_iso": "2026-10-07T19:14:21.477699+00:00",
   "matches": [
     {
       "match_id": 1727845,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3001,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791396000,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139341
         },
         {
           "position": 2,
