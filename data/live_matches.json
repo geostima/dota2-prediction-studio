@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791372748,
-  "generated_at_iso": "2026-10-07T11:32:28.672815+00:00",
+  "generated_at": 1791373639,
+  "generated_at_iso": "2026-10-07T11:47:21.994619+00:00",
   "matches": [
     {
       "match_id": 1727843,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 71,
+      "live_seconds": 962,
       "live_map_number": 3,
       "start_time": 1791363600,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Merlin",
+        "humblegod",
+        "rin",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
+        "\u707d\u798d~"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Hellscream",
+        "HuEGL0t",
+        "nephis",
+        "sustain",
+        "worsrtmmever"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Storm Spirit",
+        "Techies",
+        "Kez",
+        "Broodmother",
+        "Lich"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Clockwerk",
+        "Underlord",
+        "Lifestealer",
+        "Dark Willow",
+        "Earth Spirit"
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 809,
+      "live_map_number": 2,
       "start_time": 1791365400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "< blank >",
+        "Daredevil",
+        "Mikey",
+        "Mominem",
+        "Ramadan"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Mr La (Peace)",
+        "PAKDUL",
+        "beautiful suffering",
+        "gohealyourself",
+        "reckless"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Mirana",
+        "Invoker",
+        "Lycan",
+        "Dark Willow",
+        "Windranger"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Hoodwink",
+        "Pangolier",
+        "Necrophos",
+        "Axe",
+        "Gyrocopter"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791374400,
+      "start_time": 1791376200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -275,7 +275,7 @@
     "running_count": 2,
     "upcoming_count": 17,
     "past_count": 30,
-    "citoapi_calls_this_month": 44,
+    "citoapi_calls_this_month": 47,
     "errors": []
   }
 }
