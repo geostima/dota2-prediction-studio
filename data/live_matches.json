@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791410126,
-  "generated_at_iso": "2026-10-07T21:55:26.715415+00:00",
+  "generated_at": 1791411017,
+  "generated_at_iso": "2026-10-07T22:10:17.303709+00:00",
   "matches": [
-    {
-      "match_id": 1727845,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - Closed Qualifier 2026",
-      "league_id": 5567,
-      "radiant_team": "CyberHero",
-      "dire_team": "Blasterbl",
-      "radiant_team_id": 139339,
-      "dire_team_id": 139341,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3312,
-      "live_map_number": 3,
-      "start_time": 1791396000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139341
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1712023,
       "source": "pandascore",
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 14,
     "past_count": 30,
     "citoapi_calls_this_month": 51,
