@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791383983,
-  "generated_at_iso": "2026-10-07T14:39:43.314615+00:00",
+  "generated_at": 1791384671,
+  "generated_at_iso": "2026-10-07T14:51:11.748012+00:00",
   "matches": [
-    {
-      "match_id": 1727844,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - Closed Qualifier 2026",
-      "league_id": 5567,
-      "radiant_team": "MOUZ",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 134559,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134559/139px_mouz_2021_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2312,
-      "live_map_number": 2,
-      "start_time": 1791377400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1727840,
       "source": "pandascore",
@@ -143,13 +76,13 @@
       "league_name": "PARI Universe - Closed Qualifier 2026",
       "league_id": 5567,
       "radiant_team": "Blasterbl",
-      "dire_team": "TBD",
+      "dire_team": "CyberHero",
       "radiant_team_id": 139341,
-      "dire_team_id": null,
+      "dire_team_id": 139339,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791396000,
@@ -205,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 16,
     "past_count": 30,
     "citoapi_calls_this_month": 47,
