@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791357517,
-  "generated_at_iso": "2026-10-07T07:18:37.612972+00:00",
+  "generated_at": 1791358949,
+  "generated_at_iso": "2026-10-07T07:42:44.366116+00:00",
   "matches": [
     {
       "match_id": 1712019,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1402,
+      "live_map_number": 2,
       "start_time": 1791352800,
       "series_type": 1,
       "known_picks": 0,
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -276,6 +276,8 @@
     "upcoming_count": 19,
     "past_count": 30,
     "citoapi_calls_this_month": 44,
-    "errors": []
+    "errors": [
+      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
+    ]
   }
 }
