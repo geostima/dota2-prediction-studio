@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791347191,
-  "generated_at_iso": "2026-10-07T04:26:31.023308+00:00",
+  "generated_at": 1791348370,
+  "generated_at_iso": "2026-10-07T04:46:10.203808+00:00",
   "matches": [
     {
       "match_id": 1712021,
@@ -14,10 +14,10 @@
       "dire_team_id": 137547,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3870,
-      "live_map_number": 1,
+      "live_seconds": 104,
+      "live_map_number": 2,
       "start_time": 1791343200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138753
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
