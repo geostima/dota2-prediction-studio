@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791351628,
-  "generated_at_iso": "2026-10-07T05:40:28.680935+00:00",
+  "generated_at": 1791352523,
+  "generated_at_iso": "2026-10-07T05:55:23.342281+00:00",
   "matches": [
-    {
-      "match_id": 1712021,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 18 2026",
-      "league_id": 4884,
-      "radiant_team": "Direborn",
-      "dire_team": "\u042f\u0427\u0401123",
-      "radiant_team_id": 138753,
-      "dire_team_id": 137547,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3362,
-      "live_map_number": 2,
-      "start_time": 1791343200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1712019,
       "source": "pandascore",
@@ -210,13 +143,13 @@
       "league_name": "EPL World Series - Southeast Asia season 18 2026",
       "league_id": 4884,
       "radiant_team": "Yangon Galacticos",
-      "dire_team": "TBD",
+      "dire_team": "Direborn",
       "radiant_team_id": 128080,
-      "dire_team_id": null,
+      "dire_team_id": 138753,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791363600,
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 20,
     "past_count": 30,
     "citoapi_calls_this_month": 44,
