@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791460070,
-  "generated_at_iso": "2026-10-08T11:47:50.392115+00:00",
+  "generated_at": 1791460644,
+  "generated_at_iso": "2026-10-08T11:57:26.176119+00:00",
   "matches": [
     {
       "match_id": 1709122,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 191,
+      "live_seconds": 765,
       "live_map_number": 3,
       "start_time": 1791450000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "; ]",
+        "Blade of Miquella",
+        "CHIRA_JUNIOR",
+        "SMACSA-",
+        "lostreak chicken"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "7726",
+        "Forget Her",
+        "Sneyking",
+        "krikor mekhitarian",
+        "stariy_dog"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Techies",
+        "Nature's Prophet",
+        "Slardar",
+        "Viper",
+        "Windranger"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Lone Druid",
+        "Pangolier",
+        "Winter Wyvern",
+        "Dark Willow",
+        "Beastmaster"
       ],
       "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
@@ -352,7 +352,7 @@
     "running_count": 1,
     "upcoming_count": 11,
     "past_count": 30,
-    "citoapi_calls_this_month": 53,
+    "citoapi_calls_this_month": 55,
     "errors": []
   }
 }
