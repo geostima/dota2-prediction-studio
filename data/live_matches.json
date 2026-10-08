@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791464304,
-  "generated_at_iso": "2026-10-08T12:58:24.246803+00:00",
+  "generated_at": 1791465926,
+  "generated_at_iso": "2026-10-08T13:25:26.256866+00:00",
   "matches": [
     {
       "match_id": 1727846,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3269,
+      "live_seconds": 4891,
       "live_map_number": 1,
       "start_time": 1791460800,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1709123,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "Aurora",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 938,
+      "live_map_number": 1,
       "start_time": 1791465000,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -282,8 +282,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 10,
+    "running_count": 2,
+    "upcoming_count": 9,
     "past_count": 30,
     "citoapi_calls_this_month": 55,
     "errors": []
