@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791419326,
-  "generated_at_iso": "2026-10-08T00:28:46.909924+00:00",
+  "generated_at": 1791422262,
+  "generated_at_iso": "2026-10-08T01:17:42.719935+00:00",
   "matches": [
     {
       "match_id": 1712023,
@@ -64,6 +64,83 @@
         },
         {
           "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1712024,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 18 2026",
+      "league_id": 4884,
+      "radiant_team": "Xipto Esports",
+      "dire_team": "TBD",
+      "radiant_team_id": 139239,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791442800,
+      "series_type": 2,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
