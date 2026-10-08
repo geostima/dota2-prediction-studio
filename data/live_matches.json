@@ -1,11 +1,11 @@
 {
-  "generated_at": 1791476433,
-  "generated_at_iso": "2026-10-08T16:20:33.589659+00:00",
+  "generated_at": 1791477773,
+  "generated_at_iso": "2026-10-08T16:42:55.825245+00:00",
   "matches": [
     {
       "match_id": 1727847,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PARI Universe - Closed Qualifier 2026",
       "league_id": 5567,
       "radiant_team": "LEGION",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 542,
+      "live_map_number": 1,
       "start_time": 1791477000,
       "series_type": 2,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -148,10 +148,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 9,
+    "running_count": 1,
+    "upcoming_count": 8,
     "past_count": 30,
-    "citoapi_calls_this_month": 55,
+    "citoapi_calls_this_month": 57,
     "errors": []
   }
 }
