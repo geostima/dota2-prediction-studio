@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791460644,
-  "generated_at_iso": "2026-10-08T11:57:26.176119+00:00",
+  "generated_at": 1791462725,
+  "generated_at_iso": "2026-10-08T12:32:05.876507+00:00",
   "matches": [
     {
       "match_id": 1709122,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 765,
+      "live_seconds": 2846,
       "live_map_number": 3,
       "start_time": 1791450000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "; ]",
-        "Blade of Miquella",
-        "CHIRA_JUNIOR",
-        "SMACSA-",
-        "lostreak chicken"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "7726",
-        "Forget Her",
-        "Sneyking",
-        "krikor mekhitarian",
-        "stariy_dog"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Techies",
-        "Nature's Prophet",
-        "Slardar",
-        "Viper",
-        "Windranger"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Lone Druid",
-        "Pangolier",
-        "Winter Wyvern",
-        "Dark Willow",
-        "Beastmaster"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
@@ -72,7 +72,7 @@
     {
       "match_id": 1727846,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PARI Universe - Closed Qualifier 2026",
       "league_id": 5567,
       "radiant_team": "Team Synapse",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139341/blasterbl_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1690,
+      "live_map_number": 1,
       "start_time": 1791460800,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791462600,
+      "start_time": 1791465000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -349,8 +349,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 11,
+    "running_count": 2,
+    "upcoming_count": 10,
     "past_count": 30,
     "citoapi_calls_this_month": 55,
     "errors": []
