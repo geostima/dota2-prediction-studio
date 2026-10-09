@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791542036,
-  "generated_at_iso": "2026-10-09T10:33:56.597023+00:00",
+  "generated_at": 1791542943,
+  "generated_at_iso": "2026-10-09T10:49:03.487063+00:00",
   "matches": [
     {
       "match_id": 1709125,
@@ -14,10 +14,10 @@
       "dire_team_id": 133882,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 5475,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791536400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1669
         },
         {
           "position": 2,
