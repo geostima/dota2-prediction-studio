@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791576637,
-  "generated_at_iso": "2026-10-09T20:10:37.877344+00:00",
+  "generated_at": 1791577925,
+  "generated_at_iso": "2026-10-09T20:32:05.399769+00:00",
   "matches": [
-    {
-      "match_id": 1739610,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "The Warriors",
-      "radiant_team_id": 135854,
-      "dire_team_id": 139378,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 9307,
-      "live_map_number": 2,
-      "start_time": 1791563100,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139378
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709127,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2050,
+      "live_seconds": 3338,
       "live_map_number": 2,
       "start_time": 1791570600,
       "series_type": 1,
@@ -132,6 +65,73 @@
         {
           "position": 3,
           "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1739610,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Eastern Europe Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Zero Tenacity",
+      "dire_team": "The Warriors",
+      "radiant_team_id": 135854,
+      "dire_team_id": 139378,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 626,
+      "live_map_number": 3,
+      "start_time": 1791563100,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139378
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 135854
+        },
+        {
+          "position": 3,
+          "status": "running",
           "winner_id": null
         }
       ]
