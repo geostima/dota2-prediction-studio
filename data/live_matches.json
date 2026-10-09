@@ -1,11 +1,11 @@
 {
-  "generated_at": 1791554408,
-  "generated_at_iso": "2026-10-09T14:00:08.236398+00:00",
+  "generated_at": 1791555910,
+  "generated_at_iso": "2026-10-09T14:25:10.803697+00:00",
   "matches": [
     {
       "match_id": 1709128,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "1win",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1429,
+      "live_map_number": 1,
       "start_time": 1791554400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -138,8 +138,8 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 11,
+    "running_count": 1,
+    "upcoming_count": 10,
     "past_count": 30,
     "citoapi_calls_this_month": 61,
     "errors": []
