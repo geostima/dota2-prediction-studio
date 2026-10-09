@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791534714,
-  "generated_at_iso": "2026-10-09T08:31:54.839306+00:00",
+  "generated_at": 1791536121,
+  "generated_at_iso": "2026-10-09T08:55:21.098921+00:00",
   "matches": [
     {
       "match_id": 1738317,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1335,
+      "live_seconds": 2742,
       "live_map_number": 1,
       "start_time": 1791533400,
       "series_type": 0,
@@ -76,63 +76,6 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791525600,
-      "series_type": 0,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1738318,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Cloud Rising",
-      "dire_team": "The goal of all life is death",
-      "radiant_team_id": 137428,
-      "dire_team_id": 134379,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791536400,
       "series_type": 0,
       "known_picks": 0,
       "lineup_available": false,
@@ -235,6 +178,63 @@
         },
         {
           "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1738318,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Cloud Rising",
+      "dire_team": "The goal of all life is death",
+      "radiant_team_id": 137428,
+      "dire_team_id": 134379,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791538200,
+      "series_type": 0,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
           "status": "not_started",
           "winner_id": null
         }
