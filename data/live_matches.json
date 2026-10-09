@@ -1,125 +1,11 @@
 {
-  "generated_at": 1791536121,
-  "generated_at_iso": "2026-10-09T08:55:21.098921+00:00",
+  "generated_at": 1791537329,
+  "generated_at_iso": "2026-10-09T09:15:29.600432+00:00",
   "matches": [
-    {
-      "match_id": 1738317,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Zenith",
-      "dire_team": "Su4 Esport",
-      "radiant_team_id": 139363,
-      "dire_team_id": 139364,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2742,
-      "live_map_number": 1,
-      "start_time": 1791533400,
-      "series_type": 0,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1738316,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Cloud Dawning",
-      "dire_team": "NaiLong",
-      "radiant_team_id": 137529,
-      "dire_team_id": 137770,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791525600,
-      "series_type": 0,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709125,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "Team Spirit",
@@ -130,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 768,
+      "live_map_number": 1,
       "start_time": 1791536400,
       "series_type": 1,
       "known_picks": 0,
@@ -168,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -178,63 +64,6 @@
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1738318,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Cloud Rising",
-      "dire_team": "The goal of all life is death",
-      "radiant_team_id": 137428,
-      "dire_team_id": 134379,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791538200,
-      "series_type": 0,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
           "status": "not_started",
           "winner_id": null
         }
@@ -306,11 +135,68 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1738318,
+      "source": "pandascore",
+      "status": "ended",
+      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Cloud Rising",
+      "dire_team": "The goal of all life is death",
+      "radiant_team_id": 137428,
+      "dire_team_id": 134379,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791538200,
+      "series_type": 0,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 12,
+    "upcoming_count": 10,
     "past_count": 30,
     "citoapi_calls_this_month": 59,
     "errors": []
