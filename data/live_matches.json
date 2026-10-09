@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791551601,
-  "generated_at_iso": "2026-10-09T13:13:21.297098+00:00",
+  "generated_at": 1791552940,
+  "generated_at_iso": "2026-10-09T13:35:40.288791+00:00",
   "matches": [
-    {
-      "match_id": 1709125,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Spirit",
-      "dire_team": "Aurora",
-      "radiant_team_id": 1669,
-      "dire_team_id": 133882,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3004,
-      "live_map_number": 3,
-      "start_time": 1791536400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1669
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 133882
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709128,
       "source": "pandascore",
@@ -85,7 +18,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791552600,
+      "start_time": 1791553500,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -143,13 +76,13 @@
       "league_name": "BLAST Slam - Season 8 2026",
       "league_id": 5319,
       "radiant_team": "LGD Gaming",
-      "dire_team": "TBD",
+      "dire_team": "Aurora",
       "radiant_team_id": 1657,
-      "dire_team_id": null,
+      "dire_team_id": 133882,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791561600,
@@ -205,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 11,
     "past_count": 30,
     "citoapi_calls_this_month": 61,
