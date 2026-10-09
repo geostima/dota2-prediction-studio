@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791539564,
-  "generated_at_iso": "2026-10-09T09:52:44.919804+00:00",
+  "generated_at": 1791540657,
+  "generated_at_iso": "2026-10-09T10:10:57.178741+00:00",
   "matches": [
     {
       "match_id": 1709125,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3003,
+      "live_seconds": 4096,
       "live_map_number": 1,
       "start_time": 1791536400,
       "series_type": 1,
@@ -86,6 +86,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791549000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1709127,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "LGD Gaming",
+      "dire_team": "TBD",
+      "radiant_team_id": 1657,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791561600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
