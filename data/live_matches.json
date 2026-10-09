@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791548744,
-  "generated_at_iso": "2026-10-09T12:25:44.673592+00:00",
+  "generated_at": 1791550220,
+  "generated_at_iso": "2026-10-09T12:50:22.484272+00:00",
   "matches": [
     {
       "match_id": 1709125,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 147,
+      "live_seconds": 1623,
       "live_map_number": 3,
       "start_time": 1791536400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "GAMBOT-PARIS",
+        "lllllll_llllll",
+        "pablo aura",
+        "rue",
+        "\u30a8\u30c3\u30b8\u30e9\u30f3\u30ca\u30fc"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "I m Going To Be 10k Player",
+        "Shenorita`",
+        "darksystem",
+        "infinite mog",
+        "\u0422\u0430\u043c, \u0434\u0435 \u043d\u0430\u0441 \u043d\u0435\u043c\u0430"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Doom",
+        "Sand King",
+        "Clockwerk",
+        "Hoodwink",
+        "Slark"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Ursa",
+        "Lycan",
+        "Earthshaker",
+        "Dark Willow",
+        "Venomancer"
       ],
       "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
@@ -208,7 +208,7 @@
     "running_count": 1,
     "upcoming_count": 11,
     "past_count": 30,
-    "citoapi_calls_this_month": 59,
+    "citoapi_calls_this_month": 61,
     "errors": []
   }
 }
