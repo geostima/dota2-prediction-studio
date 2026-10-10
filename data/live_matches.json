@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791628952,
-  "generated_at_iso": "2026-10-10T10:42:47.942042+00:00",
+  "generated_at": 1791629625,
+  "generated_at_iso": "2026-10-10T10:53:45.456465+00:00",
   "matches": [
     {
       "match_id": 1709126,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 733,
+      "live_seconds": 1406,
       "live_map_number": 1,
       "start_time": 1791628200,
       "series_type": 1,
@@ -410,8 +410,6 @@
     "upcoming_count": 9,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "errors": []
   }
 }
