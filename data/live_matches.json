@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791623424,
-  "generated_at_iso": "2026-10-10T09:10:24.185792+00:00",
+  "generated_at": 1791624749,
+  "generated_at_iso": "2026-10-10T09:32:29.097194+00:00",
   "matches": [
     {
       "match_id": 1738560,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 865,
+      "live_seconds": 2190,
       "live_map_number": 2,
       "start_time": 1791619800,
       "series_type": 1,
@@ -60,73 +60,6 @@
         {
           "position": 2,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1738561,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Southeast Asia Open Qualifier 1 2026",
-      "league_id": 4125,
-      "radiant_team": "KukuysV3",
-      "dire_team": "InterActive Philippines",
-      "radiant_team_id": 138432,
-      "dire_team_id": 129891,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791622800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/kukudota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
           "winner_id": null
         },
         {
@@ -541,7 +474,7 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 11,
+    "upcoming_count": 10,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
     "errors": []
