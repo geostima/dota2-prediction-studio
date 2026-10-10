@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791643681,
-  "generated_at_iso": "2026-10-10T14:48:03.833409+00:00",
+  "generated_at": 1791644142,
+  "generated_at_iso": "2026-10-10T14:55:42.815056+00:00",
   "matches": [
     {
       "match_id": 1739626,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1722,
+      "live_seconds": 2183,
       "live_map_number": 1,
       "start_time": 1791641700,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1629,
+      "live_seconds": 2090,
       "live_map_number": 1,
       "start_time": 1791641700,
       "series_type": 1,
@@ -154,35 +154,35 @@
       "live_map_number": 0,
       "start_time": 1791638400,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Dukalis",
-        "Have fun",
-        "Rin",
-        "strafe instructor",
-        "\u0439\u043e\u0443"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "I m Going To Be 10k Player",
-        "Shenorita`",
-        "darksystem",
-        "infinite mog",
-        "\u0422\u0430\u043c, \u0434\u0435 \u043d\u0430\u0441 \u043d\u0435\u043c\u0430"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Hoodwink",
-        "Ember Spirit",
-        "Slark",
-        "Brewmaster",
-        "Skywrath Mage"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Lifestealer",
-        "Timbersaw",
-        "Earth Spirit",
-        "Nyx Assassin",
-        "Winter Wyvern"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
