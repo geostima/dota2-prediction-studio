@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791639067,
-  "generated_at_iso": "2026-10-10T13:31:07.836859+00:00",
+  "generated_at": 1791639931,
+  "generated_at_iso": "2026-10-10T13:45:31.536224+00:00",
   "matches": [
     {
       "match_id": 1709129,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 573,
+      "live_seconds": 1437,
       "live_map_number": 1,
       "start_time": 1791638400,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1739611,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Eastern Europe Open Qualifier 1 season 30 2026",
       "league_id": 4125,
       "radiant_team": "Ka4kanarskie cyxariki",
@@ -83,9 +83,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791638100,
+      "live_seconds": 237,
+      "live_map_number": 1,
+      "start_time": 1791639900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -272,8 +272,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 7,
+    "running_count": 2,
+    "upcoming_count": 6,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
     "errors": []
