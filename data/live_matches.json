@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791604351,
-  "generated_at_iso": "2026-10-10T03:52:31.163118+00:00",
+  "generated_at": 1791605583,
+  "generated_at_iso": "2026-10-10T04:13:03.806533+00:00",
   "matches": [
     {
       "match_id": 1738320,
@@ -220,6 +220,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791619200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1738321,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "TBD",
+      "dire_team": "TBD",
+      "radiant_team_id": null,
+      "dire_team_id": null,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": null,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791626400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
