@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791647600,
-  "generated_at_iso": "2026-10-10T15:53:20.128340+00:00",
+  "generated_at": 1791648649,
+  "generated_at_iso": "2026-10-10T16:10:49.394604+00:00",
   "matches": [
-    {
-      "match_id": 1709129,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "PARIVISION",
-      "dire_team": "Aurora",
-      "radiant_team_id": 135712,
-      "dire_team_id": 133882,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2943,
-      "live_map_number": 2,
-      "start_time": 1791638400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 135712
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1739626,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2095,
+      "live_seconds": 3144,
       "live_map_number": 2,
       "start_time": 1791641700,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1864,
+      "live_seconds": 2913,
       "live_map_number": 2,
       "start_time": 1791641700,
       "series_type": 1,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 4,
     "past_count": 30,
     "citoapi_calls_this_month": 65,
