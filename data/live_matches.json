@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791643103,
-  "generated_at_iso": "2026-10-10T14:38:23.374492+00:00",
+  "generated_at": 1791643681,
+  "generated_at_iso": "2026-10-10T14:48:03.833409+00:00",
   "matches": [
-    {
-      "match_id": 1709129,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "PARIVISION",
-      "dire_team": "Aurora",
-      "radiant_team_id": 135712,
-      "dire_team_id": 133882,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 4609,
-      "live_map_number": 1,
-      "start_time": 1791638400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1739626,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1144,
+      "live_seconds": 1722,
       "live_map_number": 1,
       "start_time": 1791641700,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1051,
+      "live_seconds": 1629,
       "live_map_number": 1,
       "start_time": 1791641700,
       "series_type": 1,
@@ -204,59 +137,59 @@
       ]
     },
     {
-      "match_id": 1739611,
+      "match_id": 1709129,
       "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Eastern Europe Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Ka4kanarskie cyxariki",
-      "dire_team": "Shadow Dance",
-      "radiant_team_id": 130763,
-      "dire_team_id": 139380,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
+      "status": "live",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "PARIVISION",
+      "dire_team": "Aurora",
+      "radiant_team_id": 135712,
+      "dire_team_id": 133882,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
+      "radiant_score": 1,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791639900,
+      "start_time": 1791638400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dukalis",
+        "Have fun",
+        "Rin",
+        "strafe instructor",
+        "\u0439\u043e\u0443"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "I m Going To Be 10k Player",
+        "Shenorita`",
+        "darksystem",
+        "infinite mog",
+        "\u0422\u0430\u043c, \u0434\u0435 \u043d\u0430\u0441 \u043d\u0435\u043c\u0430"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Hoodwink",
+        "Ember Spirit",
+        "Slark",
+        "Brewmaster",
+        "Skywrath Mage"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Lifestealer",
+        "Timbersaw",
+        "Earth Spirit",
+        "Nyx Assassin",
+        "Winter Wyvern"
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135712
         },
         {
           "position": 2,
@@ -273,9 +206,9 @@
   ],
   "meta": {
     "running_count": 3,
-    "upcoming_count": 5,
+    "upcoming_count": 4,
     "past_count": 30,
-    "citoapi_calls_this_month": 62,
+    "citoapi_calls_this_month": 65,
     "errors": []
   }
 }
