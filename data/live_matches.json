@@ -1,7 +1,74 @@
 {
-  "generated_at": 1791628207,
-  "generated_at_iso": "2026-10-10T10:30:07.397255+00:00",
+  "generated_at": 1791628952,
+  "generated_at_iso": "2026-10-10T10:42:47.942042+00:00",
   "matches": [
+    {
+      "match_id": 1709126,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Yandex",
+      "dire_team": "Team Spirit",
+      "radiant_team_id": 137073,
+      "dire_team_id": 1669,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 733,
+      "live_map_number": 1,
+      "start_time": 1791628200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1738321,
       "source": "pandascore",
@@ -51,73 +118,6 @@
         ""
       ],
       "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1709126,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Yandex",
-      "dire_team": "Team Spirit",
-      "radiant_team_id": 137073,
-      "dire_team_id": 1669,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791628200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
         {
           "position": 1,
@@ -406,10 +406,12 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 10,
+    "running_count": 1,
+    "upcoming_count": 9,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
-    "errors": []
+    "errors": [
+      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
+    ]
   }
 }
