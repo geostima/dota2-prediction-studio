@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791667433,
-  "generated_at_iso": "2026-10-10T21:23:54.857710+00:00",
+  "generated_at": 1791668276,
+  "generated_at_iso": "2026-10-10T21:37:56.880748+00:00",
   "matches": [
     {
       "match_id": 1740309,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 535,
+      "live_seconds": 1378,
       "live_map_number": 1,
       "start_time": 1791666600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 533,
+      "live_seconds": 1376,
       "live_map_number": 1,
       "start_time": 1791666600,
       "series_type": 1,
@@ -117,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://kick.com/richicaster",
       "games": [
         {
           "position": 1,
