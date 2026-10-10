@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791653981,
-  "generated_at_iso": "2026-10-10T17:39:41.006760+00:00",
+  "generated_at": 1791654452,
+  "generated_at_iso": "2026-10-10T17:47:32.101131+00:00",
   "matches": [
-    {
-      "match_id": 1739626,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "PuckChamp",
-      "dire_team": "old blood",
-      "radiant_team_id": 128357,
-      "dire_team_id": 139389,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3801,
-      "live_map_number": 3,
-      "start_time": 1791641700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/aelnis",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 128357
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139389
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1740310,
       "source": "pandascore",
@@ -205,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 4,
     "past_count": 30,
     "citoapi_calls_this_month": 65,
