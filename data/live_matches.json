@@ -1,141 +1,7 @@
 {
-  "generated_at": 1791644142,
-  "generated_at_iso": "2026-10-10T14:55:42.815056+00:00",
+  "generated_at": 1791645138,
+  "generated_at_iso": "2026-10-10T15:12:18.202755+00:00",
   "matches": [
-    {
-      "match_id": 1739626,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "PuckChamp",
-      "dire_team": "old blood",
-      "radiant_team_id": 128357,
-      "dire_team_id": 139389,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2183,
-      "live_map_number": 1,
-      "start_time": 1791641700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/aelnis",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1739627,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "oveA",
-      "dire_team": "potn9ki",
-      "radiant_team_id": 139391,
-      "dire_team_id": 129222,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2090,
-      "live_map_number": 1,
-      "start_time": 1791641700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betbist",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1709129,
       "source": "pandascore",
@@ -150,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 481,
+      "live_map_number": 2,
       "start_time": 1791638400,
       "series_type": 1,
       "known_picks": 0,
@@ -190,6 +56,274 @@
           "position": 1,
           "status": "finished",
           "winner_id": 135712
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1739626,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "PuckChamp",
+      "dire_team": "old blood",
+      "radiant_team_id": 128357,
+      "dire_team_id": 139389,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791641700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/aelnis",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 128357
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1739627,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "oveA",
+      "dire_team": "potn9ki",
+      "radiant_team_id": 139391,
+      "dire_team_id": 129222,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791641700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betbist",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 129222
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1740310,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Skyreavers",
+      "dire_team": "Rottweilas Latam",
+      "radiant_team_id": 139394,
+      "dire_team_id": 137808,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791666000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1740309,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Hokori",
+      "dire_team": "New Growth",
+      "radiant_team_id": 127965,
+      "dire_team_id": 137905,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791666000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
