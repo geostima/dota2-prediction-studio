@@ -1,7 +1,142 @@
 {
-  "generated_at": 1791590054,
-  "generated_at_iso": "2026-10-09T23:54:14.946647+00:00",
-  "matches": [],
+  "generated_at": 1791592198,
+  "generated_at_iso": "2026-10-10T00:29:58.665887+00:00",
+  "matches": [
+    {
+      "match_id": 1738320,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Zenith",
+      "dire_team": "Cloud Rising",
+      "radiant_team_id": 139363,
+      "dire_team_id": 137428,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791612000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1738319,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Cloud Dawning",
+      "dire_team": "Cresent",
+      "radiant_team_id": 137529,
+      "dire_team_id": 139365,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791612000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 12,
