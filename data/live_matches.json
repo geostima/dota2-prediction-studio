@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791675675,
-  "generated_at_iso": "2026-10-10T23:41:15.033122+00:00",
+  "generated_at": 1791676393,
+  "generated_at_iso": "2026-10-10T23:53:13.965422+00:00",
   "matches": [
-    {
-      "match_id": 1740309,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Hokori",
-      "dire_team": "New Growth",
-      "radiant_team_id": 127965,
-      "dire_team_id": 137905,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 4652,
-      "live_map_number": 2,
-      "start_time": 1791666600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 127965
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1740310,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1555,
+      "live_seconds": 2273,
       "live_map_number": 3,
       "start_time": 1791666600,
       "series_type": 1,
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 2,
     "past_count": 30,
     "citoapi_calls_this_month": 68,
