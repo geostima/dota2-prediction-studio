@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791613961,
-  "generated_at_iso": "2026-10-10T06:32:56.845565+00:00",
+  "generated_at": 1791615500,
+  "generated_at_iso": "2026-10-10T06:58:20.946308+00:00",
   "matches": [
     {
       "match_id": 1738319,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1646,
+      "live_seconds": 3185,
       "live_map_number": 1,
       "start_time": 1791612000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1641,
+      "live_seconds": 3180,
       "live_map_number": 1,
       "start_time": 1791612000,
       "series_type": 1,
@@ -410,8 +410,6 @@
     "upcoming_count": 10,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "errors": []
   }
 }
