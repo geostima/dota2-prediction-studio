@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791641376,
-  "generated_at_iso": "2026-10-10T14:09:36.246000+00:00",
+  "generated_at": 1791642311,
+  "generated_at_iso": "2026-10-10T14:25:11.076822+00:00",
   "matches": [
     {
       "match_id": 1709129,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2882,
+      "live_seconds": 3817,
       "live_map_number": 1,
       "start_time": 1791638400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1682,
+      "live_seconds": 2617,
       "live_map_number": 1,
       "start_time": 1791639900,
       "series_type": 1,
@@ -137,22 +137,22 @@
       ]
     },
     {
-      "match_id": 1739627,
+      "match_id": 1739626,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
       "league_id": 4125,
-      "radiant_team": "oveA",
-      "dire_team": "potn9ki",
-      "radiant_team_id": 139391,
-      "dire_team_id": 129222,
-      "radiant_logo_url": "",
+      "radiant_team": "PuckChamp",
+      "dire_team": "old blood",
+      "radiant_team_id": 128357,
+      "dire_team_id": 139389,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791640800,
+      "live_seconds": 352,
+      "live_map_number": 1,
+      "start_time": 1791641700,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,11 +184,11 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/aelnis",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -204,22 +204,22 @@
       ]
     },
     {
-      "match_id": 1739626,
+      "match_id": 1739627,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
       "league_id": 4125,
-      "radiant_team": "PuckChamp",
-      "dire_team": "old blood",
-      "radiant_team_id": 128357,
-      "dire_team_id": 139389,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_team": "oveA",
+      "dire_team": "potn9ki",
+      "radiant_team_id": 139391,
+      "dire_team_id": 129222,
+      "radiant_logo_url": "",
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791640800,
+      "live_seconds": 259,
+      "live_map_number": 1,
+      "start_time": 1791641700,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -251,11 +251,11 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/betbist",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -272,8 +272,8 @@
     }
   ],
   "meta": {
-    "running_count": 2,
-    "upcoming_count": 6,
+    "running_count": 4,
+    "upcoming_count": 4,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
     "errors": []
