@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791669292,
-  "generated_at_iso": "2026-10-10T21:54:52.641118+00:00",
+  "generated_at": 1791670171,
+  "generated_at_iso": "2026-10-10T22:09:31.980389+00:00",
   "matches": [
     {
       "match_id": 1740309,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2394,
+      "live_seconds": 3273,
       "live_map_number": 1,
       "start_time": 1791666600,
       "series_type": 1,
@@ -81,10 +81,10 @@
       "dire_team_id": 137808,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2392,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791666600,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139394
         },
         {
           "position": 2,
