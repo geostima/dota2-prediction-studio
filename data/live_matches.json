@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791618892,
-  "generated_at_iso": "2026-10-10T07:54:52.189027+00:00",
+  "generated_at": 1791619975,
+  "generated_at_iso": "2026-10-10T08:12:55.342300+00:00",
   "matches": [
-    {
-      "match_id": 1738319,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Cloud Dawning",
-      "dire_team": "Cresent",
-      "radiant_team_id": 137529,
-      "dire_team_id": 139365,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1962,
-      "live_map_number": 2,
-      "start_time": 1791612000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137529
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1738561,
       "source": "pandascore",
@@ -117,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://kick.com/kukudota2",
       "games": [
         {
           "position": 1,
@@ -152,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791619200,
+      "start_time": 1791619800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -210,13 +143,13 @@
       "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
       "league_id": 4125,
       "radiant_team": "Cloud Rising",
-      "dire_team": "TBD",
+      "dire_team": "Cresent",
       "radiant_team_id": 137428,
-      "dire_team_id": null,
+      "dire_team_id": 139365,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791626400,
@@ -403,10 +336,211 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1739627,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "oveA",
+      "dire_team": "potn9ki",
+      "radiant_team_id": 139391,
+      "dire_team_id": 129222,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791640800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1739626,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "PuckChamp",
+      "dire_team": "old blood",
+      "radiant_team_id": 128357,
+      "dire_team_id": 139389,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791640800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1709129,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "PARIVISION",
+      "dire_team": "Aurora",
+      "radiant_team_id": 135712,
+      "dire_team_id": 133882,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791640800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 12,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
