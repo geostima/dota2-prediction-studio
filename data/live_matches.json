@@ -1,7 +1,74 @@
 {
-  "generated_at": 1791619975,
-  "generated_at_iso": "2026-10-10T08:12:55.342300+00:00",
+  "generated_at": 1791621422,
+  "generated_at_iso": "2026-10-10T08:37:02.650744+00:00",
   "matches": [
+    {
+      "match_id": 1738560,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Southeast Asia Open Qualifier 1 2026",
+      "league_id": 4125,
+      "radiant_team": "Royal Bear",
+      "dire_team": "FunFun",
+      "radiant_team_id": 139367,
+      "dire_team_id": 139366,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 1441,
+      "live_map_number": 1,
+      "start_time": 1791619800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/dktruman",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1738561,
       "source": "pandascore",
@@ -51,73 +118,6 @@
         ""
       ],
       "match_url": "https://kick.com/kukudota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1738560,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Southeast Asia Open Qualifier 1 2026",
-      "league_id": 4125,
-      "radiant_team": "Royal Bear",
-      "dire_team": "FunFun",
-      "radiant_team_id": 139367,
-      "dire_team_id": 139366,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791619800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
       "games": [
         {
           "position": 1,
@@ -540,8 +540,8 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 12,
+    "running_count": 1,
+    "upcoming_count": 11,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
     "errors": []
