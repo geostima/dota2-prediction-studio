@@ -1,23 +1,23 @@
 {
-  "generated_at": 1791611835,
-  "generated_at_iso": "2026-10-10T05:57:15.526979+00:00",
+  "generated_at": 1791613961,
+  "generated_at_iso": "2026-10-10T06:32:56.845565+00:00",
   "matches": [
     {
-      "match_id": 1738320,
+      "match_id": 1738319,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
       "league_id": 4125,
-      "radiant_team": "Zenith",
-      "dire_team": "Cloud Rising",
-      "radiant_team_id": 139363,
-      "dire_team_id": 137428,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "radiant_team": "Cloud Dawning",
+      "dire_team": "Cresent",
+      "radiant_team_id": 137529,
+      "dire_team_id": 139365,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
+      "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1646,
+      "live_map_number": 1,
       "start_time": 1791612000,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -70,21 +70,21 @@
       ]
     },
     {
-      "match_id": 1738319,
+      "match_id": 1738320,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - China Open Qualifier 1 season 30 2026",
       "league_id": 4125,
-      "radiant_team": "Cloud Dawning",
-      "dire_team": "Cresent",
-      "radiant_team_id": 137529,
-      "dire_team_id": 139365,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "dire_logo_url": "",
+      "radiant_team": "Zenith",
+      "dire_team": "Cloud Rising",
+      "radiant_team_id": 139363,
+      "dire_team_id": 137428,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1641,
+      "live_map_number": 1,
       "start_time": 1791612000,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -406,10 +406,12 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 12,
+    "running_count": 2,
+    "upcoming_count": 10,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
-    "errors": []
+    "errors": [
+      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
+    ]
   }
 }
