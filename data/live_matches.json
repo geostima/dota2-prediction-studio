@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791640422,
-  "generated_at_iso": "2026-10-10T13:53:42.208231+00:00",
+  "generated_at": 1791641376,
+  "generated_at_iso": "2026-10-10T14:09:36.246000+00:00",
   "matches": [
     {
       "match_id": 1709129,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1928,
+      "live_seconds": 2882,
       "live_map_number": 1,
       "start_time": 1791638400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 728,
+      "live_seconds": 1682,
       "live_map_number": 1,
       "start_time": 1791639900,
       "series_type": 1,
