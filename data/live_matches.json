@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791672941,
-  "generated_at_iso": "2026-10-10T22:55:41.445921+00:00",
+  "generated_at": 1791673903,
+  "generated_at_iso": "2026-10-10T23:11:43.571981+00:00",
   "matches": [
-    {
-      "match_id": 1740310,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Skyreavers",
-      "dire_team": "Rottweilas Latam",
-      "radiant_team_id": 139394,
-      "dire_team_id": 137808,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2215,
-      "live_map_number": 2,
-      "start_time": 1791666600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/richicaster",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139394
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1740309,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1918,
+      "live_seconds": 2880,
       "live_map_number": 2,
       "start_time": 1791666600,
       "series_type": 1,
@@ -128,6 +61,73 @@
           "position": 2,
           "status": "running",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1740310,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - South America Open Qualifier 1 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Skyreavers",
+      "dire_team": "Rottweilas Latam",
+      "radiant_team_id": 139394,
+      "dire_team_id": 137808,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791666600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/richicaster",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139394
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 137808
         },
         {
           "position": 3,
