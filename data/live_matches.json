@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791645138,
-  "generated_at_iso": "2026-10-10T15:12:18.202755+00:00",
+  "generated_at": 1791646178,
+  "generated_at_iso": "2026-10-10T15:29:38.338556+00:00",
   "matches": [
     {
       "match_id": 1709129,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 481,
+      "live_seconds": 1521,
       "live_map_number": 2,
       "start_time": 1791638400,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 673,
+      "live_map_number": 2,
       "start_time": 1791641700,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -150,8 +150,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 442,
+      "live_map_number": 2,
       "start_time": 1791641700,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
