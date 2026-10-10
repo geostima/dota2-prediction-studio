@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791648649,
-  "generated_at_iso": "2026-10-10T16:10:49.394604+00:00",
+  "generated_at": 1791649929,
+  "generated_at_iso": "2026-10-10T16:32:09.112749+00:00",
   "matches": [
     {
       "match_id": 1739626,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "dire_logo_url": "",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3144,
-      "live_map_number": 2,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791641700,
       "series_type": 1,
       "known_picks": 0,
@@ -59,75 +59,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1739627,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Open Qualifier 1 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "oveA",
-      "dire_team": "potn9ki",
-      "radiant_team_id": 139391,
-      "dire_team_id": 129222,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2913,
-      "live_map_number": 2,
-      "start_time": 1791641700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betbist",
-      "games": [
-        {
-          "position": 1,
           "status": "finished",
-          "winner_id": 129222
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
+          "winner_id": 139389
         },
         {
           "position": 3,
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 4,
     "past_count": 30,
     "citoapi_calls_this_month": 65,
