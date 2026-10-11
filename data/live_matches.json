@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791712605,
-  "generated_at_iso": "2026-10-11T09:56:45.451751+00:00",
+  "generated_at": 1791713825,
+  "generated_at_iso": "2026-10-11T10:17:05.518720+00:00",
   "matches": [
     {
       "match_id": 1709130,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3305,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791709200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135712
         },
         {
           "position": 2,
