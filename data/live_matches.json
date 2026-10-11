@@ -1,87 +1,9 @@
 {
-  "generated_at": 1791747918,
-  "generated_at_iso": "2026-10-11T19:45:18.450577+00:00",
-  "matches": [
-    {
-      "match_id": 1709131,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 8 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Yandex",
-      "dire_team": "Team Spirit",
-      "radiant_team_id": 137073,
-      "dire_team_id": 1669,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "radiant_score": 2,
-      "dire_score": 1,
-      "live_seconds": 4297,
-      "live_map_number": 4,
-      "start_time": 1791727200,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1669
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137073
-        },
-        {
-          "position": 3,
-          "status": "finished",
-          "winner_id": 137073
-        },
-        {
-          "position": 4,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1791748391,
+  "generated_at_iso": "2026-10-11T19:53:11.846298+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 73,
