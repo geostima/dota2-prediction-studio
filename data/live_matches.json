@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791701971,
-  "generated_at_iso": "2026-10-11T06:59:31.570564+00:00",
+  "generated_at": 1791703562,
+  "generated_at_iso": "2026-10-11T07:26:02.199377+00:00",
   "matches": [
     {
       "match_id": 1709130,
@@ -68,11 +68,88 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1709131,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Season 8 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Yandex",
+      "dire_team": "TBD",
+      "radiant_team_id": 137073,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791723600,
+      "series_type": 2,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 2,
+    "upcoming_count": 3,
     "past_count": 30,
     "citoapi_calls_this_month": 68,
     "errors": []
