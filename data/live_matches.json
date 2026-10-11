@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791735198,
-  "generated_at_iso": "2026-10-11T16:13:18.335550+00:00",
+  "generated_at": 1791736377,
+  "generated_at_iso": "2026-10-11T16:32:57.625022+00:00",
   "matches": [
     {
       "match_id": 1709131,
@@ -14,10 +14,10 @@
       "dire_team_id": 1669,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3192,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791727200,
       "series_type": 2,
       "known_picks": 0,
@@ -59,8 +59,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137073
         },
         {
           "position": 3,
@@ -82,7 +82,7 @@
   ],
   "meta": {
     "running_count": 1,
-    "upcoming_count": 3,
+    "upcoming_count": 17,
     "past_count": 30,
     "citoapi_calls_this_month": 72,
     "errors": []
