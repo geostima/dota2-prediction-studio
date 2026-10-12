@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791842142,
-  "generated_at_iso": "2026-10-12T21:55:42.671002+00:00",
+  "generated_at": 1791843154,
+  "generated_at_iso": "2026-10-12T22:12:34.114195+00:00",
   "matches": [
     {
       "match_id": 1744284,
@@ -14,10 +14,10 @@
       "dire_team_id": 139396,
       "radiant_logo_url": "",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2624,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791839700,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137905
         },
         {
           "position": 2,
@@ -81,10 +81,10 @@
       "dire_team_id": 131370,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/131370/273px_cdub_esports_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2243,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791839700,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139394
         },
         {
           "position": 2,
@@ -137,22 +137,22 @@
       ]
     },
     {
-      "match_id": 1744335,
+      "match_id": 1745472,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Dawn Bulls",
-      "dire_team": "The Warriors",
-      "radiant_team_id": 139238,
-      "dire_team_id": 139378,
-      "radiant_logo_url": "",
+      "status": "upcoming",
+      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Yakult Brothers",
+      "dire_team": "Zenith",
+      "radiant_team_id": 135697,
+      "dire_team_id": 139363,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2153,
-      "live_map_number": 3,
-      "start_time": 1791833100,
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791864000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,28 +184,95 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://www.youtube.com/ESLDota2/live",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 139378
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "finished",
-          "winner_id": 139238
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
-          "status": "running",
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1745471,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Team Resilience",
+      "dire_team": "Imperial Power",
+      "radiant_team_id": 138494,
+      "dire_team_id": 139412,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791864000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
           "winner_id": null
         }
       ]
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
