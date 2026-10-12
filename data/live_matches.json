@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791801088,
-  "generated_at_iso": "2026-10-12T10:31:30.688914+00:00",
+  "generated_at": 1791802372,
+  "generated_at_iso": "2026-10-12T10:52:52.558504+00:00",
   "matches": [
     {
       "match_id": 1742612,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3914,
+      "live_seconds": 5198,
       "live_map_number": 2,
       "start_time": 1791793500,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Yun Che",
-        "jolibepos5",
-        "onebadbish",
-        "yorr",
-        "z3"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "King",
-        "Mr. Bombastic",
-        "lain",
-        "\u795d\u798f\u4f60\uff0c\u4f60\u5374\u53d7\u8bc5\u5492",
-        "\ufff4 \ufff4"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Ember Spirit",
-        "Winter Wyvern",
-        "Dark Seer",
-        "Faceless Void",
-        "Nyx Assassin"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Anti-Mage",
-        "Necrophos",
-        "Earth Spirit",
-        "Dazzle",
-        "Rubick"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/pro_cast2",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1545,
+      "live_seconds": 2829,
       "live_map_number": 1,
       "start_time": 1791799200,
       "series_type": 1,
