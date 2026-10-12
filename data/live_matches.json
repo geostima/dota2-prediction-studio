@@ -1,7 +1,75 @@
 {
-  "generated_at": 1791762962,
-  "generated_at_iso": "2026-10-11T23:56:02.320226+00:00",
-  "matches": [],
+  "generated_at": 1791766058,
+  "generated_at_iso": "2026-10-12T00:47:38.570070+00:00",
+  "matches": [
+    {
+      "match_id": 1742193,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - China Open Qualifier 2 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Su4 Esport",
+      "dire_team": "Cresent",
+      "radiant_team_id": 139364,
+      "dire_team_id": 139365,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791784800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 50,
