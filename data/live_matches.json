@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791814613,
-  "generated_at_iso": "2026-10-12T14:16:53.480005+00:00",
+  "generated_at": 1791816185,
+  "generated_at_iso": "2026-10-12T14:43:18.083896+00:00",
   "matches": [
     {
       "match_id": 1743555,
@@ -16,39 +16,39 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 421,
+      "live_seconds": 1993,
       "live_map_number": 2,
       "start_time": 1791810600,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "GEN Z",
+        "Serenityy",
+        "VaniLLl",
+        "dark timelinee",
+        "im upset"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "423",
+        "Perseverance",
+        "Yuja Wang",
+        "m9so",
+        "whatthefvkhaveyoudonelately"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Lone Druid",
+        "Puck",
+        "Techies",
+        "Windranger",
+        "Centaur Warrunner"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Sven",
+        "Dawnbreaker",
+        "Dragon Knight",
+        "Dark Willow",
+        "Winter Wyvern"
       ],
       "match_url": "https://www.twitch.tv/pro_cast2",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 331,
+      "live_seconds": 1903,
       "live_map_number": 1,
       "start_time": 1791814200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 329,
+      "live_seconds": 1901,
       "live_map_number": 1,
       "start_time": 1791814200,
       "series_type": 1,
@@ -217,39 +217,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1531,
+      "live_map_number": 2,
       "start_time": 1791810000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "15.09 invoker deleted",
+        "WoW Forever",
+        "dota maniac",
+        "sao",
+        "\u043a\u0440\u0435\u043a\u0435\u0440"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "foxtrot",
+        "strong",
+        "the city of light",
+        "\u041c\u0435\u0447\u0442\u0430.",
+        "\u2666"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Hoodwink",
+        "Pangolier",
+        "Snapfire",
+        "Nature's Prophet",
+        "Clockwerk"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Storm Spirit",
+        "Windranger",
+        "Techies",
+        "Winter Wyvern",
+        "Doom"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -409,7 +409,7 @@
     "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 77,
+    "citoapi_calls_this_month": 80,
     "errors": []
   }
 }
