@@ -1,66 +1,66 @@
 {
-  "generated_at": 1791816185,
-  "generated_at_iso": "2026-10-12T14:43:18.083896+00:00",
+  "generated_at": 1791817337,
+  "generated_at_iso": "2026-10-12T15:02:17.075179+00:00",
   "matches": [
     {
-      "match_id": 1743555,
+      "match_id": 1743563,
       "source": "pandascore",
       "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Open Qualifier 2 2026",
-      "league_id": 4125,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "111",
-      "radiant_team_id": 2227,
-      "dire_team_id": 139405,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Team Lynx",
+      "dire_team": "CyberHero",
+      "radiant_team_id": 136531,
+      "dire_team_id": 139339,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1993,
-      "live_map_number": 2,
-      "start_time": 1791810600,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791810000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "GEN Z",
-        "Serenityy",
-        "VaniLLl",
-        "dark timelinee",
-        "im upset"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "423",
-        "Perseverance",
-        "Yuja Wang",
-        "m9so",
-        "whatthefvkhaveyoudonelately"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Lone Druid",
-        "Puck",
-        "Techies",
-        "Windranger",
-        "Centaur Warrunner"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Sven",
-        "Dawnbreaker",
-        "Dragon Knight",
-        "Dark Willow",
-        "Winter Wyvern"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
-      "match_url": "https://www.twitch.tv/pro_cast2",
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
           "status": "finished",
-          "winner_id": 2227
+          "winner_id": 139339
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136531
         },
         {
           "position": 3,
@@ -82,9 +82,9 @@
       "radiant_logo_url": "",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1903,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791814200,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139238
         },
         {
           "position": 2,
@@ -149,9 +149,9 @@
       "radiant_logo_url": "",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1901,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791814200,
       "series_type": 1,
       "known_picks": 0,
@@ -188,79 +188,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743563,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Team Lynx",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 136531,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1531,
-      "live_map_number": 2,
-      "start_time": 1791810000,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "15.09 invoker deleted",
-        "WoW Forever",
-        "dota maniac",
-        "sao",
-        "\u043a\u0440\u0435\u043a\u0435\u0440"
-      ],
-      "dire_players": [
-        "foxtrot",
-        "strong",
-        "the city of light",
-        "\u041c\u0435\u0447\u0442\u0430.",
-        "\u2666"
-      ],
-      "radiant_heroes": [
-        "Hoodwink",
-        "Pangolier",
-        "Snapfire",
-        "Nature's Prophet",
-        "Clockwerk"
-      ],
-      "dire_heroes": [
-        "Storm Spirit",
-        "Windranger",
-        "Techies",
-        "Winter Wyvern",
-        "Doom"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
           "status": "finished",
-          "winner_id": 139339
+          "winner_id": 139406
         },
         {
           "position": 2,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -403,10 +336,144 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1744284,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Open Qualifier 2 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "New Growth",
+      "dire_team": "Pizza Hook",
+      "radiant_team_id": 137905,
+      "dire_team_id": 139396,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791838800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1744283,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Open Qualifier 2 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Skyreavers",
+      "dire_team": "CDUB Esports",
+      "radiant_team_id": 139394,
+      "dire_team_id": 131370,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/131370/273px_cdub_esports_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791838800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 80,
