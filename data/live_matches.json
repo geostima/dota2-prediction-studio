@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791843154,
-  "generated_at_iso": "2026-10-12T22:12:34.114195+00:00",
+  "generated_at": 1791844305,
+  "generated_at_iso": "2026-10-12T22:31:45.325445+00:00",
   "matches": [
-    {
-      "match_id": 1744284,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Open Qualifier 2 season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "New Growth",
-      "dire_team": "Pizza Hook",
-      "radiant_team_id": 137905,
-      "dire_team_id": 139396,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791839700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137905
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1744283,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/131370/273px_cdub_esports_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 588,
+      "live_map_number": 2,
       "start_time": 1791839700,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +59,74 @@
         },
         {
           "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
           "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1744284,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - South America Open Qualifier 2 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "New Growth",
+      "dire_team": "Pizza Hook",
+      "radiant_team_id": 137905,
+      "dire_team_id": 139396,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 587,
+      "live_map_number": 2,
+      "start_time": 1791839700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137905
+        },
+        {
+          "position": 2,
+          "status": "running",
           "winner_id": null
         },
         {
