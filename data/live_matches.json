@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791840158,
-  "generated_at_iso": "2026-10-12T21:22:38.605890+00:00",
+  "generated_at": 1791841101,
+  "generated_at_iso": "2026-10-12T21:38:21.843252+00:00",
   "matches": [
     {
       "match_id": 1744284,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 640,
+      "live_seconds": 1583,
       "live_map_number": 1,
       "start_time": 1791839700,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/131370/273px_cdub_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 259,
+      "live_seconds": 1202,
       "live_map_number": 1,
       "start_time": 1791839700,
       "series_type": 1,
@@ -117,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://kick.com/richicaster",
       "games": [
         {
           "position": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 169,
+      "live_seconds": 1112,
       "live_map_number": 3,
       "start_time": 1791833100,
       "series_type": 1,
