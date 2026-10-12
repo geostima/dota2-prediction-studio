@@ -1,11 +1,11 @@
 {
-  "generated_at": 1791809198,
-  "generated_at_iso": "2026-10-12T12:46:38.651998+00:00",
+  "generated_at": 1791811169,
+  "generated_at_iso": "2026-10-12T13:19:29.709148+00:00",
   "matches": [
     {
       "match_id": 1743563,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Play-In season 3 2026",
       "league_id": 5544,
       "radiant_team": "Team Lynx",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 704,
+      "live_map_number": 1,
       "start_time": 1791810000,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -72,7 +72,7 @@
     {
       "match_id": 1743555,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Eastern Europe Open Qualifier 2 2026",
       "league_id": 4125,
       "radiant_team": "Nemiga Gaming",
@@ -83,9 +83,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791810000,
+      "live_seconds": 579,
+      "live_map_number": 1,
+      "start_time": 1791810600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -336,10 +336,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1744335,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Dawn Bulls",
+      "dire_team": "The Warriors",
+      "radiant_team_id": 139238,
+      "dire_team_id": 139378,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791831600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 77,
