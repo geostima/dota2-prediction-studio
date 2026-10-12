@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791846983,
-  "generated_at_iso": "2026-10-12T23:16:23.715212+00:00",
+  "generated_at": 1791847894,
+  "generated_at_iso": "2026-10-12T23:31:35.521299+00:00",
   "matches": [
     {
       "match_id": 1744284,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3265,
+      "live_seconds": 4176,
       "live_map_number": 2,
       "start_time": 1791839700,
       "series_type": 1,
@@ -209,6 +209,8 @@
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
