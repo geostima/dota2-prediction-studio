@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791789535,
-  "generated_at_iso": "2026-10-12T07:18:55.475873+00:00",
+  "generated_at": 1791792033,
+  "generated_at_iso": "2026-10-12T08:00:33.676324+00:00",
   "matches": [
     {
       "match_id": 1743579,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 695,
+      "live_seconds": 3193,
       "live_map_number": 1,
       "start_time": 1791788400,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1999,
+      "live_map_number": 2,
       "start_time": 1791784800,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -421,6 +421,140 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791810000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743559,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Western Europe Open Qualifier 2 2026",
+      "league_id": 4125,
+      "radiant_team": "Mena Warriors",
+      "dire_team": "Dawn Bulls",
+      "radiant_team_id": 139392,
+      "dire_team_id": 139238,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791813600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743558,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Western Europe Open Qualifier 2 2026",
+      "league_id": 4125,
+      "radiant_team": "old blood",
+      "dire_team": "White Sails",
+      "radiant_team_id": 139389,
+      "dire_team_id": 139406,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791813600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
