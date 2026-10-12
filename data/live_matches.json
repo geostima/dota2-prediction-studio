@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791802372,
-  "generated_at_iso": "2026-10-12T10:52:52.558504+00:00",
+  "generated_at": 1791803494,
+  "generated_at_iso": "2026-10-12T11:11:34.012969+00:00",
   "matches": [
     {
       "match_id": 1742612,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 5198,
-      "live_map_number": 2,
+      "dire_score": 1,
+      "live_seconds": 300,
+      "live_map_number": 3,
       "start_time": 1791793500,
       "series_type": 1,
       "known_picks": 0,
@@ -59,12 +59,12 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139402
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -81,10 +81,10 @@
       "dire_team_id": 128357,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2829,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791799200,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139339
         },
         {
           "position": 2,
