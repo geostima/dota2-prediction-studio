@@ -1,11 +1,11 @@
 {
-  "generated_at": 1791784487,
-  "generated_at_iso": "2026-10-12T05:54:47.519758+00:00",
+  "generated_at": 1791786461,
+  "generated_at_iso": "2026-10-12T06:27:42.174267+00:00",
   "matches": [
     {
       "match_id": 1742193,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - China Open Qualifier 2 season 30 2026",
       "league_id": 4125,
       "radiant_team": "Su4 Esport",
@@ -16,8 +16,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1146,
+      "live_map_number": 1,
       "start_time": 1791784800,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -339,10 +339,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 73,
+    "citoapi_calls_this_month": 74,
     "errors": []
   }
 }
