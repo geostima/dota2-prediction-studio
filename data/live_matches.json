@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791768672,
-  "generated_at_iso": "2026-10-12T01:31:12.841634+00:00",
+  "generated_at": 1791771207,
+  "generated_at_iso": "2026-10-12T02:13:27.480114+00:00",
   "matches": [
     {
       "match_id": 1742193,
@@ -118,6 +118,140 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1742613,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Southeast Asia Open Qualifier 2 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Team Kinetix",
+      "dire_team": "Thailand All Star",
+      "radiant_team_id": 139148,
+      "dire_team_id": 139368,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791792000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1742612,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Southeast Asia Open Qualifier 2 season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Ivory",
+      "dire_team": "Team Nemesis Academy",
+      "radiant_team_id": 135546,
+      "dire_team_id": 139402,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791792000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
       "games": [
         {
           "position": 1,
