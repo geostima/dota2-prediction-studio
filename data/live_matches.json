@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791824088,
-  "generated_at_iso": "2026-10-12T16:54:48.799265+00:00",
+  "generated_at": 1791824995,
+  "generated_at_iso": "2026-10-12T17:09:55.048009+00:00",
   "matches": [
     {
       "match_id": 1743564,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 945,
+      "live_seconds": 1852,
       "live_map_number": 1,
       "start_time": 1791823200,
       "series_type": 1,
