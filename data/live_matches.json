@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791883243,
-  "generated_at_iso": "2026-10-13T09:20:43.296912+00:00",
+  "generated_at": 1791884681,
+  "generated_at_iso": "2026-10-13T09:44:41.572253+00:00",
   "matches": [
     {
       "match_id": 1743369,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1188,
+      "live_seconds": 2626,
       "live_map_number": 1,
       "start_time": 1791882000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1142,
+      "live_seconds": 2580,
       "live_map_number": 1,
       "start_time": 1791882000,
       "series_type": 1,
@@ -137,73 +137,6 @@
       ]
     },
     {
-      "match_id": 1745473,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Resp Gaming",
-      "dire_team": "The goal of all life is death",
-      "radiant_team_id": 139413,
-      "dire_team_id": 134379,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 842,
-      "live_map_number": 2,
-      "start_time": 1791878400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=TBC_etIwYZw",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 134379
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1743565,
       "source": "pandascore",
       "status": "live",
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 65,
+      "live_seconds": 1503,
       "live_map_number": 3,
       "start_time": 1791874800,
       "series_type": 1,
@@ -284,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 420,
+      "live_map_number": 2,
       "start_time": 1791879000,
       "series_type": 1,
       "known_picks": 0,
@@ -327,12 +260,79 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
           "position": 3,
           "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1745473,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Resp Gaming",
+      "dire_team": "The goal of all life is death",
+      "radiant_team_id": 139413,
+      "dire_team_id": 134379,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2,
+      "live_map_number": 3,
+      "start_time": 1791878400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=TBC_etIwYZw",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 134379
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139413
+        },
+        {
+          "position": 3,
+          "status": "running",
           "winner_id": null
         }
       ]
