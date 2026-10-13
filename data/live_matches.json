@@ -1,7 +1,74 @@
 {
-  "generated_at": 1791892769,
-  "generated_at_iso": "2026-10-13T11:59:29.388590+00:00",
+  "generated_at": 1791894888,
+  "generated_at_iso": "2026-10-13T12:34:51.062126+00:00",
   "matches": [
+    {
+      "match_id": 1745475,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Team Resilience",
+      "dire_team": "Yakult Brothers",
+      "radiant_team_id": 138494,
+      "dire_team_id": 135697,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 463,
+      "live_map_number": 1,
+      "start_time": 1791894600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=TBC_etIwYZw",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1745476,
       "source": "pandascore",
@@ -51,73 +118,6 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2mango",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1745475,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 138494,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791892800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=TBC_etIwYZw",
       "games": [
         {
           "position": 1,
@@ -674,10 +674,12 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
