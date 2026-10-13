@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791917917,
-  "generated_at_iso": "2026-10-13T18:58:37.127889+00:00",
+  "generated_at": 1791919000,
+  "generated_at_iso": "2026-10-13T19:16:40.201295+00:00",
   "matches": [
     {
       "match_id": 1743373,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2577,
+      "live_seconds": 3660,
       "live_map_number": 2,
       "start_time": 1791910800,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1743387,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Pibbles Corp",
-      "dire_team": "New Growth",
-      "radiant_team_id": 139268,
-      "dire_team_id": 137905,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2266,
-      "live_map_number": 2,
-      "start_time": 1791911700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2sange",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139268
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1743582,
       "source": "pandascore",
       "status": "live",
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2200,
+      "live_seconds": 3283,
       "live_map_number": 3,
       "start_time": 1791907200,
       "series_type": 1,
@@ -204,73 +137,6 @@
       ]
     },
     {
-      "match_id": 1743372,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "HULIGANI",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 138842,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2130,
-      "live_map_number": 2,
-      "start_time": 1791910800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=E3B6Zx4nLl4",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1743388,
       "source": "pandascore",
       "status": "live",
@@ -284,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2016,
+      "live_seconds": 3099,
       "live_map_number": 2,
       "start_time": 1791911400,
       "series_type": 1,
@@ -353,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791918000,
+      "start_time": 1791919800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -537,10 +403,144 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1743392,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "TBD",
+      "dire_team": "TBD",
+      "radiant_team_id": null,
+      "dire_team_id": null,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": null,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791939600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743391,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Pibbles Corp",
+      "dire_team": "TBD",
+      "radiant_team_id": 139268,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791939600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
