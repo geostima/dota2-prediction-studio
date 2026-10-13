@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791903238,
-  "generated_at_iso": "2026-10-13T14:53:58.220419+00:00",
+  "generated_at": 1791904272,
+  "generated_at_iso": "2026-10-13T15:11:12.096151+00:00",
   "matches": [
     {
       "match_id": 1743581,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1976,
+      "live_seconds": 3010,
       "live_map_number": 2,
       "start_time": 1791896400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1841,
+      "live_seconds": 2875,
       "live_map_number": 2,
       "start_time": 1791897300,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 690,
+      "live_map_number": 3,
       "start_time": 1791894600,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +198,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -587,6 +587,140 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743390,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Chandogs",
+      "dire_team": "Skyreavers",
+      "radiant_team_id": 133237,
+      "dire_team_id": 139394,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791925200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743389,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Amaru Gaming",
+      "dire_team": "Rottweilas Latam",
+      "radiant_team_id": 137685,
+      "dire_team_id": 137808,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791925200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
       "games": [
         {
           "position": 1,
