@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791923549,
-  "generated_at_iso": "2026-10-13T20:32:29.429082+00:00",
+  "generated_at": 1791924405,
+  "generated_at_iso": "2026-10-13T20:46:53.193535+00:00",
   "matches": [
     {
       "match_id": 1743373,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2081,
+      "live_seconds": 2937,
       "live_map_number": 3,
       "start_time": 1791910800,
       "series_type": 1,
@@ -117,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2yasha",
       "games": [
         {
           "position": 1,
@@ -184,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2sange",
       "games": [
         {
           "position": 1,
@@ -343,6 +343,8 @@
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
