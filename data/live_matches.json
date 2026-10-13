@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791876963,
-  "generated_at_iso": "2026-10-13T07:36:03.693977+00:00",
+  "generated_at": 1791878229,
+  "generated_at_iso": "2026-10-13T07:57:09.410076+00:00",
   "matches": [
-    {
-      "match_id": 1745472,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Yakult Brothers",
-      "dire_team": "Zenith",
-      "radiant_team_id": 135697,
-      "dire_team_id": 139363,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2786,
-      "live_map_number": 3,
-      "start_time": 1791864000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2mango",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139363
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 135697
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743565,
       "source": "pandascore",
@@ -81,10 +14,10 @@
       "dire_team_id": 135854,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1848,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1791874800,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136531
         },
         {
           "position": 2,
@@ -478,13 +411,13 @@
       "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Team Resilience",
-      "dire_team": "TBD",
+      "dire_team": "Yakult Brothers",
       "radiant_team_id": 138494,
-      "dire_team_id": null,
+      "dire_team_id": 135697,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791892800,
@@ -741,7 +674,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
