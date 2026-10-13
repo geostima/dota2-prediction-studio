@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791908681,
-  "generated_at_iso": "2026-10-13T16:24:41.312561+00:00",
+  "generated_at": 1791909738,
+  "generated_at_iso": "2026-10-13T16:42:28.862109+00:00",
   "matches": [
-    {
-      "match_id": 1743370,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Power Rangers",
-      "dire_team": "The Warriors",
-      "radiant_team_id": 137870,
-      "dire_team_id": 139378,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2914,
-      "live_map_number": 3,
-      "start_time": 1791897300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=E3B6Zx4nLl4",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137870
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139378
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743582,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1013,
+      "live_seconds": 2070,
       "live_map_number": 1,
       "start_time": 1791907200,
       "series_type": 1,
@@ -184,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=FNjWctywlbo",
       "games": [
         {
           "position": 1,
@@ -251,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=q09YiBdhRiE",
       "games": [
         {
           "position": 1,
@@ -276,14 +209,14 @@
       "status": "upcoming",
       "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
-      "radiant_team": "CyberHero",
-      "dire_team": "TBD",
-      "radiant_team_id": 139339,
-      "dire_team_id": null,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "",
+      "radiant_team": "Power Rangers",
+      "dire_team": "CyberHero",
+      "radiant_team_id": 137870,
+      "dire_team_id": 139339,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791910800,
@@ -318,7 +251,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=FDefmo_KE4U",
       "games": [
         {
           "position": 1,
@@ -607,10 +540,12 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
