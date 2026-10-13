@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791911744,
-  "generated_at_iso": "2026-10-13T17:15:44.166102+00:00",
+  "generated_at": 1791912684,
+  "generated_at_iso": "2026-10-13T17:31:24.097207+00:00",
   "matches": [
-    {
-      "match_id": 1743582,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "Dawn Bulls",
-      "radiant_team_id": 2227,
-      "dire_team_id": 139238,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 4076,
-      "live_map_number": 1,
-      "start_time": 1791907200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743372,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 775,
+      "live_seconds": 1715,
       "live_map_number": 1,
       "start_time": 1791910800,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 744,
+      "live_seconds": 1684,
       "live_map_number": 1,
       "start_time": 1791910800,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 210,
+      "live_seconds": 1150,
       "live_map_number": 1,
       "start_time": 1791911400,
       "series_type": 1,
@@ -273,7 +206,7 @@
     {
       "match_id": 1743387,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Pibbles Corp",
@@ -284,8 +217,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 857,
+      "live_map_number": 1,
       "start_time": 1791911700,
       "series_type": 1,
       "known_picks": 0,
@@ -322,12 +255,79 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
           "position": 2,
           "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743582,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Nemiga Gaming",
+      "dire_team": "Dawn Bulls",
+      "radiant_team_id": 2227,
+      "dire_team_id": 139238,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 215,
+      "live_map_number": 2,
+      "start_time": 1791907200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 2227
+        },
+        {
+          "position": 2,
+          "status": "running",
           "winner_id": null
         },
         {
@@ -540,7 +540,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 5,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
