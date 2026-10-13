@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791926417,
-  "generated_at_iso": "2026-10-13T21:20:17.485798+00:00",
+  "generated_at": 1791927292,
+  "generated_at_iso": "2026-10-13T21:34:52.322611+00:00",
   "matches": [
     {
       "match_id": 1743389,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 895,
+      "live_seconds": 1770,
       "live_map_number": 1,
       "start_time": 1791925200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 692,
+      "live_seconds": 1567,
       "live_map_number": 1,
       "start_time": 1791925200,
       "series_type": 1,
