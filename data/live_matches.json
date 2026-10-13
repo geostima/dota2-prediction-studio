@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791914259,
-  "generated_at_iso": "2026-10-13T17:57:39.242134+00:00",
+  "generated_at": 1791916024,
+  "generated_at_iso": "2026-10-13T18:27:04.887203+00:00",
   "matches": [
-    {
-      "match_id": 1743372,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "HULIGANI",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 138842,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3290,
-      "live_map_number": 1,
-      "start_time": 1791910800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=E3B6Zx4nLl4",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743373,
       "source": "pandascore",
@@ -81,10 +14,10 @@
       "dire_team_id": 139339,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3259,
-      "live_map_number": 1,
+      "live_seconds": 684,
+      "live_map_number": 2,
       "start_time": 1791910800,
       "series_type": 1,
       "known_picks": 0,
@@ -121,79 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137870
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743388,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "PlayTime",
-      "dire_team": "Hokori",
-      "radiant_team_id": 137885,
-      "dire_team_id": 127965,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2725,
-      "live_map_number": 1,
-      "start_time": 1791911400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=FNjWctywlbo",
-      "games": [
-        {
-          "position": 1,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
           "winner_id": null
         },
         {
@@ -215,10 +81,10 @@
       "dire_team_id": 137905,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2432,
-      "live_map_number": 1,
+      "live_seconds": 373,
+      "live_map_number": 2,
       "start_time": 1791911700,
       "series_type": 1,
       "known_picks": 0,
@@ -255,12 +121,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139268
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -283,9 +149,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "dire_logo_url": "",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1790,
-      "live_map_number": 2,
+      "dire_score": 1,
+      "live_seconds": 307,
+      "live_map_number": 3,
       "start_time": 1791907200,
       "series_type": 1,
       "known_picks": 0,
@@ -324,6 +190,140 @@
           "position": 1,
           "status": "finished",
           "winner_id": 2227
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139238
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743372,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "HULIGANI",
+      "dire_team": "Yellow Submarine",
+      "radiant_team_id": 138842,
+      "dire_team_id": 1931,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 237,
+      "live_map_number": 2,
+      "start_time": 1791910800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=E3B6Zx4nLl4",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1931
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743388,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "PlayTime",
+      "dire_team": "Hokori",
+      "radiant_team_id": 137885,
+      "dire_team_id": 127965,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 123,
+      "live_map_number": 2,
+      "start_time": 1791911400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2yasha",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137885
         },
         {
           "position": 2,
