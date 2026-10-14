@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792017341,
-  "generated_at_iso": "2026-10-14T22:35:41.335616+00:00",
+  "generated_at": 1792017826,
+  "generated_at_iso": "2026-10-14T22:43:46.907703+00:00",
   "matches": [
     {
       "match_id": 1743569,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1743,
+      "live_seconds": 2228,
       "live_map_number": 3,
       "start_time": 1792004400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1712,
+      "live_seconds": 2197,
       "live_map_number": 2,
       "start_time": 1792011600,
       "series_type": 1,
