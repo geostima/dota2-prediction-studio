@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791944845,
-  "generated_at_iso": "2026-10-14T02:27:25.902845+00:00",
+  "generated_at": 1791945971,
+  "generated_at_iso": "2026-10-14T02:46:11.182390+00:00",
   "matches": [
     {
       "match_id": 1743392,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 698,
+      "live_seconds": 1824,
       "live_map_number": 2,
       "start_time": 1791939600,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 566,
+      "live_map_number": 2,
       "start_time": 1791939600,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
