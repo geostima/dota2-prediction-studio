@@ -1,141 +1,7 @@
 {
-  "generated_at": 1791998574,
-  "generated_at_iso": "2026-10-14T17:22:57.238198+00:00",
+  "generated_at": 1791999537,
+  "generated_at_iso": "2026-10-14T17:38:57.285999+00:00",
   "matches": [
-    {
-      "match_id": 1743585,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "salamit",
-      "radiant_team_id": 2227,
-      "dire_team_id": 139407,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 4653,
-      "live_map_number": 1,
-      "start_time": 1791993600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1748430,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "zxcursed Team",
-      "dire_team": "Nix Team",
-      "radiant_team_id": 139425,
-      "dire_team_id": 138690,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139425/796px_zxcursed_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2751,
-      "live_map_number": 3,
-      "start_time": 1791986400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138690
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139425
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743374,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1245,
+      "live_seconds": 2208,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -217,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1229,
+      "live_seconds": 2192,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -284,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 935,
+      "live_seconds": 1898,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -351,7 +217,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 932,
+      "live_seconds": 1895,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -391,6 +257,73 @@
           "position": 1,
           "status": "running",
           "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743585,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Nemiga Gaming",
+      "dire_team": "salamit",
+      "radiant_team_id": 2227,
+      "dire_team_id": 139407,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791993600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139407
         },
         {
           "position": 2,
@@ -741,12 +674,10 @@
     }
   ],
   "meta": {
-    "running_count": 6,
+    "running_count": 5,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": [
-      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
-    ]
+    "errors": []
   }
 }
