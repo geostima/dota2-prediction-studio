@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791977136,
-  "generated_at_iso": "2026-10-14T11:25:36.573909+00:00",
+  "generated_at": 1791977945,
+  "generated_at_iso": "2026-10-14T11:39:05.925104+00:00",
   "matches": [
     {
       "match_id": 1743376,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2204,
+      "live_seconds": 3013,
       "live_map_number": 2,
       "start_time": 1791970200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1637,
+      "live_seconds": 2446,
       "live_map_number": 2,
       "start_time": 1791972000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139423/356px_alohadance_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1295,
+      "live_seconds": 2104,
       "live_map_number": 2,
       "start_time": 1791972600,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 774,
+      "live_map_number": 3,
       "start_time": 1791969000,
       "series_type": 1,
       "known_picks": 0,
@@ -265,7 +265,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
