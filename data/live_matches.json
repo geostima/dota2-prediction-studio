@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791964520,
-  "generated_at_iso": "2026-10-14T07:55:20.064614+00:00",
+  "generated_at": 1791965694,
+  "generated_at_iso": "2026-10-14T08:14:54.611355+00:00",
   "matches": [
     {
       "match_id": 1743568,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1141,
+      "live_map_number": 2,
       "start_time": 1791959400,
       "series_type": 1,
       "known_picks": 0,
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -72,7 +72,7 @@
     {
       "match_id": 1745481,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Cloud Rising",
@@ -83,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 711,
+      "live_map_number": 1,
       "start_time": 1791964800,
       "series_type": 1,
       "known_picks": 0,
@@ -117,11 +117,11 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=G8eAK143qOM",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -139,7 +139,7 @@
     {
       "match_id": 1745480,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Resp Gaming",
@@ -150,9 +150,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791964800,
+      "live_seconds": 23,
+      "live_map_number": 1,
+      "start_time": 1791965700,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -184,11 +184,11 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=deoW0MZdpoQ",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -251,7 +251,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=XMwtjMglb1I",
       "games": [
         {
           "position": 1,
@@ -318,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
       "games": [
         {
           "position": 1,
@@ -452,7 +452,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=G8eAK143qOM",
       "games": [
         {
           "position": 1,
@@ -519,7 +519,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=deoW0MZdpoQ",
       "games": [
         {
           "position": 1,
@@ -674,7 +674,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
