@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791970414,
-  "generated_at_iso": "2026-10-14T09:33:34.277198+00:00",
+  "generated_at": 1791971267,
+  "generated_at_iso": "2026-10-14T09:47:47.449780+00:00",
   "matches": [
     {
       "match_id": 1743375,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1639,
+      "live_seconds": 2492,
       "live_map_number": 1,
       "start_time": 1791969000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1182,
+      "live_seconds": 2035,
       "live_map_number": 2,
       "start_time": 1791964800,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 90,
+      "live_seconds": 943,
       "live_map_number": 1,
       "start_time": 1791970200,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 835,
+      "live_map_number": 2,
       "start_time": 1791965700,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
