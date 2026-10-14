@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791990657,
-  "generated_at_iso": "2026-10-14T15:10:57.080615+00:00",
+  "generated_at": 1791991973,
+  "generated_at_iso": "2026-10-14T15:32:53.348002+00:00",
   "matches": [
-    {
-      "match_id": 1745477,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 138494,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2078,
-      "live_map_number": 3,
-      "start_time": 1791979200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=deoW0MZdpoQ",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138494
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 135697
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743378,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1826,
+      "live_seconds": 3142,
       "live_map_number": 2,
       "start_time": 1791984600,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1667,
+      "live_seconds": 2983,
       "live_map_number": 2,
       "start_time": 1791979200,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 59,
+      "live_seconds": 1375,
       "live_map_number": 2,
       "start_time": 1791986400,
       "series_type": 1,
@@ -942,7 +875,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
