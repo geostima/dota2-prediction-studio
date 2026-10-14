@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791989207,
-  "generated_at_iso": "2026-10-14T14:46:47.208276+00:00",
+  "generated_at": 1791989704,
+  "generated_at_iso": "2026-10-14T14:55:04.938247+00:00",
   "matches": [
-    {
-      "match_id": 1743377,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "CyberHero",
-      "dire_team": "Kalmychata",
-      "radiant_team_id": 139339,
-      "dire_team_id": 134208,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3029,
-      "live_map_number": 2,
-      "start_time": 1791982800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 134208
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1748430,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2793,
+      "live_seconds": 3290,
       "live_map_number": 1,
       "start_time": 1791986400,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 628,
+      "live_seconds": 1125,
       "live_map_number": 3,
       "start_time": 1791979200,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 376,
+      "live_seconds": 873,
       "live_map_number": 2,
       "start_time": 1791984600,
       "series_type": 1,
@@ -284,7 +217,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 217,
+      "live_seconds": 714,
       "live_map_number": 2,
       "start_time": 1791979200,
       "series_type": 1,
@@ -611,13 +544,13 @@
       "status": "upcoming",
       "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
-      "radiant_team": "TBD",
+      "radiant_team": "Kalmychata",
       "dire_team": "TBD",
-      "radiant_team_id": null,
+      "radiant_team_id": 134208,
       "dire_team_id": null,
-      "radiant_logo_url": "",
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "dire_logo_url": "",
-      "radiant_score": null,
+      "radiant_score": 0,
       "dire_score": null,
       "live_seconds": 0,
       "live_map_number": 0,
@@ -875,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
