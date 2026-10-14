@@ -1,24 +1,24 @@
 {
-  "generated_at": 1791937846,
-  "generated_at_iso": "2026-10-14T00:30:46.996419+00:00",
+  "generated_at": 1791940132,
+  "generated_at_iso": "2026-10-14T01:08:56.971299+00:00",
   "matches": [
     {
-      "match_id": 1743389,
+      "match_id": 1743391,
       "source": "pandascore",
       "status": "live",
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
-      "radiant_team": "Amaru Gaming",
-      "dire_team": "Rottweilas Latam",
-      "radiant_team_id": 137685,
-      "dire_team_id": 137808,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3659,
-      "live_map_number": 3,
-      "start_time": 1791925200,
+      "radiant_team": "Pibbles Corp",
+      "dire_team": "PlayTime",
+      "radiant_team_id": 139268,
+      "dire_team_id": 137885,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 48,
+      "live_map_number": 1,
+      "start_time": 1791939600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -54,17 +54,17 @@
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 137685
+          "status": "running",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "finished",
-          "winner_id": 137808
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         }
       ]
@@ -75,79 +75,12 @@
       "status": "upcoming",
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
-      "radiant_team": "Chandogs",
-      "dire_team": "TBD",
-      "radiant_team_id": 133237,
-      "dire_team_id": null,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": null,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1791939600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743391,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Pibbles Corp",
-      "dire_team": "PlayTime",
-      "radiant_team_id": 139268,
-      "dire_team_id": 137885,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "radiant_team": "Amaru Gaming",
+      "dire_team": "Chandogs",
+      "radiant_team_id": 137685,
+      "dire_team_id": 133237,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
@@ -184,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2yasha",
       "games": [
         {
           "position": 1,
@@ -410,6 +343,8 @@
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
