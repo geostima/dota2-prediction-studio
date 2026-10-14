@@ -1,141 +1,7 @@
 {
-  "generated_at": 1792008624,
-  "generated_at_iso": "2026-10-14T20:10:24.146897+00:00",
+  "generated_at": 1792009743,
+  "generated_at_iso": "2026-10-14T20:29:03.850812+00:00",
   "matches": [
-    {
-      "match_id": 1743569,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "Mena Warriors",
-      "radiant_team_id": 135854,
-      "dire_team_id": 139392,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3237,
-      "live_map_number": 1,
-      "start_time": 1792004400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743394,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Rottweilas Latam",
-      "dire_team": "Skyreavers",
-      "radiant_team_id": 137808,
-      "dire_team_id": 139394,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2691,
-      "live_map_number": 3,
-      "start_time": 1791997200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=2SUgyFXGIdw",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137808
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139394
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743379,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1173,
+      "live_seconds": 2292,
       "live_map_number": 3,
       "start_time": 1791997200,
       "series_type": 1,
@@ -217,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 562,
+      "live_map_number": 2,
       "start_time": 1792005000,
       "series_type": 1,
       "known_picks": 0,
@@ -260,6 +126,73 @@
         },
         {
           "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743569,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Zero Tenacity",
+      "dire_team": "Mena Warriors",
+      "radiant_team_id": 135854,
+      "dire_team_id": 139392,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792004400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 135854
+        },
+        {
+          "position": 2,
           "status": "not_started",
           "winner_id": null
         },
@@ -277,13 +210,13 @@
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Pibbles Corp",
-      "dire_team": "TBD",
+      "dire_team": "Skyreavers",
       "radiant_team_id": 139268,
-      "dire_team_id": null,
+      "dire_team_id": 139394,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792011600,
@@ -607,7 +540,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
