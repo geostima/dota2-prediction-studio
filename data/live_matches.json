@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792017826,
-  "generated_at_iso": "2026-10-14T22:43:46.907703+00:00",
+  "generated_at": 1792018367,
+  "generated_at_iso": "2026-10-14T22:52:47.648944+00:00",
   "matches": [
     {
       "match_id": 1743569,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2228,
+      "live_seconds": 2769,
       "live_map_number": 3,
       "start_time": 1792004400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2197,
+      "live_seconds": 2738,
       "live_map_number": 2,
       "start_time": 1792011600,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 98,
+      "live_map_number": 2,
       "start_time": 1792011600,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
