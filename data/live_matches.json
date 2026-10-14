@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791986069,
-  "generated_at_iso": "2026-10-14T13:54:29.173735+00:00",
+  "generated_at": 1791987011,
+  "generated_at_iso": "2026-10-14T14:10:11.555682+00:00",
   "matches": [
     {
       "match_id": 1745482,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 6250,
+      "live_seconds": 7192,
       "live_map_number": 1,
       "start_time": 1791979200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1824,
+      "live_seconds": 2766,
       "live_map_number": 2,
       "start_time": 1791979200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1623,
+      "live_seconds": 2565,
       "live_map_number": 1,
       "start_time": 1791984600,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 833,
+      "live_map_number": 2,
       "start_time": 1791982800,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -273,7 +273,7 @@
     {
       "match_id": 1748430,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Streamers League - #3 2026",
       "league_id": 5570,
       "radiant_team": "zxcursed Team",
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 597,
+      "live_map_number": 1,
       "start_time": 1791986400,
       "series_type": 1,
       "known_picks": 0,
@@ -322,7 +322,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -875,7 +875,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 5,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
