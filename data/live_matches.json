@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791982673,
-  "generated_at_iso": "2026-10-14T12:57:53.679053+00:00",
+  "generated_at": 1791983881,
+  "generated_at_iso": "2026-10-14T13:18:03.536110+00:00",
   "matches": [
-    {
-      "match_id": 1745477,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 138494,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3049,
-      "live_map_number": 1,
-      "start_time": 1791979200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=deoW0MZdpoQ",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1745482,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2854,
+      "live_seconds": 4062,
       "live_map_number": 1,
       "start_time": 1791979200,
       "series_type": 1,
@@ -137,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1743376,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "The Warriors",
-      "dire_team": "Shadow Dance",
-      "radiant_team_id": 139378,
-      "dire_team_id": 139380,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2692,
-      "live_map_number": 3,
-      "start_time": 1791970200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=XMwtjMglb1I",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139378
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139380
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1748429,
       "source": "pandascore",
       "status": "live",
@@ -217,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139423/356px_alohadance_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1589,
+      "live_seconds": 2797,
       "live_map_number": 3,
       "start_time": 1791972600,
       "series_type": 1,
@@ -271,21 +137,21 @@
       ]
     },
     {
-      "match_id": 1748430,
+      "match_id": 1743377,
       "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "zxcursed Team",
-      "dire_team": "Nix Team",
-      "radiant_team_id": 139425,
-      "dire_team_id": 138690,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139425/796px_zxcursed_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
+      "status": "live",
+      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "CyberHero",
+      "dire_team": "Kalmychata",
+      "radiant_team_id": 139339,
+      "dire_team_id": 134208,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 875,
+      "live_map_number": 1,
       "start_time": 1791982800,
       "series_type": 1,
       "known_picks": 0,
@@ -318,12 +184,79 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
       "games": [
         {
           "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1745477,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Team Resilience",
+      "dire_team": "Yakult Brothers",
+      "radiant_team_id": 138494,
+      "dire_team_id": 135697,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791979200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=deoW0MZdpoQ",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 138494
         },
         {
           "position": 2,
@@ -344,16 +277,16 @@
       "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "HULIGANI",
-      "dire_team": "TBD",
+      "dire_team": "Shadow Dance",
       "radiant_team_id": 138842,
-      "dire_team_id": null,
+      "dire_team_id": 139380,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791982800,
+      "start_time": 1791984600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -405,22 +338,22 @@
       ]
     },
     {
-      "match_id": 1743377,
+      "match_id": 1748430,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "CyberHero",
-      "dire_team": "Kalmychata",
-      "radiant_team_id": 139339,
-      "dire_team_id": 134208,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "zxcursed Team",
+      "dire_team": "Nix Team",
+      "radiant_team_id": 139425,
+      "dire_team_id": 138690,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139425/796px_zxcursed_team_1w_sl2_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791982800,
+      "start_time": 1791986400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -452,7 +385,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
       "games": [
         {
           "position": 1,
@@ -872,6 +805,140 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1743584,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Dawn Bulls",
+      "dire_team": "salamit",
+      "radiant_team_id": 139238,
+      "dire_team_id": 139407,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792004400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743569,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Zero Tenacity",
+      "dire_team": "Mena Warriors",
+      "radiant_team_id": 135854,
+      "dire_team_id": 139392,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792004400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
@@ -879,6 +946,8 @@
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
