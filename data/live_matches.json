@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791999537,
-  "generated_at_iso": "2026-10-14T17:38:57.285999+00:00",
+  "generated_at": 1792000141,
+  "generated_at_iso": "2026-10-14T17:49:01.110165+00:00",
   "matches": [
     {
       "match_id": 1743374,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2208,
+      "live_seconds": 2812,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2192,
+      "live_seconds": 2796,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1898,
+      "live_seconds": 2502,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1895,
+      "live_seconds": 2499,
       "live_map_number": 1,
       "start_time": 1791997200,
       "series_type": 1,
@@ -284,8 +284,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 418,
+      "live_map_number": 2,
       "start_time": 1791993600,
       "series_type": 1,
       "known_picks": 0,
@@ -327,7 +327,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -353,7 +353,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1791999000,
+      "start_time": 1791999900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
