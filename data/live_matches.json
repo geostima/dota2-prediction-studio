@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791981954,
-  "generated_at_iso": "2026-10-14T12:45:54.525360+00:00",
+  "generated_at": 1791982673,
+  "generated_at_iso": "2026-10-14T12:57:53.679053+00:00",
   "matches": [
     {
       "match_id": 1745477,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2330,
+      "live_seconds": 3049,
       "live_map_number": 1,
       "start_time": 1791979200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2135,
+      "live_seconds": 2854,
       "live_map_number": 1,
       "start_time": 1791979200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1973,
+      "live_seconds": 2692,
       "live_map_number": 3,
       "start_time": 1791970200,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139423/356px_alohadance_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 870,
+      "live_seconds": 1589,
       "live_map_number": 3,
       "start_time": 1791972600,
       "series_type": 1,
@@ -452,7 +452,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
       "games": [
         {
           "position": 1,
