@@ -1,208 +1,7 @@
 {
-  "generated_at": 1792004131,
-  "generated_at_iso": "2026-10-14T18:55:31.339739+00:00",
+  "generated_at": 1792005007,
+  "generated_at_iso": "2026-10-14T19:10:07.475016+00:00",
   "matches": [
-    {
-      "match_id": 1743374,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Yellow Submarine",
-      "dire_team": "Power Rangers",
-      "radiant_team_id": 1931,
-      "dire_team_id": 137870,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2426,
-      "live_map_number": 2,
-      "start_time": 1791997200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743394,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Rottweilas Latam",
-      "dire_team": "Skyreavers",
-      "radiant_team_id": 137808,
-      "dire_team_id": 139394,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2192,
-      "live_map_number": 2,
-      "start_time": 1791997200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=2SUgyFXGIdw",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137808
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743393,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "New Growth",
-      "dire_team": "Hokori",
-      "radiant_team_id": 137905,
-      "dire_team_id": 127965,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2102,
-      "live_map_number": 2,
-      "start_time": 1791997200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=KNuLwC1iMCI",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 127965
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743379,
       "source": "pandascore",
@@ -217,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1820,
+      "live_seconds": 2696,
       "live_map_number": 2,
       "start_time": 1791997200,
       "series_type": 1,
@@ -262,6 +61,140 @@
           "position": 2,
           "status": "running",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743584,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Dawn Bulls",
+      "dire_team": "salamit",
+      "radiant_team_id": 139238,
+      "dire_team_id": 139407,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 41,
+      "live_map_number": 1,
+      "start_time": 1792005000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743394,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Rottweilas Latam",
+      "dire_team": "Skyreavers",
+      "radiant_team_id": 137808,
+      "dire_team_id": 139394,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791997200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=2SUgyFXGIdw",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137808
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139394
         },
         {
           "position": 3,
@@ -338,73 +271,6 @@
       ]
     },
     {
-      "match_id": 1743584,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Dawn Bulls",
-      "dire_team": "salamit",
-      "radiant_team_id": 139238,
-      "dire_team_id": 139407,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792004400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1743569,
       "source": "pandascore",
       "status": "upcoming",
@@ -452,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
@@ -545,13 +411,13 @@
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Chandogs",
-      "dire_team": "TBD",
+      "dire_team": "Hokori",
       "radiant_team_id": 133237,
-      "dire_team_id": null,
+      "dire_team_id": 127965,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792011600,
@@ -604,10 +470,144 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1743398,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Amaru Gaming",
+      "dire_team": "PlayTime",
+      "radiant_team_id": 137685,
+      "dire_team_id": 137885,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792026000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743397,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "TBD",
+      "dire_team": "TBD",
+      "radiant_team_id": null,
+      "dire_team_id": null,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": null,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792026000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
