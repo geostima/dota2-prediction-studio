@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792012965,
-  "generated_at_iso": "2026-10-14T21:22:45.798801+00:00",
+  "generated_at": 1792013770,
+  "generated_at_iso": "2026-10-14T21:36:12.038664+00:00",
   "matches": [
     {
       "match_id": 1743569,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2791,
+      "live_seconds": 3596,
       "live_map_number": 2,
       "start_time": 1792004400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 844,
+      "live_seconds": 1649,
       "live_map_number": 1,
       "start_time": 1792011600,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 741,
+      "live_seconds": 1546,
       "live_map_number": 1,
       "start_time": 1792011600,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 496,
+      "live_seconds": 1301,
       "live_map_number": 3,
       "start_time": 1792005000,
       "series_type": 1,
@@ -477,6 +477,8 @@
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
