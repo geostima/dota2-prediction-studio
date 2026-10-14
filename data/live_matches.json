@@ -1,6 +1,6 @@
 {
-  "generated_at": 1791985567,
-  "generated_at_iso": "2026-10-14T13:46:07.788940+00:00",
+  "generated_at": 1791986069,
+  "generated_at_iso": "2026-10-14T13:54:29.173735+00:00",
   "matches": [
     {
       "match_id": 1745482,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 5748,
+      "live_seconds": 6250,
       "live_map_number": 1,
       "start_time": 1791979200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1322,
+      "live_seconds": 1824,
       "live_map_number": 2,
       "start_time": 1791979200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1121,
+      "live_seconds": 1623,
       "live_map_number": 1,
       "start_time": 1791984600,
       "series_type": 1,
