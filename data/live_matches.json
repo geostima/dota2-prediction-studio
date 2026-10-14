@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791980507,
-  "generated_at_iso": "2026-10-14T12:21:47.133198+00:00",
+  "generated_at": 1791981954,
+  "generated_at_iso": "2026-10-14T12:45:54.525360+00:00",
   "matches": [
-    {
-      "match_id": 1743375,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "Kalmychata",
-      "radiant_team_id": 2227,
-      "dire_team_id": 134208,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3336,
-      "live_map_number": 3,
-      "start_time": 1791969000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 2227
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 134208
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1745477,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 883,
+      "live_seconds": 2330,
       "live_map_number": 1,
       "start_time": 1791979200,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 688,
+      "live_seconds": 2135,
       "live_map_number": 1,
       "start_time": 1791979200,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 526,
+      "live_seconds": 1973,
       "live_map_number": 3,
       "start_time": 1791970200,
       "series_type": 1,
@@ -284,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139423/356px_alohadance_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 870,
+      "live_map_number": 3,
       "start_time": 1791972600,
       "series_type": 1,
       "known_picks": 0,
@@ -332,7 +265,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -478,13 +411,13 @@
       "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "CyberHero",
-      "dire_team": "TBD",
+      "dire_team": "Kalmychata",
       "radiant_team_id": 139339,
-      "dire_team_id": null,
+      "dire_team_id": 134208,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1791982800,
@@ -942,7 +875,7 @@
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
