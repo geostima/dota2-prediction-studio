@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791978505,
-  "generated_at_iso": "2026-10-14T11:48:25.710381+00:00",
+  "generated_at": 1791978960,
+  "generated_at_iso": "2026-10-14T11:56:00.179186+00:00",
   "matches": [
-    {
-      "match_id": 1743376,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "The Warriors",
-      "dire_team": "Shadow Dance",
-      "radiant_team_id": 139378,
-      "dire_team_id": 139380,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3573,
-      "live_map_number": 2,
-      "start_time": 1791970200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=XMwtjMglb1I",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139378
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1748429,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139423/356px_alohadance_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2664,
+      "live_seconds": 3119,
       "live_map_number": 2,
       "start_time": 1791972600,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1334,
+      "live_seconds": 1789,
       "live_map_number": 3,
       "start_time": 1791969000,
       "series_type": 1,
@@ -199,6 +132,73 @@
         {
           "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743376,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "The Warriors",
+      "dire_team": "Shadow Dance",
+      "radiant_team_id": 139378,
+      "dire_team_id": 139380,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791970200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=XMwtjMglb1I",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139378
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139380
+        },
+        {
+          "position": 3,
+          "status": "not_started",
           "winner_id": null
         }
       ]
