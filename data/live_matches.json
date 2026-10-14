@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792005801,
-  "generated_at_iso": "2026-10-14T19:23:21.934330+00:00",
+  "generated_at": 1792006617,
+  "generated_at_iso": "2026-10-14T19:36:57.407729+00:00",
   "matches": [
-    {
-      "match_id": 1743379,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Kalmychata",
-      "dire_team": "HULIGANI",
-      "radiant_team_id": 134208,
-      "dire_team_id": 138842,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3490,
-      "live_map_number": 2,
-      "start_time": 1791997200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=XMwtjMglb1I",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138842
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743584,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 835,
+      "live_seconds": 1651,
       "live_map_number": 1,
       "start_time": 1792005000,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 414,
+      "live_seconds": 1230,
       "live_map_number": 1,
       "start_time": 1792004400,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 313,
+      "live_seconds": 1129,
       "live_map_number": 2,
       "start_time": 1792001400,
       "series_type": 1,
@@ -284,8 +217,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 684,
+      "live_map_number": 3,
       "start_time": 1791997200,
       "series_type": 1,
       "known_picks": 0,
@@ -329,6 +262,73 @@
           "position": 2,
           "status": "finished",
           "winner_id": 139394
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743379,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Kalmychata",
+      "dire_team": "HULIGANI",
+      "radiant_team_id": 134208,
+      "dire_team_id": 138842,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791997200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=XMwtjMglb1I",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 138842
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 134208
         },
         {
           "position": 3,
