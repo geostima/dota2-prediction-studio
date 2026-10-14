@@ -1,74 +1,7 @@
 {
-  "generated_at": 1791996020,
-  "generated_at_iso": "2026-10-14T16:40:20.624297+00:00",
+  "generated_at": 1791996891,
+  "generated_at_iso": "2026-10-14T16:54:51.783821+00:00",
   "matches": [
-    {
-      "match_id": 1745482,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Cloud Dawning",
-      "dire_team": "Zenith",
-      "radiant_team_id": 137529,
-      "dire_team_id": 139363,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2438,
-      "live_map_number": 2,
-      "start_time": 1791979200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=G8eAK143qOM",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139363
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743585,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2099,
+      "live_seconds": 2970,
       "live_map_number": 1,
       "start_time": 1791993600,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 197,
+      "live_seconds": 1068,
       "live_map_number": 3,
       "start_time": 1791986400,
       "series_type": 1,
@@ -808,7 +741,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
