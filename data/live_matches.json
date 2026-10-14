@@ -1,141 +1,7 @@
 {
-  "generated_at": 1791971267,
-  "generated_at_iso": "2026-10-14T09:47:47.449780+00:00",
+  "generated_at": 1791971803,
+  "generated_at_iso": "2026-10-14T09:56:43.549200+00:00",
   "matches": [
-    {
-      "match_id": 1743375,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "Kalmychata",
-      "radiant_team_id": 2227,
-      "dire_team_id": 134208,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2492,
-      "live_map_number": 1,
-      "start_time": 1791969000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1745481,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Cloud Rising",
-      "dire_team": "Zenith",
-      "radiant_team_id": 137428,
-      "dire_team_id": 139363,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2035,
-      "live_map_number": 2,
-      "start_time": 1791964800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=G8eAK143qOM",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137428
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743376,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 943,
+      "live_seconds": 1479,
       "live_map_number": 1,
       "start_time": 1791970200,
       "series_type": 1,
@@ -217,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 835,
+      "live_seconds": 1371,
       "live_map_number": 2,
       "start_time": 1791965700,
       "series_type": 1,
@@ -261,6 +127,140 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1745481,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Cloud Rising",
+      "dire_team": "Zenith",
+      "radiant_team_id": 137428,
+      "dire_team_id": 139363,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791964800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=G8eAK143qOM",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137428
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139363
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743375,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Nemiga Gaming",
+      "dire_team": "Kalmychata",
+      "radiant_team_id": 2227,
+      "dire_team_id": 134208,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1791969000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=J35p3aqgaq4",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 2227
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
