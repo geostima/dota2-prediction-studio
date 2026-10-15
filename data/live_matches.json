@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792071628,
-  "generated_at_iso": "2026-10-15T13:40:28.794171+00:00",
+  "generated_at": 1792072522,
+  "generated_at_iso": "2026-10-15T13:55:22.376431+00:00",
   "matches": [
     {
       "match_id": 1743406,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3227,
+      "live_seconds": 4121,
       "live_map_number": 3,
       "start_time": 1792058400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2114,
+      "live_seconds": 3008,
       "live_map_number": 2,
       "start_time": 1792065600,
       "series_type": 1,
@@ -137,73 +137,6 @@
       ]
     },
     {
-      "match_id": 1748431,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "Gorgc Team",
-      "dire_team": "zxcursed Team",
-      "radiant_team_id": 139424,
-      "dire_team_id": 139425,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139425/796px_zxcursed_team_1w_sl2_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 1962,
-      "live_map_number": 1,
-      "start_time": 1792069200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1743429,
       "source": "pandascore",
       "status": "live",
@@ -217,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1737,
+      "live_seconds": 2631,
       "live_map_number": 2,
       "start_time": 1792065600,
       "series_type": 1,
@@ -284,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1690,
+      "live_seconds": 2584,
       "live_map_number": 1,
       "start_time": 1792069200,
       "series_type": 1,
@@ -351,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 808,
+      "live_seconds": 1702,
       "live_map_number": 1,
       "start_time": 1792071000,
       "series_type": 2,
@@ -415,6 +348,73 @@
       ]
     },
     {
+      "match_id": 1748431,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "Gorgc Team",
+      "dire_team": "zxcursed Team",
+      "radiant_team_id": 139424,
+      "dire_team_id": 139425,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139425/796px_zxcursed_team_1w_sl2_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792069200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139424
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1743409,
       "source": "pandascore",
       "status": "upcoming",
@@ -462,7 +462,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2ember",
       "games": [
         {
           "position": 1,
@@ -529,7 +529,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=TS6BqxF_j8w",
       "games": [
         {
           "position": 1,
