@@ -1,208 +1,7 @@
 {
-  "generated_at": 1792068138,
-  "generated_at_iso": "2026-10-15T12:42:18.651330+00:00",
+  "generated_at": 1792069234,
+  "generated_at_iso": "2026-10-15T13:00:34.327893+00:00",
   "matches": [
-    {
-      "match_id": 1743380,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Power Rangers",
-      "dire_team": "Kalmychata",
-      "radiant_team_id": 137870,
-      "dire_team_id": 134208,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2666,
-      "live_map_number": 3,
-      "start_time": 1792054800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=WJ3qrp6DidA",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137870
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 134208
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743429,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Direborn",
-      "dire_team": "Royal Bear",
-      "radiant_team_id": 138753,
-      "dire_team_id": 139367,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2278,
-      "live_map_number": 1,
-      "start_time": 1792065600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=_5XA-71xpjQ",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743430,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Yangon Galacticos",
-      "dire_team": "InterActive Philippines",
-      "radiant_team_id": 128080,
-      "dire_team_id": 129891,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2104,
-      "live_map_number": 1,
-      "start_time": 1792065600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=JGDpL8pdHls",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743406,
       "source": "pandascore",
@@ -217,8 +16,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 833,
+      "live_map_number": 3,
       "start_time": 1792058400,
       "series_type": 1,
       "known_picks": 0,
@@ -262,6 +61,140 @@
           "position": 2,
           "status": "finished",
           "winner_id": 139238
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743429,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Direborn",
+      "dire_team": "Royal Bear",
+      "radiant_team_id": 138753,
+      "dire_team_id": 139367,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792065600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=_5XA-71xpjQ",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139367
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743430,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Yangon Galacticos",
+      "dire_team": "InterActive Philippines",
+      "radiant_team_id": 128080,
+      "dire_team_id": 129891,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792065600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=JGDpL8pdHls",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 128080
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
@@ -411,16 +344,16 @@
       "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Yellow Submarine",
-      "dire_team": "TBD",
+      "dire_team": "Kalmychata",
       "radiant_team_id": 1931,
-      "dire_team_id": null,
+      "dire_team_id": 134208,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792069200,
+      "start_time": 1792071000,
       "series_type": 2,
       "known_picks": 0,
       "lineup_available": false,
@@ -949,10 +882,144 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1748443,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "Stariy bog Team",
+      "dire_team": "Korb3n Team",
+      "radiant_team_id": 136959,
+      "dire_team_id": 136964,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792090800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743573,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "PuckChamp",
+      "dire_team": "Mena Warriors",
+      "radiant_team_id": 128357,
+      "dire_team_id": 139392,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792090800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
