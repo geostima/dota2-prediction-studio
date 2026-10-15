@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792091986,
-  "generated_at_iso": "2026-10-15T19:19:46.118619+00:00",
+  "generated_at": 1792092605,
+  "generated_at_iso": "2026-10-15T19:30:05.857404+00:00",
   "matches": [
-    {
-      "match_id": 1743399,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "PlayTime",
-      "dire_team": "Skyreavers",
-      "radiant_team_id": 137885,
-      "dire_team_id": 139394,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3520,
-      "live_map_number": 2,
-      "start_time": 1792084200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2sange",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139394
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743411,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 403,
+      "live_seconds": 1022,
       "live_map_number": 2,
       "start_time": 1792087200,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 360,
+      "live_seconds": 979,
       "live_map_number": 1,
       "start_time": 1792092000,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 125,
+      "live_seconds": 744,
       "live_map_number": 2,
       "start_time": 1792087800,
       "series_type": 1,
@@ -273,7 +206,7 @@
     {
       "match_id": 1748443,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Streamers League - #3 2026",
       "league_id": 5570,
       "radiant_team": "Stariy bog Team",
@@ -284,9 +217,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792090800,
+      "live_seconds": 565,
+      "live_map_number": 1,
+      "start_time": 1792092000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -322,7 +255,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -344,13 +277,13 @@
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Amaru Gaming",
-      "dire_team": "TBD",
+      "dire_team": "Skyreavers",
       "radiant_team_id": 137685,
-      "dire_team_id": null,
+      "dire_team_id": 139394,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792098000,
@@ -417,7 +350,7 @@
   ],
   "meta": {
     "running_count": 4,
-    "upcoming_count": 46,
+    "upcoming_count": 45,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
     "errors": []
