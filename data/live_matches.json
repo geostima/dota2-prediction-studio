@@ -1,78 +1,11 @@
 {
-  "generated_at": 1792081969,
-  "generated_at_iso": "2026-10-15T16:32:49.843301+00:00",
+  "generated_at": 1792082900,
+  "generated_at_iso": "2026-10-15T16:48:20.087028+00:00",
   "matches": [
-    {
-      "match_id": 1743409,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Synapse",
-      "dire_team": "White Sails",
-      "radiant_team_id": 139124,
-      "dire_team_id": 139406,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2277,
-      "live_map_number": 2,
-      "start_time": 1792075800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2ember",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1748442,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Streamers League - #3 2026",
       "league_id": 5570,
       "radiant_team": "Stray Team",
@@ -83,9 +16,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792080000,
+      "live_seconds": 687,
+      "live_map_number": 1,
+      "start_time": 1792082100,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -210,13 +143,13 @@
       "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "OG",
-      "dire_team": "TBD",
+      "dire_team": "Team Synapse",
       "radiant_team_id": 1654,
-      "dire_team_id": null,
+      "dire_team_id": 139124,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792087200,
