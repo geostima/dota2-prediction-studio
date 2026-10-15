@@ -1,141 +1,7 @@
 {
-  "generated_at": 1792039844,
-  "generated_at_iso": "2026-10-15T04:50:44.916518+00:00",
+  "generated_at": 1792041016,
+  "generated_at_iso": "2026-10-15T05:10:16.189368+00:00",
   "matches": [
-    {
-      "match_id": 1743426,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Execration",
-      "dire_team": "Royal Bear",
-      "radiant_team_id": 1660,
-      "dire_team_id": 139367,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2478,
-      "live_map_number": 1,
-      "start_time": 1792037400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/bolt_ru",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1745483,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Yakult Brothers",
-      "dire_team": "Zenith",
-      "radiant_team_id": 135697,
-      "dire_team_id": 139363,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2476,
-      "live_map_number": 1,
-      "start_time": 1792037400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2void",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743398,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2444,
+      "live_seconds": 3616,
       "live_map_number": 3,
       "start_time": 1792026600,
       "series_type": 1,
@@ -217,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 374,
+      "live_seconds": 1546,
       "live_map_number": 2,
       "start_time": 1792037400,
       "series_type": 1,
@@ -261,6 +127,140 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743426,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Execration",
+      "dire_team": "Royal Bear",
+      "radiant_team_id": 1660,
+      "dire_team_id": 139367,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792037400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/bolt_ru",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139367
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1745483,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Yakult Brothers",
+      "dire_team": "Zenith",
+      "radiant_team_id": 135697,
+      "dire_team_id": 139363,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792037400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2void",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 135697
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
