@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792063381,
-  "generated_at_iso": "2026-10-15T11:23:01.574028+00:00",
+  "generated_at": 1792064274,
+  "generated_at_iso": "2026-10-15T11:37:54.843816+00:00",
   "matches": [
     {
       "match_id": 1743380,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3046,
+      "live_seconds": 3939,
       "live_map_number": 2,
       "start_time": 1792054800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 943,
+      "live_seconds": 1836,
       "live_map_number": 2,
       "start_time": 1792058400,
       "series_type": 1,
@@ -318,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=_5XA-71xpjQ",
       "games": [
         {
           "position": 1,
