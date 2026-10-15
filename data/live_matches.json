@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792061695,
-  "generated_at_iso": "2026-10-15T10:54:55.106905+00:00",
+  "generated_at": 1792062537,
+  "generated_at_iso": "2026-10-15T11:08:57.352581+00:00",
   "matches": [
     {
       "match_id": 1743406,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3023,
+      "live_seconds": 3865,
       "live_map_number": 1,
       "start_time": 1792058400,
       "series_type": 1,
@@ -70,83 +70,6 @@
       ]
     },
     {
-      "match_id": 1745484,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - China Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 138494,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 2,
-      "dire_score": 0,
-      "live_seconds": 2270,
-      "live_map_number": 3,
-      "start_time": 1792051800,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=pm2rguLNpuc",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138494
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 138494
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1743380,
       "source": "pandascore",
       "status": "live",
@@ -160,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1360,
+      "live_seconds": 2202,
       "live_map_number": 2,
       "start_time": 1792054800,
       "series_type": 1,
@@ -227,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 99,
+      "live_map_number": 2,
       "start_time": 1792058400,
       "series_type": 1,
       "known_picks": 0,
@@ -270,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -892,10 +815,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1743399,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "PlayTime",
+      "dire_team": "Skyreavers",
+      "radiant_team_id": 137885,
+      "dire_team_id": 139394,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792083600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
