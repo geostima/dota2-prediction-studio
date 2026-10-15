@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792089359,
-  "generated_at_iso": "2026-10-15T18:35:59.596363+00:00",
+  "generated_at": 1792090287,
+  "generated_at_iso": "2026-10-15T18:51:27.205229+00:00",
   "matches": [
-    {
-      "match_id": 1748442,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "Stray Team",
-      "dire_team": "Korb3n Team",
-      "radiant_team_id": 136962,
-      "dire_team_id": 136964,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/623px_stray_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2751,
-      "live_map_number": 2,
-      "start_time": 1792082100,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136964
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743411,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1727,
+      "live_seconds": 2655,
       "live_map_number": 1,
       "start_time": 1792087200,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1607,
+      "live_seconds": 2535,
       "live_map_number": 1,
       "start_time": 1792087800,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 893,
+      "live_seconds": 1821,
       "live_map_number": 2,
       "start_time": 1792084200,
       "series_type": 1,
@@ -483,7 +416,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 47,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
