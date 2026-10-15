@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792069234,
-  "generated_at_iso": "2026-10-15T13:00:34.327893+00:00",
+  "generated_at": 1792070704,
+  "generated_at_iso": "2026-10-15T13:25:04.984672+00:00",
   "matches": [
     {
       "match_id": 1743406,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 833,
+      "live_seconds": 2303,
       "live_map_number": 3,
       "start_time": 1792058400,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1743429,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Direborn",
-      "dire_team": "Royal Bear",
-      "radiant_team_id": 138753,
-      "dire_team_id": 139367,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792065600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=_5XA-71xpjQ",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139367
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1743430,
       "source": "pandascore",
       "status": "live",
@@ -150,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1190,
+      "live_map_number": 2,
       "start_time": 1792065600,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -206,7 +139,7 @@
     {
       "match_id": 1748431,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Streamers League - #3 2026",
       "league_id": 5570,
       "radiant_team": "Gorgc Team",
@@ -217,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139425/796px_zxcursed_team_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1038,
+      "live_map_number": 1,
       "start_time": 1792069200,
       "series_type": 1,
       "known_picks": 0,
@@ -255,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -271,9 +204,76 @@
       ]
     },
     {
+      "match_id": 1743429,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Direborn",
+      "dire_team": "Royal Bear",
+      "radiant_team_id": 138753,
+      "dire_team_id": 139367,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 813,
+      "live_map_number": 2,
+      "start_time": 1792065600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=_5XA-71xpjQ",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139367
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1743571,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Play-In season 3 2026",
       "league_id": 5544,
       "radiant_team": "Zero Tenacity",
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 766,
+      "live_map_number": 1,
       "start_time": 1792069200,
       "series_type": 1,
       "known_picks": 0,
@@ -322,7 +322,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -1019,7 +1019,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 5,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
