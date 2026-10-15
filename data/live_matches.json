@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792042258,
-  "generated_at_iso": "2026-10-15T05:30:58.909289+00:00",
+  "generated_at": 1792043210,
+  "generated_at_iso": "2026-10-15T05:46:50.357633+00:00",
   "matches": [
     {
       "match_id": 1743425,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2788,
+      "live_seconds": 3740,
       "live_map_number": 2,
       "start_time": 1792037400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1112,
+      "live_seconds": 2064,
       "live_map_number": 2,
       "start_time": 1792037400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1109,
+      "live_seconds": 2061,
       "live_map_number": 2,
       "start_time": 1792037400,
       "series_type": 1,
