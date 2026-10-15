@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792060289,
-  "generated_at_iso": "2026-10-15T10:31:29.408455+00:00",
+  "generated_at": 1792061190,
+  "generated_at_iso": "2026-10-15T10:46:30.901485+00:00",
   "matches": [
     {
       "match_id": 1743406,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1617,
+      "live_seconds": 2518,
       "live_map_number": 1,
       "start_time": 1792058400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1574,
+      "live_seconds": 2475,
       "live_map_number": 1,
       "start_time": 1792058400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 2,
       "dire_score": 0,
-      "live_seconds": 864,
+      "live_seconds": 1765,
       "live_map_number": 3,
       "start_time": 1792051800,
       "series_type": 2,
@@ -227,8 +227,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 855,
+      "live_map_number": 2,
       "start_time": 1792054800,
       "series_type": 1,
       "known_picks": 0,
@@ -270,7 +270,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
