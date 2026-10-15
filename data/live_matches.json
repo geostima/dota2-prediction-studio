@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792087950,
-  "generated_at_iso": "2026-10-15T18:12:32.675613+00:00",
+  "generated_at": 1792089359,
+  "generated_at_iso": "2026-10-15T18:35:59.596363+00:00",
   "matches": [
     {
       "match_id": 1748442,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1342,
+      "live_seconds": 2751,
       "live_map_number": 2,
       "start_time": 1792082100,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 318,
+      "live_seconds": 1727,
       "live_map_number": 1,
       "start_time": 1792087200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 198,
+      "live_seconds": 1607,
       "live_map_number": 1,
       "start_time": 1792087800,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 893,
+      "live_map_number": 2,
       "start_time": 1792084200,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -487,8 +487,6 @@
     "upcoming_count": 47,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": [
-      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
-    ]
+    "errors": []
   }
 }
