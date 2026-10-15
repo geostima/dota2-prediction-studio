@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792021963,
-  "generated_at_iso": "2026-10-14T23:52:43.140407+00:00",
+  "generated_at": 1792023875,
+  "generated_at_iso": "2026-10-15T00:24:35.335214+00:00",
   "matches": [
-    {
-      "match_id": 1743396,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Pibbles Corp",
-      "dire_team": "Skyreavers",
-      "radiant_team_id": 139268,
-      "dire_team_id": 139394,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2163,
-      "live_map_number": 3,
-      "start_time": 1792011600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2yasha",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139394
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139268
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743398,
       "source": "pandascore",
@@ -143,13 +76,13 @@
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Chandogs",
-      "dire_team": "TBD",
+      "dire_team": "Skyreavers",
       "radiant_team_id": 133237,
-      "dire_team_id": null,
+      "dire_team_id": 139394,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792026000,
@@ -540,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
