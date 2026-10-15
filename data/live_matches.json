@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792023875,
-  "generated_at_iso": "2026-10-15T00:24:35.335214+00:00",
+  "generated_at": 1792026225,
+  "generated_at_iso": "2026-10-15T01:03:45.639053+00:00",
   "matches": [
     {
       "match_id": 1743398,
@@ -18,7 +18,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792026000,
+      "start_time": 1792026600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2sange",
       "games": [
         {
           "position": 1,
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792026000,
+      "start_time": 1792026600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -117,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2yasha",
       "games": [
         {
           "position": 1,
@@ -453,6 +453,73 @@
         ""
       ],
       "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743586,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Spirit Academy",
+      "dire_team": "salamit",
+      "radiant_team_id": 137540,
+      "dire_team_id": 139407,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792047600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
