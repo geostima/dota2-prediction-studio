@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792083471,
-  "generated_at_iso": "2026-10-15T16:57:51.552563+00:00",
+  "generated_at": 1792084597,
+  "generated_at_iso": "2026-10-15T17:16:37.803165+00:00",
   "matches": [
     {
       "match_id": 1748442,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1258,
+      "live_seconds": 2384,
       "live_map_number": 1,
       "start_time": 1792082100,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1743399,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "PlayTime",
@@ -83,9 +83,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792083600,
+      "live_seconds": 274,
+      "live_map_number": 1,
+      "start_time": 1792084200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -219,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792087200,
+      "start_time": 1792087800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -483,8 +483,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 50,
+    "running_count": 2,
+    "upcoming_count": 49,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
     "errors": []
