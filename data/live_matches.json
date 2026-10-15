@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792086756,
-  "generated_at_iso": "2026-10-15T17:52:36.532693+00:00",
+  "generated_at": 1792087950,
+  "generated_at_iso": "2026-10-15T18:12:32.675613+00:00",
   "matches": [
-    {
-      "match_id": 1743399,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "PlayTime",
-      "dire_team": "Skyreavers",
-      "radiant_team_id": 137885,
-      "dire_team_id": 139394,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2433,
-      "live_map_number": 1,
-      "start_time": 1792084200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2sange",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1748442,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 148,
+      "live_seconds": 1342,
       "live_map_number": 2,
       "start_time": 1792082100,
       "series_type": 1,
@@ -139,7 +72,7 @@
     {
       "match_id": 1743411,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "OG",
@@ -150,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 318,
+      "live_map_number": 1,
       "start_time": 1792087200,
       "series_type": 1,
       "known_picks": 0,
@@ -184,11 +117,11 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=kAo_I0MK8gk",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -206,7 +139,7 @@
     {
       "match_id": 1743410,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Team Lynx",
@@ -217,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 198,
+      "live_map_number": 1,
       "start_time": 1792087800,
       "series_type": 1,
       "known_picks": 0,
@@ -251,12 +184,79 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=TS6BqxF_j8w",
       "games": [
         {
           "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743399,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "PlayTime",
+      "dire_team": "Skyreavers",
+      "radiant_team_id": 137885,
+      "dire_team_id": 139394,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792084200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2sange",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139394
         },
         {
           "position": 2,
@@ -483,10 +483,12 @@
     }
   ],
   "meta": {
-    "running_count": 2,
-    "upcoming_count": 49,
+    "running_count": 4,
+    "upcoming_count": 47,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": []
+    "errors": [
+      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
+    ]
   }
 }
