@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792093991,
-  "generated_at_iso": "2026-10-15T19:53:11.829174+00:00",
+  "generated_at": 1792094944,
+  "generated_at_iso": "2026-10-15T20:09:04.672725+00:00",
   "matches": [
-    {
-      "match_id": 1743411,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "OG",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 1654,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2408,
-      "live_map_number": 2,
-      "start_time": 1792087200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=kAo_I0MK8gk",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1654
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743573,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2365,
+      "live_seconds": 3318,
       "live_map_number": 1,
       "start_time": 1792092000,
       "series_type": 1,
@@ -137,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1743410,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Lynx",
-      "dire_team": "LEGION",
-      "radiant_team_id": 136531,
-      "dire_team_id": 139340,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2130,
-      "live_map_number": 2,
-      "start_time": 1792087800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=TS6BqxF_j8w",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139340
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1748443,
       "source": "pandascore",
       "status": "live",
@@ -215,10 +81,10 @@
       "dire_team_id": 136964,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1951,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1792092000,
       "series_type": 1,
       "known_picks": 0,
@@ -255,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 136959
         },
         {
           "position": 2,
@@ -346,10 +212,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1749262,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Resilience",
+      "dire_team": "Zenith",
+      "radiant_team_id": 138494,
+      "dire_team_id": 139363,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792116000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 2,
     "upcoming_count": 45,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
