@@ -1,84 +1,7 @@
 {
-  "generated_at": 1792077415,
-  "generated_at_iso": "2026-10-15T15:16:55.083622+00:00",
+  "generated_at": 1792078403,
+  "generated_at_iso": "2026-10-15T15:33:23.671662+00:00",
   "matches": [
-    {
-      "match_id": 1743381,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Yellow Submarine",
-      "dire_team": "Kalmychata",
-      "radiant_team_id": 1931,
-      "dire_team_id": 134208,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2997,
-      "live_map_number": 2,
-      "start_time": 1792071000,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=WJ3qrp6DidA",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743430,
       "source": "pandascore",
@@ -93,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1716,
+      "live_seconds": 2704,
       "live_map_number": 3,
       "start_time": 1792065600,
       "series_type": 1,
@@ -160,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1197,
+      "live_seconds": 2185,
       "live_map_number": 1,
       "start_time": 1792075800,
       "series_type": 1,
@@ -227,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139425/796px_zxcursed_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 353,
+      "live_seconds": 1341,
       "live_map_number": 3,
       "start_time": 1792069200,
       "series_type": 1,
@@ -294,7 +217,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 302,
+      "live_seconds": 1290,
       "live_map_number": 2,
       "start_time": 1792073700,
       "series_type": 1,
@@ -342,6 +265,83 @@
         },
         {
           "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743381,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Eastern Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Yellow Submarine",
+      "dire_team": "Kalmychata",
+      "radiant_team_id": 1931,
+      "dire_team_id": 134208,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134208/262px_kalmychata_2025_lightmode.png",
+      "radiant_score": 2,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792071000,
+      "series_type": 2,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=WJ3qrp6DidA",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1931
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 1931
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
