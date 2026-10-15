@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792035317,
-  "generated_at_iso": "2026-10-15T03:35:17.462909+00:00",
+  "generated_at": 1792036164,
+  "generated_at_iso": "2026-10-15T03:49:24.572165+00:00",
   "matches": [
     {
       "match_id": 1743398,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2614,
+      "live_seconds": 3461,
       "live_map_number": 2,
       "start_time": 1792026600,
       "series_type": 1,
@@ -184,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/bolt_ru",
       "games": [
         {
           "position": 1,
