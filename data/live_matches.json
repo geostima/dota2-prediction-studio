@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792045049,
-  "generated_at_iso": "2026-10-15T06:17:29.821104+00:00",
+  "generated_at": 1792046858,
+  "generated_at_iso": "2026-10-15T06:47:38.193373+00:00",
   "matches": [
-    {
-      "match_id": 1743426,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Execration",
-      "dire_team": "Royal Bear",
-      "radiant_team_id": 1660,
-      "dire_team_id": 139367,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3900,
-      "live_map_number": 2,
-      "start_time": 1792037400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/bolt_ru",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139367
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743586,
       "source": "pandascore",
@@ -622,13 +555,13 @@
       "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Direborn",
-      "dire_team": "TBD",
+      "dire_team": "Royal Bear",
       "radiant_team_id": 138753,
-      "dire_team_id": null,
+      "dire_team_id": 139367,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792065600,
@@ -684,7 +617,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
