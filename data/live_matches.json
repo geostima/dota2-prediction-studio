@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792103054,
-  "generated_at_iso": "2026-10-15T22:24:16.294996+00:00",
+  "generated_at": 1792103785,
+  "generated_at_iso": "2026-10-15T22:36:25.975723+00:00",
   "matches": [
     {
       "match_id": 1748443,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1792,
+      "live_seconds": 2523,
       "live_map_number": 3,
       "start_time": 1792092000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 284,
+      "live_seconds": 1015,
       "live_map_number": 2,
       "start_time": 1792098600,
       "series_type": 2,
@@ -147,16 +147,16 @@
       ]
     },
     {
-      "match_id": 1749262,
+      "match_id": 1749264,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
       "league_id": 5319,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Zenith",
-      "radiant_team_id": 138494,
-      "dire_team_id": 139363,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "radiant_team": "Yakult Brothers",
+      "dire_team": "Novus Gaming",
+      "radiant_team_id": 135697,
+      "dire_team_id": 139152,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
@@ -353,8 +353,6 @@
     "upcoming_count": 44,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": [
-      "citoapi live list: 503 Server Error: Service Unavailable for url: https://api.citoapi.com/api/v1/dota2/matches/live"
-    ]
+    "errors": []
   }
 }
