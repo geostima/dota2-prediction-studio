@@ -1,84 +1,7 @@
 {
-  "generated_at": 1792114092,
-  "generated_at_iso": "2026-10-16T01:28:12.792441+00:00",
+  "generated_at": 1792115384,
+  "generated_at_iso": "2026-10-16T01:49:44.621119+00:00",
   "matches": [
-    {
-      "match_id": 1743400,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - South America Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Amaru Gaming",
-      "dire_team": "Skyreavers",
-      "radiant_team_id": 137685,
-      "dire_team_id": 139394,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 2,
-      "live_seconds": 3195,
-      "live_map_number": 4,
-      "start_time": 1792098600,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=Jmg4VJdAc4U",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139394
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139394
-        },
-        {
-          "position": 3,
-          "status": "finished",
-          "winner_id": 137685
-        },
-        {
-          "position": 4,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1749264,
       "source": "pandascore",
@@ -127,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/bkop",
       "games": [
         {
           "position": 1,
@@ -416,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 44,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
