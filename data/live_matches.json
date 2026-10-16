@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792190656,
-  "generated_at_iso": "2026-10-16T22:44:16.155290+00:00",
+  "generated_at": 1792191167,
+  "generated_at_iso": "2026-10-16T22:52:48.438038+00:00",
   "matches": [
     {
       "match_id": 1743589,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1853,
+      "live_seconds": 2364,
       "live_map_number": 3,
       "start_time": 1792180800,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Ankou \u2661",
+        "Baby Jane",
+        "Q",
+        "Yuja Wang",
+        "\u0428\u0430\u0431\u0431\u0430\u0442 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 50"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Merlin",
+        "humblegod",
+        "rin",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
+        "\u707d\u798d~"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Axe",
+        "Gyrocopter",
+        "Dark Willow",
+        "Outworld Devourer",
+        "Ring Master"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Pudge",
+        "Windranger",
+        "Anti-Mage",
+        "Enigma",
+        "Techies"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -141,7 +141,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 91,
+    "citoapi_calls_this_month": 93,
     "errors": []
   }
 }
