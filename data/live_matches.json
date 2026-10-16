@@ -1,141 +1,7 @@
 {
-  "generated_at": 1792160049,
-  "generated_at_iso": "2026-10-16T14:14:09.116675+00:00",
+  "generated_at": 1792161171,
+  "generated_at_iso": "2026-10-16T14:32:51.319162+00:00",
   "matches": [
-    {
-      "match_id": 1743431,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Royal Bear",
-      "dire_team": "InterActive Philippines",
-      "radiant_team_id": 139367,
-      "dire_team_id": 129891,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2836,
-      "live_map_number": 2,
-      "start_time": 1792152000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=BJYgx_2PxHA",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139367
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743436,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Execration",
-      "radiant_team_id": 139239,
-      "dire_team_id": 1660,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2701,
-      "live_map_number": 2,
-      "start_time": 1792152600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=Dem8NROADKo",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139239
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1748444,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137436/562px_by_owl_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1444,
+      "live_seconds": 2566,
       "live_map_number": 2,
       "start_time": 1792153200,
       "series_type": 1,
@@ -217,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 590,
+      "live_seconds": 1712,
       "live_map_number": 1,
       "start_time": 1792159200,
       "series_type": 1,
@@ -284,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 588,
+      "live_seconds": 1710,
       "live_map_number": 1,
       "start_time": 1792159200,
       "series_type": 1,
@@ -351,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 109,
+      "live_seconds": 1231,
       "live_map_number": 2,
       "start_time": 1792156500,
       "series_type": 1,
@@ -396,6 +262,73 @@
           "position": 2,
           "status": "running",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743436,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Xipto Esports",
+      "dire_team": "Execration",
+      "radiant_team_id": 139239,
+      "dire_team_id": 1660,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792152600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=Dem8NROADKo",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139239
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 1660
         },
         {
           "position": 3,
@@ -472,15 +405,15 @@
       ]
     },
     {
-      "match_id": 1743588,
+      "match_id": 1753334,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "EPL Masters - Play-In season 3 2026",
       "league_id": 5544,
       "radiant_team": "Yellow Submarine",
-      "dire_team": "The Warriors",
+      "dire_team": "LFO",
       "radiant_team_id": 1931,
-      "dire_team_id": 139378,
+      "dire_team_id": 139431,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
@@ -939,11 +872,145 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1743588,
+      "source": "pandascore",
+      "status": "ended",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Yellow Submarine",
+      "dire_team": "The Warriors",
+      "radiant_team_id": 1931,
+      "dire_team_id": 139378,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792166400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1748448,
+      "source": "pandascore",
+      "status": "ended",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "Stariy bog Team",
+      "dire_team": "TBD",
+      "radiant_team_id": 136959,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792182600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 6,
-    "upcoming_count": 29,
+    "running_count": 5,
+    "upcoming_count": 30,
     "past_count": 30,
     "citoapi_calls_this_month": 88,
     "errors": []
