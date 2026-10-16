@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792129768,
-  "generated_at_iso": "2026-10-16T05:49:28.889177+00:00",
+  "generated_at": 1792130229,
+  "generated_at_iso": "2026-10-16T05:57:09.122836+00:00",
   "matches": [
-    {
-      "match_id": 1743433,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Ivory",
-      "radiant_team_id": 139239,
-      "dire_team_id": 135546,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135546/212px_ivory_2024_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1987,
-      "live_map_number": 2,
-      "start_time": 1792123200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2clarity",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139239
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743432,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1295,
+      "live_seconds": 1756,
       "live_map_number": 2,
       "start_time": 1792123800,
       "series_type": 1,
@@ -150,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 461,
+      "live_map_number": 2,
       "start_time": 1792126800,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -411,13 +344,13 @@
       "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Direborn",
-      "dire_team": "TBD",
+      "dire_team": "Xipto Esports",
       "radiant_team_id": 138753,
-      "dire_team_id": null,
+      "dire_team_id": 139239,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792137600,
@@ -741,7 +674,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 42,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
