@@ -1,141 +1,7 @@
 {
-  "generated_at": 1792167062,
-  "generated_at_iso": "2026-10-16T16:11:02.413303+00:00",
+  "generated_at": 1792168251,
+  "generated_at_iso": "2026-10-16T16:30:51.024275+00:00",
   "matches": [
-    {
-      "match_id": 1743416,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Dawn Bulls",
-      "radiant_team_id": 139124,
-      "dire_team_id": 139238,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3430,
-      "live_map_number": 2,
-      "start_time": 1792159200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=n2SDssJTYqo",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139238
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1748445,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "Stray Team",
-      "dire_team": "Gorgc Team",
-      "radiant_team_id": 136962,
-      "dire_team_id": 139424,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/623px_stray_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2429,
-      "live_map_number": 1,
-      "start_time": 1792164600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1753334,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 491,
+      "live_seconds": 1680,
       "live_map_number": 1,
       "start_time": 1792166400,
       "series_type": 1,
@@ -206,7 +72,7 @@
     {
       "match_id": 1743572,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Play-In season 3 2026",
       "league_id": 5544,
       "radiant_team": "Inner Circle x Insanity",
@@ -217,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 526,
+      "live_map_number": 1,
       "start_time": 1792167300,
       "series_type": 1,
       "known_picks": 0,
@@ -255,8 +121,142 @@
       "games": [
         {
           "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743416,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Team Synapse",
+      "dire_team": "Dawn Bulls",
+      "radiant_team_id": 139124,
+      "dire_team_id": 139238,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792159200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/watch?v=n2SDssJTYqo",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139238
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139124
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1748445,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "Stray Team",
+      "dire_team": "Gorgc Team",
+      "radiant_team_id": 136962,
+      "dire_team_id": 139424,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/623px_stray_team_1w_sl2_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792164600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139424
         },
         {
           "position": 2,
@@ -674,8 +674,8 @@
     }
   ],
   "meta": {
-    "running_count": 3,
-    "upcoming_count": 27,
+    "running_count": 4,
+    "upcoming_count": 26,
     "past_count": 30,
     "citoapi_calls_this_month": 90,
     "errors": []
