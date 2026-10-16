@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792148048,
-  "generated_at_iso": "2026-10-16T10:54:08.381352+00:00",
+  "generated_at": 1792148978,
+  "generated_at_iso": "2026-10-16T11:09:38.060580+00:00",
   "matches": [
     {
       "match_id": 1743575,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2616,
+      "live_seconds": 3546,
       "live_map_number": 1,
       "start_time": 1792144800,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 196,
+      "live_map_number": 2,
       "start_time": 1792144800,
       "series_type": 1,
       "known_picks": 0,
@@ -126,74 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743414,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "potn9ki",
-      "dire_team": "White Sails",
-      "radiant_team_id": 129222,
-      "dire_team_id": 139406,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792147500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=g4osEGof5FA",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -545,13 +478,13 @@
       "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Team Lynx",
-      "dire_team": "TBD",
+      "dire_team": "potn9ki",
       "radiant_team_id": 136531,
-      "dire_team_id": null,
+      "dire_team_id": 129222,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792159200,
@@ -876,7 +809,7 @@
   ],
   "meta": {
     "running_count": 2,
-    "upcoming_count": 36,
+    "upcoming_count": 35,
     "past_count": 30,
     "citoapi_calls_this_month": 88,
     "errors": []
