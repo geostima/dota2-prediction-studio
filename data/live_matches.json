@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792151189,
-  "generated_at_iso": "2026-10-16T11:46:29.164092+00:00",
+  "generated_at": 1792151637,
+  "generated_at_iso": "2026-10-16T11:53:57.231642+00:00",
   "matches": [
     {
       "match_id": 1743413,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2407,
+      "live_seconds": 2855,
       "live_map_number": 2,
       "start_time": 1792144800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 22,
+      "live_seconds": 470,
       "live_map_number": 2,
       "start_time": 1792144800,
       "series_type": 1,
