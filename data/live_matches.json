@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792164201,
-  "generated_at_iso": "2026-10-16T15:23:21.968474+00:00",
+  "generated_at": 1792165048,
+  "generated_at_iso": "2026-10-16T15:37:28.171475+00:00",
   "matches": [
-    {
-      "match_id": 1743436,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Execration",
-      "radiant_team_id": 139239,
-      "dire_team_id": 1660,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2240,
-      "live_map_number": 3,
-      "start_time": 1792152600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=Dem8NROADKo",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139239
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1660
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743416,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 569,
+      "live_seconds": 1416,
       "live_map_number": 2,
       "start_time": 1792159200,
       "series_type": 1,
@@ -117,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=n2SDssJTYqo",
       "games": [
         {
           "position": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 564,
+      "live_seconds": 1411,
       "live_map_number": 2,
       "start_time": 1792159200,
       "series_type": 1,
@@ -184,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=g4osEGof5FA",
       "games": [
         {
           "position": 1,
@@ -206,7 +139,7 @@
     {
       "match_id": 1748445,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Streamers League - #3 2026",
       "league_id": 5570,
       "radiant_team": "Stray Team",
@@ -217,9 +150,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792162800,
+      "live_seconds": 415,
+      "live_map_number": 1,
+      "start_time": 1792164600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -255,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -876,7 +809,7 @@
   ],
   "meta": {
     "running_count": 3,
-    "upcoming_count": 30,
+    "upcoming_count": 29,
     "past_count": 30,
     "citoapi_calls_this_month": 90,
     "errors": []
