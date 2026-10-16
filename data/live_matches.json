@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792121759,
-  "generated_at_iso": "2026-10-16T03:35:59.187960+00:00",
+  "generated_at": 1792122574,
+  "generated_at_iso": "2026-10-16T03:49:34.951606+00:00",
   "matches": [
     {
       "match_id": 1749264,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 599,
+      "live_seconds": 1414,
       "live_map_number": 2,
       "start_time": 1792116600,
       "series_type": 1,
@@ -117,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2clarity",
       "games": [
         {
           "position": 1,
@@ -184,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
         {
           "position": 1,
