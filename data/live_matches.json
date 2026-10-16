@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792171269,
-  "generated_at_iso": "2026-10-16T17:21:09.633794+00:00",
+  "generated_at": 1792172108,
+  "generated_at_iso": "2026-10-16T17:35:08.781536+00:00",
   "matches": [
     {
       "match_id": 1743416,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2803,
+      "live_seconds": 3642,
       "live_map_number": 3,
       "start_time": 1792159200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1214,
+      "live_seconds": 2053,
       "live_map_number": 2,
       "start_time": 1792166400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 971,
+      "live_seconds": 1810,
       "live_map_number": 1,
       "start_time": 1792170000,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 548,
+      "live_map_number": 2,
       "start_time": 1792167300,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
