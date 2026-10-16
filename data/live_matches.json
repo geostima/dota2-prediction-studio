@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792145417,
-  "generated_at_iso": "2026-10-16T10:10:17.119944+00:00",
+  "generated_at": 1792146653,
+  "generated_at_iso": "2026-10-16T10:30:53.888924+00:00",
   "matches": [
     {
       "match_id": 1743435,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1376,
+      "live_seconds": 2612,
       "live_map_number": 2,
       "start_time": 1792137600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1156,
+      "live_seconds": 2392,
       "live_map_number": 2,
       "start_time": 1792139700,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 391,
+      "live_seconds": 1627,
       "live_map_number": 1,
       "start_time": 1792144800,
       "series_type": 1,
@@ -206,7 +206,7 @@
     {
       "match_id": 1743575,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Play-In season 3 2026",
       "league_id": 5544,
       "radiant_team": "Mena Warriors",
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1221,
+      "live_map_number": 1,
       "start_time": 1792144800,
       "series_type": 1,
       "known_picks": 0,
@@ -255,7 +255,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -286,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792145400,
+      "start_time": 1792146900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -939,11 +939,78 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1752269,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "Korb3n Team",
+      "dire_team": "Stariy bog Team",
+      "radiant_team_id": 136964,
+      "dire_team_id": 136959,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792168200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 3,
-    "upcoming_count": 37,
+    "running_count": 4,
+    "upcoming_count": 36,
     "past_count": 30,
     "citoapi_calls_this_month": 85,
     "errors": []
