@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792179486,
-  "generated_at_iso": "2026-10-16T19:38:06.302569+00:00",
+  "generated_at": 1792179934,
+  "generated_at_iso": "2026-10-16T19:45:34.718741+00:00",
   "matches": [
-    {
-      "match_id": 1753334,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Yellow Submarine",
-      "dire_team": "LFO",
-      "radiant_team_id": 1931,
-      "dire_team_id": 139431,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3587,
-      "live_map_number": 3,
-      "start_time": 1792166400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139431
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743412,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1112,
+      "live_seconds": 1560,
       "live_map_number": 2,
       "start_time": 1792173600,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 455,
+      "live_seconds": 903,
       "live_map_number": 3,
       "start_time": 1792170000,
       "series_type": 1,
@@ -219,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792179900,
+      "start_time": 1792180800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 91,
