@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792154507,
-  "generated_at_iso": "2026-10-16T12:41:47.699288+00:00",
+  "generated_at": 1792155557,
+  "generated_at_iso": "2026-10-16T12:59:17.485000+00:00",
   "matches": [
-    {
-      "match_id": 1743575,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Mena Warriors",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 139392,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3340,
-      "live_map_number": 2,
-      "start_time": 1792144800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743431,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2009,
+      "live_seconds": 3059,
       "live_map_number": 1,
       "start_time": 1792152000,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1821,
+      "live_seconds": 2871,
       "live_map_number": 1,
       "start_time": 1792152600,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137436/562px_by_owl_team_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1224,
+      "live_seconds": 2274,
       "live_map_number": 1,
       "start_time": 1792153200,
       "series_type": 1,
@@ -284,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 184,
+      "live_seconds": 1234,
       "live_map_number": 3,
       "start_time": 1792144800,
       "series_type": 1,
@@ -1009,7 +942,7 @@
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 4,
     "upcoming_count": 32,
     "past_count": 30,
     "citoapi_calls_this_month": 88,
