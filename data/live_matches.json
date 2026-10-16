@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792162032,
-  "generated_at_iso": "2026-10-16T14:47:14.121711+00:00",
+  "generated_at": 1792162509,
+  "generated_at_iso": "2026-10-16T14:55:09.475762+00:00",
   "matches": [
     {
       "match_id": 1748444,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137436/562px_by_owl_team_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3427,
+      "live_seconds": 3904,
       "live_map_number": 2,
       "start_time": 1792153200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2573,
+      "live_seconds": 3050,
       "live_map_number": 1,
       "start_time": 1792159200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2571,
+      "live_seconds": 3048,
       "live_map_number": 1,
       "start_time": 1792159200,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2092,
+      "live_seconds": 2569,
       "live_map_number": 2,
       "start_time": 1792156500,
       "series_type": 1,
@@ -284,39 +284,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 71,
+      "live_seconds": 548,
       "live_map_number": 3,
       "start_time": 1792152600,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Q",
-        "TSpirit.Ootoro",
-        "aaa",
-        "okok",
-        "sk"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Daredevil",
-        "Gm",
-        "athena",
-        "stay chill",
-        "xxxxxxx"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Rubick",
-        "Tiny",
-        "Centaur Warrunner",
-        "Hoodwink",
-        "Slark"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Dark Willow",
-        "Earth Spirit",
-        "Luna",
-        "Techies",
-        "Axe"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.youtube.com/watch?v=Dem8NROADKo",
       "games": [
