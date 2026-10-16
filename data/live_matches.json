@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792175689,
-  "generated_at_iso": "2026-10-16T18:34:49.047016+00:00",
+  "generated_at": 1792176520,
+  "generated_at_iso": "2026-10-16T18:48:41.305586+00:00",
   "matches": [
     {
       "match_id": 1743412,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1658,
+      "live_seconds": 2489,
       "live_map_number": 1,
       "start_time": 1792173600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1410,
+      "live_seconds": 2241,
       "live_map_number": 2,
       "start_time": 1792170000,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 621,
+      "live_map_number": 3,
       "start_time": 1792166400,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +198,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -219,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792177200,
+      "start_time": 1792179000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -275,7 +275,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 90,
+    "citoapi_calls_this_month": 91,
     "errors": []
   }
 }
