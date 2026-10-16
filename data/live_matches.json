@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792172683,
-  "generated_at_iso": "2026-10-16T17:44:44.048093+00:00",
+  "generated_at": 1792173170,
+  "generated_at_iso": "2026-10-16T17:52:50.081135+00:00",
   "matches": [
     {
       "match_id": 1753334,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2628,
+      "live_seconds": 3115,
       "live_map_number": 2,
       "start_time": 1792166400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2386,
+      "live_seconds": 2872,
       "live_map_number": 1,
       "start_time": 1792170000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1124,
+      "live_seconds": 1610,
       "live_map_number": 2,
       "start_time": 1792167300,
       "series_type": 1,
@@ -252,73 +252,6 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743417,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Lynx",
-      "dire_team": "Dawn Bulls",
-      "radiant_team_id": 136531,
-      "dire_team_id": 139238,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792173600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
       "games": [
         {
           "position": 1,
@@ -541,7 +474,7 @@
   ],
   "meta": {
     "running_count": 3,
-    "upcoming_count": 27,
+    "upcoming_count": 35,
     "past_count": 30,
     "citoapi_calls_this_month": 90,
     "errors": []
