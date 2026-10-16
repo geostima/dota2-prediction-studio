@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792117655,
-  "generated_at_iso": "2026-10-16T02:27:50.541070+00:00",
+  "generated_at": 1792118801,
+  "generated_at_iso": "2026-10-16T02:46:41.370205+00:00",
   "matches": [
     {
       "match_id": 1749264,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 574,
+      "live_seconds": 1720,
       "live_map_number": 1,
       "start_time": 1792116600,
       "series_type": 1,
@@ -544,8 +544,6 @@
     "upcoming_count": 45,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "errors": []
   }
 }
