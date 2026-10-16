@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792172108,
-  "generated_at_iso": "2026-10-16T17:35:08.781536+00:00",
+  "generated_at": 1792172683,
+  "generated_at_iso": "2026-10-16T17:44:44.048093+00:00",
   "matches": [
-    {
-      "match_id": 1743416,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Dawn Bulls",
-      "radiant_team_id": 139124,
-      "dire_team_id": 139238,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3642,
-      "live_map_number": 3,
-      "start_time": 1792159200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=n2SDssJTYqo",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139238
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1753334,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2053,
+      "live_seconds": 2628,
       "live_map_number": 2,
       "start_time": 1792166400,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1810,
+      "live_seconds": 2386,
       "live_map_number": 1,
       "start_time": 1792170000,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 548,
+      "live_seconds": 1124,
       "live_map_number": 2,
       "start_time": 1792167300,
       "series_type": 1,
@@ -344,13 +277,13 @@
       "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "Team Lynx",
-      "dire_team": "TBD",
+      "dire_team": "Dawn Bulls",
       "radiant_team_id": 136531,
-      "dire_team_id": null,
+      "dire_team_id": 139238,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792173600,
@@ -607,8 +540,8 @@
     }
   ],
   "meta": {
-    "running_count": 4,
-    "upcoming_count": 25,
+    "running_count": 3,
+    "upcoming_count": 27,
     "past_count": 30,
     "citoapi_calls_this_month": 90,
     "errors": []
