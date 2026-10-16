@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792119358,
-  "generated_at_iso": "2026-10-16T02:55:58.337052+00:00",
+  "generated_at": 1792120578,
+  "generated_at_iso": "2026-10-16T03:16:18.621973+00:00",
   "matches": [
     {
       "match_id": 1749264,
@@ -14,10 +14,10 @@
       "dire_team_id": 139152,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2277,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1792116600,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135697
         },
         {
           "position": 2,
