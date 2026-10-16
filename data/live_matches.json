@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792186489,
-  "generated_at_iso": "2026-10-16T21:34:49.930706+00:00",
+  "generated_at": 1792186987,
+  "generated_at_iso": "2026-10-16T21:43:07.310600+00:00",
   "matches": [
     {
       "match_id": 1743589,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2553,
+      "live_seconds": 3051,
       "live_map_number": 2,
       "start_time": 1792180800,
       "series_type": 1,
