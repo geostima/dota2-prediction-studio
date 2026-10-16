@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792143169,
-  "generated_at_iso": "2026-10-16T09:32:49.921812+00:00",
+  "generated_at": 1792144020,
+  "generated_at_iso": "2026-10-16T09:47:00.751455+00:00",
   "matches": [
-    {
-      "match_id": 1749263,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Xtreme Gaming",
-      "dire_team": "Cloud Dawning",
-      "radiant_team_id": 128329,
-      "dire_team_id": 137529,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3314,
-      "live_map_number": 1,
-      "start_time": 1792139700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743434,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1158,
+      "live_seconds": 2009,
       "live_map_number": 2,
       "start_time": 1792137600,
       "series_type": 1,
@@ -190,6 +123,73 @@
           "position": 1,
           "status": "finished",
           "winner_id": 1660
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1749263,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Xtreme Gaming",
+      "dire_team": "Cloud Dawning",
+      "radiant_team_id": 128329,
+      "dire_team_id": 137529,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792139700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 128329
         },
         {
           "position": 2,
