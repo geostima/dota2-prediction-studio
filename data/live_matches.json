@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792176520,
-  "generated_at_iso": "2026-10-16T18:48:41.305586+00:00",
+  "generated_at": 1792176973,
+  "generated_at_iso": "2026-10-16T18:56:13.468388+00:00",
   "matches": [
     {
       "match_id": 1743412,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2489,
+      "live_seconds": 2942,
       "live_map_number": 1,
       "start_time": 1792173600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2241,
+      "live_seconds": 2694,
       "live_map_number": 2,
       "start_time": 1792170000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 621,
+      "live_seconds": 1074,
       "live_map_number": 3,
       "start_time": 1792166400,
       "series_type": 1,
