@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792144020,
-  "generated_at_iso": "2026-10-16T09:47:00.751455+00:00",
+  "generated_at": 1792144509,
+  "generated_at_iso": "2026-10-16T09:55:09.876418+00:00",
   "matches": [
     {
       "match_id": 1743434,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2009,
+      "live_seconds": 2498,
       "live_map_number": 2,
       "start_time": 1792137600,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 468,
+      "live_map_number": 2,
       "start_time": 1792137600,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 248,
+      "live_map_number": 2,
       "start_time": 1792139700,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
