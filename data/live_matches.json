@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792132347,
-  "generated_at_iso": "2026-10-16T06:32:29.866393+00:00",
+  "generated_at": 1792133937,
+  "generated_at_iso": "2026-10-16T06:58:57.742251+00:00",
   "matches": [
-    {
-      "match_id": 1749262,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Zenith",
-      "radiant_team_id": 138494,
-      "dire_team_id": 139363,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2579,
-      "live_map_number": 2,
-      "start_time": 1792126800,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Gao[o]ne-",
-        "K",
-        "Nikaido^HirO",
-        "Try it now",
-        "wa"
-      ],
-      "dire_players": [
-        "#NotLikeThis FAKE OLI LFT",
-        "-Toki-",
-        "Duruk MMR",
-        "\u65e9\u6625\u7684\u6811",
-        "\u723b"
-      ],
-      "radiant_heroes": [
-        "Witch Doctor",
-        "Hoodwink",
-        "Dragon Knight",
-        "Kez",
-        "Largo"
-      ],
-      "dire_heroes": [
-        "Winter Wyvern",
-        "Necrophos",
-        "Ember Spirit",
-        "Doom",
-        "Gyrocopter"
-      ],
-      "match_url": "https://www.twitch.tv/bkop",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138494
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743432,
       "source": "pandascore",
@@ -83,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1300,
+      "live_map_number": 3,
       "start_time": 1792123800,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Go win",
-        "hok player",
-        "not serious",
-        "sdasdsd",
-        "\ud83d\udeac"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Daredevil",
-        "Gm",
-        "athena",
-        "stay chill",
-        "xxxxxxx"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Terrorblade",
-        "Bane",
-        "Bounty Hunter",
-        "Brewmaster",
-        "Invoker"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Dark Willow",
-        "Pangolier",
-        "Kez",
-        "Techies",
-        "Magnus"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
@@ -131,7 +64,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -251,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/bkop",
       "games": [
         {
           "position": 1,
@@ -875,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 42,
     "past_count": 30,
     "citoapi_calls_this_month": 85,
