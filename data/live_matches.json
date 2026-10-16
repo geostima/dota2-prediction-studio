@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792180393,
-  "generated_at_iso": "2026-10-16T19:53:13.959152+00:00",
+  "generated_at": 1792181336,
+  "generated_at_iso": "2026-10-16T20:08:56.242155+00:00",
   "matches": [
     {
       "match_id": 1743412,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2019,
+      "live_seconds": 2962,
       "live_map_number": 2,
       "start_time": 1792173600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1362,
+      "live_seconds": 2305,
       "live_map_number": 3,
       "start_time": 1792170000,
       "series_type": 1,
@@ -139,7 +139,7 @@
     {
       "match_id": 1743589,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Play-In season 3 2026",
       "league_id": 5544,
       "radiant_team": "salamit",
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 713,
+      "live_map_number": 1,
       "start_time": 1792180800,
       "series_type": 1,
       "known_picks": 0,
@@ -188,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -205,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 91,
