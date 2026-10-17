@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792216404,
-  "generated_at_iso": "2026-10-17T05:53:24.658112+00:00",
+  "generated_at": 1792217681,
+  "generated_at_iso": "2026-10-17T06:14:41.782436+00:00",
   "matches": [
     {
       "match_id": 1743437,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1981,
+      "live_seconds": 3258,
       "live_map_number": 2,
       "start_time": 1792209600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 104,
+      "live_seconds": 1381,
       "live_map_number": 2,
       "start_time": 1792213200,
       "series_type": 1,
@@ -664,6 +664,73 @@
         ""
       ],
       "match_url": "",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1748447,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "by Owl Team",
+      "dire_team": "Nix Team",
+      "radiant_team_id": 137436,
+      "dire_team_id": 138690,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137436/562px_by_owl_team_1w_sl2_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792238400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
       "games": [
         {
           "position": 1,
