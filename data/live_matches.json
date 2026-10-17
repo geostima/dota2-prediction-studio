@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792246820,
-  "generated_at_iso": "2026-10-17T14:20:20.489846+00:00",
+  "generated_at": 1792247670,
+  "generated_at_iso": "2026-10-17T14:34:30.264919+00:00",
   "matches": [
     {
       "match_id": 1743592,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1902,
+      "live_seconds": 2752,
       "live_map_number": 1,
       "start_time": 1792244700,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1303,
+      "live_seconds": 2153,
       "live_map_number": 3,
       "start_time": 1792236600,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 598,
+      "live_seconds": 1448,
       "live_map_number": 2,
       "start_time": 1792243800,
       "series_type": 1,
@@ -206,7 +206,7 @@
     {
       "match_id": 1743418,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
       "league_id": 4125,
       "radiant_team": "LEGION",
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 244,
+      "live_map_number": 1,
       "start_time": 1792247400,
       "series_type": 1,
       "known_picks": 0,
@@ -251,11 +251,11 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=PoJHtw85L0w",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -674,8 +674,8 @@
     }
   ],
   "meta": {
-    "running_count": 3,
-    "upcoming_count": 43,
+    "running_count": 4,
+    "upcoming_count": 42,
     "past_count": 30,
     "citoapi_calls_this_month": 99,
     "errors": []
