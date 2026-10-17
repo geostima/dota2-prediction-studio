@@ -1,77 +1,9 @@
 {
-  "generated_at": 1792276728,
-  "generated_at_iso": "2026-10-17T22:38:48.824831+00:00",
-  "matches": [
-    {
-      "match_id": 1743576,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "CyberHero",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 139339,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2432,
-      "live_map_number": 3,
-      "start_time": 1792266300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137417
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1792277200,
+  "generated_at_iso": "2026-10-17T22:46:40.578876+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 36,
     "past_count": 30,
     "citoapi_calls_this_month": 104,
