@@ -1,141 +1,7 @@
 {
-  "generated_at": 1792248755,
-  "generated_at_iso": "2026-10-17T14:52:35.634376+00:00",
+  "generated_at": 1792249697,
+  "generated_at_iso": "2026-10-17T15:08:17.081579+00:00",
   "matches": [
-    {
-      "match_id": 1743592,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Yellow Submarine",
-      "dire_team": "Spirit Academy",
-      "radiant_team_id": 1931,
-      "dire_team_id": 137540,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3837,
-      "live_map_number": 1,
-      "start_time": 1792244700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1748447,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "by Owl Team",
-      "dire_team": "Nix Team",
-      "radiant_team_id": 137436,
-      "dire_team_id": 138690,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137436/562px_by_owl_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2533,
-      "live_map_number": 2,
-      "start_time": 1792243800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138690
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743418,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1329,
+      "live_seconds": 2271,
       "live_map_number": 1,
       "start_time": 1792247400,
       "series_type": 1,
@@ -204,6 +70,73 @@
       ]
     },
     {
+      "match_id": 1743592,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Yellow Submarine",
+      "dire_team": "Spirit Academy",
+      "radiant_team_id": 1931,
+      "dire_team_id": 137540,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792244700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1931
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1753830,
       "source": "pandascore",
       "status": "upcoming",
@@ -219,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792249200,
+      "start_time": 1792251000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -410,13 +343,13 @@
       "status": "upcoming",
       "league_name": "1win Streamers League - #3 2026",
       "league_id": 5570,
-      "radiant_team": "TBD",
+      "radiant_team": "Nix Team",
       "dire_team": "TBD",
-      "radiant_team_id": null,
+      "radiant_team_id": 138690,
       "dire_team_id": null,
-      "radiant_logo_url": "",
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "dire_logo_url": "",
-      "radiant_score": null,
+      "radiant_score": 0,
       "dire_score": null,
       "live_seconds": 0,
       "live_map_number": 0,
@@ -537,78 +470,11 @@
           "winner_id": null
         }
       ]
-    },
-    {
-      "match_id": 1752266,
-      "source": "pandascore",
-      "status": "ended",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "Stray Team",
-      "dire_team": "Korb3n Team",
-      "radiant_team_id": 136962,
-      "dire_team_id": 136964,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/623px_stray_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136964/538px_korb3n_team_1w_sl3_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792249200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
     }
   ],
   "meta": {
-    "running_count": 3,
-    "upcoming_count": 42,
+    "running_count": 2,
+    "upcoming_count": 41,
     "past_count": 30,
     "citoapi_calls_this_month": 99,
     "errors": []
