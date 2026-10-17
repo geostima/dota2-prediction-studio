@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792262353,
-  "generated_at_iso": "2026-10-17T18:39:13.242033+00:00",
+  "generated_at": 1792262826,
+  "generated_at_iso": "2026-10-17T18:47:06.526839+00:00",
   "matches": [
-    {
-      "match_id": 1753830,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "Stray Team",
-      "dire_team": "Stariy bog Team",
-      "radiant_team_id": 136962,
-      "dire_team_id": 136959,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/623px_stray_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3304,
-      "live_map_number": 3,
-      "start_time": 1792251000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136959
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 136962
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743570,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 899,
+      "live_seconds": 1372,
       "live_map_number": 3,
       "start_time": 1792253760,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 394,
+      "live_seconds": 867,
       "live_map_number": 2,
       "start_time": 1792259100,
       "series_type": 1,
@@ -210,13 +143,13 @@
       "league_name": "1win Streamers League - #3 2026",
       "league_id": 5570,
       "radiant_team": "Nix Team",
-      "dire_team": "TBD",
+      "dire_team": "Stariy bog Team",
       "radiant_team_id": 138690,
-      "dire_team_id": null,
+      "dire_team_id": 136959,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792262700,
@@ -286,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792263600,
+      "start_time": 1792267200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 38,
     "past_count": 30,
     "citoapi_calls_this_month": 102,
