@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792223556,
-  "generated_at_iso": "2026-10-17T07:52:36.387619+00:00",
+  "generated_at": 1792224690,
+  "generated_at_iso": "2026-10-17T08:11:31.781534+00:00",
   "matches": [
     {
       "match_id": 1749265,
@@ -16,10 +16,77 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2069,
+      "live_seconds": 3203,
       "live_map_number": 1,
       "start_time": 1792221000,
       "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "3",
+        "Imailisa",
+        "NothingToSay",
+        "\u5b87\u5b99\u306b\u304d\u3089\u3081\u304f \u30a8\u30e1\u30e9\u30eb\u30c9",
+        "\u955c"
+      ],
+      "dire_players": [
+        "Gao[o]ne-",
+        "K",
+        "Nikaido^HirO",
+        "Try it now",
+        "wa"
+      ],
+      "radiant_heroes": [
+        "Brewmaster",
+        "Kez",
+        "Slark",
+        "Winter Wyvern",
+        "Dark Willow"
+      ],
+      "dire_heroes": [
+        "Dazzle",
+        "Windranger",
+        "Dragon Knight",
+        "Nature's Prophet",
+        "Mars"
+      ],
+      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1743438,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Royal Bear",
+      "dire_team": "Xipto Esports",
+      "radiant_team_id": 139367,
+      "dire_team_id": 139239,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 371,
+      "live_map_number": 1,
+      "start_time": 1792224000,
+      "series_type": 2,
       "known_picks": 0,
       "lineup_available": false,
       "radiant_players": [
@@ -50,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
+      "match_url": "https://www.youtube.com/watch?v=-WKH7FtmHFk",
       "games": [
         {
           "position": 1,
@@ -64,6 +131,16 @@
         },
         {
           "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
@@ -83,8 +160,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 251,
+      "live_map_number": 2,
       "start_time": 1792220400,
       "series_type": 1,
       "known_picks": 0,
@@ -126,88 +203,11 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1743438,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Southeast Asia Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Royal Bear",
-      "dire_team": "Xipto Esports",
-      "radiant_team_id": 139367,
-      "dire_team_id": 139239,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792224000,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=-WKH7FtmHFk",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
@@ -681,13 +681,80 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1743418,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "LEGION",
+      "dire_team": "TBD",
+      "radiant_team_id": 139340,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792245600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 95,
+    "citoapi_calls_this_month": 97,
     "errors": []
   }
 }
