@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792224690,
-  "generated_at_iso": "2026-10-17T08:11:31.781534+00:00",
+  "generated_at": 1792225968,
+  "generated_at_iso": "2026-10-17T08:32:48.738686+00:00",
   "matches": [
-    {
-      "match_id": 1749265,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Tidebound",
-      "dire_team": "Team Resilience",
-      "radiant_team_id": 136140,
-      "dire_team_id": 138494,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136140/1121px_team_tidebound_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3203,
-      "live_map_number": 1,
-      "start_time": 1792221000,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "3",
-        "Imailisa",
-        "NothingToSay",
-        "\u5b87\u5b99\u306b\u304d\u3089\u3081\u304f \u30a8\u30e1\u30e9\u30eb\u30c9",
-        "\u955c"
-      ],
-      "dire_players": [
-        "Gao[o]ne-",
-        "K",
-        "Nikaido^HirO",
-        "Try it now",
-        "wa"
-      ],
-      "radiant_heroes": [
-        "Brewmaster",
-        "Kez",
-        "Slark",
-        "Winter Wyvern",
-        "Dark Willow"
-      ],
-      "dire_heroes": [
-        "Dazzle",
-        "Windranger",
-        "Dragon Knight",
-        "Nature's Prophet",
-        "Mars"
-      ],
-      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743438,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 371,
+      "live_seconds": 1649,
       "live_map_number": 1,
       "start_time": 1792224000,
       "series_type": 2,
@@ -160,7 +93,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 251,
+      "live_seconds": 1529,
       "live_map_number": 2,
       "start_time": 1792220400,
       "series_type": 1,
@@ -200,6 +133,73 @@
           "position": 1,
           "status": "finished",
           "winner_id": 2227
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1749265,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Tidebound",
+      "dire_team": "Team Resilience",
+      "radiant_team_id": 136140,
+      "dire_team_id": 138494,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136140/1121px_team_tidebound_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 822,
+      "live_map_number": 2,
+      "start_time": 1792221000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 136140
         },
         {
           "position": 2,
