@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792246092,
-  "generated_at_iso": "2026-10-17T14:08:12.592109+00:00",
+  "generated_at": 1792246820,
+  "generated_at_iso": "2026-10-17T14:20:20.489846+00:00",
   "matches": [
     {
       "match_id": 1743592,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1174,
+      "live_seconds": 1902,
       "live_map_number": 1,
       "start_time": 1792244700,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 575,
+      "live_seconds": 1303,
       "live_map_number": 3,
       "start_time": 1792236600,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 598,
+      "live_map_number": 2,
       "start_time": 1792243800,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
