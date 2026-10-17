@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792254208,
-  "generated_at_iso": "2026-10-17T16:23:31.238074+00:00",
+  "generated_at": 1792255001,
+  "generated_at_iso": "2026-10-17T16:36:41.766442+00:00",
   "matches": [
-    {
-      "match_id": 1743418,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "LEGION",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 139340,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2525,
-      "live_map_number": 2,
-      "start_time": 1792247400,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Aura",
-        "Him",
-        "hihihihi",
-        "humble god",
-        "kidaro"
-      ],
-      "dire_players": [
-        "15.09 invoker deleted",
-        "WoW Forever",
-        "dota maniac",
-        "sao",
-        "\u043a\u0440\u0435\u043a\u0435\u0440"
-      ],
-      "radiant_heroes": [
-        "Invoker",
-        "Brewmaster",
-        "Luna",
-        "Dark Willow",
-        "Witch Doctor"
-      ],
-      "dire_heroes": [
-        "Windranger",
-        "Dawnbreaker",
-        "Pangolier",
-        "Phantom Lancer",
-        "Mirana"
-      ],
-      "match_url": "https://www.youtube.com/watch?v=PoJHtw85L0w",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136531
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743570,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 446,
+      "live_seconds": 1239,
       "live_map_number": 1,
       "start_time": 1792253760,
       "series_type": 1,
@@ -150,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 393,
+      "live_map_number": 3,
       "start_time": 1792244700,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Merlin",
-        "humblegod",
-        "rin",
-        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
-        "\u707d\u798d~"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Aidar",
-        "KAZ2Y5",
-        "Spiral",
-        "inori",
-        "shengsi"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Outworld Devourer",
-        "Slark",
-        "Io",
-        "Centaur Warrunner",
-        "Batrider"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Techies",
-        "Windranger",
-        "Leshrac",
-        "Witch Doctor",
-        "Dawnbreaker"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -198,7 +131,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -217,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 37,
+      "live_map_number": 2,
       "start_time": 1792251000,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -473,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 39,
     "past_count": 30,
     "citoapi_calls_this_month": 102,
