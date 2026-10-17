@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792233762,
-  "generated_at_iso": "2026-10-17T10:42:42.806590+00:00",
+  "generated_at": 1792234367,
+  "generated_at_iso": "2026-10-17T10:52:47.618612+00:00",
   "matches": [
     {
       "match_id": 1743417,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2348,
+      "live_seconds": 2953,
       "live_map_number": 1,
       "start_time": 1792231200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2226,
+      "live_seconds": 2831,
       "live_map_number": 1,
       "start_time": 1792231200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1407,
+      "live_seconds": 2012,
       "live_map_number": 1,
       "start_time": 1792232100,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 272,
+      "live_seconds": 877,
       "live_map_number": 1,
       "start_time": 1792233000,
       "series_type": 1,
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 140,
+      "live_map_number": 3,
       "start_time": 1792224000,
       "series_type": 2,
       "known_picks": 0,
@@ -332,7 +332,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
