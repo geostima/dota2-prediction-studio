@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792229784,
-  "generated_at_iso": "2026-10-17T09:36:24.784700+00:00",
+  "generated_at": 1792230267,
+  "generated_at_iso": "2026-10-17T09:44:27.027853+00:00",
   "matches": [
-    {
-      "match_id": 1743590,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Play-In season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "LFO",
-      "radiant_team_id": 2227,
-      "dire_team_id": 139431,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 5345,
-      "live_map_number": 2,
-      "start_time": 1792220400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 2227
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1749265,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1251,
+      "live_seconds": 1734,
       "live_map_number": 3,
       "start_time": 1792221000,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1050,
+      "live_seconds": 1533,
       "live_map_number": 2,
       "start_time": 1792224000,
       "series_type": 2,
@@ -885,7 +818,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 97,
