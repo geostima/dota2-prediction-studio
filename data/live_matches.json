@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792270363,
-  "generated_at_iso": "2026-10-17T20:52:43.556404+00:00",
+  "generated_at": 1792271278,
+  "generated_at_iso": "2026-10-17T21:07:58.291745+00:00",
   "matches": [
     {
       "match_id": 1748449,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2098,
+      "live_seconds": 3013,
       "live_map_number": 2,
       "start_time": 1792263600,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 498,
+      "live_map_number": 2,
       "start_time": 1792266300,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
