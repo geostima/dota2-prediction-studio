@@ -1,141 +1,7 @@
 {
-  "generated_at": 1792240551,
-  "generated_at_iso": "2026-10-17T12:35:51.959416+00:00",
+  "generated_at": 1792241337,
+  "generated_at_iso": "2026-10-17T12:48:57.105947+00:00",
   "matches": [
-    {
-      "match_id": 1743417,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
-      "league_id": 4125,
-      "radiant_team": "Dawn Bulls",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 139238,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 4263,
-      "live_map_number": 2,
-      "start_time": 1792231200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.youtube.com/watch?v=PoJHtw85L0w",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136531
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1749267,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Resilience",
-      "dire_team": "Xtreme Gaming",
-      "radiant_team_id": 138494,
-      "dire_team_id": 128329,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3411,
-      "live_map_number": 1,
-      "start_time": 1792236600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743438,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 2,
       "dire_score": 1,
-      "live_seconds": 2391,
+      "live_seconds": 3177,
       "live_map_number": 4,
       "start_time": 1792224000,
       "series_type": 2,
@@ -227,7 +93,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 576,
+      "live_seconds": 1362,
       "live_map_number": 3,
       "start_time": 1792232100,
       "series_type": 1,
@@ -281,6 +147,73 @@
       ]
     },
     {
+      "match_id": 1748446,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Streamers League - #3 2026",
+      "league_id": 5570,
+      "radiant_team": "ALOHADANCE Team",
+      "dire_team": "Gorgc Team",
+      "radiant_team_id": 139423,
+      "dire_team_id": 139424,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139423/356px_alohadance_team_1w_sl2_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 355,
+      "live_map_number": 3,
+      "start_time": 1792233000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139424
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139423
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1743591,
       "source": "pandascore",
       "status": "live",
@@ -294,8 +227,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 246,
+      "live_map_number": 3,
       "start_time": 1792231200,
       "series_type": 1,
       "known_picks": 0,
@@ -342,28 +275,28 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
     },
     {
-      "match_id": 1748446,
+      "match_id": 1743417,
       "source": "pandascore",
       "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "ALOHADANCE Team",
-      "dire_team": "Gorgc Team",
-      "radiant_team_id": 139423,
-      "dire_team_id": 139424,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139423/356px_alohadance_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
+      "league_name": "DreamLeague - Western Europe Closed Qualifier season 30 2026",
+      "league_id": 4125,
+      "radiant_team": "Dawn Bulls",
+      "dire_team": "Team Lynx",
+      "radiant_team_id": 139238,
+      "dire_team_id": 136531,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792233000,
+      "start_time": 1792231200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -395,17 +328,84 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
+      "match_url": "https://www.youtube.com/watch?v=PoJHtw85L0w",
       "games": [
         {
           "position": 1,
           "status": "finished",
-          "winner_id": 139424
+          "winner_id": 136531
         },
         {
           "position": 2,
           "status": "finished",
-          "winner_id": 139423
+          "winner_id": 139238
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1749267,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Resilience",
+      "dire_team": "Xtreme Gaming",
+      "radiant_team_id": 138494,
+      "dire_team_id": 128329,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792236600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 128329
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
@@ -497,7 +497,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792242000,
+      "start_time": 1792243800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
