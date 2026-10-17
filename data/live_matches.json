@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792219332,
-  "generated_at_iso": "2026-10-17T06:42:12.428370+00:00",
+  "generated_at": 1792220319,
+  "generated_at_iso": "2026-10-17T06:58:39.533217+00:00",
   "matches": [
-    {
-      "match_id": 1749266,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Xtreme Gaming",
-      "dire_team": "Yakult Brothers",
-      "radiant_team_id": 128329,
-      "dire_team_id": 135697,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3032,
-      "live_map_number": 2,
-      "start_time": 1792213200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 128329
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743590,
       "source": "pandascore",
@@ -184,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
       "games": [
         {
           "position": 1,
@@ -395,7 +328,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
@@ -462,7 +395,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.youtube.com/ESLDota2/live",
+      "match_url": "https://www.youtube.com/watch?v=PoJHtw85L0w",
       "games": [
         {
           "position": 1,
@@ -554,13 +487,13 @@
       "status": "upcoming",
       "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
       "league_id": 5319,
-      "radiant_team": "TBD",
+      "radiant_team": "Xtreme Gaming",
       "dire_team": "TBD",
-      "radiant_team_id": null,
+      "radiant_team_id": 128329,
       "dire_team_id": null,
-      "radiant_logo_url": "",
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128329/t72899.png",
       "dire_logo_url": "",
-      "radiant_score": null,
+      "radiant_score": 0,
       "dire_score": null,
       "live_seconds": 0,
       "live_map_number": 0,
@@ -684,7 +617,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 95,
