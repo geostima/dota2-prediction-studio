@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792274899,
-  "generated_at_iso": "2026-10-17T22:08:19.198951+00:00",
+  "generated_at": 1792275606,
+  "generated_at_iso": "2026-10-17T22:20:06.188212+00:00",
   "matches": [
-    {
-      "match_id": 1748449,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "Nix Team",
-      "dire_team": "Stariy bog Team",
-      "radiant_team_id": 138690,
-      "dire_team_id": 136959,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138690/642px_nix_team_1w_sl3_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2580,
-      "live_map_number": 3,
-      "start_time": 1792263600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136959
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 138690
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1743576,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 603,
+      "live_seconds": 1310,
       "live_map_number": 3,
       "start_time": 1792266300,
       "series_type": 1,
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 36,
     "past_count": 30,
     "citoapi_calls_this_month": 104,
