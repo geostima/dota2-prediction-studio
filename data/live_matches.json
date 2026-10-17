@@ -1,11 +1,11 @@
 {
-  "generated_at": 1792220319,
-  "generated_at_iso": "2026-10-17T06:58:39.533217+00:00",
+  "generated_at": 1792221497,
+  "generated_at_iso": "2026-10-17T07:18:17.485639+00:00",
   "matches": [
     {
       "match_id": 1743590,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Play-In season 3 2026",
       "league_id": 5544,
       "radiant_team": "Nemiga Gaming",
@@ -16,8 +16,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 709,
+      "live_map_number": 1,
       "start_time": 1792220400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -72,7 +72,7 @@
     {
       "match_id": 1749265,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - China Closed Qualifier season 9 2026",
       "league_id": 5319,
       "radiant_team": "Team Tidebound",
@@ -83,9 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138494/800px_team_resilience__dota2__lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792224000,
+      "live_seconds": 10,
+      "live_map_number": 1,
+      "start_time": 1792221000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -529,7 +529,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/betboom_dota_ru2",
       "games": [
         {
           "position": 1,
@@ -614,10 +614,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1743592,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Play-In season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Yellow Submarine",
+      "dire_team": "Spirit Academy",
+      "radiant_team_id": 1931,
+      "dire_team_id": 137540,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792242000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 95,
