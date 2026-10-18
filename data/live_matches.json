@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792355785,
-  "generated_at_iso": "2026-10-18T20:36:25.942450+00:00",
+  "generated_at": 1792356281,
+  "generated_at_iso": "2026-10-18T20:44:41.465246+00:00",
   "matches": [
     {
       "match_id": 1748451,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 2,
-      "live_seconds": 822,
+      "live_seconds": 1318,
       "live_map_number": 4,
       "start_time": 1792341000,
       "series_type": 2,
@@ -93,7 +93,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 77,
+      "live_seconds": 573,
       "live_map_number": 2,
       "start_time": 1792350900,
       "series_type": 1,
