@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792336880,
-  "generated_at_iso": "2026-10-18T15:21:35.238852+00:00",
+  "generated_at": 1792337701,
+  "generated_at_iso": "2026-10-18T15:35:01.718662+00:00",
   "matches": [
-    {
-      "match_id": 1756286,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "CyberHero",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 139339,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 4435,
-      "live_map_number": 3,
-      "start_time": 1792324800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/prostikoshka",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1756271,
       "source": "pandascore",
@@ -85,7 +18,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792337400,
+      "start_time": 1792338300,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -282,12 +215,10 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 105,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "errors": []
   }
 }
