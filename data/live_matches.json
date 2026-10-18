@@ -1,7 +1,74 @@
 {
-  "generated_at": 1792361283,
-  "generated_at_iso": "2026-10-18T22:08:03.360164+00:00",
+  "generated_at": 1792362028,
+  "generated_at_iso": "2026-10-18T22:20:28.968161+00:00",
   "matches": [
+    {
+      "match_id": 1756272,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "salamit",
+      "dire_team": "Power Rangers",
+      "radiant_team_id": 139407,
+      "dire_team_id": 137870,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 1929,
+      "live_map_number": 3,
+      "start_time": 1792350900,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137870
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139407
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1748451,
       "source": "pandascore",
@@ -14,10 +81,10 @@
       "dire_team_id": 136959,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
-      "radiant_score": 1,
+      "radiant_score": 2,
       "dire_score": 2,
-      "live_seconds": 6320,
-      "live_map_number": 4,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1792341000,
       "series_type": 2,
       "known_picks": 0,
@@ -69,79 +136,12 @@
         },
         {
           "position": 4,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139424
         },
         {
           "position": 5,
           "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1756272,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "salamit",
-      "dire_team": "Power Rangers",
-      "radiant_team_id": 139407,
-      "dire_team_id": 137870,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 1184,
-      "live_map_number": 3,
-      "start_time": 1792350900,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137870
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139407
-        },
-        {
-          "position": 3,
-          "status": "running",
           "winner_id": null
         }
       ]
