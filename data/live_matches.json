@@ -1,87 +1,9 @@
 {
-  "generated_at": 1792364851,
-  "generated_at_iso": "2026-10-18T23:07:31.084713+00:00",
-  "matches": [
-    {
-      "match_id": 1748451,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Streamers League - #3 2026",
-      "league_id": 5570,
-      "radiant_team": "Gorgc Team",
-      "dire_team": "Stariy bog Team",
-      "radiant_team_id": 139424,
-      "dire_team_id": 136959,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139424/419px_gorgc_team_1w_sl2_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
-      "radiant_score": 2,
-      "dire_score": 2,
-      "live_seconds": 2580,
-      "live_map_number": 5,
-      "start_time": 1792341000,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_sl_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136959
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 136959
-        },
-        {
-          "position": 3,
-          "status": "finished",
-          "winner_id": 139424
-        },
-        {
-          "position": 4,
-          "status": "finished",
-          "winner_id": 139424
-        },
-        {
-          "position": 5,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1792365542,
+  "generated_at_iso": "2026-10-18T23:19:02.908340+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 107,
