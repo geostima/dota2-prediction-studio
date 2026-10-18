@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792359011,
-  "generated_at_iso": "2026-10-18T21:30:11.725544+00:00",
+  "generated_at": 1792359767,
+  "generated_at_iso": "2026-10-18T21:42:47.323207+00:00",
   "matches": [
     {
       "match_id": 1748451,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 1,
       "dire_score": 2,
-      "live_seconds": 4048,
+      "live_seconds": 4804,
       "live_map_number": 4,
       "start_time": 1792341000,
       "series_type": 2,
@@ -91,10 +91,10 @@
       "dire_team_id": 137870,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3303,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1792350900,
       "series_type": 1,
       "known_picks": 0,
@@ -136,8 +136,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139407
         },
         {
           "position": 3,
