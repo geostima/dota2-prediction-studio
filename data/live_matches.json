@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792363364,
-  "generated_at_iso": "2026-10-18T22:42:44.244834+00:00",
+  "generated_at": 1792363955,
+  "generated_at_iso": "2026-10-18T22:52:35.935894+00:00",
   "matches": [
     {
       "match_id": 1748451,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136959/600px_stariy_bog_1w_sl2_lightmode.png",
       "radiant_score": 2,
       "dire_score": 2,
-      "live_seconds": 1093,
+      "live_seconds": 1684,
       "live_map_number": 5,
       "start_time": 1792341000,
       "series_type": 2,
