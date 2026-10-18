@@ -1,7 +1,75 @@
 {
-  "generated_at": 1792302778,
-  "generated_at_iso": "2026-10-18T05:52:58.738014+00:00",
-  "matches": [],
+  "generated_at": 1792304110,
+  "generated_at_iso": "2026-10-18T06:15:10.818514+00:00",
+  "matches": [
+    {
+      "match_id": 1756286,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "CyberHero",
+      "dire_team": "Team Synapse",
+      "radiant_team_id": 139339,
+      "dire_team_id": 139124,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792324800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 50,
