@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792427666,
-  "generated_at_iso": "2026-10-19T16:34:26.238923+00:00",
+  "generated_at": 1792428504,
+  "generated_at_iso": "2026-10-19T16:48:24.890554+00:00",
   "matches": [
     {
       "match_id": 1756288,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2122,
+      "live_seconds": 2960,
       "live_map_number": 2,
       "start_time": 1792422000,
       "series_type": 1,
