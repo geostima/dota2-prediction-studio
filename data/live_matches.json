@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792416508,
-  "generated_at_iso": "2026-10-19T13:28:29.971420+00:00",
+  "generated_at": 1792417723,
+  "generated_at_iso": "2026-10-19T13:48:43.995732+00:00",
   "matches": [
     {
       "match_id": 1756273,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1128,
+      "live_seconds": 2343,
       "live_map_number": 2,
       "start_time": 1792411200,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "1nonly",
-        "JIoJl",
-        "M",
-        "Rein",
-        "\u0430\u043c\u0431\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "GEN Z",
-        "Serenityy",
-        "VaniLLl",
-        "dark timelinee",
-        "im upset"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Gyrocopter",
-        "Windranger",
-        "Dragon Knight",
-        "Shadow Demon",
-        "Necrophos"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Tiny",
-        "Outworld Devourer",
-        "Mirana",
-        "Dark Willow",
-        "Enigma"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
