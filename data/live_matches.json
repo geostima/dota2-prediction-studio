@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792413863,
-  "generated_at_iso": "2026-10-19T12:44:23.921528+00:00",
+  "generated_at": 1792414912,
+  "generated_at_iso": "2026-10-19T13:01:52.488739+00:00",
   "matches": [
     {
       "match_id": 1756273,
@@ -14,10 +14,10 @@
       "dire_team_id": 2227,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2563,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1792411200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138842
         },
         {
           "position": 2,
