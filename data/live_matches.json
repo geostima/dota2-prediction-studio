@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792389429,
-  "generated_at_iso": "2026-10-19T05:57:09.746716+00:00",
+  "generated_at": 1792392224,
+  "generated_at_iso": "2026-10-19T06:43:44.062413+00:00",
   "matches": [
     {
       "match_id": 1756287,
@@ -19,6 +19,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792400400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1756273,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "HULIGANI",
+      "dire_team": "Nemiga Gaming",
+      "radiant_team_id": 138842,
+      "dire_team_id": 2227,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792411200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
