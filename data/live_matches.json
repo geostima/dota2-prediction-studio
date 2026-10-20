@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792486389,
-  "generated_at_iso": "2026-10-20T08:53:09.276368+00:00",
+  "generated_at": 1792487459,
+  "generated_at_iso": "2026-10-20T09:10:59.256868+00:00",
   "matches": [
     {
       "match_id": 1759482,
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792486800,
+      "start_time": 1792487700,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -153,6 +153,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1792497600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1756290,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Team Synapse",
+      "dire_team": "Yellow Submarine",
+      "radiant_team_id": 139124,
+      "dire_team_id": 1931,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792508400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
