@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792490224,
-  "generated_at_iso": "2026-10-20T09:57:04.733325+00:00",
+  "generated_at": 1792491422,
+  "generated_at_iso": "2026-10-20T10:17:02.326615+00:00",
   "matches": [
-    {
-      "match_id": 1756274,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Power Rangers",
-      "dire_team": "HULIGANI",
-      "radiant_team_id": 137870,
-      "dire_team_id": 138842,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2447,
-      "live_map_number": 1,
-      "start_time": 1792487700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759482,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 318,
+      "live_map_number": 2,
       "start_time": 1792487700,
       "series_type": 1,
       "known_picks": 0,
@@ -123,6 +56,73 @@
           "position": 1,
           "status": "finished",
           "winner_id": 139148
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1756274,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Power Rangers",
+      "dire_team": "HULIGANI",
+      "radiant_team_id": 137870,
+      "dire_team_id": 138842,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792487700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 138842
         },
         {
           "position": 2,
