@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792522736,
-  "generated_at_iso": "2026-10-20T18:58:56.512660+00:00",
+  "generated_at": 1792523838,
+  "generated_at_iso": "2026-10-20T19:17:20.674723+00:00",
   "matches": [
     {
       "match_id": 1756291,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2564,
+      "live_seconds": 3666,
       "live_map_number": 1,
       "start_time": 1792520100,
       "series_type": 1,
@@ -74,7 +74,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 120,
+    "citoapi_calls_this_month": 122,
     "errors": []
   }
 }
