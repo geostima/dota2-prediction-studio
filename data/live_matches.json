@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792492255,
-  "generated_at_iso": "2026-10-20T10:30:57.230636+00:00",
+  "generated_at": 1792493170,
+  "generated_at_iso": "2026-10-20T10:46:10.846181+00:00",
   "matches": [
     {
       "match_id": 1759482,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1151,
+      "live_seconds": 2066,
       "live_map_number": 2,
       "start_time": 1792487700,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Go win",
-        "hok player",
-        "not serious",
-        "sdasdsd",
-        "\ud83d\udeac"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "King",
-        "Mr. Bombastic",
-        "Self hatred",
-        "\u795d\u798f\u4f60\uff0c\u4f60\u5374\u53d7\u8bc5\u5492",
-        "\ufff4 \ufff4"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Kez",
-        "Winter Wyvern",
-        "Clockwerk",
-        "Necrophos",
-        "Invoker"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Luna",
-        "Largo",
-        "Earth Spirit",
-        "Warlock",
-        "Rubick"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 704,
+      "live_seconds": 1619,
       "live_map_number": 2,
       "start_time": 1792487700,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "0000.",
-        "Xakoda",
-        "ace serve",
-        "tv/otakerdota",
-        "\u0447\u0443\u043f\u0438\u043a"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "1nonly",
-        "JIoJl",
-        "M",
-        "Rein",
-        "\u0430\u043c\u0431\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Ring Master",
-        "Winter Wyvern",
-        "Batrider",
-        "Terrorblade",
-        "Necrophos"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Lone Druid",
-        "Dark Willow",
-        "Puck",
-        "Grimstroke",
-        "Lycan"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
