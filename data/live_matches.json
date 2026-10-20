@@ -1,11 +1,11 @@
 {
-  "generated_at": 1792487459,
-  "generated_at_iso": "2026-10-20T09:10:59.256868+00:00",
+  "generated_at": 1792488793,
+  "generated_at_iso": "2026-10-20T09:33:13.032811+00:00",
   "matches": [
     {
       "match_id": 1759482,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 19 2026",
       "league_id": 4884,
       "radiant_team": "Team Kinetix",
@@ -16,9 +16,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792486800,
+      "live_seconds": 1054,
+      "live_map_number": 1,
+      "start_time": 1792487700,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -72,7 +72,7 @@
     {
       "match_id": 1756274,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 3 2026",
       "league_id": 5544,
       "radiant_team": "Power Rangers",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1016,
+      "live_map_number": 1,
       "start_time": 1792487700,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -272,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 115,
