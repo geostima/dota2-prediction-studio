@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792497309,
-  "generated_at_iso": "2026-10-20T11:55:09.354017+00:00",
+  "generated_at": 1792498495,
+  "generated_at_iso": "2026-10-20T12:14:55.785505+00:00",
   "matches": [
     {
       "match_id": 1759482,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 81,
+      "live_seconds": 1267,
       "live_map_number": 3,
       "start_time": 1792487700,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1756275,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 3 2026",
       "league_id": 5544,
       "radiant_team": "Team Lynx",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 665,
+      "live_map_number": 1,
       "start_time": 1792497600,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -202,10 +202,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1756291,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "TheBot$",
+      "dire_team": "Dawn Bulls",
+      "radiant_team_id": 139434,
+      "dire_team_id": 139238,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792519200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 118,
