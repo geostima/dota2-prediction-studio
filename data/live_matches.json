@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792604523,
-  "generated_at_iso": "2026-10-21T17:42:04.273551+00:00",
+  "generated_at": 1792605191,
+  "generated_at_iso": "2026-10-21T17:53:11.644366+00:00",
   "matches": [
-    {
-      "match_id": 1756277,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "salamit",
-      "dire_team": "HULIGANI",
-      "radiant_team_id": 139407,
-      "dire_team_id": 138842,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2974,
-      "live_map_number": 2,
-      "start_time": 1792597500,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Alles Lebendige vergeht.",
-        "Ankou \u2661",
-        "Q",
-        "\u0428\u0430\u0431\u0431\u0430\u0442 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 50",
-        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4"
-      ],
-      "dire_players": [
-        "1nonly",
-        "JIoJl",
-        "M",
-        "Rein",
-        "\u0430\u043c\u0431\u0438\u0432\u0430\u043b\u0435\u043d\u0442\u043d\u043e\u0441\u0442\u044c"
-      ],
-      "radiant_heroes": [
-        "Keeper of the Light",
-        "Enigma",
-        "Dark Willow",
-        "Winter Wyvern",
-        "Nature's Prophet"
-      ],
-      "dire_heroes": [
-        "Necrophos",
-        "Windranger",
-        "Dragon Knight",
-        "Grimstroke",
-        "Dawnbreaker"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138842
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1756293,
       "source": "pandascore",
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 130,
