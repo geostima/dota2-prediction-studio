@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792589104,
-  "generated_at_iso": "2026-10-21T13:25:04.533362+00:00",
+  "generated_at": 1792589932,
+  "generated_at_iso": "2026-10-21T13:38:54.103594+00:00",
   "matches": [
     {
       "match_id": 1756292,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 314,
+      "live_map_number": 2,
       "start_time": 1792585200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Emaciated",
+        "OK",
+        "remember to pullout",
+        "seyuh",
+        "tmm(\u0443\u0447\u0443\u0441\u044c)"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "-",
+        "arcane fantasy",
+        "episode 02",
+        "glory",
+        "nefrit"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Viper",
+        "Doom",
+        "Hoodwink",
+        "Outworld Devourer",
+        "Pudge"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Winter Wyvern",
+        "Invoker",
+        "Bounty Hunter",
+        "Kez",
+        "Dragon Knight"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -208,7 +208,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 126,
+    "citoapi_calls_this_month": 128,
     "errors": []
   }
 }
