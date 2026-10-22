@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792673017,
-  "generated_at_iso": "2026-10-22T12:43:38.754929+00:00",
+  "generated_at": 1792674072,
+  "generated_at_iso": "2026-10-22T13:01:12.458964+00:00",
   "matches": [
     {
       "match_id": 1756279,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2160,
+      "live_seconds": 3215,
       "live_map_number": 1,
       "start_time": 1792670400,
       "series_type": 1,
@@ -60,73 +60,6 @@
         {
           "position": 2,
           "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1753747,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "Team Spirit",
-      "dire_team": "LEGION",
-      "radiant_team_id": 1669,
-      "dire_team_id": 139340,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1884,
-      "live_map_number": 2,
-      "start_time": 1792666800,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        ".;;;:!!?&@\u2026,",
-        "GAMBOT-PARIS",
-        "[y]",
-        "pablo aura",
-        "rue"
-      ],
-      "dire_players": [
-        "Him",
-        "Stormborn",
-        "humble god",
-        "kidaro",
-        "parivision"
-      ],
-      "radiant_heroes": [
-        "Earth Spirit",
-        "Tidehunter",
-        "Slark",
-        "Shadow Demon",
-        "Witch Doctor"
-      ],
-      "dire_heroes": [
-        "Dark Seer",
-        "Invoker",
-        "Spirit Breaker",
-        "Disruptor",
-        "Luna"
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1669
-        },
-        {
-          "position": 2,
-          "status": "running",
           "winner_id": null
         },
         {
@@ -406,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 135,
