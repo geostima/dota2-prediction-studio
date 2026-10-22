@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792671384,
-  "generated_at_iso": "2026-10-22T12:16:24.633436+00:00",
+  "generated_at": 1792673017,
+  "generated_at_iso": "2026-10-22T12:43:38.754929+00:00",
   "matches": [
     {
       "match_id": 1756279,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 527,
+      "live_seconds": 2160,
       "live_map_number": 1,
       "start_time": 1792670400,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 251,
+      "live_seconds": 1884,
       "live_map_number": 2,
       "start_time": 1792666800,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        ".;;;:!!?&@\u2026,",
+        "GAMBOT-PARIS",
+        "[y]",
+        "pablo aura",
+        "rue"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Him",
+        "Stormborn",
+        "humble god",
+        "kidaro",
+        "parivision"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Earth Spirit",
+        "Tidehunter",
+        "Slark",
+        "Shadow Demon",
+        "Witch Doctor"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dark Seer",
+        "Invoker",
+        "Spirit Breaker",
+        "Disruptor",
+        "Luna"
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -409,7 +409,7 @@
     "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 132,
+    "citoapi_calls_this_month": 135,
     "errors": []
   }
 }
