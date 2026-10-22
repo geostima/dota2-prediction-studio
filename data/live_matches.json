@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792680963,
-  "generated_at_iso": "2026-10-22T14:56:03.929688+00:00",
+  "generated_at": 1792682086,
+  "generated_at_iso": "2026-10-22T15:14:46.598230+00:00",
   "matches": [
     {
       "match_id": 1753731,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2574,
+      "live_seconds": 3697,
       "live_map_number": 1,
       "start_time": 1792678500,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1756294,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 3 2026",
       "league_id": 5544,
       "radiant_team": "CyberHero",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 851,
+      "live_map_number": 1,
       "start_time": 1792681200,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -272,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 135,
