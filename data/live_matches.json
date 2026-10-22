@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792674072,
-  "generated_at_iso": "2026-10-22T13:01:12.458964+00:00",
+  "generated_at": 1792675624,
+  "generated_at_iso": "2026-10-22T13:27:04.282047+00:00",
   "matches": [
     {
       "match_id": 1756279,
@@ -14,10 +14,10 @@
       "dire_team_id": 136531,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3215,
-      "live_map_number": 1,
+      "live_seconds": 422,
+      "live_map_number": 2,
       "start_time": 1792670400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138842
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
