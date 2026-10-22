@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792637690,
-  "generated_at_iso": "2026-10-22T02:54:50.672622+00:00",
+  "generated_at": 1792638696,
+  "generated_at_iso": "2026-10-22T03:11:36.843246+00:00",
   "matches": [
     {
       "match_id": 1759486,
@@ -18,7 +18,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792638000,
+      "start_time": 1792638600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -185,6 +185,140 @@
         ""
       ],
       "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1759488,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Yangon Galacticos",
+      "dire_team": "Team Nemesis Academy",
+      "radiant_team_id": 128080,
+      "dire_team_id": 139402,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792659600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1756278,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Inner Circle x Insanity",
+      "dire_team": "salamit",
+      "radiant_team_id": 137417,
+      "dire_team_id": 139407,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792659600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
