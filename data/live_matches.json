@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792687662,
-  "generated_at_iso": "2026-10-22T16:47:43.044867+00:00",
+  "generated_at": 1792688204,
+  "generated_at_iso": "2026-10-22T16:56:44.259802+00:00",
   "matches": [
     {
       "match_id": 1756294,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 914,
+      "live_seconds": 1456,
       "live_map_number": 2,
       "start_time": 1792681200,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "strong",
-        "the city of light",
-        "\u041c\u0435\u0447\u0442\u0430.",
-        "\u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
-        "\u2666"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Merlin",
-        "humblegod",
-        "rin",
-        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
-        "\u707d\u798d~"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Ursa",
-        "Windranger",
-        "Winter Wyvern",
-        "Earth Spirit",
-        "Largo"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Sand King",
-        "Dark Willow",
-        "Io",
-        "Lycan",
-        "Witch Doctor"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792688400,
+      "start_time": 1792689300,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
