@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792686876,
-  "generated_at_iso": "2026-10-22T16:34:36.636605+00:00",
+  "generated_at": 1792687662,
+  "generated_at_iso": "2026-10-22T16:47:43.044867+00:00",
   "matches": [
-    {
-      "match_id": 1753731,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "Team Liquid",
-      "dire_team": "1win",
-      "radiant_team_id": 1647,
-      "dire_team_id": 134536,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1922,
-      "live_map_number": 2,
-      "start_time": 1792678500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1647
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1756294,
       "source": "pandascore",
@@ -83,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 128,
+      "live_seconds": 914,
       "live_map_number": 2,
       "start_time": 1792681200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "strong",
+        "the city of light",
+        "\u041c\u0435\u0447\u0442\u0430.",
+        "\u043f\u043e\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0441\u0442\u044c",
+        "\u2666"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Merlin",
+        "humblegod",
+        "rin",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
+        "\u707d\u798d~"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Ursa",
+        "Windranger",
+        "Winter Wyvern",
+        "Earth Spirit",
+        "Largo"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Sand King",
+        "Dark Willow",
+        "Io",
+        "Lycan",
+        "Witch Doctor"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -272,10 +205,10 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 135,
+    "citoapi_calls_this_month": 137,
     "errors": []
   }
 }
