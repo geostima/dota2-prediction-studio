@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792697455,
-  "generated_at_iso": "2026-10-22T19:30:55.328390+00:00",
+  "generated_at": 1792698303,
+  "generated_at_iso": "2026-10-22T19:45:03.519893+00:00",
   "matches": [
-    {
-      "match_id": 1753748,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "PARIVISION",
-      "dire_team": "Astra Invicta",
-      "radiant_team_id": 135712,
-      "dire_team_id": 139432,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2196,
-      "live_map_number": 2,
-      "start_time": 1792689300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 135712
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1756295,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 990,
+      "live_seconds": 1838,
       "live_map_number": 2,
       "start_time": 1792692900,
       "series_type": 1,
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 137,
