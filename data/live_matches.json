@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792784164,
-  "generated_at_iso": "2026-10-23T19:36:04.267154+00:00",
+  "generated_at": 1792784672,
+  "generated_at_iso": "2026-10-23T19:44:32.152540+00:00",
   "matches": [
     {
       "match_id": 1756282,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1034,
+      "live_seconds": 1542,
       "live_map_number": 2,
       "start_time": 1792778400,
       "series_type": 1,
