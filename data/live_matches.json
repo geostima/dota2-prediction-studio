@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792746643,
-  "generated_at_iso": "2026-10-23T09:10:43.280793+00:00",
+  "generated_at": 1792748031,
+  "generated_at_iso": "2026-10-23T09:33:51.635645+00:00",
   "matches": [
-    {
-      "match_id": 1753734,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "1win",
-      "dire_team": "OG",
-      "radiant_team_id": 134536,
-      "dire_team_id": 1654,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2780,
-      "live_map_number": 1,
-      "start_time": 1792744200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759489,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 561,
+      "live_seconds": 1949,
       "live_map_number": 3,
       "start_time": 1792735200,
       "series_type": 1,
@@ -137,76 +70,9 @@
       ]
     },
     {
-      "match_id": 1759490,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Team Nemesis Academy",
-      "dire_team": "Novus Gaming",
-      "radiant_team_id": 139402,
-      "dire_team_id": 139152,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792746000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1756280,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL Masters - Season 3 2026",
       "league_id": 5544,
       "radiant_team": "salamit",
@@ -217,9 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792746000,
+      "live_seconds": 624,
+      "live_map_number": 1,
+      "start_time": 1792747200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -252,6 +118,140 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1753734,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "1win",
+      "dire_team": "OG",
+      "radiant_team_id": 134536,
+      "dire_team_id": 1654,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 218,
+      "live_map_number": 2,
+      "start_time": 1792744200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1654
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1759490,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Nemesis Academy",
+      "dire_team": "Novus Gaming",
+      "radiant_team_id": 139402,
+      "dire_team_id": 139152,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792749600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
@@ -540,7 +540,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 138,
