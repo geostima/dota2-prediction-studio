@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792741904,
-  "generated_at_iso": "2026-10-23T07:51:44.796489+00:00",
+  "generated_at": 1792743194,
+  "generated_at_iso": "2026-10-23T08:13:14.696264+00:00",
   "matches": [
     {
       "match_id": 1759489,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1374,
+      "live_seconds": 2664,
       "live_map_number": 2,
       "start_time": 1792735200,
       "series_type": 1,
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1792742400,
+      "start_time": 1792743000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -386,6 +386,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1753749,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "BetBoom Team",
+      "dire_team": "Astra Invicta",
+      "radiant_team_id": 130768,
+      "dire_team_id": 139432,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792764000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
       "games": [
         {
           "position": 1,
