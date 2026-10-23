@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792751511,
-  "generated_at_iso": "2026-10-23T10:31:53.233696+00:00",
+  "generated_at": 1792752349,
+  "generated_at_iso": "2026-10-23T10:45:49.755210+00:00",
   "matches": [
-    {
-      "match_id": 1753734,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "1win",
-      "dire_team": "OG",
-      "radiant_team_id": 134536,
-      "dire_team_id": 1654,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3698,
-      "live_map_number": 2,
-      "start_time": 1792744200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1654
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759490,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1814,
+      "live_seconds": 2652,
       "live_map_number": 1,
       "start_time": 1792749600,
       "series_type": 1,
@@ -150,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 4,
+      "live_seconds": 842,
       "live_map_number": 2,
       "start_time": 1792747200,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Ankou \u2661",
-        "Baby Jane",
-        "Q",
-        "nothing's real;",
-        "\u0428\u0430\u0431\u0431\u0430\u0442 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 50"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "GEN Z",
-        "Serenityy",
-        "VaniLLl",
-        "dark timelinee",
-        "\u043e\u0442\u0448\u0435\u043b\u044c\u043d\u0438\u043a"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Largo",
-        "Nature's Prophet",
-        "Windranger",
-        "Earth Spirit",
-        "Witch Doctor"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Kez",
-        "Slardar",
-        "Winter Wyvern",
-        "Grimstroke",
-        "Dragon Knight"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -473,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 140,
