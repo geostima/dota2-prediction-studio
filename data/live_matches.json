@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792739945,
-  "generated_at_iso": "2026-10-23T07:19:05.899402+00:00",
+  "generated_at": 1792741119,
+  "generated_at_iso": "2026-10-23T07:38:39.728253+00:00",
   "matches": [
     {
       "match_id": 1759489,
@@ -14,10 +14,10 @@
       "dire_team_id": 137529,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 4086,
-      "live_map_number": 1,
+      "live_seconds": 589,
+      "live_map_number": 2,
       "start_time": 1792735200,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 128080
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
