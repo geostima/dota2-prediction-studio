@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792780643,
-  "generated_at_iso": "2026-10-23T18:37:23.406431+00:00",
+  "generated_at": 1792781462,
+  "generated_at_iso": "2026-10-23T18:51:05.030744+00:00",
   "matches": [
     {
       "match_id": 1756282,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2000,
+      "live_seconds": 2819,
       "live_map_number": 1,
       "start_time": 1792778400,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 272,
+      "live_seconds": 1091,
       "live_map_number": 2,
       "start_time": 1792776000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dukalis",
+        "Have fun",
+        "Rin",
+        "huskar jungle",
+        "\u0439\u043e\u0443"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "888",
+        "Aura",
+        "Him",
+        "humble god",
+        "kidaro"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Winter Wyvern",
+        "Beastmaster",
+        "Kez",
+        "Brewmaster",
+        "Dark Willow"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Luna",
+        "Outworld Devourer",
+        "Largo",
+        "Hoodwink",
+        "Mirana"
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -141,7 +141,7 @@
     "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 140,
+    "citoapi_calls_this_month": 143,
     "errors": []
   }
 }
