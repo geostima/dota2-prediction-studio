@@ -1,74 +1,7 @@
 {
-  "generated_at": 1792748031,
-  "generated_at_iso": "2026-10-23T09:33:51.635645+00:00",
+  "generated_at": 1792748894,
+  "generated_at_iso": "2026-10-23T09:48:14.630151+00:00",
   "matches": [
-    {
-      "match_id": 1759489,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Yangon Galacticos",
-      "dire_team": "Cloud Dawning",
-      "radiant_team_id": 128080,
-      "dire_team_id": 137529,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 1949,
-      "live_map_number": 3,
-      "start_time": 1792735200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 128080
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137529
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1756280,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 624,
+      "live_seconds": 1487,
       "live_map_number": 1,
       "start_time": 1792747200,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 218,
+      "live_seconds": 1081,
       "live_map_number": 2,
       "start_time": 1792744200,
       "series_type": 1,
@@ -540,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 138,
