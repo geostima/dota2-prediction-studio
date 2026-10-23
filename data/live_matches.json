@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792788805,
-  "generated_at_iso": "2026-10-23T20:53:25.392054+00:00",
+  "generated_at": 1792789738,
+  "generated_at_iso": "2026-10-23T21:08:58.040064+00:00",
   "matches": [
     {
       "match_id": 1756282,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 629,
+      "live_seconds": 1562,
       "live_map_number": 3,
       "start_time": 1792778400,
       "series_type": 1,
@@ -65,6 +65,73 @@
         {
           "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1759491,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Resp Gaming",
+      "dire_team": "Team Nemesis Academy",
+      "radiant_team_id": 139413,
+      "dire_team_id": 139402,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792810800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
           "winner_id": null
         }
       ]
