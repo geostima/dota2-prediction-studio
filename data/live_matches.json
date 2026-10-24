@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792874208,
-  "generated_at_iso": "2026-10-24T20:36:49.598306+00:00",
+  "generated_at": 1792874667,
+  "generated_at_iso": "2026-10-24T20:44:27.993068+00:00",
   "matches": [
     {
       "match_id": 1753752,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3157,
+      "live_seconds": 3616,
       "live_map_number": 3,
       "start_time": 1792862100,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Madder Sky",
-        "balance",
-        "gh",
-        "k",
-        "\u7cbe\u795e~"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Aura",
-        "Him",
-        "humble god",
-        "kidaro",
-        "parivision"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Anti-Mage",
-        "Underlord",
-        "Witch Doctor",
-        "Windranger",
-        "Ember Spirit"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Slardar",
-        "Brewmaster",
-        "Hoodwink",
-        "Techies",
-        "Tiny"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
