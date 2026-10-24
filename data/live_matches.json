@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792814215,
-  "generated_at_iso": "2026-10-24T03:56:55.998131+00:00",
+  "generated_at": 1792815531,
+  "generated_at_iso": "2026-10-24T04:18:51.718394+00:00",
   "matches": [
     {
       "match_id": 1759491,
@@ -14,10 +14,10 @@
       "dire_team_id": 139402,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1403,
-      "live_map_number": 1,
+      "live_seconds": 293,
+      "live_map_number": 2,
       "start_time": 1792812600,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139413
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
