@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792859042,
-  "generated_at_iso": "2026-10-24T16:24:07.941551+00:00",
+  "generated_at": 1792859867,
+  "generated_at_iso": "2026-10-24T16:37:47.556962+00:00",
   "matches": [
     {
       "match_id": 1753751,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1761,
+      "live_seconds": 2586,
       "live_map_number": 2,
       "start_time": 1792852500,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        ".;;;:!!?&@\u2026,",
-        "GAMBOT-PARIS",
-        "pablo aura",
-        "rue",
-        "yiyi"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "I\u2019ll Be Fine",
-        "Onizuka",
-        "Sage of the Six Paths",
-        "east atlanta",
-        "jorj"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Pangolier",
-        "Mars",
-        "Dark Willow",
-        "Witch Doctor",
-        "Weaver"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Keeper of the Light",
-        "Brewmaster",
-        "Sven",
-        "Hoodwink",
-        "Windranger"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1056,
+      "live_seconds": 1881,
       "live_map_number": 1,
       "start_time": 1792857600,
       "series_type": 1,
