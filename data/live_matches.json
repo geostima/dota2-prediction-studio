@@ -1,77 +1,9 @@
 {
-  "generated_at": 1792875148,
-  "generated_at_iso": "2026-10-24T20:52:28.921012+00:00",
-  "matches": [
-    {
-      "match_id": 1753752,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "Astra Invicta",
-      "dire_team": "LEGION",
-      "radiant_team_id": 139432,
-      "dire_team_id": 139340,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 4097,
-      "live_map_number": 3,
-      "start_time": 1792862100,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139340
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139432
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1792876092,
+  "generated_at_iso": "2026-10-24T21:08:12.714475+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 153,
