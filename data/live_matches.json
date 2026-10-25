@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792921954,
-  "generated_at_iso": "2026-10-25T09:52:34.154490+00:00",
+  "generated_at": 1792922911,
+  "generated_at_iso": "2026-10-25T10:08:31.519119+00:00",
   "matches": [
     {
       "match_id": 1753738,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2888,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1792918800,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1654
         },
         {
           "position": 2,
@@ -319,6 +319,73 @@
         ""
       ],
       "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1756300,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "CyberHero",
+      "dire_team": "Zero Tenacity",
+      "radiant_team_id": 139339,
+      "dire_team_id": 135854,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792944000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
