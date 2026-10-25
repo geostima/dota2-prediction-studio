@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792923727,
-  "generated_at_iso": "2026-10-25T10:22:07.685004+00:00",
+  "generated_at": 1792924597,
+  "generated_at_iso": "2026-10-25T10:36:37.316788+00:00",
   "matches": [
     {
       "match_id": 1753738,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 785,
+      "live_map_number": 2,
       "start_time": 1792918800,
       "series_type": 1,
       "known_picks": 0,
@@ -59,74 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1756284,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "salamit",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 139407,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1792923300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
