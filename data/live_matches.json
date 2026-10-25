@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792893477,
-  "generated_at_iso": "2026-10-25T01:57:57.358190+00:00",
+  "generated_at": 1792895266,
+  "generated_at_iso": "2026-10-25T02:27:46.456419+00:00",
   "matches": [
     {
       "match_id": 1759493,
@@ -51,6 +51,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1753738,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "Team Liquid",
+      "dire_team": "OG",
+      "radiant_team_id": 1647,
+      "dire_team_id": 1654,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1792915200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
       "games": [
         {
           "position": 1,
