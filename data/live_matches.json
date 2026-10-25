@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792911642,
-  "generated_at_iso": "2026-10-25T07:00:42.774320+00:00",
+  "generated_at": 1792913092,
+  "generated_at_iso": "2026-10-25T07:24:52.575557+00:00",
   "matches": [
     {
       "match_id": 1753738,
@@ -76,11 +76,11 @@
       "league_name": "EPL World Series - Southeast Asia season 19 2026",
       "league_id": 4884,
       "radiant_team": "Zenith",
-      "dire_team": "Xipto Esports",
+      "dire_team": "Royal Bear",
       "radiant_team_id": 139363,
-      "dire_team_id": 139239,
+      "dire_team_id": 139367,
       "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
