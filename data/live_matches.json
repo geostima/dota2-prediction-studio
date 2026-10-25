@@ -1,6 +1,6 @@
 {
-  "generated_at": 1792939964,
-  "generated_at_iso": "2026-10-25T14:52:44.905526+00:00",
+  "generated_at": 1792940897,
+  "generated_at_iso": "2026-10-25T15:08:17.142339+00:00",
   "matches": [
     {
       "match_id": 1756285,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2454,
+      "live_seconds": 3387,
       "live_map_number": 2,
       "start_time": 1792933200,
       "series_type": 1,
@@ -56,73 +56,6 @@
           "position": 1,
           "status": "finished",
           "winner_id": 2227
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1753739,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "Team Yandex",
-      "dire_team": "1win",
-      "radiant_team_id": 137073,
-      "dire_team_id": 134536,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2154,
-      "live_map_number": 2,
-      "start_time": 1792933800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137073
         },
         {
           "position": 2,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 157,
