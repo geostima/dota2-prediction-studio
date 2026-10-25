@@ -1,78 +1,11 @@
 {
-  "generated_at": 1792950922,
-  "generated_at_iso": "2026-10-25T17:55:22.554423+00:00",
+  "generated_at": 1792951929,
+  "generated_at_iso": "2026-10-25T18:12:09.886264+00:00",
   "matches": [
-    {
-      "match_id": 1756300,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "CyberHero",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 139339,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3221,
-      "live_map_number": 2,
-      "start_time": 1792944000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1753754,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PARI Universe - 2026",
       "league_id": 5567,
       "radiant_team": "PARIVISION",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 606,
+      "live_map_number": 1,
       "start_time": 1792951200,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
