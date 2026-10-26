@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793040383,
-  "generated_at_iso": "2026-10-26T18:46:24.924491+00:00",
+  "generated_at": 1793041386,
+  "generated_at_iso": "2026-10-26T19:03:06.251743+00:00",
   "matches": [
     {
       "match_id": 1772617,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 153,
+      "live_seconds": 1156,
       "live_map_number": 3,
       "start_time": 1793030700,
       "series_type": 1,
@@ -83,76 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 102,
+      "live_map_number": 3,
       "start_time": 1793032500,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        ".;;;:!!?&@\u2026,",
-        "GAMBOT-PARIS",
-        "pablo aura",
-        "rue",
-        "yiyi"
-      ],
-      "dire_players": [
-        "Dukalis",
-        "Have fun",
-        "Rin",
-        "huskar jungle",
-        "\u0439\u043e\u0443"
-      ],
-      "radiant_heroes": [
-        "Sand King",
-        "Doom",
-        "Hoodwink",
-        "Warlock",
-        "Slark"
-      ],
-      "dire_heroes": [
-        "Witch Doctor",
-        "Viper",
-        "Terrorblade",
-        "Beastmaster",
-        "Keeper of the Light"
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1669
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 135712
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1753756,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "BetBoom Team",
-      "dire_team": "LEGION",
-      "radiant_team_id": 130768,
-      "dire_team_id": 139340,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793041200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -188,17 +121,17 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1669
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135712
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -252,6 +185,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/epc_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1753756,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "BetBoom Team",
+      "dire_team": "LEGION",
+      "radiant_team_id": 130768,
+      "dire_team_id": 139340,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793044800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
       "games": [
         {
           "position": 1,
