@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793048166,
-  "generated_at_iso": "2026-10-26T20:56:06.480633+00:00",
+  "generated_at": 1793049180,
+  "generated_at_iso": "2026-10-26T21:13:00.718366+00:00",
   "matches": [
-    {
-      "match_id": 1772618,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Mena Warriors",
-      "dire_team": "Pibbles Corp",
-      "radiant_team_id": 139392,
-      "dire_team_id": 139268,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2202,
-      "live_map_number": 1,
-      "start_time": 1793046000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1753756,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 907,
+      "live_map_number": 2,
       "start_time": 1793046000,
       "series_type": 1,
       "known_picks": 0,
@@ -123,6 +56,73 @@
           "position": 1,
           "status": "finished",
           "winner_id": 130768
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772618,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "Mena Warriors",
+      "dire_team": "Pibbles Corp",
+      "radiant_team_id": 139392,
+      "dire_team_id": 139268,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793046000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139392
         },
         {
           "position": 2,
