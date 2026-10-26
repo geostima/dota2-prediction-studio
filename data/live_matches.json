@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793030493,
-  "generated_at_iso": "2026-10-26T16:01:33.757757+00:00",
+  "generated_at": 1793032107,
+  "generated_at_iso": "2026-10-26T16:28:27.907338+00:00",
   "matches": [
-    {
-      "match_id": 1753741,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "Team Yandex",
-      "dire_team": "Team Liquid",
-      "radiant_team_id": 137073,
-      "dire_team_id": 1647,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2102,
-      "live_map_number": 3,
-      "start_time": 1793019600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137073
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1647
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772617,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 40,
+      "live_seconds": 1654,
       "live_map_number": 1,
       "start_time": 1793030700,
       "series_type": 1,
@@ -152,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793033100,
+      "start_time": 1793032500,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 162,
