@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793046745,
-  "generated_at_iso": "2026-10-26T20:32:25.408332+00:00",
+  "generated_at": 1793047649,
+  "generated_at_iso": "2026-10-26T20:47:29.739858+00:00",
   "matches": [
     {
       "match_id": 1772618,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 781,
+      "live_seconds": 1685,
       "live_map_number": 1,
       "start_time": 1793046000,
       "series_type": 1,
@@ -81,10 +81,10 @@
       "dire_team_id": 139340,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 688,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1793046000,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 130768
         },
         {
           "position": 2,
