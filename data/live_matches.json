@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793001855,
-  "generated_at_iso": "2026-10-26T08:04:15.695638+00:00",
+  "generated_at": 1793003948,
+  "generated_at_iso": "2026-10-26T08:39:09.856625+00:00",
   "matches": [
     {
       "match_id": 1759496,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1509,
+      "live_map_number": 2,
       "start_time": 1792998900,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Go win",
+        "demonsinmyh3ad",
+        "get me out~",
+        "hok player",
+        "sdasdsd"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "MAXIMUM EFFORT (Iphone)",
+        "beautiful suffering",
+        "brainless",
+        "forwhatiplaythisgame",
+        "reckless"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Gyrocopter",
+        "Dragon Knight",
+        "Rubick",
+        "Winter Wyvern",
+        "Largo"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Bane",
+        "Windranger",
+        "Pangolier",
+        "Enigma",
+        "Dark Willow"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -275,7 +275,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 158,
+    "citoapi_calls_this_month": 160,
     "errors": []
   }
 }
