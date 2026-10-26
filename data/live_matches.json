@@ -1,141 +1,7 @@
 {
-  "generated_at": 1793043533,
-  "generated_at_iso": "2026-10-26T19:38:53.980788+00:00",
+  "generated_at": 1793044111,
+  "generated_at_iso": "2026-10-26T19:48:31.348052+00:00",
   "matches": [
-    {
-      "match_id": 1772617,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "Mena Warriors",
-      "radiant_team_id": 135854,
-      "dire_team_id": 139392,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3303,
-      "live_map_number": 3,
-      "start_time": 1793030700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139392
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1753755,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "Team Spirit",
-      "dire_team": "PARIVISION",
-      "radiant_team_id": 1669,
-      "dire_team_id": 135712,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2249,
-      "live_map_number": 3,
-      "start_time": 1793032500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1669
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 135712
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772618,
       "source": "pandascore",
@@ -272,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 164,
