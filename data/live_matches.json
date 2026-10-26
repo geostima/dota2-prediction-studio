@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793003948,
-  "generated_at_iso": "2026-10-26T08:39:09.856625+00:00",
+  "generated_at": 1793005168,
+  "generated_at_iso": "2026-10-26T08:59:28.573832+00:00",
   "matches": [
-    {
-      "match_id": 1759496,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Team Kinetix",
-      "dire_team": "Direborn",
-      "radiant_team_id": 139148,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1509,
-      "live_map_number": 2,
-      "start_time": 1792998900,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "Go win",
-        "demonsinmyh3ad",
-        "get me out~",
-        "hok player",
-        "sdasdsd"
-      ],
-      "dire_players": [
-        "MAXIMUM EFFORT (Iphone)",
-        "beautiful suffering",
-        "brainless",
-        "forwhatiplaythisgame",
-        "reckless"
-      ],
-      "radiant_heroes": [
-        "Gyrocopter",
-        "Dragon Knight",
-        "Rubick",
-        "Winter Wyvern",
-        "Largo"
-      ],
-      "dire_heroes": [
-        "Bane",
-        "Windranger",
-        "Pangolier",
-        "Enigma",
-        "Dark Willow"
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1753740,
       "source": "pandascore",
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 160,
