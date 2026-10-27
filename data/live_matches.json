@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793106855,
-  "generated_at_iso": "2026-10-27T13:14:15.314942+00:00",
+  "generated_at": 1793108253,
+  "generated_at_iso": "2026-10-27T13:37:36.534432+00:00",
   "matches": [
     {
       "match_id": 1759500,
@@ -16,39 +16,39 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2208,
+      "live_seconds": 3606,
       "live_map_number": 3,
       "start_time": 1793096100,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "April5",
+        "areyoumonkey?",
+        "c",
+        "kismet",
+        "peanut"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Go win",
+        "demonsinmyh3ad",
+        "get me out~",
+        "hok player",
+        "sdasdsd"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dragon Knight",
+        "Gyrocopter",
+        "Dazzle",
+        "Doom",
+        "Dawnbreaker"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Alchemist",
+        "Nature's Prophet",
+        "Nyx Assassin",
+        "Winter Wyvern",
+        "Timbersaw"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 773,
+      "live_seconds": 2171,
       "live_map_number": 1,
       "start_time": 1793106000,
       "series_type": 0,
@@ -140,8 +140,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1221,
+      "live_map_number": 2,
       "start_time": 1793103300,
       "series_type": 1,
       "known_picks": 0,
@@ -183,7 +183,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -446,7 +446,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 166,
+    "citoapi_calls_this_month": 168,
     "errors": []
   }
 }
