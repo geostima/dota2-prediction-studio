@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793127165,
-  "generated_at_iso": "2026-10-27T18:52:45.649309+00:00",
+  "generated_at": 1793127990,
+  "generated_at_iso": "2026-10-27T19:06:30.386822+00:00",
   "matches": [
     {
       "match_id": 1772640,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2649,
+      "live_seconds": 3474,
       "live_map_number": 1,
       "start_time": 1793124000,
       "series_type": 1,
