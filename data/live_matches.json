@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793066351,
-  "generated_at_iso": "2026-10-27T01:59:11.796651+00:00",
+  "generated_at": 1793068111,
+  "generated_at_iso": "2026-10-27T02:28:31.759843+00:00",
   "matches": [
     {
       "match_id": 1759498,
@@ -19,73 +19,6 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793073600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1759499,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Zenith",
-      "dire_team": "Direborn",
-      "radiant_team_id": 139363,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793084400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
