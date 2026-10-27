@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793122599,
-  "generated_at_iso": "2026-10-27T17:36:39.469362+00:00",
+  "generated_at": 1793123068,
+  "generated_at_iso": "2026-10-27T17:44:29.012113+00:00",
   "matches": [
     {
       "match_id": 1772626,
@@ -141,7 +141,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 168,
+    "citoapi_calls_this_month": 169,
     "errors": []
   }
 }
