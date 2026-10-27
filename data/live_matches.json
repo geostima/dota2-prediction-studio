@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793113880,
-  "generated_at_iso": "2026-10-27T15:11:20.263901+00:00",
+  "generated_at": 1793115222,
+  "generated_at_iso": "2026-10-27T15:33:42.350004+00:00",
   "matches": [
     {
       "match_id": 1773663,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2308,
+      "live_seconds": 3650,
       "live_map_number": 1,
       "start_time": 1793111400,
       "series_type": 0,
@@ -62,7 +62,7 @@
     {
       "match_id": 1772626,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 3 2026",
       "league_id": 5576,
       "radiant_team": "Zero Tenacity",
@@ -73,9 +73,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793113200,
+      "live_seconds": 468,
+      "live_map_number": 1,
+      "start_time": 1793115000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -111,7 +111,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -252,7 +252,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 168,
