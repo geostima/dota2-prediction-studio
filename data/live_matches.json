@@ -1,64 +1,7 @@
 {
-  "generated_at": 1793115222,
-  "generated_at_iso": "2026-10-27T15:33:42.350004+00:00",
+  "generated_at": 1793116144,
+  "generated_at_iso": "2026-10-27T15:49:04.739837+00:00",
   "matches": [
-    {
-      "match_id": 1773663,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "BetBoom Team",
-      "dire_team": "Astra Invicta",
-      "radiant_team_id": 130768,
-      "dire_team_id": 139432,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3650,
-      "live_map_number": 1,
-      "start_time": 1793111400,
-      "series_type": 0,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772626,
       "source": "pandascore",
@@ -73,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139268/72px_pibbles_corp_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 468,
+      "live_seconds": 1390,
       "live_map_number": 1,
       "start_time": 1793115000,
       "series_type": 1,
@@ -252,7 +195,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 168,
