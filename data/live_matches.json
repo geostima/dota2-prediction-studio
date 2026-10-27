@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793080697,
-  "generated_at_iso": "2026-10-27T05:58:17.135005+00:00",
+  "generated_at": 1793082812,
+  "generated_at_iso": "2026-10-27T06:33:32.547497+00:00",
   "matches": [
     {
       "match_id": 1772624,
@@ -118,6 +118,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772623,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "No Hoodwink",
+      "dire_team": "Mena Warriors",
+      "radiant_team_id": 137658,
+      "dire_team_id": 139392,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137658/y3i3_ws5.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793102400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
