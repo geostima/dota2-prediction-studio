@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793069404,
-  "generated_at_iso": "2026-10-27T02:50:04.708922+00:00",
+  "generated_at": 1793070006,
+  "generated_at_iso": "2026-10-27T03:00:06.352224+00:00",
   "matches": [
     {
       "match_id": 1759498,
@@ -51,6 +51,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772624,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "oveA",
+      "dire_team": "Zero Tenacity",
+      "radiant_team_id": 139391,
+      "dire_team_id": 135854,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793091600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
