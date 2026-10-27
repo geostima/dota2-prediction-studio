@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793088849,
-  "generated_at_iso": "2026-10-27T08:14:09.525634+00:00",
+  "generated_at": 1793090402,
+  "generated_at_iso": "2026-10-27T08:40:02.313887+00:00",
   "matches": [
     {
       "match_id": 1772624,
@@ -220,6 +220,63 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793106000,
+      "series_type": 0,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1773662,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "BetBoom Team",
+      "dire_team": "LEGION",
+      "radiant_team_id": 130768,
+      "dire_team_id": 139340,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/130768/bet_boom_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793111400,
       "series_type": 0,
       "known_picks": 0,
       "lineup_available": false,
