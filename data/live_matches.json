@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793197182,
-  "generated_at_iso": "2026-10-28T14:19:42.660878+00:00",
+  "generated_at": 1793197732,
+  "generated_at_iso": "2026-10-28T14:28:52.724199+00:00",
   "matches": [
     {
       "match_id": 1753763,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3364,
+      "live_seconds": 3914,
       "live_map_number": 1,
       "start_time": 1793193900,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 50,
+      "live_seconds": 600,
       "live_map_number": 3,
       "start_time": 1793189700,
       "series_type": 1,
