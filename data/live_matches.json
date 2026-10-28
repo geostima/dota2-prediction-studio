@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793203729,
-  "generated_at_iso": "2026-10-28T16:08:49.090659+00:00",
+  "generated_at": 1793204491,
+  "generated_at_iso": "2026-10-28T16:21:32.022173+00:00",
   "matches": [
     {
       "match_id": 1772352,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2085,
+      "live_seconds": 2848,
       "live_map_number": 1,
       "start_time": 1793201400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 768,
+      "live_seconds": 1530,
       "live_map_number": 3,
       "start_time": 1793193900,
       "series_type": 1,
@@ -132,73 +132,6 @@
         {
           "position": 3,
           "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1772642,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "angry birds",
-      "dire_team": "Roshan Hunters",
-      "radiant_team_id": 139462,
-      "dire_team_id": 139461,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793202000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
           "winner_id": null
         }
       ]
