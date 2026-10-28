@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793226899,
-  "generated_at_iso": "2026-10-28T22:34:59.529117+00:00",
+  "generated_at": 1793227375,
+  "generated_at_iso": "2026-10-28T22:42:55.979263+00:00",
   "matches": [
-    {
-      "match_id": 1753765,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "GamerLegion",
-      "dire_team": "LEGION",
-      "radiant_team_id": 137588,
-      "dire_team_id": 139340,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2746,
-      "live_map_number": 2,
-      "start_time": 1793220000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139340
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772354,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1586,
+      "live_seconds": 2062,
       "live_map_number": 1,
       "start_time": 1793224800,
       "series_type": 1,
@@ -128,6 +61,73 @@
           "position": 2,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1753765,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "GamerLegion",
+      "dire_team": "LEGION",
+      "radiant_team_id": 137588,
+      "dire_team_id": 139340,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793220000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139340
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 137588
         },
         {
           "position": 3,
