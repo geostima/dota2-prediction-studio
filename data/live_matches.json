@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793222196,
-  "generated_at_iso": "2026-10-28T21:16:36.367693+00:00",
+  "generated_at": 1793222651,
+  "generated_at_iso": "2026-10-28T21:24:11.976088+00:00",
   "matches": [
     {
       "match_id": 1753765,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2607,
+      "live_seconds": 3062,
       "live_map_number": 1,
       "start_time": 1793220000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1565,
+      "live_seconds": 2020,
       "live_map_number": 3,
       "start_time": 1793211300,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1564,
+      "live_seconds": 2019,
       "live_map_number": 3,
       "start_time": 1793211300,
       "series_type": 1,
