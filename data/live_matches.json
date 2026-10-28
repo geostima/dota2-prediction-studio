@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793218756,
-  "generated_at_iso": "2026-10-28T20:19:16.870028+00:00",
+  "generated_at": 1793219307,
+  "generated_at_iso": "2026-10-28T20:28:27.184569+00:00",
   "matches": [
-    {
-      "match_id": 1772353,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "Team Revenant",
-      "radiant_team_id": 135854,
-      "dire_team_id": 139458,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3403,
-      "live_map_number": 2,
-      "start_time": 1793211300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772643,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2874,
+      "live_seconds": 3425,
       "live_map_number": 2,
       "start_time": 1793211300,
       "series_type": 1,
@@ -137,6 +70,73 @@
       ]
     },
     {
+      "match_id": 1772353,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "NEXUS SERIES - Season 2 2026",
+      "league_id": 5575,
+      "radiant_team": "Zero Tenacity",
+      "dire_team": "Team Revenant",
+      "radiant_team_id": 135854,
+      "dire_team_id": 139458,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793211300,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/nexusmedia_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 135854
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139458
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1753765,
       "source": "pandascore",
       "status": "upcoming",
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793219400,
+      "start_time": 1793220000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
