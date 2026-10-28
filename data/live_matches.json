@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793225235,
-  "generated_at_iso": "2026-10-28T22:07:15.413502+00:00",
+  "generated_at": 1793225845,
+  "generated_at_iso": "2026-10-28T22:17:25.512785+00:00",
   "matches": [
     {
       "match_id": 1753765,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1082,
+      "live_seconds": 1692,
       "live_map_number": 2,
       "start_time": 1793220000,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1772354,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "NEXUS SERIES - Season 2 2026",
       "league_id": 5575,
       "radiant_team": "Chandogs",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 532,
+      "live_map_number": 1,
       "start_time": 1793224800,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -272,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 173,
