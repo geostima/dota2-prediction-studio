@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793229825,
-  "generated_at_iso": "2026-10-28T23:23:45.049219+00:00",
+  "generated_at": 1793230440,
+  "generated_at_iso": "2026-10-28T23:34:00.310681+00:00",
   "matches": [
     {
       "match_id": 1753765,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2023,
+      "live_seconds": 2638,
       "live_map_number": 3,
       "start_time": 1793220000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1682,
+      "live_seconds": 2297,
       "live_map_number": 2,
       "start_time": 1793224800,
       "series_type": 1,
