@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793215435,
-  "generated_at_iso": "2026-10-28T19:23:55.586575+00:00",
+  "generated_at": 1793216054,
+  "generated_at_iso": "2026-10-28T19:34:14.813162+00:00",
   "matches": [
     {
       "match_id": 1772353,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 82,
+      "live_seconds": 701,
       "live_map_number": 2,
       "start_time": 1793211300,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 571,
+      "live_map_number": 3,
       "start_time": 1793206800,
       "series_type": 1,
       "known_picks": 0,
@@ -131,7 +131,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 172,
+      "live_map_number": 2,
       "start_time": 1793211300,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
