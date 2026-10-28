@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793156081,
-  "generated_at_iso": "2026-10-28T02:54:41.871309+00:00",
+  "generated_at": 1793156946,
+  "generated_at_iso": "2026-10-28T03:09:06.631708+00:00",
   "matches": [
     {
       "match_id": 1759486,
@@ -118,6 +118,140 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772627,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "oveA",
+      "dire_team": "Mena Warriors",
+      "radiant_team_id": 139391,
+      "dire_team_id": 139392,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793178000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1753762,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "PARIVISION",
+      "dire_team": "Team Liquid",
+      "radiant_team_id": 135712,
+      "dire_team_id": 1647,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793178000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
       "games": [
         {
           "position": 1,
