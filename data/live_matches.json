@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793176135,
-  "generated_at_iso": "2026-10-28T08:29:10.999559+00:00",
+  "generated_at": 1793176763,
+  "generated_at_iso": "2026-10-28T08:39:23.335208+00:00",
   "matches": [
     {
       "match_id": 1759505,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 227,
+      "live_seconds": 855,
       "live_map_number": 2,
       "start_time": 1793170800,
       "series_type": 1,
@@ -410,8 +410,6 @@
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 170,
-    "errors": [
-      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
-    ]
+    "errors": []
   }
 }
