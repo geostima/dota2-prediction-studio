@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793175050,
-  "generated_at_iso": "2026-10-28T08:10:50.188086+00:00",
+  "generated_at": 1793176135,
+  "generated_at_iso": "2026-10-28T08:29:10.999559+00:00",
   "matches": [
     {
       "match_id": 1759505,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3921,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 227,
+      "live_map_number": 2,
       "start_time": 1793170800,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138753
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -410,6 +410,8 @@
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 170,
-    "errors": []
+    "errors": [
+      "citoapi live list: HTTPSConnectionPool(host='api.citoapi.com', port=443): Read timed out. (read timeout=15)"
+    ]
   }
 }
