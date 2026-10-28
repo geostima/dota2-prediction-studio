@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793209955,
-  "generated_at_iso": "2026-10-28T17:52:35.597960+00:00",
+  "generated_at": 1793210984,
+  "generated_at_iso": "2026-10-28T18:09:44.142759+00:00",
   "matches": [
     {
       "match_id": 1753764,
@@ -14,10 +14,10 @@
       "dire_team_id": 1654,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2906,
-      "live_map_number": 1,
+      "live_seconds": 48,
+      "live_map_number": 2,
       "start_time": 1793206800,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1669
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -287,6 +287,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793221200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/nexusmedia_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772355,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "NEXUS SERIES - Season 2 2026",
+      "league_id": 5575,
+      "radiant_team": "Los Perros",
+      "dire_team": "New Growth",
+      "radiant_team_id": 139460,
+      "dire_team_id": 137905,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793232000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
