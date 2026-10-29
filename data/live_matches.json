@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793233182,
-  "generated_at_iso": "2026-10-29T00:19:42.444399+00:00",
+  "generated_at": 1793234976,
+  "generated_at_iso": "2026-10-29T00:49:36.906716+00:00",
   "matches": [
     {
       "match_id": 1772354,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 670,
+      "live_seconds": 2464,
       "live_map_number": 3,
       "start_time": 1793224800,
       "series_type": 1,
@@ -208,7 +208,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 173,
+    "citoapi_calls_this_month": 174,
     "errors": []
   }
 }
