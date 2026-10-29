@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793284192,
-  "generated_at_iso": "2026-10-29T14:29:52.331129+00:00",
+  "generated_at": 1793284737,
+  "generated_at_iso": "2026-10-29T14:38:57.636506+00:00",
   "matches": [
     {
       "match_id": 1753771,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 4459,
+      "live_seconds": 5004,
       "live_map_number": 2,
       "start_time": 1793275200,
       "series_type": 1,
