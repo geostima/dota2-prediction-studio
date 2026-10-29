@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793231557,
-  "generated_at_iso": "2026-10-28T23:52:37.127003+00:00",
+  "generated_at": 1793233182,
+  "generated_at_iso": "2026-10-29T00:19:42.444399+00:00",
   "matches": [
     {
       "match_id": 1772354,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 670,
+      "live_map_number": 3,
       "start_time": 1793224800,
       "series_type": 1,
       "known_picks": 0,
@@ -64,7 +64,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
