@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793279252,
-  "generated_at_iso": "2026-10-29T13:07:32.429658+00:00",
+  "generated_at": 1793279945,
+  "generated_at_iso": "2026-10-29T13:19:05.940386+00:00",
   "matches": [
     {
       "match_id": 1753771,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 212,
+      "live_map_number": 2,
       "start_time": 1793275200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        ".;;;:!!?&@\u2026,",
+        "GAMBOT-PARIS",
+        "pablo aura",
+        "rue",
+        "yiyi"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Aura",
+        "Him",
+        "humble god",
+        "parivision",
+        "\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0438\u043d"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Earthshaker",
+        "Mars",
+        "Dark Willow",
+        "Techies",
+        "Kez"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Lina",
+        "Brewmaster",
+        "Nyx Assassin",
+        "Lifestealer",
+        "Hoodwink"
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -543,7 +543,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 177,
+    "citoapi_calls_this_month": 179,
     "errors": []
   }
 }
