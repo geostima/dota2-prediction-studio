@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793290125,
-  "generated_at_iso": "2026-10-29T16:08:45.643440+00:00",
+  "generated_at": 1793290901,
+  "generated_at_iso": "2026-10-29T16:21:41.329033+00:00",
   "matches": [
     {
       "match_id": 1753766,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3563,
+      "live_seconds": 4339,
       "live_map_number": 1,
       "start_time": 1793286600,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1772644,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 3 2026",
       "league_id": 5576,
       "radiant_team": "Level Up Academy",
@@ -83,9 +83,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793289600,
+      "live_seconds": 433,
+      "live_map_number": 1,
+      "start_time": 1793290200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,74 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1772359,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "rebeldes",
-      "dire_team": "Los Perros",
-      "radiant_team_id": 139459,
-      "dire_team_id": 139460,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793289600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -540,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 179,
