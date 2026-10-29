@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793308622,
-  "generated_at_iso": "2026-10-29T21:17:02.201449+00:00",
+  "generated_at": 1793309113,
+  "generated_at_iso": "2026-10-29T21:25:13.072401+00:00",
   "matches": [
     {
       "match_id": 1772646,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2449,
+      "live_seconds": 2940,
       "live_map_number": 2,
       "start_time": 1793301600,
       "series_type": 1,
@@ -60,73 +60,6 @@
         {
           "position": 2,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1772356,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 139124,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793307600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
           "winner_id": null
         },
         {
