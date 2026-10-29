@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793303578,
-  "generated_at_iso": "2026-10-29T19:52:58.916557+00:00",
+  "generated_at": 1793304466,
+  "generated_at_iso": "2026-10-29T20:07:46.673194+00:00",
   "matches": [
     {
       "match_id": 1772646,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1524,
+      "live_seconds": 2412,
       "live_map_number": 1,
       "start_time": 1793301600,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1772360,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "SOLID",
-      "dire_team": "Team Revenant",
-      "radiant_team_id": 139457,
-      "dire_team_id": 139458,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1463,
-      "live_map_number": 2,
-      "start_time": 1793298600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139457
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1753767,
       "source": "pandascore",
       "status": "live",
@@ -150,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 312,
+      "live_map_number": 2,
       "start_time": 1793300400,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 181,
