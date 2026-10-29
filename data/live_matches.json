@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793287134,
-  "generated_at_iso": "2026-10-29T15:18:54.626182+00:00",
+  "generated_at": 1793287690,
+  "generated_at_iso": "2026-10-29T15:28:10.940067+00:00",
   "matches": [
     {
       "match_id": 1753766,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 572,
+      "live_seconds": 1128,
       "live_map_number": 1,
       "start_time": 1793286600,
       "series_type": 1,
@@ -55,73 +55,6 @@
         {
           "position": 1,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1772644,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Level Up Academy",
-      "dire_team": "Roshan Hunters",
-      "radiant_team_id": 139385,
-      "dire_team_id": 139461,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793286600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
           "winner_id": null
         },
         {
@@ -185,6 +118,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/nexusmedia_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772644,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "Level Up Academy",
+      "dire_team": "Roshan Hunters",
+      "radiant_team_id": 139385,
+      "dire_team_id": 139461,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793289600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
