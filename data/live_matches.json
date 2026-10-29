@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793294238,
-  "generated_at_iso": "2026-10-29T17:17:18.644808+00:00",
+  "generated_at": 1793294750,
+  "generated_at_iso": "2026-10-29T17:25:52.270314+00:00",
   "matches": [
     {
       "match_id": 1753766,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1170,
+      "live_seconds": 1682,
       "live_map_number": 2,
       "start_time": 1793286600,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "666",
+        "Dukalis",
+        "Have fun",
+        "huskar jungle",
+        "\u0439\u043e\u0443"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "; ]",
+        "Blade of Miquella",
+        "CHIRA_JUNIOR",
+        "SMACSA-",
+        "lostreak chicken"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Kez",
+        "Disruptor",
+        "Earthshaker",
+        "Doom",
+        "Dark Willow"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Warlock",
+        "Slark",
+        "Invoker",
+        "Pangolier",
+        "Windranger"
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 957,
+      "live_seconds": 1469,
       "live_map_number": 2,
       "start_time": 1793290200,
       "series_type": 1,
@@ -476,7 +476,7 @@
     "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 179,
+    "citoapi_calls_this_month": 181,
     "errors": []
   }
 }
