@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793294750,
-  "generated_at_iso": "2026-10-29T17:25:52.270314+00:00",
+  "generated_at": 1793295306,
+  "generated_at_iso": "2026-10-29T17:35:06.121588+00:00",
   "matches": [
-    {
-      "match_id": 1753766,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "PARIVISION",
-      "dire_team": "Team Yandex",
-      "radiant_team_id": 135712,
-      "dire_team_id": 137073,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1682,
-      "live_map_number": 2,
-      "start_time": 1793286600,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "666",
-        "Dukalis",
-        "Have fun",
-        "huskar jungle",
-        "\u0439\u043e\u0443"
-      ],
-      "dire_players": [
-        "; ]",
-        "Blade of Miquella",
-        "CHIRA_JUNIOR",
-        "SMACSA-",
-        "lostreak chicken"
-      ],
-      "radiant_heroes": [
-        "Kez",
-        "Disruptor",
-        "Earthshaker",
-        "Doom",
-        "Dark Willow"
-      ],
-      "dire_heroes": [
-        "Warlock",
-        "Slark",
-        "Invoker",
-        "Pangolier",
-        "Windranger"
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137073
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772644,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1469,
+      "live_seconds": 2025,
       "live_map_number": 2,
       "start_time": 1793290200,
       "series_type": 1,
@@ -128,6 +61,73 @@
           "position": 2,
           "status": "running",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1753766,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "PARIVISION",
+      "dire_team": "Team Yandex",
+      "radiant_team_id": 135712,
+      "dire_team_id": 137073,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793286600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/fissure_dota_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137073
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 135712
         },
         {
           "position": 3,
