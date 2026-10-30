@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793392976,
-  "generated_at_iso": "2026-10-30T20:42:56.482161+00:00",
+  "generated_at": 1793393556,
+  "generated_at_iso": "2026-10-30T20:52:36.229429+00:00",
   "matches": [
     {
       "match_id": 1772361,
@@ -14,10 +14,10 @@
       "dire_team_id": 133237,
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3172,
-      "live_map_number": 2,
+      "live_seconds": 267,
+      "live_map_number": 3,
       "start_time": 1793385600,
       "series_type": 1,
       "known_picks": 0,
@@ -59,75 +59,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1753773,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "PARI Universe - 2026",
-      "league_id": 5567,
-      "radiant_team": "Team Spirit",
-      "dire_team": "Team Liquid",
-      "radiant_team_id": 1669,
-      "dire_team_id": 1647,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2894,
-      "live_map_number": 3,
-      "start_time": 1793380800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/fissure_dota_en",
-      "games": [
-        {
-          "position": 1,
           "status": "finished",
-          "winner_id": 1669
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1647
+          "winner_id": 139457
         },
         {
           "position": 3,
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 49,
     "past_count": 30,
     "citoapi_calls_this_month": 189,
