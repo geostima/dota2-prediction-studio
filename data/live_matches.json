@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793398408,
-  "generated_at_iso": "2026-10-30T22:13:28.809714+00:00",
+  "generated_at": 1793398974,
+  "generated_at_iso": "2026-10-30T22:22:54.874382+00:00",
   "matches": [
     {
       "match_id": 1772362,
@@ -18,7 +18,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793397600,
+      "start_time": 1793398800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
