@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793356039,
-  "generated_at_iso": "2026-10-30T10:27:19.347861+00:00",
+  "generated_at": 1793356688,
+  "generated_at_iso": "2026-10-30T10:38:08.268330+00:00",
   "matches": [
-    {
-      "match_id": 1759506,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Direborn",
-      "dire_team": "Resp Gaming",
-      "radiant_team_id": 138753,
-      "dire_team_id": 139413,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3085,
-      "live_map_number": 2,
-      "start_time": 1793349000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1753775,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1341,
+      "live_seconds": 1990,
       "live_map_number": 1,
       "start_time": 1793354400,
       "series_type": 1,
@@ -406,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 186,
