@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793400785,
-  "generated_at_iso": "2026-10-30T22:53:05.682424+00:00",
+  "generated_at": 1793401547,
+  "generated_at_iso": "2026-10-30T23:05:47.812939+00:00",
   "matches": [
-    {
-      "match_id": 1772362,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "rebeldes",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 139459,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793400300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772358,
       "source": "pandascore",
@@ -206,7 +139,7 @@
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 49,
+    "upcoming_count": 48,
     "past_count": 30,
     "citoapi_calls_this_month": 189,
     "errors": []
