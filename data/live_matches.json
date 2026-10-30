@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793353355,
-  "generated_at_iso": "2026-10-30T09:42:37.407977+00:00",
+  "generated_at": 1793353946,
+  "generated_at_iso": "2026-10-30T09:52:26.958750+00:00",
   "matches": [
     {
       "match_id": 1759506,
@@ -16,39 +16,39 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 401,
+      "live_seconds": 992,
       "live_map_number": 2,
       "start_time": 1793349000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "beautiful suffering",
-        "brainless",
-        "forwhatiplaythisgame",
-        "reckless",
-        "when yah"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "April5",
-        "areyoumonkey?",
-        "c",
-        "kismet",
-        "peanut"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Slark",
-        "Earthshaker",
-        "Doom",
-        "Windranger",
-        "Witch Doctor"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Dragon Knight",
-        "Gyrocopter",
-        "Hoodwink",
-        "Outworld Devourer",
-        "Dawnbreaker"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
