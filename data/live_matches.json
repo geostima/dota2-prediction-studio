@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793397157,
-  "generated_at_iso": "2026-10-30T21:52:37.793467+00:00",
+  "generated_at": 1793397931,
+  "generated_at_iso": "2026-10-30T22:05:31.929999+00:00",
   "matches": [
-    {
-      "match_id": 1772361,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "SOLID",
-      "dire_team": "Chandogs",
-      "radiant_team_id": 139457,
-      "dire_team_id": 133237,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3868,
-      "live_map_number": 3,
-      "start_time": 1793385600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 133237
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139457
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772362,
       "source": "pandascore",
@@ -202,10 +135,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1759508,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Direborn",
+      "dire_team": "Royal Bear",
+      "radiant_team_id": 138753,
+      "dire_team_id": 139367,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793419200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 49,
     "past_count": 30,
     "citoapi_calls_this_month": 189,
