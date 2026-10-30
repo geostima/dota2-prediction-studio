@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793367953,
-  "generated_at_iso": "2026-10-30T13:45:54.794651+00:00",
+  "generated_at": 1793368398,
+  "generated_at_iso": "2026-10-30T13:53:18.697039+00:00",
   "matches": [
     {
       "match_id": 1772629,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2168,
+      "live_seconds": 2613,
       "live_map_number": 1,
       "start_time": 1793365800,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1753774,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "PARI Universe - 2026",
       "league_id": 5567,
       "radiant_team": "Team Liquid",
@@ -83,9 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793368800,
+      "live_seconds": 131,
+      "live_map_number": 1,
+      "start_time": 1793368200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -406,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 187,
