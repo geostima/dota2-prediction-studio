@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793321603,
-  "generated_at_iso": "2026-10-30T00:53:23.616702+00:00",
+  "generated_at": 1793322559,
+  "generated_at_iso": "2026-10-30T01:09:19.603179+00:00",
   "matches": [
     {
       "match_id": 1772357,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1429,
+      "live_seconds": 2385,
       "live_map_number": 1,
       "start_time": 1793320200,
       "series_type": 1,
@@ -86,6 +86,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793332800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1759506,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Direborn",
+      "dire_team": "Resp Gaming",
+      "radiant_team_id": 138753,
+      "dire_team_id": 139413,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793343600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
