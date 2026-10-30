@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793388176,
-  "generated_at_iso": "2026-10-30T19:22:56.216047+00:00",
+  "generated_at": 1793388822,
+  "generated_at_iso": "2026-10-30T19:33:42.511298+00:00",
   "matches": [
     {
       "match_id": 1753773,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2532,
+      "live_seconds": 3178,
       "live_map_number": 2,
       "start_time": 1793380800,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1772361,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "SOLID",
-      "dire_team": "Chandogs",
-      "radiant_team_id": 139457,
-      "dire_team_id": 133237,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2278,
-      "live_map_number": 1,
-      "start_time": 1793385600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1772630,
       "source": "pandascore",
       "status": "live",
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 442,
+      "live_seconds": 1088,
       "live_map_number": 2,
       "start_time": 1793384100,
       "series_type": 1,
@@ -194,6 +127,73 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772361,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "NEXUS SERIES - Season 2 2026",
+      "league_id": 5575,
+      "radiant_team": "SOLID",
+      "dire_team": "Chandogs",
+      "radiant_team_id": 139457,
+      "dire_team_id": 133237,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133237/190px_chandogs_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793385600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/nexusmedia_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 133237
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
