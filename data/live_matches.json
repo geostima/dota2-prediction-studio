@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793382768,
-  "generated_at_iso": "2026-10-30T17:52:50.361749+00:00",
+  "generated_at": 1793383641,
+  "generated_at_iso": "2026-10-30T18:07:21.174094+00:00",
   "matches": [
     {
       "match_id": 1753773,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1726,
+      "live_seconds": 2599,
       "live_map_number": 1,
       "start_time": 1793380800,
       "series_type": 1,
@@ -220,6 +220,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793394000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/nexusmedia_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772358,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "NEXUS SERIES - Season 2 2026",
+      "league_id": 5575,
+      "radiant_team": "Team Synapse",
+      "dire_team": "New Growth",
+      "radiant_team_id": 139124,
+      "dire_team_id": 137905,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793404800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
