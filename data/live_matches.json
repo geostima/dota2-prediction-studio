@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793346771,
-  "generated_at_iso": "2026-10-30T07:52:51.498618+00:00",
+  "generated_at": 1793347815,
+  "generated_at_iso": "2026-10-30T08:10:15.435841+00:00",
   "matches": [
-    {
-      "match_id": 1759492,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Zenith",
-      "dire_team": "Yangon Galacticos",
-      "radiant_team_id": 139363,
-      "dire_team_id": 128080,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2519,
-      "live_map_number": 3,
-      "start_time": 1793334000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139363
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 128080
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759506,
       "source": "pandascore",
@@ -406,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 184,
