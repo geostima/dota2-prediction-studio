@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793383641,
-  "generated_at_iso": "2026-10-30T18:07:21.174094+00:00",
+  "generated_at": 1793384305,
+  "generated_at_iso": "2026-10-30T18:18:25.482628+00:00",
   "matches": [
     {
       "match_id": 1753773,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2599,
+      "live_seconds": 3263,
       "live_map_number": 1,
       "start_time": 1793380800,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1772630,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 3 2026",
       "league_id": 5576,
       "radiant_team": "Hokori",
@@ -83,9 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793383200,
+      "live_seconds": 43,
+      "live_map_number": 1,
+      "start_time": 1793384100,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793383200,
+      "start_time": 1793384100,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -339,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 189,
