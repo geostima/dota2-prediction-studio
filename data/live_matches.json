@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793465582,
-  "generated_at_iso": "2026-10-31T16:53:02.711363+00:00",
+  "generated_at": 1793466320,
+  "generated_at_iso": "2026-10-31T17:05:20.845386+00:00",
   "matches": [
-    {
-      "match_id": 1772632,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Hokori",
-      "dire_team": "potn9ki",
-      "radiant_team_id": 127965,
-      "dire_team_id": 129222,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2293,
-      "live_map_number": 2,
-      "start_time": 1793458800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 129222
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1782790,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1713,
+      "live_seconds": 2451,
       "live_map_number": 1,
       "start_time": 1793464200,
       "series_type": 0,
@@ -142,7 +75,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793466000,
+      "start_time": 1793466900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -396,7 +329,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 41,
     "past_count": 30,
     "citoapi_calls_this_month": 195,
