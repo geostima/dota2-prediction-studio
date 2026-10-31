@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793418789,
-  "generated_at_iso": "2026-10-31T03:53:09.517540+00:00",
+  "generated_at": 1793419651,
+  "generated_at_iso": "2026-10-31T04:07:31.474688+00:00",
   "matches": [
     {
       "match_id": 1759508,
@@ -86,6 +86,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793430000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1759493,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Team Kinetix",
+      "dire_team": "Cloud Dawning",
+      "radiant_team_id": 139148,
+      "dire_team_id": 137529,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793440800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
