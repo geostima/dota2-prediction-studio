@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793463308,
-  "generated_at_iso": "2026-10-31T16:15:08.105608+00:00",
+  "generated_at": 1793463789,
+  "generated_at_iso": "2026-10-31T16:23:09.260157+00:00",
   "matches": [
     {
       "match_id": 1772632,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 19,
+      "live_seconds": 500,
       "live_map_number": 2,
       "start_time": 1793458800,
       "series_type": 1,
@@ -64,6 +64,63 @@
         },
         {
           "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1782790,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "PARI Universe - 2026",
+      "league_id": 5567,
+      "radiant_team": "World Squad",
+      "dire_team": "CIS Squad",
+      "radiant_team_id": 139482,
+      "dire_team_id": 139481,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793464200,
+      "series_type": 0,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/gorgc",
+      "games": [
+        {
+          "position": 1,
           "status": "not_started",
           "winner_id": null
         }
