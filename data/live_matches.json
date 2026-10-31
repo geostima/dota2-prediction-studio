@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793407960,
-  "generated_at_iso": "2026-10-31T00:52:40.096338+00:00",
+  "generated_at": 1793408832,
+  "generated_at_iso": "2026-10-31T01:07:12.851729+00:00",
   "matches": [
     {
       "match_id": 1772358,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2052,
+      "live_seconds": 2924,
       "live_map_number": 1,
       "start_time": 1793406000,
       "series_type": 1,
@@ -86,6 +86,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793419200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1759484,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Zenith",
+      "dire_team": "Resp Gaming",
+      "radiant_team_id": 139363,
+      "dire_team_id": 139413,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793430000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
