@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793482952,
-  "generated_at_iso": "2026-10-31T21:42:32.719347+00:00",
+  "generated_at": 1793483555,
+  "generated_at_iso": "2026-10-31T21:52:35.198602+00:00",
   "matches": [
-    {
-      "match_id": 1772648,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Level Up Academy",
-      "dire_team": "old blood",
-      "radiant_team_id": 139385,
-      "dire_team_id": 139389,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3950,
-      "live_map_number": 3,
-      "start_time": 1793470200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139385
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139389
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772364,
       "source": "pandascore",
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 38,
     "past_count": 30,
     "citoapi_calls_this_month": 197,
