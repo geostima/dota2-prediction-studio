@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793479374,
-  "generated_at_iso": "2026-10-31T20:42:54.537965+00:00",
+  "generated_at": 1793479952,
+  "generated_at_iso": "2026-10-31T20:52:32.014326+00:00",
   "matches": [
     {
       "match_id": 1772648,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 372,
+      "live_seconds": 950,
       "live_map_number": 3,
       "start_time": 1793470200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 240,
+      "live_seconds": 818,
       "live_map_number": 2,
       "start_time": 1793472300,
       "series_type": 1,
@@ -152,7 +152,7 @@
       "dire_score": null,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793480400,
+      "start_time": 1793484000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
