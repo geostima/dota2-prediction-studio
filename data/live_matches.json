@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793482389,
-  "generated_at_iso": "2026-10-31T21:33:09.888392+00:00",
+  "generated_at": 1793482952,
+  "generated_at_iso": "2026-10-31T21:42:32.719347+00:00",
   "matches": [
     {
       "match_id": 1772648,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3387,
+      "live_seconds": 3950,
       "live_map_number": 3,
       "start_time": 1793470200,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1772364,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "ended",
       "league_name": "NEXUS SERIES - Season 2 2026",
       "league_id": 5575,
       "radiant_team": "New Growth",
