@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793435598,
-  "generated_at_iso": "2026-10-31T08:33:18.553610+00:00",
+  "generated_at": 1793436172,
+  "generated_at_iso": "2026-10-31T08:42:52.037677+00:00",
   "matches": [
-    {
-      "match_id": 1759484,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Zenith",
-      "dire_team": "Resp Gaming",
-      "radiant_team_id": 139363,
-      "dire_team_id": 139413,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1438,
-      "live_map_number": 2,
-      "start_time": 1793431200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139363
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759493,
       "source": "pandascore",
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 45,
     "past_count": 30,
     "citoapi_calls_this_month": 191,
