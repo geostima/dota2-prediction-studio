@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793461961,
-  "generated_at_iso": "2026-10-31T15:52:41.031468+00:00",
+  "generated_at": 1793462756,
+  "generated_at_iso": "2026-10-31T16:05:56.899540+00:00",
   "matches": [
     {
       "match_id": 1772632,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2573,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1793458800,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 129222
         },
         {
           "position": 2,
