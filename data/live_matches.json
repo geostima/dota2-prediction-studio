@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793480729,
-  "generated_at_iso": "2026-10-31T21:05:29.280759+00:00",
+  "generated_at": 1793481170,
+  "generated_at_iso": "2026-10-31T21:12:50.656098+00:00",
   "matches": [
     {
       "match_id": 1772648,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1727,
+      "live_seconds": 2168,
       "live_map_number": 3,
       "start_time": 1793470200,
       "series_type": 1,
@@ -65,73 +65,6 @@
         {
           "position": 3,
           "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1772363,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "NEXUS SERIES - Season 2 2026",
-      "league_id": 5575,
-      "radiant_team": "SOLID",
-      "dire_team": "rebeldes",
-      "radiant_team_id": 139457,
-      "dire_team_id": 139459,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139459/1199px_rebeldes_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1595,
-      "live_map_number": 2,
-      "start_time": 1793472300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/nexusmedia_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139457
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
           "winner_id": null
         }
       ]
@@ -205,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 38,
     "past_count": 30,
     "citoapi_calls_this_month": 197,
