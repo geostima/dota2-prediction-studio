@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793457202,
-  "generated_at_iso": "2026-10-31T14:33:22.783676+00:00",
+  "generated_at": 1793457758,
+  "generated_at_iso": "2026-10-31T14:42:38.168038+00:00",
   "matches": [
     {
       "match_id": 1753768,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1244,
+      "live_seconds": 1800,
       "live_map_number": 2,
       "start_time": 1793451600,
       "series_type": 1,
