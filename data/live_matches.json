@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793449177,
-  "generated_at_iso": "2026-10-31T12:19:37.953589+00:00",
+  "generated_at": 1793449666,
+  "generated_at_iso": "2026-10-31T12:27:46.728654+00:00",
   "matches": [
-    {
-      "match_id": 1759493,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Team Kinetix",
-      "dire_team": "Cloud Dawning",
-      "radiant_team_id": 139148,
-      "dire_team_id": 137529,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3075,
-      "live_map_number": 2,
-      "start_time": 1793441400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137529
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1772631,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 562,
+      "live_seconds": 1051,
       "live_map_number": 1,
       "start_time": 1793448600,
       "series_type": 1,
@@ -473,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 43,
     "past_count": 30,
     "citoapi_calls_this_month": 193,
