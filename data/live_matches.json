@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793456029,
-  "generated_at_iso": "2026-10-31T14:13:51.290469+00:00",
+  "generated_at": 1793456566,
+  "generated_at_iso": "2026-10-31T14:22:46.271833+00:00",
   "matches": [
     {
       "match_id": 1753768,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 71,
+      "live_seconds": 608,
       "live_map_number": 2,
       "start_time": 1793451600,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "; ]",
-        "Blade of Miquella",
-        "CHIRA_JUNIOR",
-        "SMACSA-",
-        "lostreak chicken"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "))",
-        "Speeed",
-        "Yuma",
-        "discovery subscription",
-        "myaso"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Dark Willow",
-        "Lone Druid",
-        "Storm Spirit",
-        "Magnus",
-        "Shadow Demon"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Dragon Knight",
-        "Winter Wyvern",
-        "Viper",
-        "Techies",
-        "Dawnbreaker"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/fissure_dota_en",
       "games": [
