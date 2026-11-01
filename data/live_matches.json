@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793544776,
-  "generated_at_iso": "2026-11-01T14:52:56.100808+00:00",
+  "generated_at": 1793545508,
+  "generated_at_iso": "2026-11-01T15:05:08.804935+00:00",
   "matches": [
     {
       "match_id": 1753769,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2999,
+      "live_seconds": 3731,
       "live_map_number": 2,
       "start_time": 1793538000,
       "series_type": 2,
@@ -60,6 +60,83 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772365,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "NEXUS SERIES - Season 2 2026",
+      "league_id": 5575,
+      "radiant_team": "Team Synapse",
+      "dire_team": "SOLID",
+      "radiant_team_id": 139124,
+      "dire_team_id": 139457,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793566800,
+      "series_type": 2,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/nexusmedia_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
