@@ -1,11 +1,11 @@
 {
-  "generated_at": 1793523166,
-  "generated_at_iso": "2026-11-01T08:52:46.698232+00:00",
+  "generated_at": 1793523994,
+  "generated_at_iso": "2026-11-01T09:06:34.456514+00:00",
   "matches": [
     {
       "match_id": 1772633,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 3 2026",
       "league_id": 5576,
       "radiant_team": "Team Synapse",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 3,
+      "live_map_number": 1,
       "start_time": 1793523600,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -282,10 +282,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
-    "upcoming_count": 37,
+    "running_count": 1,
+    "upcoming_count": 36,
     "past_count": 30,
-    "citoapi_calls_this_month": 0,
+    "citoapi_calls_this_month": 1,
     "errors": []
   }
 }
