@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793538336,
-  "generated_at_iso": "2026-11-01T13:05:36.495765+00:00",
+  "generated_at": 1793538773,
+  "generated_at_iso": "2026-11-01T13:12:54.833745+00:00",
   "matches": [
     {
       "match_id": 1753769,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 158,
+      "live_seconds": 595,
       "live_map_number": 1,
       "start_time": 1793538000,
       "series_type": 2,
@@ -93,8 +93,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 369,
+      "live_map_number": 2,
       "start_time": 1793534400,
       "series_type": 1,
       "known_picks": 0,
@@ -136,7 +136,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -151,7 +151,7 @@
     "running_count": 2,
     "upcoming_count": 33,
     "past_count": 30,
-    "citoapi_calls_this_month": 1,
+    "citoapi_calls_this_month": 3,
     "errors": []
   }
 }
