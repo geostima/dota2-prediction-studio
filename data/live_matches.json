@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793532160,
-  "generated_at_iso": "2026-11-01T11:22:40.566010+00:00",
+  "generated_at": 1793532794,
+  "generated_at_iso": "2026-11-01T11:33:14.919359+00:00",
   "matches": [
-    {
-      "match_id": 1772633,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Team Synapse",
-      "dire_team": "HellNight-",
-      "radiant_team_id": 139124,
-      "dire_team_id": 139463,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3767,
-      "live_map_number": 2,
-      "start_time": 1793523600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759494,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1588,
+      "live_seconds": 2222,
       "live_map_number": 2,
       "start_time": 1793527200,
       "series_type": 1,
@@ -282,7 +215,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 35,
     "past_count": 30,
     "citoapi_calls_this_month": 1,
