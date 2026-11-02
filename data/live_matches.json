@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793607029,
-  "generated_at_iso": "2026-11-02T08:10:29.445043+00:00",
+  "generated_at": 1793608067,
+  "generated_at_iso": "2026-11-02T08:27:48.673845+00:00",
   "matches": [
     {
       "match_id": 1759499,
@@ -20,35 +20,35 @@
       "live_map_number": 0,
       "start_time": 1793604600,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "#NotLikeThis FAKE OLI LFT",
+        "-Toki-",
+        "Duruk MMR",
+        "\u65e9\u6625\u7684\u6811",
+        "\u723b"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "beautiful suffering(WINTER ARC)",
+        "brainless",
+        "forwhatiplaythisgame",
+        "reckless",
+        "when yah"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Witch Doctor",
+        "Gyrocopter",
+        "Sand King",
+        "Dawnbreaker",
+        "Rubick"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dragon Knight",
+        "Slardar",
+        "Enigma",
+        "Nyx Assassin",
+        "Hoodwink"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -342,7 +342,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 6,
+    "citoapi_calls_this_month": 8,
     "errors": []
   }
 }
