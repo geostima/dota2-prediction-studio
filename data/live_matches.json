@@ -1,24 +1,24 @@
 {
-  "generated_at": 1793621463,
-  "generated_at_iso": "2026-11-02T12:11:03.914791+00:00",
+  "generated_at": 1793622493,
+  "generated_at_iso": "2026-11-02T12:28:14.203124+00:00",
   "matches": [
     {
-      "match_id": 1756301,
+      "match_id": 1772637,
       "source": "pandascore",
       "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "LEGION",
-      "dire_team": "HULIGANI",
-      "radiant_team_id": 139340,
-      "dire_team_id": 138842,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "potn9ki",
+      "dire_team": "HellNight-",
+      "radiant_team_id": 129222,
+      "dire_team_id": 139463,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
       "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3254,
-      "live_map_number": 2,
-      "start_time": 1793613600,
+      "dire_score": 0,
+      "live_seconds": 633,
+      "live_map_number": 1,
+      "start_time": 1793621700,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,16 +50,16 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://www.twitch.tv/betbist",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 138842
+          "status": "running",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -82,9 +82,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2929,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1793618400,
       "series_type": 1,
       "known_picks": 0,
@@ -121,75 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1772637,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "potn9ki",
-      "dire_team": "HellNight-",
-      "radiant_team_id": 129222,
-      "dire_team_id": 139463,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793620800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/betbist",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137605
         },
         {
           "position": 2,
@@ -543,7 +476,7 @@
     "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 8,
+    "citoapi_calls_this_month": 9,
     "errors": []
   }
 }
