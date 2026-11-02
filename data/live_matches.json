@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793646798,
-  "generated_at_iso": "2026-11-02T19:13:18.312421+00:00",
+  "generated_at": 1793647360,
+  "generated_at_iso": "2026-11-02T19:22:40.406686+00:00",
   "matches": [
     {
       "match_id": 1756304,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 446,
+      "live_seconds": 1008,
       "live_map_number": 1,
       "start_time": 1793646000,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 551,
+      "live_map_number": 2,
       "start_time": 1793643300,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -139,7 +139,7 @@
     {
       "match_id": 1786523,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Fonbet Media Eleague - Season 5 2026",
       "league_id": 5582,
       "radiant_team": "rostikfacekid TEAM",
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 540,
+      "live_map_number": 1,
       "start_time": 1793646900,
       "series_type": 1,
       "known_picks": 0,
@@ -188,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -205,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 11,
