@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793656351,
-  "generated_at_iso": "2026-11-02T21:52:31.835619+00:00",
+  "generated_at": 1793657204,
+  "generated_at_iso": "2026-11-02T22:06:44.322177+00:00",
   "matches": [
     {
       "match_id": 1756304,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 5182,
+      "live_seconds": 6035,
       "live_map_number": 2,
       "start_time": 1793646000,
       "series_type": 1,
@@ -70,22 +70,22 @@
       ]
     },
     {
-      "match_id": 1786523,
+      "match_id": 1759509,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "rostikfacekid TEAM",
-      "dire_team": "Cooman Team",
-      "radiant_team_id": 139492,
-      "dire_team_id": 137437,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139492/600px_rostikfacekid_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Royal Bear",
+      "dire_team": "Zenith",
+      "radiant_team_id": 139367,
+      "dire_team_id": 139363,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 4384,
-      "live_map_number": 2,
-      "start_time": 1793646900,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793678400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -117,16 +117,16 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "finished",
-          "winner_id": 137437
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 2,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
@@ -138,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 13,
