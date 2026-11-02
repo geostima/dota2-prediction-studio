@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793631171,
-  "generated_at_iso": "2026-11-02T14:52:51.470637+00:00",
+  "generated_at": 1793632008,
+  "generated_at_iso": "2026-11-02T15:06:48.311874+00:00",
   "matches": [
-    {
-      "match_id": 1756302,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "OG",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 1654,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2841,
-      "live_map_number": 2,
-      "start_time": 1793624400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1786522,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 637,
+      "live_seconds": 1474,
       "live_map_number": 1,
       "start_time": 1793630700,
       "series_type": 1,
@@ -150,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 502,
+      "live_map_number": 3,
       "start_time": 1793621700,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +131,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -219,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793631600,
+      "start_time": 1793634000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -540,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 9,
