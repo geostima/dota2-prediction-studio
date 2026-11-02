@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793598769,
-  "generated_at_iso": "2026-11-02T05:52:49.326766+00:00",
+  "generated_at": 1793600106,
+  "generated_at_iso": "2026-11-02T06:15:06.179644+00:00",
   "matches": [
-    {
-      "match_id": 1759487,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Zenith",
-      "dire_team": "Team Kinetix",
-      "radiant_team_id": 139363,
-      "dire_team_id": 139148,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2524,
-      "live_map_number": 2,
-      "start_time": 1793592600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139363
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759499,
       "source": "pandascore",
@@ -202,10 +135,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1772637,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "potn9ki",
+      "dire_team": "HellNight-",
+      "radiant_team_id": 129222,
+      "dire_team_id": 139463,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139463/u_qe7_s_vl.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793620800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 6,
