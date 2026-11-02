@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793652171,
-  "generated_at_iso": "2026-11-02T20:42:52.723158+00:00",
+  "generated_at": 1793652750,
+  "generated_at_iso": "2026-11-02T20:52:30.070987+00:00",
   "matches": [
     {
       "match_id": 1756304,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1002,
+      "live_seconds": 1581,
       "live_map_number": 2,
       "start_time": 1793646000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "))",
-        "Speeed",
-        "Yuma",
-        "discovery subscription",
-        "myaso"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "sematary",
-        "strong",
-        "zombie",
-        "\u041c\u0435\u0447\u0442\u0430.",
-        "\u2666"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Invoker",
-        "Dark Willow",
-        "Lifestealer",
-        "Spirit Breaker",
-        "Night Stalker"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Hoodwink",
-        "Necrophos",
-        "Pangolier",
-        "Dazzle",
-        "Largo"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 204,
+      "live_seconds": 783,
       "live_map_number": 2,
       "start_time": 1793646900,
       "series_type": 1,
