@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793620360,
-  "generated_at_iso": "2026-11-02T11:52:40.567185+00:00",
+  "generated_at": 1793621463,
+  "generated_at_iso": "2026-11-02T12:11:03.914791+00:00",
   "matches": [
     {
       "match_id": 1756301,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2151,
+      "live_seconds": 3254,
       "live_map_number": 2,
       "start_time": 1793613600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1826,
+      "live_seconds": 2929,
       "live_map_number": 1,
       "start_time": 1793618400,
       "series_type": 1,
@@ -184,7 +184,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/epc_en",
+      "match_url": "https://www.twitch.tv/betbist",
       "games": [
         {
           "position": 1,
@@ -453,6 +453,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1772650,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "Rottweilas Latam",
+      "dire_team": "old blood",
+      "radiant_team_id": 137808,
+      "dire_team_id": 139389,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793642400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
