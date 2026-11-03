@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793728369,
-  "generated_at_iso": "2026-11-03T17:52:49.908904+00:00",
+  "generated_at": 1793729308,
+  "generated_at_iso": "2026-11-03T18:08:28.577028+00:00",
   "matches": [
     {
       "match_id": 1772647,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3162,
+      "live_seconds": 4101,
       "live_map_number": 2,
       "start_time": 1793718000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 337,
+      "live_seconds": 1276,
       "live_map_number": 1,
       "start_time": 1793727900,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 681,
+      "live_map_number": 2,
       "start_time": 1793725200,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -206,7 +206,7 @@
     {
       "match_id": 1786526,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Media Eleague - Season 5 2026",
       "league_id": 5582,
       "radiant_team": "Cooman Team",
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 215,
+      "live_map_number": 1,
       "start_time": 1793728800,
       "series_type": 1,
       "known_picks": 0,
@@ -255,7 +255,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -286,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793728800,
+      "start_time": 1793730600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -473,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 21,
