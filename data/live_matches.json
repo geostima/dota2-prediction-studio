@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793681004,
-  "generated_at_iso": "2026-11-03T04:43:24.860573+00:00",
+  "generated_at": 1793681603,
+  "generated_at_iso": "2026-11-03T04:53:23.092958+00:00",
   "matches": [
     {
       "match_id": 1759509,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 550,
+      "live_seconds": 1149,
       "live_map_number": 1,
       "start_time": 1793679600,
       "series_type": 1,
