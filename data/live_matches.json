@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793720565,
-  "generated_at_iso": "2026-11-03T15:42:45.595290+00:00",
+  "generated_at": 1793721206,
+  "generated_at_iso": "2026-11-03T15:53:26.311363+00:00",
   "matches": [
     {
       "match_id": 1756309,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2528,
+      "live_seconds": 3169,
       "live_map_number": 2,
       "start_time": 1793712600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2358,
+      "live_seconds": 2999,
       "live_map_number": 1,
       "start_time": 1793718000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1230,
+      "live_seconds": 1871,
       "live_map_number": 3,
       "start_time": 1793711400,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 349,
+      "live_map_number": 2,
       "start_time": 1793716200,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
