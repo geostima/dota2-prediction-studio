@@ -1,7 +1,74 @@
 {
-  "generated_at": 1793742763,
-  "generated_at_iso": "2026-11-03T21:52:43.749571+00:00",
+  "generated_at": 1793743549,
+  "generated_at_iso": "2026-11-03T22:05:49.753415+00:00",
   "matches": [
+    {
+      "match_id": 1756306,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Natus Vincere",
+      "dire_team": "GamerLegion",
+      "radiant_team_id": 1699,
+      "dire_team_id": 137588,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 1882,
+      "live_map_number": 1,
+      "start_time": 1793741400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1785754,
       "source": "pandascore",
@@ -15,9 +82,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "dire_logo_url": "",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1877,
-      "live_map_number": 2,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1793736600,
       "series_type": 1,
       "known_picks": 0,
@@ -59,8 +126,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139490
         },
         {
           "position": 3,
@@ -70,22 +137,22 @@
       ]
     },
     {
-      "match_id": 1756306,
+      "match_id": 1759513,
       "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Natus Vincere",
-      "dire_team": "GamerLegion",
-      "radiant_team_id": 1699,
-      "dire_team_id": 137588,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Yangon Galacticos",
+      "dire_team": "Resp Gaming",
+      "radiant_team_id": 128080,
+      "dire_team_id": 139413,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
+      "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1096,
-      "live_map_number": 1,
-      "start_time": 1793741400,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793764800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -117,11 +184,11 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "running",
+          "status": "not_started",
           "winner_id": null
         },
         {
