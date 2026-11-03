@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793742183,
-  "generated_at_iso": "2026-11-03T21:43:03.891020+00:00",
+  "generated_at": 1793742763,
+  "generated_at_iso": "2026-11-03T21:52:43.749571+00:00",
   "matches": [
     {
       "match_id": 1785754,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1297,
+      "live_seconds": 1877,
       "live_map_number": 2,
       "start_time": 1793736600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 516,
+      "live_seconds": 1096,
       "live_map_number": 1,
       "start_time": 1793741400,
       "series_type": 1,
