@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793720038,
-  "generated_at_iso": "2026-11-03T15:33:58.837462+00:00",
+  "generated_at": 1793720565,
+  "generated_at_iso": "2026-11-03T15:42:45.595290+00:00",
   "matches": [
-    {
-      "match_id": 1786525,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "Stray Team",
-      "dire_team": "Daxak Team",
-      "radiant_team_id": 136962,
-      "dire_team_id": 139007,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3593,
-      "live_map_number": 1,
-      "start_time": 1793716200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1756309,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2001,
+      "live_seconds": 2528,
       "live_map_number": 2,
       "start_time": 1793712600,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1831,
+      "live_seconds": 2358,
       "live_map_number": 1,
       "start_time": 1793718000,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 703,
+      "live_seconds": 1230,
       "live_map_number": 3,
       "start_time": 1793711400,
       "series_type": 1,
@@ -266,6 +199,73 @@
         {
           "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786525,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "Stray Team",
+      "dire_team": "Daxak Team",
+      "radiant_team_id": 136962,
+      "dire_team_id": 139007,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793716200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139007
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
           "winner_id": null
         }
       ]
