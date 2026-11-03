@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793709773,
-  "generated_at_iso": "2026-11-03T12:42:53.078482+00:00",
+  "generated_at": 1793710377,
+  "generated_at_iso": "2026-11-03T12:52:59.444993+00:00",
   "matches": [
     {
       "match_id": 1786524,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2059,
+      "live_seconds": 2663,
       "live_map_number": 2,
       "start_time": 1793703600,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 729,
+      "live_seconds": 1333,
       "live_map_number": 3,
       "start_time": 1793700000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Aura",
+        "Him",
+        "humble god",
+        "parivision",
+        "\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0438\u043d"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        ":))",
+        "TOPSON",
+        "XD )",
+        "^_\u2661",
+        "debil_2004"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Invoker",
+        "Largo",
+        "Hoodwink",
+        "Terrorblade",
+        "Tusk"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Pudge",
+        "Void Spirit",
+        "Sven",
+        "Witch Doctor",
+        "Gyrocopter"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 230,
+      "live_seconds": 834,
       "live_map_number": 1,
       "start_time": 1793709300,
       "series_type": 1,
@@ -744,7 +744,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 17,
+    "citoapi_calls_this_month": 19,
     "errors": []
   }
 }
