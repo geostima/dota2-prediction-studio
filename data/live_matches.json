@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793695378,
-  "generated_at_iso": "2026-11-03T08:42:59.706102+00:00",
+  "generated_at": 1793695991,
+  "generated_at_iso": "2026-11-03T08:53:11.832014+00:00",
   "matches": [
     {
       "match_id": 1759510,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 323,
+      "live_map_number": 2,
       "start_time": 1793689800,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "beautiful suffering(WINTER ARC)",
-        "brainless",
-        "forwhatiplaythisgame",
-        "reckless",
-        "when yah"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "< blank >",
-        "B-RABBIT",
-        "MC Boss",
-        "Ramadan",
-        "ssz"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Tiny",
-        "Earthshaker",
-        "Timbersaw",
-        "Batrider",
-        "Hoodwink"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Grimstroke",
-        "Dawnbreaker",
-        "Earth Spirit",
-        "Anti-Mage",
-        "Techies"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
