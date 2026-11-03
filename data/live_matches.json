@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793738569,
-  "generated_at_iso": "2026-11-03T20:42:49.699830+00:00",
+  "generated_at": 1793739186,
+  "generated_at_iso": "2026-11-03T20:53:07.808594+00:00",
   "matches": [
     {
       "match_id": 1785754,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2167,
+      "live_seconds": 2784,
       "live_map_number": 1,
       "start_time": 1793736600,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1663,
+      "live_seconds": 2280,
       "live_map_number": 3,
       "start_time": 1793727900,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "1nonly",
+        "JIoJl",
+        "M",
+        "Rein",
+        "not human"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Merlin",
+        "m9so",
+        "rin",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
+        "\u707d\u798d~"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Kez",
+        "Techies",
+        "Puck",
+        "Witch Doctor",
+        "Largo"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Io",
+        "Dark Willow",
+        "Clinkz",
+        "Tidehunter",
+        "Clockwerk"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1567,
+      "live_seconds": 2184,
       "live_map_number": 3,
       "start_time": 1793728800,
       "series_type": 1,
@@ -275,7 +275,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 21,
+    "citoapi_calls_this_month": 23,
     "errors": []
   }
 }
