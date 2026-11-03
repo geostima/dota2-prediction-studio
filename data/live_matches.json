@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793699552,
-  "generated_at_iso": "2026-11-03T09:52:32.768344+00:00",
+  "generated_at": 1793700375,
+  "generated_at_iso": "2026-11-03T10:06:15.550406+00:00",
   "matches": [
     {
       "match_id": 1759512,
@@ -50,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.youtube.com/watch?v=JuTKeHesJ_k",
       "games": [
         {
           "position": 1,
@@ -520,6 +520,140 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/epc_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1785734,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "Inner Circle x Insanity",
+      "dire_team": "angry birds",
+      "radiant_team_id": 137417,
+      "dire_team_id": 139462,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793721600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1756305,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "HULIGANI",
+      "dire_team": "Yellow Submarine",
+      "radiant_team_id": 138842,
+      "dire_team_id": 1931,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793721600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
