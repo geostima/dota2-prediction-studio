@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793694818,
-  "generated_at_iso": "2026-11-03T08:33:38.689756+00:00",
+  "generated_at": 1793695378,
+  "generated_at_iso": "2026-11-03T08:42:59.706102+00:00",
   "matches": [
     {
       "match_id": 1759510,
@@ -20,35 +20,35 @@
       "live_map_number": 0,
       "start_time": 1793689800,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "beautiful suffering(WINTER ARC)",
+        "brainless",
+        "forwhatiplaythisgame",
+        "reckless",
+        "when yah"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "< blank >",
+        "B-RABBIT",
+        "MC Boss",
+        "Ramadan",
+        "ssz"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Tiny",
+        "Earthshaker",
+        "Timbersaw",
+        "Batrider",
+        "Hoodwink"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Grimstroke",
+        "Dawnbreaker",
+        "Earth Spirit",
+        "Anti-Mage",
+        "Techies"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -610,7 +610,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 15,
+    "citoapi_calls_this_month": 17,
     "errors": []
   }
 }
