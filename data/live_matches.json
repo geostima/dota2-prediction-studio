@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793798124,
-  "generated_at_iso": "2026-11-04T13:15:24.122974+00:00",
+  "generated_at": 1793798572,
+  "generated_at_iso": "2026-11-04T13:22:52.491866+00:00",
   "matches": [
-    {
-      "match_id": 1786527,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "LenS Team",
-      "dire_team": "Daxak Team",
-      "radiant_team_id": 137605,
-      "dire_team_id": 139007,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3481,
-      "live_map_number": 2,
-      "start_time": 1793790600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139007
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785735,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2476,
+      "live_seconds": 2924,
       "live_map_number": 3,
       "start_time": 1793787000,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 570,
+      "live_seconds": 1018,
       "live_map_number": 3,
       "start_time": 1793790000,
       "series_type": 1,
@@ -217,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 343,
+      "live_map_number": 2,
       "start_time": 1793793600,
       "series_type": 1,
       "known_picks": 0,
@@ -260,8 +193,75 @@
         },
         {
           "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
           "status": "not_started",
           "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786527,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "LenS Team",
+      "dire_team": "Daxak Team",
+      "radiant_team_id": 137605,
+      "dire_team_id": 139007,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793790600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139007
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 137605
         },
         {
           "position": 3,
