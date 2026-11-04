@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793779707,
-  "generated_at_iso": "2026-11-04T08:08:27.410149+00:00",
+  "generated_at": 1793780444,
+  "generated_at_iso": "2026-11-04T08:20:46.432173+00:00",
   "matches": [
     {
       "match_id": 1759511,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 322,
+      "live_map_number": 2,
       "start_time": 1793776500,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "170pingsorry",
+        "lavie",
+        "secret",
+        "\u0431\u0440\u0443\u0441\u0441\u043a\u0438\u0439",
+        "\u9b3c"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "beautiful suffering(WINTER ARC)",
+        "brainless",
+        "forwhatiplaythisgame",
+        "reckless",
+        "when yah"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dark Willow",
+        "Dazzle",
+        "Brewmaster",
+        "Slark",
+        "Nature's Prophet"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Tiny",
+        "Sand King",
+        "Dawnbreaker",
+        "Windranger",
+        "Techies"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -610,7 +610,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 25,
+    "citoapi_calls_this_month": 27,
     "errors": []
   }
 }
