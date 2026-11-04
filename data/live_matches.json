@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793777140,
-  "generated_at_iso": "2026-11-04T07:25:40.024722+00:00",
+  "generated_at": 1793777687,
+  "generated_at_iso": "2026-11-04T07:34:47.918934+00:00",
   "matches": [
     {
       "match_id": 1759511,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 603,
+      "live_seconds": 1150,
       "live_map_number": 1,
       "start_time": 1793776500,
       "series_type": 1,
