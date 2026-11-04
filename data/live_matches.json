@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793780444,
-  "generated_at_iso": "2026-11-04T08:20:46.432173+00:00",
+  "generated_at": 1793781212,
+  "generated_at_iso": "2026-11-04T08:33:32.794173+00:00",
   "matches": [
     {
       "match_id": 1759511,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 322,
+      "live_seconds": 1090,
       "live_map_number": 2,
       "start_time": 1793776500,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "170pingsorry",
-        "lavie",
-        "secret",
-        "\u0431\u0440\u0443\u0441\u0441\u043a\u0438\u0439",
-        "\u9b3c"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "beautiful suffering(WINTER ARC)",
-        "brainless",
-        "forwhatiplaythisgame",
-        "reckless",
-        "when yah"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Dark Willow",
-        "Dazzle",
-        "Brewmaster",
-        "Slark",
-        "Nature's Prophet"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Tiny",
-        "Sand King",
-        "Dawnbreaker",
-        "Windranger",
-        "Techies"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -587,6 +587,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786528,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "rostikfacekid TEAM",
+      "dire_team": "iLTW TEAM",
+      "radiant_team_id": 139492,
+      "dire_team_id": 139493,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139492/600px_rostikfacekid_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793802600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
       "games": [
         {
           "position": 1,
