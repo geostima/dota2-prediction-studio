@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793806982,
-  "generated_at_iso": "2026-11-04T15:43:02.348169+00:00",
+  "generated_at": 1793807557,
+  "generated_at_iso": "2026-11-04T15:52:37.209976+00:00",
   "matches": [
-    {
-      "match_id": 1786528,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "rostikfacekid TEAM",
-      "dire_team": "iLTW TEAM",
-      "radiant_team_id": 139492,
-      "dire_team_id": 139493,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139492/600px_rostikfacekid_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3155,
-      "live_map_number": 1,
-      "start_time": 1793803800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785736,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2894,
+      "live_seconds": 3469,
       "live_map_number": 2,
       "start_time": 1793800800,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2084,
+      "live_seconds": 2659,
       "live_map_number": 2,
       "start_time": 1793799000,
       "series_type": 1,
@@ -194,6 +127,73 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786528,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "rostikfacekid TEAM",
+      "dire_team": "iLTW TEAM",
+      "radiant_team_id": 139492,
+      "dire_team_id": 139493,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139492/600px_rostikfacekid_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793803800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139492
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
