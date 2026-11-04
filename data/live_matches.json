@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793794178,
-  "generated_at_iso": "2026-11-04T12:09:38.869153+00:00",
+  "generated_at": 1793794977,
+  "generated_at_iso": "2026-11-04T12:22:59.346709+00:00",
   "matches": [
-    {
-      "match_id": 1785735,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "PuckChamp",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 128357,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2865,
-      "live_map_number": 2,
-      "start_time": 1793787000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 128357
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1759512,
       "source": "pandascore",
@@ -83,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137529/152px_cloud_dawning_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 658,
+      "live_seconds": 1457,
       "live_map_number": 2,
       "start_time": 1793790000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "#NotLikeThis FAKE OLI LFT",
+        "-Toki-",
+        "Duruk MMR",
+        "\u65e9\u6625\u7684\u6811",
+        "\u723b"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Y_Y",
+        "lla",
+        "zlabuh",
+        "\u30aa\u30ca\u30cb\u30b9\u30c8\u306b\u306a\u308a\u305f\u3044",
+        "\u70ab\u5f69\u9ea6\u5c0f\u86cb"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Winter Wyvern",
+        "Luna",
+        "Sand King",
+        "Doom",
+        "Dark Willow"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dark Seer",
+        "Earthshaker",
+        "Hoodwink",
+        "Kez",
+        "Witch Doctor"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 371,
+      "live_seconds": 1170,
       "live_map_number": 1,
       "start_time": 1793793600,
       "series_type": 1,
@@ -217,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 569,
+      "live_map_number": 2,
       "start_time": 1793790600,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -284,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 334,
+      "live_map_number": 2,
       "start_time": 1793790600,
       "series_type": 1,
       "known_picks": 0,
@@ -327,8 +260,75 @@
         },
         {
           "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
           "status": "not_started",
           "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1785735,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "PuckChamp",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 128357,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793787000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 128357
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 137417
         },
         {
           "position": 3,
@@ -744,7 +744,7 @@
     "running_count": 5,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 27,
+    "citoapi_calls_this_month": 29,
     "errors": []
   }
 }
