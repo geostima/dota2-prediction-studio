@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793824415,
-  "generated_at_iso": "2026-11-04T20:33:36.969434+00:00",
+  "generated_at": 1793824988,
+  "generated_at_iso": "2026-11-04T20:43:08.303902+00:00",
   "matches": [
     {
       "match_id": 1785755,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1906,
+      "live_seconds": 2479,
       "live_map_number": 1,
       "start_time": 1793822400,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1369,
+      "live_seconds": 1942,
       "live_map_number": 2,
       "start_time": 1793818800,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "))",
-        "Speeed",
-        "Yuma",
-        "discovery subscription",
-        "myaso"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "1nonly",
-        "M",
-        "Rein",
-        "acc is unfollow",
-        "not human"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Dragon Knight",
-        "Witch Doctor",
-        "Naga Siren",
-        "Hoodwink",
-        "Timbersaw"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Anti-Mage",
-        "Storm Spirit",
-        "Winter Wyvern",
-        "Techies",
-        "Lycan"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
