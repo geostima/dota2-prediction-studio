@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793820840,
-  "generated_at_iso": "2026-11-04T19:34:00.224279+00:00",
+  "generated_at": 1793821347,
+  "generated_at_iso": "2026-11-04T19:42:27.734127+00:00",
   "matches": [
     {
       "match_id": 1756312,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1718,
+      "live_seconds": 2225,
       "live_map_number": 1,
       "start_time": 1793818800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1638,
+      "live_seconds": 2145,
       "live_map_number": 3,
       "start_time": 1793809800,
       "series_type": 1,
