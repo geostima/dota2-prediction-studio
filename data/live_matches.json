@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793753575,
-  "generated_at_iso": "2026-11-04T00:52:55.801545+00:00",
+  "generated_at": 1793754376,
+  "generated_at_iso": "2026-11-04T01:06:16.235885+00:00",
   "matches": [
     {
       "match_id": 1759513,
@@ -19,6 +19,73 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793764800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1759511,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 19 2026",
+      "league_id": 4884,
+      "radiant_team": "Royal Bear",
+      "dire_team": "Direborn",
+      "radiant_team_id": 139367,
+      "dire_team_id": 138753,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793775600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
