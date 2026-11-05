@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793891778,
-  "generated_at_iso": "2026-11-05T15:16:18.126781+00:00",
+  "generated_at": 1793892247,
+  "generated_at_iso": "2026-11-05T15:24:07.625675+00:00",
   "matches": [
-    {
-      "match_id": 1785756,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Team Lynx",
-      "dire_team": "Time to Sleep",
-      "radiant_team_id": 136531,
-      "dire_team_id": 139490,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2443,
-      "live_map_number": 2,
-      "start_time": 1793885400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136531
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1756313,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 600,
+      "live_seconds": 1069,
       "live_map_number": 2,
       "start_time": 1793887200,
       "series_type": 1,
@@ -483,7 +416,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 35,
