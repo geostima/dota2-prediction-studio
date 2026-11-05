@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793896111,
-  "generated_at_iso": "2026-11-05T16:28:32.504697+00:00",
+  "generated_at": 1793896642,
+  "generated_at_iso": "2026-11-05T16:37:22.986548+00:00",
   "matches": [
     {
       "match_id": 1786531,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3505,
+      "live_seconds": 4036,
       "live_map_number": 1,
       "start_time": 1793892600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1544,
+      "live_seconds": 2075,
       "live_map_number": 1,
       "start_time": 1793894400,
       "series_type": 1,
@@ -154,35 +154,35 @@
       "live_map_number": 0,
       "start_time": 1793887200,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Merlin",
-        "m9so",
-        "rin",
-        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4",
-        "\u707d\u798d~"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "))",
-        "Speeed",
-        "Yuma",
-        "discovery subscription",
-        "myaso"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Pudge",
-        "Dark Willow",
-        "Terrorblade",
-        "Enigma",
-        "Clockwerk"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Pangolier",
-        "Dazzle",
-        "Nature's Prophet",
-        "Rubick",
-        "Beastmaster"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
