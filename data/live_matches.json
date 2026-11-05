@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793889778,
-  "generated_at_iso": "2026-11-05T14:42:58.761017+00:00",
+  "generated_at": 1793890355,
+  "generated_at_iso": "2026-11-05T14:52:35.845324+00:00",
   "matches": [
     {
       "match_id": 1786530,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3381,
+      "live_seconds": 3958,
       "live_map_number": 3,
       "start_time": 1793876400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2356,
+      "live_seconds": 2933,
       "live_map_number": 1,
       "start_time": 1793887200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 443,
+      "live_seconds": 1020,
       "live_map_number": 2,
       "start_time": 1793885400,
       "series_type": 1,
