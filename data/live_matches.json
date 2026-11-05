@@ -1,84 +1,7 @@
 {
-  "generated_at": 1793907763,
-  "generated_at_iso": "2026-11-05T19:42:43.678195+00:00",
+  "generated_at": 1793908352,
+  "generated_at_iso": "2026-11-05T19:52:32.319293+00:00",
   "matches": [
-    {
-      "match_id": 1756314,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Natus Vincere",
-      "dire_team": "GamerLegion",
-      "radiant_team_id": 1699,
-      "dire_team_id": 137588,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3429,
-      "live_map_number": 1,
-      "start_time": 1793904000,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785748,
       "source": "pandascore",
@@ -93,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2275,
+      "live_seconds": 2864,
       "live_map_number": 1,
       "start_time": 1793905200,
       "series_type": 1,
@@ -160,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1341,
+      "live_seconds": 1930,
       "live_map_number": 2,
       "start_time": 1793903100,
       "series_type": 1,
@@ -208,6 +131,83 @@
         },
         {
           "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1756314,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "EPL Masters - Season 3 2026",
+      "league_id": 5544,
+      "radiant_team": "Natus Vincere",
+      "dire_team": "GamerLegion",
+      "radiant_team_id": 1699,
+      "dire_team_id": 137588,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793904000,
+      "series_type": 2,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1699
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
