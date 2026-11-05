@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793896642,
-  "generated_at_iso": "2026-11-05T16:37:22.986548+00:00",
+  "generated_at": 1793897103,
+  "generated_at_iso": "2026-11-05T16:45:03.205203+00:00",
   "matches": [
-    {
-      "match_id": 1786531,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "LenS Team",
-      "dire_team": "Cooman Team",
-      "radiant_team_id": 137605,
-      "dire_team_id": 137437,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 4036,
-      "live_map_number": 1,
-      "start_time": 1793892600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785739,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2075,
+      "live_seconds": 2536,
       "live_map_number": 1,
       "start_time": 1793894400,
       "series_type": 1,
@@ -195,6 +128,73 @@
           "position": 2,
           "status": "finished",
           "winner_id": 1931
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786531,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "LenS Team",
+      "dire_team": "Cooman Team",
+      "radiant_team_id": 137605,
+      "dire_team_id": 137437,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793892600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137605
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
         },
         {
           "position": 3,
