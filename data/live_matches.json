@@ -1,87 +1,9 @@
 {
-  "generated_at": 1793918581,
-  "generated_at_iso": "2026-11-05T22:43:01.259021+00:00",
-  "matches": [
-    {
-      "match_id": 1756314,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Natus Vincere",
-      "dire_team": "GamerLegion",
-      "radiant_team_id": 1699,
-      "dire_team_id": 137588,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
-      "radiant_score": 2,
-      "dire_score": 1,
-      "live_seconds": 2139,
-      "live_map_number": 4,
-      "start_time": 1793904000,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1699
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137588
-        },
-        {
-          "position": 3,
-          "status": "finished",
-          "winner_id": 1699
-        },
-        {
-          "position": 4,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1793919158,
+  "generated_at_iso": "2026-11-05T22:52:38.327460+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 39,
