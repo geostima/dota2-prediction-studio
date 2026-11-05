@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793876757,
-  "generated_at_iso": "2026-11-05T11:05:57.127470+00:00",
+  "generated_at": 1793877264,
+  "generated_at_iso": "2026-11-05T11:14:24.775809+00:00",
   "matches": [
     {
       "match_id": 1785738,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 450,
+      "live_map_number": 2,
       "start_time": 1793872800,
       "series_type": 1,
       "known_picks": 0,
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -72,7 +72,7 @@
     {
       "match_id": 1786530,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Media Eleague - Season 5 2026",
       "league_id": 5582,
       "radiant_team": "rostikfacekid TEAM",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 349,
+      "live_map_number": 1,
       "start_time": 1793876400,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -406,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 34,
