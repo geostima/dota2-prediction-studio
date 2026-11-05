@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793874270,
-  "generated_at_iso": "2026-11-05T10:24:30.163740+00:00",
+  "generated_at": 1793874832,
+  "generated_at_iso": "2026-11-05T10:33:52.712066+00:00",
   "matches": [
     {
       "match_id": 1785738,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1064,
+      "live_seconds": 1626,
       "live_map_number": 1,
       "start_time": 1793872800,
       "series_type": 1,
