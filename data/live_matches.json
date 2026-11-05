@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793870311,
-  "generated_at_iso": "2026-11-05T09:18:31.346837+00:00",
+  "generated_at": 1793870835,
+  "generated_at_iso": "2026-11-05T09:27:15.260667+00:00",
   "matches": [
     {
       "match_id": 1759515,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 433,
+      "live_seconds": 957,
       "live_map_number": 2,
       "start_time": 1793866500,
       "series_type": 1,
