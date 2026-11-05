@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793903863,
-  "generated_at_iso": "2026-11-05T18:37:43.726187+00:00",
+  "generated_at": 1793904311,
+  "generated_at_iso": "2026-11-05T18:45:11.442201+00:00",
   "matches": [
     {
       "match_id": 1786532,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 683,
+      "live_seconds": 1131,
       "live_map_number": 1,
       "start_time": 1793903100,
       "series_type": 1,
