@@ -1,74 +1,7 @@
 {
-  "generated_at": 1793901156,
-  "generated_at_iso": "2026-11-05T17:52:36.974395+00:00",
+  "generated_at": 1793902062,
+  "generated_at_iso": "2026-11-05T18:07:42.686002+00:00",
   "matches": [
-    {
-      "match_id": 1756313,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL Masters - Season 3 2026",
-      "league_id": 5544,
-      "radiant_team": "Yellow Submarine",
-      "dire_team": "GamerLegion",
-      "radiant_team_id": 1931,
-      "dire_team_id": 137588,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3765,
-      "live_map_number": 3,
-      "start_time": 1793887200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137588
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 1931
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785739,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2567,
+      "live_seconds": 3473,
       "live_map_number": 2,
       "start_time": 1793894400,
       "series_type": 1,
@@ -210,13 +143,13 @@
       "league_name": "EPL Masters - Season 3 2026",
       "league_id": 5544,
       "radiant_team": "Natus Vincere",
-      "dire_team": "TBD",
+      "dire_team": "GamerLegion",
       "radiant_team_id": 1699,
-      "dire_team_id": null,
+      "dire_team_id": 137588,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1793903400,
@@ -349,7 +282,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 37,
