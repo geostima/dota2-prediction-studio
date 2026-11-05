@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793880577,
-  "generated_at_iso": "2026-11-05T12:09:37.898760+00:00",
+  "generated_at": 1793881431,
+  "generated_at_iso": "2026-11-05T12:23:52.092272+00:00",
   "matches": [
     {
       "match_id": 1786530,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3662,
+      "live_seconds": 4516,
       "live_map_number": 1,
       "start_time": 1793876400,
       "series_type": 1,
@@ -486,7 +486,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 34,
+    "citoapi_calls_this_month": 35,
     "errors": []
   }
 }
