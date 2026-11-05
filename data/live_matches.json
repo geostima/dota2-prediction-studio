@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793881431,
-  "generated_at_iso": "2026-11-05T12:23:52.092272+00:00",
+  "generated_at": 1793882157,
+  "generated_at_iso": "2026-11-05T12:35:57.627851+00:00",
   "matches": [
     {
       "match_id": 1786530,
@@ -14,10 +14,10 @@
       "dire_team_id": 139007,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139492/600px_rostikfacekid_team_fme5_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 4516,
-      "live_map_number": 1,
+      "live_seconds": 103,
+      "live_map_number": 2,
       "start_time": 1793876400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,12 +54,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139492
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
