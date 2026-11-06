@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793970948,
-  "generated_at_iso": "2026-11-06T13:15:48.157869+00:00",
+  "generated_at": 1793971416,
+  "generated_at_iso": "2026-11-06T13:23:36.364774+00:00",
   "matches": [
     {
       "match_id": 1786533,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 3365,
+      "live_seconds": 3833,
       "live_map_number": 2,
       "start_time": 1793962800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2180,
+      "live_seconds": 2648,
       "live_map_number": 3,
       "start_time": 1793959200,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 237,
+      "live_map_number": 2,
       "start_time": 1793966400,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
