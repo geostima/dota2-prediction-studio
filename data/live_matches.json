@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793978145,
-  "generated_at_iso": "2026-11-06T15:15:45.539689+00:00",
+  "generated_at": 1793978578,
+  "generated_at_iso": "2026-11-06T15:22:58.222626+00:00",
   "matches": [
     {
       "match_id": 1793139,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 503,
+      "live_seconds": 936,
       "live_map_number": 1,
       "start_time": 1793977200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 423,
+      "live_seconds": 856,
       "live_map_number": 2,
       "start_time": 1793972400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 194,
+      "live_seconds": 627,
       "live_map_number": 1,
       "start_time": 1793977800,
       "series_type": 1,
