@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793991183,
-  "generated_at_iso": "2026-11-06T18:53:03.722781+00:00",
+  "generated_at": 1793991899,
+  "generated_at_iso": "2026-11-06T19:04:59.594340+00:00",
   "matches": [
     {
       "match_id": 1786535,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2601,
+      "live_seconds": 3317,
       "live_map_number": 1,
       "start_time": 1793988000,
       "series_type": 1,
@@ -82,9 +82,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2599,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1793988000,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139239
         },
         {
           "position": 2,
