@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793982304,
-  "generated_at_iso": "2026-11-06T16:25:04.104725+00:00",
+  "generated_at": 1793982818,
+  "generated_at_iso": "2026-11-06T16:33:38.825649+00:00",
   "matches": [
     {
       "match_id": 1793139,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 777,
+      "live_seconds": 1291,
       "live_map_number": 2,
       "start_time": 1793977200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 255,
+      "live_seconds": 769,
       "live_map_number": 2,
       "start_time": 1793977800,
       "series_type": 1,
