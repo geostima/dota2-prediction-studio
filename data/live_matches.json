@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793953267,
-  "generated_at_iso": "2026-11-06T08:21:07.798509+00:00",
+  "generated_at": 1793954011,
+  "generated_at_iso": "2026-11-06T08:33:31.249616+00:00",
   "matches": [
     {
       "match_id": 1759516,
@@ -14,10 +14,10 @@
       "dire_team_id": 139367,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3483,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1793949300,
       "series_type": 2,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138753
         },
         {
           "position": 2,
@@ -731,6 +731,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786534,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "rostikfacekid TEAM",
+      "dire_team": "Stray Team",
+      "radiant_team_id": 139492,
+      "dire_team_id": 136962,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139492/600px_rostikfacekid_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136962/600px_stray_team_fme5_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793975400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
       "games": [
         {
           "position": 1,
