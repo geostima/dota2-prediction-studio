@@ -1,141 +1,7 @@
 {
-  "generated_at": 1793971416,
-  "generated_at_iso": "2026-11-06T13:23:36.364774+00:00",
+  "generated_at": 1793972027,
+  "generated_at_iso": "2026-11-06T13:33:47.365839+00:00",
   "matches": [
-    {
-      "match_id": 1786533,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "Daxak Team",
-      "dire_team": "Cooman Team",
-      "radiant_team_id": 139007,
-      "dire_team_id": 137437,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3833,
-      "live_map_number": 2,
-      "start_time": 1793962800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137437
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1785740,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "angry birds",
-      "radiant_team_id": 2227,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2648,
-      "live_map_number": 3,
-      "start_time": 1793959200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 2227
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139462
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1793138,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 237,
+      "live_seconds": 848,
       "live_map_number": 2,
       "start_time": 1793966400,
       "series_type": 1,
@@ -942,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 42,
