@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793976171,
-  "generated_at_iso": "2026-11-06T14:42:51.975972+00:00",
+  "generated_at": 1793976774,
+  "generated_at_iso": "2026-11-06T14:52:54.582334+00:00",
   "matches": [
     {
       "match_id": 1785741,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3713,
+      "live_seconds": 4316,
       "live_map_number": 1,
       "start_time": 1793972400,
       "series_type": 1,
