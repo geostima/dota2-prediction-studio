@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793963168,
-  "generated_at_iso": "2026-11-06T11:06:08.710229+00:00",
+  "generated_at": 1793963655,
+  "generated_at_iso": "2026-11-06T11:14:15.318576+00:00",
   "matches": [
     {
       "match_id": 1785740,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3924,
+      "live_seconds": 4411,
       "live_map_number": 1,
       "start_time": 1793959200,
       "series_type": 1,
@@ -70,6 +70,73 @@
       ]
     },
     {
+      "match_id": 1786533,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "Daxak Team",
+      "dire_team": "Cooman Team",
+      "radiant_team_id": 139007,
+      "dire_team_id": 137437,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 172,
+      "live_map_number": 1,
+      "start_time": 1793962800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1791665,
       "source": "pandascore",
       "status": "upcoming",
@@ -85,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793962800,
+      "start_time": 1793964600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -152,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793962800,
+      "start_time": 1793964600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -219,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793962800,
+      "start_time": 1793964600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -252,73 +319,6 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1786533,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "Daxak Team",
-      "dire_team": "Cooman Team",
-      "radiant_team_id": 139007,
-      "dire_team_id": 137437,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139007/600px_daxak_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793962800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
       "games": [
         {
           "position": 1,
@@ -1009,7 +1009,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 41,
