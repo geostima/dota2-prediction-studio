@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793972027,
-  "generated_at_iso": "2026-11-06T13:33:47.365839+00:00",
+  "generated_at": 1793972584,
+  "generated_at_iso": "2026-11-06T13:43:04.591717+00:00",
   "matches": [
     {
       "match_id": 1793138,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 848,
+      "live_seconds": 1405,
       "live_map_number": 2,
       "start_time": 1793966400,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1785741,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Asgard Championship - Season 2 2026",
       "league_id": 5550,
       "radiant_team": "angry birds",
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 126,
+      "live_map_number": 1,
       "start_time": 1793972400,
       "series_type": 1,
       "known_picks": 0,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -808,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 42,
