@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793962351,
-  "generated_at_iso": "2026-11-06T10:52:31.976482+00:00",
+  "generated_at": 1793963168,
+  "generated_at_iso": "2026-11-06T11:06:08.710229+00:00",
   "matches": [
     {
       "match_id": 1785740,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3107,
+      "live_seconds": 3924,
       "live_map_number": 1,
       "start_time": 1793959200,
       "series_type": 1,
@@ -64,83 +64,6 @@
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1759516,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 19 2026",
-      "league_id": 4884,
-      "radiant_team": "Direborn",
-      "dire_team": "Royal Bear",
-      "radiant_team_id": 138753,
-      "dire_team_id": 139367,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 2,
-      "dire_score": 0,
-      "live_seconds": 3024,
-      "live_map_number": 3,
-      "start_time": 1793949300,
-      "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 4,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
@@ -1086,7 +1009,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 41,
