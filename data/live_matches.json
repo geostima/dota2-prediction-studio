@@ -1,6 +1,6 @@
 {
-  "generated_at": 1793964161,
-  "generated_at_iso": "2026-11-06T11:22:41.432194+00:00",
+  "generated_at": 1793964794,
+  "generated_at_iso": "2026-11-06T11:33:14.733103+00:00",
   "matches": [
     {
       "match_id": 1786533,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 678,
+      "live_seconds": 1311,
       "live_map_number": 1,
       "start_time": 1793962800,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 285,
+      "live_map_number": 2,
       "start_time": 1793959200,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -405,6 +405,73 @@
       ]
     },
     {
+      "match_id": 1785741,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "angry birds",
+      "dire_team": "PuckChamp",
+      "radiant_team_id": 139462,
+      "dire_team_id": 128357,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1793970000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1791668,
       "source": "pandascore",
       "status": "upcoming",
@@ -420,7 +487,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793970000,
+      "start_time": 1793973600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -487,7 +554,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793970000,
+      "start_time": 1793973600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -554,7 +621,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793970000,
+      "start_time": 1793973600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -587,73 +654,6 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1785741,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "angry birds",
-      "dire_team": "PuckChamp",
-      "radiant_team_id": 139462,
-      "dire_team_id": 128357,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1793970000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
       "games": [
         {
           "position": 1,
@@ -822,7 +822,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793980800,
+      "start_time": 1793984400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -889,7 +889,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793980800,
+      "start_time": 1793984400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -956,7 +956,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1793980800,
+      "start_time": 1793984400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -1012,7 +1012,7 @@
     "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 41,
+    "citoapi_calls_this_month": 42,
     "errors": []
   }
 }
