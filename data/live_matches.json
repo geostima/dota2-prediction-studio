@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794059577,
-  "generated_at_iso": "2026-11-07T13:52:57.204764+00:00",
+  "generated_at": 1794060321,
+  "generated_at_iso": "2026-11-07T14:05:21.999087+00:00",
   "matches": [
-    {
-      "match_id": 1785744,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "PuckChamp",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 128357,
-      "dire_team_id": 2227,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2989,
-      "live_map_number": 1,
-      "start_time": 1794056400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1791674,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2908,
+      "live_seconds": 3652,
       "live_map_number": 1,
       "start_time": 1794056400,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2904,
+      "live_seconds": 3648,
       "live_map_number": 1,
       "start_time": 1794056400,
       "series_type": 1,
@@ -204,6 +137,73 @@
       ]
     },
     {
+      "match_id": 1785744,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "PuckChamp",
+      "dire_team": "Nemiga Gaming",
+      "radiant_team_id": 128357,
+      "dire_team_id": 2227,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794056400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 2227
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1791673,
       "source": "pandascore",
       "status": "live",
@@ -215,10 +215,10 @@
       "dire_team_id": 139363,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2901,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1794056400,
       "series_type": 1,
       "known_picks": 0,
@@ -255,146 +255,12 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137870
         },
         {
           "position": 2,
           "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1792507,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "HULIGANI",
-      "dire_team": "LEGION",
-      "radiant_team_id": 138842,
-      "dire_team_id": 139340,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2537,
-      "live_map_number": 3,
-      "start_time": 1794045600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139340
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 138842
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1793141,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "oveA",
-      "dire_team": "Mena Warriors",
-      "radiant_team_id": 139391,
-      "dire_team_id": 139392,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2492,
-      "live_map_number": 2,
-      "start_time": 1794052800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139391
-        },
-        {
-          "position": 2,
-          "status": "running",
           "winner_id": null
         },
         {
@@ -420,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794060000,
+      "start_time": 1794061800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -1143,7 +1009,7 @@
     }
   ],
   "meta": {
-    "running_count": 6,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 46,
