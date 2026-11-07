@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794074839,
-  "generated_at_iso": "2026-11-07T18:07:20.017361+00:00",
+  "generated_at": 1794075373,
+  "generated_at_iso": "2026-11-07T18:16:15.736767+00:00",
   "matches": [
     {
       "match_id": 1796679,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2145,
+      "live_seconds": 2678,
       "live_map_number": 1,
       "start_time": 1794072600,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 288,
+      "live_seconds": 821,
       "live_map_number": 2,
       "start_time": 1794070800,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Faaaa",
+        "Mireska",
+        "mavis",
+        "onebadbish",
+        "spera in Deo"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "gladiator",
+        "k",
+        "volki sebeki",
+        "x_X",
+        "\u0437\u0430\u043b\u0435\u0442\u043d\u044b\u0439"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Beastmaster",
+        "Io",
+        "Techies",
+        "Bristleback",
+        "Rubick"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Necrophos",
+        "Pangolier",
+        "Hoodwink",
+        "Dragon Knight",
+        "Dazzle"
       ],
       "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 59,
+      "live_seconds": 593,
       "live_map_number": 3,
       "start_time": 1794064200,
       "series_type": 1,
@@ -610,7 +610,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 48,
+    "citoapi_calls_this_month": 50,
     "errors": []
   }
 }
