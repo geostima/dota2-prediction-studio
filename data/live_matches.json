@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794090794,
-  "generated_at_iso": "2026-11-07T22:33:14.806525+00:00",
+  "generated_at": 1794091345,
+  "generated_at_iso": "2026-11-07T22:42:25.807914+00:00",
   "matches": [
     {
       "match_id": 1792514,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 291,
+      "live_seconds": 842,
       "live_map_number": 2,
       "start_time": 1794086100,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 27,
+      "live_seconds": 578,
       "live_map_number": 1,
       "start_time": 1794090600,
       "series_type": 1,
@@ -137,6 +137,73 @@
       ]
     },
     {
+      "match_id": 1791741,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Amaru Gaming",
+      "dire_team": "Zero Tenacity",
+      "radiant_team_id": 137685,
+      "dire_team_id": 135854,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 370,
+      "live_map_number": 1,
+      "start_time": 1794090600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2ember",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1791742,
       "source": "pandascore",
       "status": "live",
@@ -150,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 118,
+      "live_map_number": 3,
       "start_time": 1794084000,
       "series_type": 1,
       "known_picks": 0,
@@ -198,81 +265,14 @@
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791741,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Amaru Gaming",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 137685,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794090600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2ember",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 50,
