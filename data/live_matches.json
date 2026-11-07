@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794060321,
-  "generated_at_iso": "2026-11-07T14:05:21.999087+00:00",
+  "generated_at": 1794060803,
+  "generated_at_iso": "2026-11-07T14:13:25.109916+00:00",
   "matches": [
     {
       "match_id": 1791674,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3652,
+      "live_seconds": 4134,
       "live_map_number": 1,
       "start_time": 1794056400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "August",
+        "El Glace Frosse",
+        "Flokk1n",
+        "OTTO",
+        "\u0440\u0435\u0448\u0430\u044e \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        ".",
+        "G.T.I",
+        "Jeezy",
+        "Stoic",
+        "punpun"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dragon Knight",
+        "Rubick",
+        "Necrophos",
+        "Dazzle",
+        "Enigma"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Kez",
+        "Tiny",
+        "Dark Willow",
+        "Hoodwink",
+        "Nature's Prophet"
       ],
       "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3648,
+      "live_seconds": 4130,
       "live_map_number": 1,
       "start_time": 1794056400,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 277,
+      "live_map_number": 2,
       "start_time": 1794056400,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -217,8 +217,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 208,
+      "live_map_number": 2,
       "start_time": 1794056400,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -1012,7 +1012,7 @@
     "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 46,
+    "citoapi_calls_this_month": 48,
     "errors": []
   }
 }
