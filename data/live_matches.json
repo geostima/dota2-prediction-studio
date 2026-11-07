@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794087758,
-  "generated_at_iso": "2026-11-07T21:42:38.102149+00:00",
+  "generated_at": 1794088346,
+  "generated_at_iso": "2026-11-07T21:52:26.503756+00:00",
   "matches": [
     {
       "match_id": 1791737,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3299,
+      "live_seconds": 3887,
       "live_map_number": 3,
       "start_time": 1794075300,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1468,
+      "live_seconds": 2056,
       "live_map_number": 1,
       "start_time": 1794086100,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 731,
+      "live_seconds": 1319,
       "live_map_number": 2,
       "start_time": 1794084000,
       "series_type": 1,
