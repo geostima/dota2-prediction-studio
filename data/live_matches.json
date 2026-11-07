@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794068105,
-  "generated_at_iso": "2026-11-07T16:15:05.484125+00:00",
+  "generated_at": 1794068558,
+  "generated_at_iso": "2026-11-07T16:22:38.263899+00:00",
   "matches": [
     {
       "match_id": 1793142,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3591,
+      "live_seconds": 4044,
       "live_map_number": 1,
       "start_time": 1794064200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2152,
+      "live_seconds": 2605,
       "live_map_number": 3,
       "start_time": 1794056400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 663,
+      "live_seconds": 1116,
       "live_map_number": 1,
       "start_time": 1794067200,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 94,
+      "live_seconds": 547,
       "live_map_number": 3,
       "start_time": 1794060900,
       "series_type": 1,
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 434,
+      "live_map_number": 3,
       "start_time": 1794056400,
       "series_type": 1,
       "known_picks": 0,
@@ -332,7 +332,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
