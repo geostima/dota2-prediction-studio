@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794084751,
-  "generated_at_iso": "2026-11-07T20:52:31.204093+00:00",
+  "generated_at": 1794085523,
+  "generated_at_iso": "2026-11-07T21:05:23.752961+00:00",
   "matches": [
-    {
-      "match_id": 1796679,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Froglings",
-      "dire_team": "angry birds",
-      "radiant_team_id": 139517,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2550,
-      "live_map_number": 3,
-      "start_time": 1794072600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139517
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139462
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1793143,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1642,
+      "live_seconds": 2414,
       "live_map_number": 2,
       "start_time": 1794079500,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 575,
+      "live_seconds": 1347,
       "live_map_number": 1,
       "start_time": 1794084000,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 292,
+      "live_seconds": 1064,
       "live_map_number": 3,
       "start_time": 1794075300,
       "series_type": 1,
@@ -473,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 50,
