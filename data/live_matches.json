@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794061370,
-  "generated_at_iso": "2026-11-07T14:22:50.868359+00:00",
+  "generated_at": 1794062000,
+  "generated_at_iso": "2026-11-07T14:33:20.365444+00:00",
   "matches": [
     {
       "match_id": 1791672,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 4697,
+      "live_seconds": 5327,
       "live_map_number": 1,
       "start_time": 1794056400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 844,
+      "live_seconds": 1474,
       "live_map_number": 2,
       "start_time": 1794056400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 775,
+      "live_seconds": 1405,
       "live_map_number": 2,
       "start_time": 1794056400,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 359,
+      "live_seconds": 989,
       "live_map_number": 1,
       "start_time": 1794060900,
       "series_type": 1,
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 497,
+      "live_map_number": 2,
       "start_time": 1794056400,
       "series_type": 1,
       "known_picks": 0,
@@ -327,7 +327,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
