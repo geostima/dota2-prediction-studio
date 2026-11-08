@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794166957,
-  "generated_at_iso": "2026-11-08T19:42:37.784539+00:00",
+  "generated_at": 1794167552,
+  "generated_at_iso": "2026-11-08T19:52:32.152758+00:00",
   "matches": [
     {
       "match_id": 1792496,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2390,
+      "live_seconds": 2985,
       "live_map_number": 1,
       "start_time": 1794164400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2186,
+      "live_seconds": 2781,
       "live_map_number": 1,
       "start_time": 1794164400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2171,
+      "live_seconds": 2766,
       "live_map_number": 1,
       "start_time": 1794164400,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1681,
+      "live_seconds": 2276,
       "live_map_number": 1,
       "start_time": 1794165000,
       "series_type": 1,
@@ -284,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1237,
+      "live_seconds": 1832,
       "live_map_number": 2,
       "start_time": 1794162000,
       "series_type": 1,
@@ -351,8 +351,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 573,
+      "live_map_number": 3,
       "start_time": 1794155700,
       "series_type": 1,
       "known_picks": 0,
@@ -399,7 +399,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -420,7 +420,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794168000,
+      "start_time": 1794169800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
