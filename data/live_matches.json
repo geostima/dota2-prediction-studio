@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794159206,
-  "generated_at_iso": "2026-11-08T17:33:26.910050+00:00",
+  "generated_at": 1794159785,
+  "generated_at_iso": "2026-11-08T17:43:05.726795+00:00",
   "matches": [
     {
       "match_id": 1785747,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3579,
+      "live_seconds": 4158,
       "live_map_number": 1,
       "start_time": 1794155700,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1791744,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Yakult Brothers",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 135697,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1948,
-      "live_map_number": 2,
-      "start_time": 1794154500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2ember",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1791743,
       "source": "pandascore",
       "status": "live",
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 950,
+      "live_seconds": 1529,
       "live_map_number": 2,
       "start_time": 1794154200,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 258,
+      "live_seconds": 837,
       "live_map_number": 2,
       "start_time": 1794153600,
       "series_type": 1,
@@ -284,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 129,
+      "live_map_number": 2,
       "start_time": 1794153600,
       "series_type": 1,
       "known_picks": 0,
@@ -327,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -741,7 +674,7 @@
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 56,
