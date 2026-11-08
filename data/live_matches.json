@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794163358,
-  "generated_at_iso": "2026-11-08T18:42:38.438563+00:00",
+  "generated_at": 1794163968,
+  "generated_at_iso": "2026-11-08T18:52:48.773683+00:00",
   "matches": [
-    {
-      "match_id": 1791745,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "PuckChamp",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 128357,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3702,
-      "live_map_number": 2,
-      "start_time": 1794153600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2storm",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137417
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1793145,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1164,
+      "live_seconds": 1774,
       "live_map_number": 1,
       "start_time": 1794162000,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 407,
+      "live_seconds": 1017,
       "live_map_number": 2,
       "start_time": 1794155700,
       "series_type": 1,
@@ -540,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 59,
