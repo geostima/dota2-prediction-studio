@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794167552,
-  "generated_at_iso": "2026-11-08T19:52:32.152758+00:00",
+  "generated_at": 1794168342,
+  "generated_at_iso": "2026-11-08T20:05:42.434093+00:00",
   "matches": [
-    {
-      "match_id": 1792496,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Froglings",
-      "dire_team": "Ka4kanarskie cyxariki",
-      "radiant_team_id": 139517,
-      "dire_team_id": 130763,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2985,
-      "live_map_number": 1,
-      "start_time": 1794164400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1791747,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2781,
+      "live_seconds": 3571,
       "live_map_number": 1,
       "start_time": 1794164400,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2766,
+      "live_seconds": 3556,
       "live_map_number": 1,
       "start_time": 1794164400,
       "series_type": 1,
@@ -204,140 +137,6 @@
       ]
     },
     {
-      "match_id": 1791748,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Yakult Brothers",
-      "dire_team": "PuckChamp",
-      "radiant_team_id": 135697,
-      "dire_team_id": 128357,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2276,
-      "live_map_number": 1,
-      "start_time": 1794165000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/detskaya_travma",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1793145,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Rottweilas Latam",
-      "radiant_team_id": 139239,
-      "dire_team_id": 137808,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137808/152px_rottweilas_latam_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1832,
-      "live_map_number": 2,
-      "start_time": 1794162000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139239
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1785747,
       "source": "pandascore",
       "status": "live",
@@ -351,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 573,
+      "live_seconds": 1363,
       "live_map_number": 3,
       "start_time": 1794155700,
       "series_type": 1,
@@ -400,6 +199,140 @@
         {
           "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791748,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Yakult Brothers",
+      "dire_team": "PuckChamp",
+      "radiant_team_id": 135697,
+      "dire_team_id": 128357,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 327,
+      "live_map_number": 2,
+      "start_time": 1794165000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/detskaya_travma",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 128357
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1792496,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Essence - Play-in season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Froglings",
+      "dire_team": "Ka4kanarskie cyxariki",
+      "radiant_team_id": 139517,
+      "dire_team_id": 130763,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794164400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139517
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
           "winner_id": null
         }
       ]
@@ -473,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 6,
+    "running_count": 5,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 59,
