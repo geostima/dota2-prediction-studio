@@ -1,77 +1,9 @@
 {
-  "generated_at": 1794179126,
-  "generated_at_iso": "2026-11-08T23:05:26.424987+00:00",
-  "matches": [
-    {
-      "match_id": 1785758,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "CyberHero",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 139339,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2372,
-      "live_map_number": 2,
-      "start_time": 1794172800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1794179576,
+  "generated_at_iso": "2026-11-08T23:12:56.280424+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 60,
