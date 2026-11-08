@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794176002,
-  "generated_at_iso": "2026-11-08T22:13:22.838101+00:00",
+  "generated_at": 1794176577,
+  "generated_at_iso": "2026-11-08T22:22:57.884914+00:00",
   "matches": [
     {
       "match_id": 1792496,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1859,
+      "live_seconds": 2434,
       "live_map_number": 3,
       "start_time": 1794164400,
       "series_type": 1,
@@ -141,7 +141,7 @@
     "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 59,
+    "citoapi_calls_this_month": 60,
     "errors": []
   }
 }
