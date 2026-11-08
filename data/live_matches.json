@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794132816,
-  "generated_at_iso": "2026-11-08T10:13:36.927012+00:00",
+  "generated_at": 1794133368,
+  "generated_at_iso": "2026-11-08T10:22:48.302261+00:00",
   "matches": [
     {
       "match_id": 1792495,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 745,
+      "live_seconds": 1297,
       "live_map_number": 1,
       "start_time": 1794132000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 624,
+      "live_seconds": 1176,
       "live_map_number": 1,
       "start_time": 1794132000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 573,
+      "live_seconds": 1125,
       "live_map_number": 1,
       "start_time": 1794132000,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 306,
+      "live_seconds": 858,
       "live_map_number": 1,
       "start_time": 1794132000,
       "series_type": 1,
@@ -284,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 298,
+      "live_seconds": 850,
       "live_map_number": 1,
       "start_time": 1794132000,
       "series_type": 1,
@@ -318,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/esl_dota2storm",
+      "match_url": "https://kick.com/esl_dota2storm",
       "games": [
         {
           "position": 1,
