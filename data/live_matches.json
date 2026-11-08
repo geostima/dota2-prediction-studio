@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794151998,
-  "generated_at_iso": "2026-11-08T15:33:18.804550+00:00",
+  "generated_at": 1794152574,
+  "generated_at_iso": "2026-11-08T15:42:54.214906+00:00",
   "matches": [
     {
       "match_id": 1791678,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1497,
+      "live_seconds": 2073,
       "live_map_number": 2,
       "start_time": 1794145500,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1169,
+      "live_seconds": 1745,
       "live_map_number": 2,
       "start_time": 1794145200,
       "series_type": 1,
@@ -318,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
+      "match_url": "https://www.twitch.tv/esl_dota2ember",
       "games": [
         {
           "position": 1,
