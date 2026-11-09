@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794231341,
-  "generated_at_iso": "2026-11-09T13:35:41.665455+00:00",
+  "generated_at": 1794231809,
+  "generated_at_iso": "2026-11-09T13:43:29.936149+00:00",
   "matches": [
     {
       "match_id": 1791685,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1602,
+      "live_seconds": 2070,
       "live_map_number": 1,
       "start_time": 1794229200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1347,
+      "live_seconds": 1815,
       "live_map_number": 1,
       "start_time": 1794229800,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 338,
+      "live_seconds": 806,
       "live_map_number": 1,
       "start_time": 1794230700,
       "series_type": 1,
@@ -206,7 +206,7 @@
     {
       "match_id": 1791686,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Division 2 season 5 2026",
       "league_id": 4125,
       "radiant_team": "Nemiga Gaming",
@@ -217,9 +217,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794231000,
+      "live_seconds": 189,
+      "live_map_number": 1,
+      "start_time": 1794231600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -255,7 +255,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -286,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794231000,
+      "start_time": 1794231900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -1009,7 +1009,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 62,
