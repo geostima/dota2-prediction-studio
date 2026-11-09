@@ -1,11 +1,11 @@
 {
-  "generated_at": 1794217963,
-  "generated_at_iso": "2026-11-09T09:52:43.785927+00:00",
+  "generated_at": 1794218805,
+  "generated_at_iso": "2026-11-09T10:06:46.962675+00:00",
   "matches": [
     {
       "match_id": 1792513,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Essence - Play-in season 3 2026",
       "league_id": 5528,
       "radiant_team": "Xipto Esports",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 159,
+      "live_map_number": 1,
       "start_time": 1794218400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,141 @@
       "games": [
         {
           "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
           "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1785742,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "Spirit Academy",
+      "dire_team": "Zero Tenacity",
+      "radiant_team_id": 137540,
+      "dire_team_id": 135854,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 49,
+      "live_map_number": 1,
+      "start_time": 1794218400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791681,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Power Rangers",
+      "dire_team": "Nemiga Gaming",
+      "radiant_team_id": 137870,
+      "dire_team_id": 2227,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 2,
+      "live_map_number": 1,
+      "start_time": 1794218400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
           "winner_id": null
         },
         {
@@ -185,140 +319,6 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2ember",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791681,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Power Rangers",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 137870,
-      "dire_team_id": 2227,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794218400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1785742,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Spirit Academy",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 137540,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794218400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
       "games": [
         {
           "position": 1,
@@ -738,13 +738,281 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1792498,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Essence - Play-in season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Power Rangers",
+      "dire_team": "Ka4kanarskie cyxariki",
+      "radiant_team_id": 137870,
+      "dire_team_id": 130763,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794240000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791751,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "InterActive Philippines",
+      "dire_team": "CyberHero",
+      "radiant_team_id": 129891,
+      "dire_team_id": 139339,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794240000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791750,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Amaru Gaming",
+      "dire_team": "PuckChamp",
+      "radiant_team_id": 137685,
+      "dire_team_id": 128357,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794240000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1785762,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "Team Synapse",
+      "dire_team": "CyberHero",
+      "radiant_team_id": 139124,
+      "dire_team_id": 139339,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794240000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 60,
+    "citoapi_calls_this_month": 62,
     "errors": []
   }
 }
