@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794225143,
-  "generated_at_iso": "2026-11-09T11:52:23.770577+00:00",
+  "generated_at": 1794226219,
+  "generated_at_iso": "2026-11-09T12:10:19.288910+00:00",
   "matches": [
-    {
-      "match_id": 1791681,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Power Rangers",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 137870,
-      "dire_team_id": 2227,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2099,
-      "live_map_number": 2,
-      "start_time": 1794218400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 2227
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1791683,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1780,
+      "live_seconds": 2856,
       "live_map_number": 2,
       "start_time": 1794219000,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1409,
+      "live_seconds": 2485,
       "live_map_number": 2,
       "start_time": 1794218400,
       "series_type": 1,
@@ -217,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 638,
+      "live_map_number": 3,
       "start_time": 1794218400,
       "series_type": 1,
       "known_picks": 0,
@@ -265,7 +198,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -284,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 629,
+      "live_map_number": 2,
       "start_time": 1794218400,
       "series_type": 1,
       "known_picks": 0,
@@ -327,8 +260,75 @@
         },
         {
           "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
           "status": "not_started",
           "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791681,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Power Rangers",
+      "dire_team": "Nemiga Gaming",
+      "radiant_team_id": 137870,
+      "dire_team_id": 2227,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794218400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 2227
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 137870
         },
         {
           "position": 3,
@@ -922,6 +922,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1793140,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "Level Up Academy",
+      "dire_team": "Hokori",
+      "radiant_team_id": 139385,
+      "dire_team_id": 127965,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794247200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
