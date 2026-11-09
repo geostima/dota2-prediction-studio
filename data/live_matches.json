@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794242168,
-  "generated_at_iso": "2026-11-09T16:36:08.898354+00:00",
+  "generated_at": 1794242629,
+  "generated_at_iso": "2026-11-09T16:43:49.965899+00:00",
   "matches": [
-    {
-      "match_id": 1785761,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Team Lynx",
-      "dire_team": "potn9ki",
-      "radiant_team_id": 136531,
-      "dire_team_id": 129222,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2198,
-      "live_map_number": 3,
-      "start_time": 1794230700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 136531
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 129222
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1792498,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2043,
+      "live_seconds": 2504,
       "live_map_number": 1,
       "start_time": 1794240000,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1653,
+      "live_seconds": 2114,
       "live_map_number": 1,
       "start_time": 1794240000,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1613,
+      "live_seconds": 2074,
       "live_map_number": 3,
       "start_time": 1794231900,
       "series_type": 1,
@@ -808,7 +741,7 @@
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 65,
