@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794248954,
-  "generated_at_iso": "2026-11-09T18:29:14.757794+00:00",
+  "generated_at": 1794249420,
+  "generated_at_iso": "2026-11-09T18:37:00.244549+00:00",
   "matches": [
     {
       "match_id": 1791750,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1888,
+      "live_seconds": 2354,
       "live_map_number": 1,
       "start_time": 1794247200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1864,
+      "live_seconds": 2330,
       "live_map_number": 3,
       "start_time": 1794240000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 949,
+      "live_seconds": 1415,
       "live_map_number": 1,
       "start_time": 1794248100,
       "series_type": 1,
@@ -318,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
+      "match_url": "https://www.twitch.tv/esl_dota2ember",
       "games": [
         {
           "position": 1,
@@ -452,7 +452,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
+      "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
         {
           "position": 1,
