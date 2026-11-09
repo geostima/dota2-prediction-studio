@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794234384,
-  "generated_at_iso": "2026-11-09T14:26:24.223269+00:00",
+  "generated_at": 1794234938,
+  "generated_at_iso": "2026-11-09T14:35:38.903780+00:00",
   "matches": [
     {
       "match_id": 1785761,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3381,
+      "live_seconds": 3935,
       "live_map_number": 1,
       "start_time": 1794230700,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2308,
+      "live_seconds": 2862,
       "live_map_number": 1,
       "start_time": 1794231900,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 436,
+      "live_seconds": 990,
       "live_map_number": 2,
       "start_time": 1794229800,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 492,
+      "live_map_number": 2,
       "start_time": 1794229200,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -284,8 +284,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 135,
+      "live_map_number": 2,
       "start_time": 1794231600,
       "series_type": 1,
       "known_picks": 0,
@@ -327,7 +327,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
