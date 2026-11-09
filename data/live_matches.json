@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794234938,
-  "generated_at_iso": "2026-11-09T14:35:38.903780+00:00",
+  "generated_at": 1794235409,
+  "generated_at_iso": "2026-11-09T14:43:29.934586+00:00",
   "matches": [
-    {
-      "match_id": 1785761,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Team Lynx",
-      "dire_team": "potn9ki",
-      "radiant_team_id": 136531,
-      "dire_team_id": 129222,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3935,
-      "live_map_number": 1,
-      "start_time": 1794230700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1791684,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2862,
+      "live_seconds": 3333,
       "live_map_number": 1,
       "start_time": 1794231900,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 990,
+      "live_seconds": 1461,
       "live_map_number": 2,
       "start_time": 1794229800,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 492,
+      "live_seconds": 963,
       "live_map_number": 2,
       "start_time": 1794229200,
       "series_type": 1,
@@ -284,7 +217,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 135,
+      "live_seconds": 606,
       "live_map_number": 2,
       "start_time": 1794231600,
       "series_type": 1,
@@ -328,6 +261,73 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1785761,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "Team Lynx",
+      "dire_team": "potn9ki",
+      "radiant_team_id": 136531,
+      "dire_team_id": 129222,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794230700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 136531
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
