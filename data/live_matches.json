@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794233872,
-  "generated_at_iso": "2026-11-09T14:17:52.414666+00:00",
+  "generated_at": 1794234384,
+  "generated_at_iso": "2026-11-09T14:26:24.223269+00:00",
   "matches": [
     {
       "match_id": 1785761,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2869,
+      "live_seconds": 3381,
       "live_map_number": 1,
       "start_time": 1794230700,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1791686,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Nemiga Gaming",
-      "dire_team": "Zenith",
-      "radiant_team_id": 2227,
-      "dire_team_id": 139363,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2252,
-      "live_map_number": 1,
-      "start_time": 1794231600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2storm",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1791684,
       "source": "pandascore",
       "status": "live",
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1796,
+      "live_seconds": 2308,
       "live_map_number": 1,
       "start_time": 1794231900,
       "series_type": 1,
@@ -194,6 +127,73 @@
         {
           "position": 2,
           "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1792497,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Essence - Play-in season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "angry birds",
+      "dire_team": "Ka4kanarskie cyxariki",
+      "radiant_team_id": 139462,
+      "dire_team_id": 130763,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 436,
+      "live_map_number": 2,
+      "start_time": 1794229800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139462
+        },
+        {
+          "position": 2,
+          "status": "running",
           "winner_id": null
         },
         {
@@ -271,22 +271,22 @@
       ]
     },
     {
-      "match_id": 1792497,
+      "match_id": 1791686,
       "source": "pandascore",
       "status": "live",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "angry birds",
-      "dire_team": "Ka4kanarskie cyxariki",
-      "radiant_team_id": 139462,
-      "dire_team_id": 130763,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Nemiga Gaming",
+      "dire_team": "Zenith",
+      "radiant_team_id": 2227,
+      "dire_team_id": 139363,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
+      "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794229800,
+      "start_time": 1794231600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -318,12 +318,12 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/1win_dota",
+      "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
         {
           "position": 1,
           "status": "finished",
-          "winner_id": 139462
+          "winner_id": 2227
         },
         {
           "position": 2,
