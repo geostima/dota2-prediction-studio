@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794250360,
-  "generated_at_iso": "2026-11-09T18:52:40.103442+00:00",
+  "generated_at": 1794251114,
+  "generated_at_iso": "2026-11-09T19:05:14.974282+00:00",
   "matches": [
-    {
-      "match_id": 1792498,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Power Rangers",
-      "dire_team": "Ka4kanarskie cyxariki",
-      "radiant_team_id": 137870,
-      "dire_team_id": 130763,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/130763/cyxariki_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3270,
-      "live_map_number": 3,
-      "start_time": 1794240000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 130763
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137870
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1793140,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2355,
+      "live_seconds": 3109,
       "live_map_number": 1,
       "start_time": 1794248100,
       "series_type": 1,
@@ -150,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 550,
+      "live_map_number": 2,
       "start_time": 1794247200,
       "series_type": 1,
       "known_picks": 0,
@@ -193,74 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1792509,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 139239,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794250800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -386,6 +252,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1792509,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Essence - Play-in season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Xipto Esports",
+      "dire_team": "Yellow Submarine",
+      "radiant_team_id": 139239,
+      "dire_team_id": 1931,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794251700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
       "games": [
         {
           "position": 1,
@@ -540,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 68,
