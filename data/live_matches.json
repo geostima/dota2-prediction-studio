@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794352372,
-  "generated_at_iso": "2026-11-10T23:12:52.901966+00:00",
+  "generated_at": 1794352949,
+  "generated_at_iso": "2026-11-10T23:22:29.412488+00:00",
   "matches": [
     {
       "match_id": 1792500,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 57,
+      "live_map_number": 2,
       "start_time": 1794347100,
       "series_type": 1,
       "known_picks": 0,
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
