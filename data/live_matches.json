@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794346388,
-  "generated_at_iso": "2026-11-10T21:33:08.498036+00:00",
+  "generated_at": 1794346958,
+  "generated_at_iso": "2026-11-10T21:42:38.678928+00:00",
   "matches": [
     {
       "match_id": 1785749,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 280,
+      "live_map_number": 3,
       "start_time": 1794337200,
       "series_type": 1,
       "known_picks": 0,
@@ -64,7 +64,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
