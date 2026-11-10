@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794318781,
-  "generated_at_iso": "2026-11-10T13:53:01.586938+00:00",
+  "generated_at": 1794319603,
+  "generated_at_iso": "2026-11-10T14:06:44.005053+00:00",
   "matches": [
-    {
-      "match_id": 1791755,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "HULIGANI",
-      "dire_team": "Amaru Gaming",
-      "radiant_team_id": 138842,
-      "dire_team_id": 137685,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2903,
-      "live_map_number": 1,
-      "start_time": 1794315600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1791758,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1474,
+      "live_seconds": 2296,
       "live_map_number": 1,
       "start_time": 1794317100,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1271,
+      "live_seconds": 2093,
       "live_map_number": 2,
       "start_time": 1794313200,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 549,
+      "live_seconds": 1371,
       "live_map_number": 2,
       "start_time": 1794313200,
       "series_type": 1,
@@ -284,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 338,
+      "live_seconds": 1160,
       "live_map_number": 1,
       "start_time": 1794318300,
       "series_type": 1,
@@ -351,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 152,
+      "live_seconds": 974,
       "live_map_number": 1,
       "start_time": 1794318600,
       "series_type": 1,
@@ -418,8 +351,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 180,
+      "live_map_number": 2,
       "start_time": 1794315600,
       "series_type": 1,
       "known_picks": 0,
@@ -461,7 +394,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -472,22 +405,22 @@
       ]
     },
     {
-      "match_id": 1793149,
+      "match_id": 1791755,
       "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Mena Warriors",
-      "radiant_team_id": 139239,
-      "dire_team_id": 139392,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
-      "radiant_score": 0,
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "HULIGANI",
+      "dire_team": "Amaru Gaming",
+      "radiant_team_id": 138842,
+      "dire_team_id": 137685,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
+      "radiant_score": 1,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794322800,
+      "start_time": 1794315600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -519,12 +452,12 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/epc_en",
+      "match_url": "https://www.twitch.tv/esl_dota2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138842
         },
         {
           "position": 2,
@@ -1012,7 +945,7 @@
     "running_count": 7,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 73,
+    "citoapi_calls_this_month": 74,
     "errors": []
   }
 }
