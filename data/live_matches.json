@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794314054,
-  "generated_at_iso": "2026-11-10T12:34:14.993518+00:00",
+  "generated_at": 1794314569,
+  "generated_at_iso": "2026-11-10T12:42:49.444558+00:00",
   "matches": [
     {
       "match_id": 1791688,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 4195,
+      "live_seconds": 4710,
       "live_map_number": 2,
       "start_time": 1794304800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1417,
+      "live_seconds": 1932,
       "live_map_number": 3,
       "start_time": 1794304800,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1332,
+      "live_seconds": 1847,
       "live_map_number": 3,
       "start_time": 1794305400,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 796,
+      "live_seconds": 1311,
       "live_map_number": 1,
       "start_time": 1794313200,
       "series_type": 1,
@@ -284,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 670,
+      "live_seconds": 1185,
       "live_map_number": 1,
       "start_time": 1794313200,
       "series_type": 1,
@@ -351,8 +351,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 218,
+      "live_map_number": 3,
       "start_time": 1794304800,
       "series_type": 1,
       "known_picks": 0,
@@ -399,7 +399,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
