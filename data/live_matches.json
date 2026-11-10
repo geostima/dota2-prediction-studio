@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794346958,
-  "generated_at_iso": "2026-11-10T21:42:38.678928+00:00",
+  "generated_at": 1794347561,
+  "generated_at_iso": "2026-11-10T21:52:41.204905+00:00",
   "matches": [
     {
       "match_id": 1785749,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 280,
+      "live_seconds": 883,
       "live_map_number": 3,
       "start_time": 1794337200,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1792500,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Essence - Play-in season 3 2026",
       "league_id": 5528,
       "radiant_team": "CyberHero",
@@ -83,9 +83,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794348000,
+      "live_seconds": 333,
+      "live_map_number": 1,
+      "start_time": 1794347100,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -138,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 75,
