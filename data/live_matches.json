@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794354148,
-  "generated_at_iso": "2026-11-10T23:42:28.215326+00:00",
+  "generated_at": 1794354749,
+  "generated_at_iso": "2026-11-10T23:52:29.209218+00:00",
   "matches": [
     {
       "match_id": 1792500,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1256,
+      "live_seconds": 1857,
       "live_map_number": 2,
       "start_time": 1794347100,
       "series_type": 1,
