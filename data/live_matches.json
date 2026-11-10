@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794327889,
-  "generated_at_iso": "2026-11-10T16:24:49.647210+00:00",
+  "generated_at": 1794328418,
+  "generated_at_iso": "2026-11-10T16:33:38.877672+00:00",
   "matches": [
     {
       "match_id": 1786537,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1926,
+      "live_seconds": 2455,
       "live_map_number": 1,
       "start_time": 1794325800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1386,
+      "live_seconds": 1915,
       "live_map_number": 1,
       "start_time": 1794326400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 258,
+      "live_seconds": 787,
       "live_map_number": 3,
       "start_time": 1794318300,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 109,
+      "live_seconds": 638,
       "live_map_number": 3,
       "start_time": 1794318600,
       "series_type": 1,
@@ -271,73 +271,6 @@
       ]
     },
     {
-      "match_id": 1791749,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "HULIGANI",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 138842,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794326400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1792499,
       "source": "pandascore",
       "status": "upcoming",
@@ -386,6 +319,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791749,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "HULIGANI",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 138842,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794330000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
       "games": [
         {
           "position": 1,
