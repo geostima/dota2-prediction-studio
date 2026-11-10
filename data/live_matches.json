@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794340348,
-  "generated_at_iso": "2026-11-10T19:52:28.902867+00:00",
+  "generated_at": 1794341165,
+  "generated_at_iso": "2026-11-10T20:06:05.232778+00:00",
   "matches": [
     {
       "match_id": 1785749,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2879,
+      "live_seconds": 3696,
       "live_map_number": 1,
       "start_time": 1794337200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1079,
+      "live_seconds": 1896,
       "live_map_number": 2,
       "start_time": 1794333900,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139392/esx_iz6z_j0_t4apo8kg_tg5jc_g_bna8zbw_xn.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 767,
+      "live_seconds": 1584,
       "live_map_number": 2,
       "start_time": 1794334500,
       "series_type": 1,
