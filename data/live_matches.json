@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794327428,
-  "generated_at_iso": "2026-11-10T16:17:08.999095+00:00",
+  "generated_at": 1794327889,
+  "generated_at_iso": "2026-11-10T16:24:49.647210+00:00",
   "matches": [
     {
       "match_id": 1786537,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1465,
+      "live_seconds": 1926,
       "live_map_number": 1,
       "start_time": 1794325800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 925,
+      "live_seconds": 1386,
       "live_map_number": 1,
       "start_time": 1794326400,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 258,
+      "live_map_number": 3,
       "start_time": 1794318300,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +198,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 109,
+      "live_map_number": 3,
       "start_time": 1794318600,
       "series_type": 1,
       "known_picks": 0,
@@ -265,7 +265,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
