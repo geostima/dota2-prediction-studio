@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794319603,
-  "generated_at_iso": "2026-11-10T14:06:44.005053+00:00",
+  "generated_at": 1794320179,
+  "generated_at_iso": "2026-11-10T14:16:19.555486+00:00",
   "matches": [
     {
       "match_id": 1791758,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2296,
+      "live_seconds": 2872,
       "live_map_number": 1,
       "start_time": 1794317100,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1793148,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Level Up Academy",
-      "dire_team": "oveA",
-      "radiant_team_id": 139385,
-      "dire_team_id": 139391,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139385/level_up_esports_2021_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2093,
-      "live_map_number": 2,
-      "start_time": 1794313200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139391
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1786536,
       "source": "pandascore",
       "status": "live",
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1371,
+      "live_seconds": 1947,
       "live_map_number": 2,
       "start_time": 1794313200,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1160,
+      "live_seconds": 1736,
       "live_map_number": 1,
       "start_time": 1794318300,
       "series_type": 1,
@@ -284,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 974,
+      "live_seconds": 1550,
       "live_map_number": 1,
       "start_time": 1794318600,
       "series_type": 1,
@@ -351,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 180,
+      "live_seconds": 756,
       "live_map_number": 2,
       "start_time": 1794315600,
       "series_type": 1,
@@ -418,8 +351,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 2,
+      "live_map_number": 2,
       "start_time": 1794315600,
       "series_type": 1,
       "known_picks": 0,
@@ -461,7 +394,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -942,7 +875,7 @@
     }
   ],
   "meta": {
-    "running_count": 7,
+    "running_count": 6,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 74,
