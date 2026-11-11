@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794411216,
-  "generated_at_iso": "2026-11-11T15:33:36.862847+00:00",
+  "generated_at": 1794411777,
+  "generated_at_iso": "2026-11-11T15:42:57.261076+00:00",
   "matches": [
     {
       "match_id": 1791734,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2154,
+      "live_seconds": 2715,
       "live_map_number": 2,
       "start_time": 1794404400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1941,
+      "live_seconds": 2502,
       "live_map_number": 2,
       "start_time": 1794403800,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1129,
+      "live_seconds": 1690,
       "live_map_number": 3,
       "start_time": 1794399300,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 732,
+      "live_seconds": 1293,
       "live_map_number": 2,
       "start_time": 1794405600,
       "series_type": 1,
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 151,
+      "live_map_number": 3,
       "start_time": 1794403800,
       "series_type": 1,
       "known_picks": 0,
@@ -332,7 +332,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
