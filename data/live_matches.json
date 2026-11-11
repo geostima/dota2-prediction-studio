@@ -1,24 +1,24 @@
 {
-  "generated_at": 1794426753,
-  "generated_at_iso": "2026-11-11T19:52:33.713259+00:00",
+  "generated_at": 1794427592,
+  "generated_at_iso": "2026-11-11T20:06:33.012988+00:00",
   "matches": [
     {
-      "match_id": 1791735,
+      "match_id": 1785766,
       "source": "pandascore",
       "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "CyberHero",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 139339,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "Team Lynx",
+      "dire_team": "Team Synapse",
+      "radiant_team_id": 136531,
+      "dire_team_id": 139124,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2929,
+      "live_seconds": 301,
       "live_map_number": 3,
-      "start_time": 1794415800,
+      "start_time": 1794418200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,84 +50,17 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/esl_dota2storm",
+      "match_url": "https://www.twitch.tv/asgard_championship2",
       "games": [
         {
           "position": 1,
           "status": "finished",
-          "winner_id": 139339
+          "winner_id": 139124
         },
         {
           "position": 2,
           "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1792502,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Power Rangers",
-      "dire_team": "angry birds",
-      "radiant_team_id": 137870,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2375,
-      "live_map_number": 3,
-      "start_time": 1794416400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139462
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137870
+          "winner_id": 136531
         },
         {
           "position": 3,
@@ -195,73 +128,6 @@
           "position": 2,
           "status": "finished",
           "winner_id": 137437
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1785766,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Team Lynx",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 136531,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794418200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 136531
         },
         {
           "position": 3,
@@ -540,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 85,
