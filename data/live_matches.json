@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794410075,
-  "generated_at_iso": "2026-11-11T15:14:35.376082+00:00",
+  "generated_at": 1794410555,
+  "generated_at_iso": "2026-11-11T15:22:35.638619+00:00",
   "matches": [
     {
       "match_id": 1792501,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2187,
+      "live_seconds": 2667,
       "live_map_number": 2,
       "start_time": 1794403800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1013,
+      "live_seconds": 1493,
       "live_map_number": 2,
       "start_time": 1794404400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 800,
+      "live_seconds": 1280,
       "live_map_number": 2,
       "start_time": 1794403800,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 468,
+      "live_map_number": 3,
       "start_time": 1794399300,
       "series_type": 1,
       "known_picks": 0,
@@ -265,7 +265,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 71,
+      "live_map_number": 2,
       "start_time": 1794405600,
       "series_type": 1,
       "known_picks": 0,
@@ -327,74 +327,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1786539,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "Cooman Team",
-      "dire_team": "TBD",
-      "radiant_team_id": 137437,
-      "dire_team_id": null,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": null,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794411000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -587,6 +520,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786539,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "Cooman Team",
+      "dire_team": "TBD",
+      "radiant_team_id": 137437,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794412800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
       "games": [
         {
           "position": 1,
