@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794420413,
-  "generated_at_iso": "2026-11-11T18:06:55.261475+00:00",
+  "generated_at": 1794421029,
+  "generated_at_iso": "2026-11-11T18:17:09.449794+00:00",
   "matches": [
-    {
-      "match_id": 1786539,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "Cooman Team",
-      "dire_team": "LenS Team",
-      "radiant_team_id": 137437,
-      "dire_team_id": 137605,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3650,
-      "live_map_number": 1,
-      "start_time": 1794416400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785766,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2161,
+      "live_seconds": 2777,
       "live_map_number": 1,
       "start_time": 1794418200,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1460,
+      "live_seconds": 2076,
       "live_map_number": 1,
       "start_time": 1794418800,
       "series_type": 1,
@@ -217,39 +150,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 132,
+      "live_seconds": 748,
       "live_map_number": 2,
       "start_time": 1794415800,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "sematary",
-        "strong",
-        "zombie",
-        "\u041c\u0435\u0447\u0442\u0430.",
-        "\u2666"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "-",
-        "destroyed",
-        "mostwanted",
-        "\u0432\u043b\u0430\u0441\u0442\u0435\u043b\u0438\u043d \u043a\u0430\u043b\u0435\u043a",
-        "\u0e47"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Hoodwink",
-        "Windranger",
-        "Slark",
-        "Winter Wyvern",
-        "Sand King"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Witch Doctor",
-        "Doom",
-        "Spectre",
-        "Dark Willow",
-        "Ember Spirit"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
@@ -284,39 +217,39 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 214,
+      "live_map_number": 2,
       "start_time": 1794416400,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "777",
-        "BUBBLE PUMP",
-        "ace serve",
-        "rain for rainbow",
-        "\u0447\u0443\u043f\u0438\u043a"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "Ankou \u2661",
-        "akinak1337 lifestyle",
-        "show off",
-        "waveformn",
-        "\u041f\u0415\u0420\u0414\u0410\u041d\u0427\u0418\u041a \u041f\u0420\u0410\u0419\u041c"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Clockwerk",
-        "Dazzle",
-        "Earthshaker",
-        "Slark",
-        "Windranger"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Brewmaster",
-        "Leshrac",
-        "Anti-Mage",
-        "Hoodwink",
-        "Techies"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
       "games": [
@@ -324,6 +257,73 @@
           "position": 1,
           "status": "finished",
           "winner_id": 139462
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786539,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "Cooman Team",
+      "dire_team": "LenS Team",
+      "radiant_team_id": 137437,
+      "dire_team_id": 137605,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794416400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137605
         },
         {
           "position": 2,
