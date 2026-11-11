@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794418440,
-  "generated_at_iso": "2026-11-11T17:34:00.958938+00:00",
+  "generated_at": 1794418966,
+  "generated_at_iso": "2026-11-11T17:42:46.701041+00:00",
   "matches": [
     {
       "match_id": 1791736,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 4392,
+      "live_seconds": 4918,
       "live_map_number": 3,
       "start_time": 1794405600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2689,
+      "live_seconds": 3215,
       "live_map_number": 1,
       "start_time": 1794415800,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2449,
+      "live_seconds": 2975,
       "live_map_number": 1,
       "start_time": 1794416400,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1677,
+      "live_seconds": 2203,
       "live_map_number": 1,
       "start_time": 1794416400,
       "series_type": 1,
@@ -284,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 188,
+      "live_seconds": 714,
       "live_map_number": 1,
       "start_time": 1794418200,
       "series_type": 1,
@@ -340,7 +340,7 @@
     {
       "match_id": 1791663,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Division 2 season 5 2026",
       "league_id": 4125,
       "radiant_team": "Xipto Esports",
@@ -351,9 +351,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794418200,
+      "live_seconds": 13,
+      "live_map_number": 1,
+      "start_time": 1794418800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -389,7 +389,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -674,7 +674,7 @@
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 6,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
