@@ -1,141 +1,7 @@
 {
-  "generated_at": 1794403447,
-  "generated_at_iso": "2026-11-11T13:24:07.966713+00:00",
+  "generated_at": 1794404034,
+  "generated_at_iso": "2026-11-11T13:33:54.405136+00:00",
   "matches": [
-    {
-      "match_id": 1786538,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "LenS Team",
-      "dire_team": "iLTW TEAM",
-      "radiant_team_id": 137605,
-      "dire_team_id": 139493,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3365,
-      "live_map_number": 1,
-      "start_time": 1794399300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791664,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "PlayTime",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 137885,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3233,
-      "live_map_number": 3,
-      "start_time": 1794391200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2storm",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137885
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1791733,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2409,
+      "live_seconds": 2996,
       "live_map_number": 3,
       "start_time": 1794391200,
       "series_type": 1,
@@ -206,7 +72,7 @@
     {
       "match_id": 1792501,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "1win Essence - Play-in season 3 2026",
       "league_id": 5528,
       "radiant_team": "Froglings",
@@ -217,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 229,
+      "live_map_number": 1,
       "start_time": 1794403800,
       "series_type": 1,
       "known_picks": 0,
@@ -255,8 +121,75 @@
       "games": [
         {
           "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786538,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "LenS Team",
+      "dire_team": "iLTW TEAM",
+      "radiant_team_id": 137605,
+      "dire_team_id": 139493,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794399300,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139493
         },
         {
           "position": 2,
@@ -653,7 +586,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/esl_dota2ember",
+      "match_url": "https://www.twitch.tv/esl_dota2storm",
       "games": [
         {
           "position": 1,
