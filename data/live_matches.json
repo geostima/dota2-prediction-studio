@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794414880,
-  "generated_at_iso": "2026-11-11T16:34:40.499266+00:00",
+  "generated_at": 1794415389,
+  "generated_at_iso": "2026-11-11T16:43:10.003283+00:00",
   "matches": [
     {
       "match_id": 1785751,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1768,
+      "live_seconds": 2277,
       "live_map_number": 3,
       "start_time": 1794403800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 832,
+      "live_seconds": 1342,
       "live_map_number": 3,
       "start_time": 1794405600,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 660,
+      "live_seconds": 1170,
       "live_map_number": 3,
       "start_time": 1794404400,
       "series_type": 1,
