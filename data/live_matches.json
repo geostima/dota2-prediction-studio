@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794402390,
-  "generated_at_iso": "2026-11-11T13:06:30.711392+00:00",
+  "generated_at": 1794402985,
+  "generated_at_iso": "2026-11-11T13:16:25.555985+00:00",
   "matches": [
     {
       "match_id": 1786538,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2308,
+      "live_seconds": 2903,
       "live_map_number": 1,
       "start_time": 1794399300,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2176,
+      "live_seconds": 2771,
       "live_map_number": 3,
       "start_time": 1794391200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2166,
+      "live_seconds": 2761,
       "live_map_number": 3,
       "start_time": 1794391200,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1516,
+      "live_seconds": 2111,
       "live_map_number": 3,
       "start_time": 1794391200,
       "series_type": 1,
@@ -284,7 +284,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1352,
+      "live_seconds": 1947,
       "live_map_number": 3,
       "start_time": 1794391200,
       "series_type": 1,
@@ -338,73 +338,6 @@
       ]
     },
     {
-      "match_id": 1785751,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Inner Circle x Insanity",
-      "dire_team": "Xipto Esports",
-      "radiant_team_id": 137417,
-      "dire_team_id": 139239,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794402000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1792501,
       "source": "pandascore",
       "status": "upcoming",
@@ -453,6 +386,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1785751,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "Inner Circle x Insanity",
+      "dire_team": "Xipto Esports",
+      "radiant_team_id": 137417,
+      "dire_team_id": 139239,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794403800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
       "games": [
         {
           "position": 1,
