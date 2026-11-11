@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794416755,
-  "generated_at_iso": "2026-11-11T17:05:55.475832+00:00",
+  "generated_at": 1794417290,
+  "generated_at_iso": "2026-11-11T17:14:50.675450+00:00",
   "matches": [
     {
       "match_id": 1791736,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2707,
+      "live_seconds": 3242,
       "live_map_number": 3,
       "start_time": 1794405600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2535,
+      "live_seconds": 3070,
       "live_map_number": 3,
       "start_time": 1794404400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1004,
+      "live_seconds": 1539,
       "live_map_number": 1,
       "start_time": 1794415800,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 764,
+      "live_seconds": 1299,
       "live_map_number": 1,
       "start_time": 1794416400,
       "series_type": 1,
@@ -273,7 +273,7 @@
     {
       "match_id": 1786539,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Media Eleague - Season 5 2026",
       "league_id": 5582,
       "radiant_team": "Cooman Team",
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 527,
+      "live_map_number": 1,
       "start_time": 1794416400,
       "series_type": 1,
       "known_picks": 0,
@@ -322,7 +322,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -741,7 +741,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 5,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
