@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794389115,
-  "generated_at_iso": "2026-11-11T09:25:15.416181+00:00",
+  "generated_at": 1794389617,
+  "generated_at_iso": "2026-11-11T09:33:37.684902+00:00",
   "matches": [
     {
       "match_id": 1792510,
@@ -788,6 +788,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1786539,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Media Eleague - Season 5 2026",
+      "league_id": 5582,
+      "radiant_team": "Cooman Team",
+      "dire_team": "TBD",
+      "radiant_team_id": 137437,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794411000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
       "games": [
         {
           "position": 1,
