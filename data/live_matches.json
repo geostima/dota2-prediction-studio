@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794397364,
-  "generated_at_iso": "2026-11-11T11:42:44.344541+00:00",
+  "generated_at": 1794397957,
+  "generated_at_iso": "2026-11-11T11:52:37.126307+00:00",
   "matches": [
     {
       "match_id": 1785750,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1725,
+      "live_seconds": 2318,
       "live_map_number": 2,
       "start_time": 1794391200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1455,
+      "live_seconds": 2048,
       "live_map_number": 2,
       "start_time": 1794391200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135697/yakult_brothers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1007,
+      "live_seconds": 1600,
       "live_map_number": 2,
       "start_time": 1794391200,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 772,
+      "live_seconds": 1365,
       "live_map_number": 2,
       "start_time": 1794391200,
       "series_type": 1,
@@ -271,6 +271,73 @@
       ]
     },
     {
+      "match_id": 1791733,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "InterActive Philippines",
+      "dire_team": "Zero Tenacity",
+      "radiant_team_id": 129891,
+      "dire_team_id": 135854,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 351,
+      "live_map_number": 2,
+      "start_time": 1794391200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2earth",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 129891
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1792510,
       "source": "pandascore",
       "status": "live",
@@ -284,8 +351,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 113,
+      "live_map_number": 3,
       "start_time": 1794391200,
       "series_type": 1,
       "known_picks": 0,
@@ -332,74 +399,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791733,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "InterActive Philippines",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 129891,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794391200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2earth",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 129891
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
