@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794414335,
-  "generated_at_iso": "2026-11-11T16:25:35.978860+00:00",
+  "generated_at": 1794414880,
+  "generated_at_iso": "2026-11-11T16:34:40.499266+00:00",
   "matches": [
-    {
-      "match_id": 1792501,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Froglings",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 139517,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2709,
-      "live_map_number": 3,
-      "start_time": 1794403800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139517
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785751,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1223,
+      "live_seconds": 1768,
       "live_map_number": 3,
       "start_time": 1794403800,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 287,
+      "live_seconds": 832,
       "live_map_number": 3,
       "start_time": 1794405600,
       "series_type": 1,
@@ -217,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 115,
+      "live_seconds": 660,
       "live_map_number": 3,
       "start_time": 1794404400,
       "series_type": 1,
@@ -271,6 +204,73 @@
       ]
     },
     {
+      "match_id": 1792502,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Essence - Play-in season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Power Rangers",
+      "dire_team": "angry birds",
+      "radiant_team_id": 137870,
+      "dire_team_id": 139462,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794416400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1791735,
       "source": "pandascore",
       "status": "upcoming",
@@ -286,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794414600,
+      "start_time": 1794416400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -353,7 +353,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794414600,
+      "start_time": 1794416400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -420,73 +420,6 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794414600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1792502,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "1win Essence - Play-in season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Power Rangers",
-      "dire_team": "angry birds",
-      "radiant_team_id": 137870,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
       "start_time": 1794416400,
       "series_type": 1,
       "known_picks": 0,
@@ -519,7 +452,7 @@
         "",
         ""
       ],
-      "match_url": "https://www.twitch.tv/1win_dota",
+      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
       "games": [
         {
           "position": 1,
@@ -875,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
