@@ -1,141 +1,7 @@
 {
-  "generated_at": 1794430688,
-  "generated_at_iso": "2026-11-11T20:58:08.230775+00:00",
+  "generated_at": 1794431525,
+  "generated_at_iso": "2026-11-11T21:12:05.543551+00:00",
   "matches": [
-    {
-      "match_id": 1785766,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Team Lynx",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 136531,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3396,
-      "live_map_number": 3,
-      "start_time": 1794418200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139124
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 136531
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791668,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "potn9ki",
-      "dire_team": "Power Rangers",
-      "radiant_team_id": 129222,
-      "dire_team_id": 137870,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2811,
-      "live_map_number": 1,
-      "start_time": 1794427800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2ember",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1792508,
       "source": "pandascore",
@@ -150,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 410,
+      "live_map_number": 2,
       "start_time": 1794427800,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -217,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 386,
+      "live_map_number": 2,
       "start_time": 1794428100,
       "series_type": 1,
       "known_picks": 0,
@@ -257,6 +123,73 @@
           "position": 1,
           "status": "finished",
           "winner_id": 139517
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791668,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "potn9ki",
+      "dire_team": "Power Rangers",
+      "radiant_team_id": 129222,
+      "dire_team_id": 137870,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794427800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2ember",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137870
         },
         {
           "position": 2,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 85,
