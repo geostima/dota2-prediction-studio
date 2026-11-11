@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794432835,
-  "generated_at_iso": "2026-11-11T21:33:55.912924+00:00",
+  "generated_at": 1794433359,
+  "generated_at_iso": "2026-11-11T21:42:39.392934+00:00",
   "matches": [
     {
       "match_id": 1792508,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1720,
+      "live_seconds": 2244,
       "live_map_number": 2,
       "start_time": 1794427800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1696,
+      "live_seconds": 2220,
       "live_map_number": 2,
       "start_time": 1794428100,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1184,
+      "live_seconds": 1708,
       "live_map_number": 2,
       "start_time": 1794427800,
       "series_type": 1,
@@ -194,73 +194,6 @@
         {
           "position": 2,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1785767,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Time to Sleep",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 139490,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794431700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
           "winner_id": null
         },
         {
