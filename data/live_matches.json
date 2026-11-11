@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794412379,
-  "generated_at_iso": "2026-11-11T15:52:59.070994+00:00",
+  "generated_at": 1794413221,
+  "generated_at_iso": "2026-11-11T16:07:01.920663+00:00",
   "matches": [
     {
       "match_id": 1791734,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3317,
+      "live_seconds": 4159,
       "live_map_number": 2,
       "start_time": 1794404400,
       "series_type": 1,
@@ -70,140 +70,6 @@
       ]
     },
     {
-      "match_id": 1786538,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Media Eleague - Season 5 2026",
-      "league_id": 5582,
-      "radiant_team": "LenS Team",
-      "dire_team": "iLTW TEAM",
-      "radiant_team_id": 137605,
-      "dire_team_id": 139493,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139493/600px_iltw_team_fme5_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2292,
-      "live_map_number": 3,
-      "start_time": 1794399300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/fonbet_media_eleague",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139493
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137605
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791736,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "InterActive Philippines",
-      "dire_team": "Amaru Gaming",
-      "radiant_team_id": 129891,
-      "dire_team_id": 137685,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1895,
-      "live_map_number": 2,
-      "start_time": 1794405600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2ember",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137685
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1792501,
       "source": "pandascore",
       "status": "live",
@@ -217,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 753,
+      "live_seconds": 1595,
       "live_map_number": 3,
       "start_time": 1794403800,
       "series_type": 1,
@@ -284,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 109,
+      "live_map_number": 3,
       "start_time": 1794403800,
       "series_type": 1,
       "known_picks": 0,
@@ -329,6 +195,73 @@
           "position": 2,
           "status": "finished",
           "winner_id": 139239
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791736,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "InterActive Philippines",
+      "dire_team": "Amaru Gaming",
+      "radiant_team_id": 129891,
+      "dire_team_id": 137685,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137685/181px_amaru_gaming_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794405600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2ember",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137685
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 129891
         },
         {
           "position": 3,
@@ -420,7 +353,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794412800,
+      "start_time": 1794414600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -478,16 +411,16 @@
       "league_name": "Media Eleague - Season 5 2026",
       "league_id": 5582,
       "radiant_team": "Cooman Team",
-      "dire_team": "TBD",
+      "dire_team": "LenS Team",
       "radiant_team_id": 137437,
-      "dire_team_id": null,
+      "dire_team_id": 137605,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137437/600px_cooman_team_fme5_allmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137605/600px_lens_team_fme5_allmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794412800,
+      "start_time": 1794414600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -942,7 +875,7 @@
     }
   ],
   "meta": {
-    "running_count": 5,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 82,
