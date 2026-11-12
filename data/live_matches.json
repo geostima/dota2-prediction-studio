@@ -1,77 +1,9 @@
 {
-  "generated_at": 1794525769,
-  "generated_at_iso": "2026-11-12T23:22:49.918161+00:00",
-  "matches": [
-    {
-      "match_id": 1785752,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 139239,
-      "dire_team_id": 2227,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2175,
-      "live_map_number": 3,
-      "start_time": 1794514800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139239
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 2227
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1794526417,
+  "generated_at_iso": "2026-11-12T23:33:37.136191+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 91,
