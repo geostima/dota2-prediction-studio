@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794487441,
-  "generated_at_iso": "2026-11-12T12:44:01.098338+00:00",
+  "generated_at": 1794487943,
+  "generated_at_iso": "2026-11-12T12:52:23.613628+00:00",
   "matches": [
-    {
-      "match_id": 1807977,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "Red John",
-      "dire_team": "PuckChamp",
-      "radiant_team_id": 139600,
-      "dire_team_id": 128357,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3391,
-      "live_map_number": 2,
-      "start_time": 1794478200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 128357
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1805032,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1487,
+      "live_seconds": 1989,
       "live_map_number": 1,
       "start_time": 1794486000,
       "series_type": 1,
@@ -845,7 +778,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 86,
