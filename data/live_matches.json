@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794478578,
-  "generated_at_iso": "2026-11-12T10:16:18.537458+00:00",
+  "generated_at": 1794479048,
+  "generated_at_iso": "2026-11-12T10:24:08.455411+00:00",
   "matches": [
     {
       "match_id": 1785768,
@@ -12,11 +12,11 @@
       "dire_team": "Team Synapse",
       "radiant_team_id": 129222,
       "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 849,
+      "live_seconds": 1319,
       "live_map_number": 1,
       "start_time": 1794477600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 53,
+      "live_seconds": 523,
       "live_map_number": 1,
       "start_time": 1794478200,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 181,
+      "live_map_number": 2,
       "start_time": 1794474900,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -595,7 +595,7 @@
       "dire_team": "Team Synapse",
       "radiant_team_id": 129222,
       "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/l_vnte7b.png",
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 0,
