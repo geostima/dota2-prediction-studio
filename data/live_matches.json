@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794498768,
-  "generated_at_iso": "2026-11-12T15:52:48.720187+00:00",
+  "generated_at": 1794499671,
+  "generated_at_iso": "2026-11-12T16:07:51.458778+00:00",
   "matches": [
     {
       "match_id": 1807952,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2167,
+      "live_seconds": 3070,
       "live_map_number": 3,
       "start_time": 1794489300,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2150,
+      "live_seconds": 3053,
       "live_map_number": 3,
       "start_time": 1794488400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1901,
+      "live_seconds": 2804,
       "live_map_number": 1,
       "start_time": 1794496800,
       "series_type": 0,
