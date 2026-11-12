@@ -1,64 +1,7 @@
 {
-  "generated_at": 1794500813,
-  "generated_at_iso": "2026-11-12T16:26:53.494054+00:00",
+  "generated_at": 1794501345,
+  "generated_at_iso": "2026-11-12T16:35:45.597182+00:00",
   "matches": [
-    {
-      "match_id": 1807111,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Nemiga Gaming",
-      "radiant_team_id": 139124,
-      "dire_team_id": 2227,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3946,
-      "live_map_number": 1,
-      "start_time": 1794496800,
-      "series_type": 0,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785770,
       "source": "pandascore",
@@ -73,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1076,
+      "live_seconds": 1608,
       "live_map_number": 1,
       "start_time": 1794499200,
       "series_type": 1,
@@ -112,73 +55,6 @@
         {
           "position": 1,
           "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1807953,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "Spirit Academy",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 137540,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794500100,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
           "winner_id": null
         },
         {
@@ -242,6 +118,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/epc_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1807953,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 41 2026",
+      "league_id": 4807,
+      "radiant_team": "Spirit Academy",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 137540,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794501300,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
@@ -530,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 88,
