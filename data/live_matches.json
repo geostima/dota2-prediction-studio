@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794492426,
-  "generated_at_iso": "2026-11-12T14:07:07.009909+00:00",
+  "generated_at": 1794493023,
+  "generated_at_iso": "2026-11-12T14:17:03.850189+00:00",
   "matches": [
     {
       "match_id": 1785769,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3886,
+      "live_seconds": 4482,
       "live_map_number": 1,
       "start_time": 1794488400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1956,
+      "live_seconds": 2553,
       "live_map_number": 2,
       "start_time": 1794486000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 263,
+      "live_seconds": 859,
       "live_map_number": 2,
       "start_time": 1794488400,
       "series_type": 1,
