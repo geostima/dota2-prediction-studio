@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794490426,
-  "generated_at_iso": "2026-11-12T13:33:46.655908+00:00",
+  "generated_at": 1794490983,
+  "generated_at_iso": "2026-11-12T13:43:03.331419+00:00",
   "matches": [
     {
       "match_id": 1807109,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1902,
+      "live_seconds": 2459,
       "live_map_number": 1,
       "start_time": 1794488400,
       "series_type": 0,
@@ -73,7 +73,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1885,
+      "live_seconds": 2442,
       "live_map_number": 1,
       "start_time": 1794488400,
       "series_type": 1,
@@ -140,7 +140,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1749,
+      "live_seconds": 2306,
       "live_map_number": 1,
       "start_time": 1794488400,
       "series_type": 1,
@@ -207,7 +207,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1167,
+      "live_seconds": 1724,
       "live_map_number": 1,
       "start_time": 1794489300,
       "series_type": 1,
@@ -274,8 +274,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 513,
+      "live_map_number": 2,
       "start_time": 1794486000,
       "series_type": 1,
       "known_picks": 0,
@@ -317,7 +317,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
