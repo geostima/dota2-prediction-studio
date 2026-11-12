@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794482128,
-  "generated_at_iso": "2026-11-12T11:15:28.536820+00:00",
+  "generated_at": 1794482596,
+  "generated_at_iso": "2026-11-12T11:23:16.357971+00:00",
   "matches": [
     {
       "match_id": 1807977,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3603,
+      "live_seconds": 4071,
       "live_map_number": 1,
       "start_time": 1794478200,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1805031,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "angry birds",
-      "radiant_team_id": 135854,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3261,
-      "live_map_number": 2,
-      "start_time": 1794474900,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1785768,
       "source": "pandascore",
       "status": "live",
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1002,
+      "live_seconds": 1470,
       "live_map_number": 2,
       "start_time": 1794477600,
       "series_type": 1,
@@ -912,7 +845,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 86,
