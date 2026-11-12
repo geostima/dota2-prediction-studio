@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794521657,
-  "generated_at_iso": "2026-11-12T22:14:17.442214+00:00",
+  "generated_at": 1794522173,
+  "generated_at_iso": "2026-11-12T22:22:53.174905+00:00",
   "matches": [
     {
       "match_id": 1785752,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3293,
+      "live_seconds": 3809,
       "live_map_number": 2,
       "start_time": 1794514800,
       "series_type": 1,
@@ -68,77 +68,10 @@
           "winner_id": null
         }
       ]
-    },
-    {
-      "match_id": 1805034,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "No Hoodwink",
-      "dire_team": "oveA",
-      "radiant_team_id": 137658,
-      "dire_team_id": 139391,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137658/y3i3_ws5.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3170,
-      "live_map_number": 2,
-      "start_time": 1794514800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139391
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 91,
