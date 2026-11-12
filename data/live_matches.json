@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794484346,
-  "generated_at_iso": "2026-11-12T11:52:26.498455+00:00",
+  "generated_at": 1794485389,
+  "generated_at_iso": "2026-11-12T12:09:49.512017+00:00",
   "matches": [
     {
       "match_id": 1785768,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 3220,
+      "live_seconds": 4263,
       "live_map_number": 2,
       "start_time": 1794477600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 296,
+      "live_seconds": 1339,
       "live_map_number": 2,
       "start_time": 1794478200,
       "series_type": 1,
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794484800,
+      "start_time": 1794485400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -825,6 +825,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1805034,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "No Hoodwink",
+      "dire_team": "oveA",
+      "radiant_team_id": 137658,
+      "dire_team_id": 139391,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137658/y3i3_ws5.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794506400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
