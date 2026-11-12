@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794512587,
-  "generated_at_iso": "2026-11-12T19:43:07.690923+00:00",
+  "generated_at": 1794513154,
+  "generated_at_iso": "2026-11-12T19:52:34.396299+00:00",
   "matches": [
     {
       "match_id": 1785770,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3438,
+      "live_seconds": 4005,
       "live_map_number": 3,
       "start_time": 1794499200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2875,
+      "live_seconds": 3442,
       "live_map_number": 3,
       "start_time": 1794501900,
       "series_type": 1,
@@ -148,10 +148,10 @@
       "dire_team_id": 134536,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2452,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1794510000,
       "series_type": 1,
       "known_picks": 0,
@@ -188,8 +188,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 1669
         },
         {
           "position": 2,
@@ -286,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794513600,
+      "start_time": 1794515400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
