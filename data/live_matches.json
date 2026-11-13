@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794593242,
-  "generated_at_iso": "2026-11-13T18:07:22.038359+00:00",
+  "generated_at": 1794593836,
+  "generated_at_iso": "2026-11-13T18:17:16.979486+00:00",
   "matches": [
     {
       "match_id": 1806970,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2312,
+      "live_seconds": 2906,
       "live_map_number": 2,
       "start_time": 1794586200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 271,
+      "live_seconds": 865,
       "live_map_number": 1,
       "start_time": 1794592800,
       "series_type": 1,
@@ -139,7 +139,7 @@
     {
       "match_id": 1809914,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 3 2026",
       "league_id": 5576,
       "radiant_team": "old blood",
@@ -150,9 +150,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137658/y3i3_ws5.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794592800,
+      "live_seconds": 371,
+      "live_map_number": 1,
+      "start_time": 1794593400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -188,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -339,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 96,
