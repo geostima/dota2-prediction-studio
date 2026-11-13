@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794589536,
-  "generated_at_iso": "2026-11-13T17:05:36.361482+00:00",
+  "generated_at": 1794590037,
+  "generated_at_iso": "2026-11-13T17:13:57.602360+00:00",
   "matches": [
-    {
-      "match_id": 1806970,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Team Liquid",
-      "dire_team": "LGD Gaming",
-      "radiant_team_id": 1647,
-      "dire_team_id": 1657,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3072,
-      "live_map_number": 1,
-      "start_time": 1794586200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785771,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1514,
+      "live_seconds": 2015,
       "live_map_number": 2,
       "start_time": 1794583200,
       "series_type": 1,
@@ -127,6 +60,73 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1806970,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Essence - Season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Team Liquid",
+      "dire_team": "LGD Gaming",
+      "radiant_team_id": 1647,
+      "dire_team_id": 1657,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794586200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1647
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
