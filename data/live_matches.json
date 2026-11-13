@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794573779,
-  "generated_at_iso": "2026-11-13T12:42:59.400388+00:00",
+  "generated_at": 1794574366,
+  "generated_at_iso": "2026-11-13T12:52:46.952336+00:00",
   "matches": [
     {
       "match_id": 1805036,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2062,
+      "live_seconds": 2649,
       "live_map_number": 1,
       "start_time": 1794571200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 242,
+      "live_seconds": 829,
       "live_map_number": 3,
       "start_time": 1794564000,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 425,
+      "live_map_number": 3,
       "start_time": 1794564000,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +198,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -286,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794574800,
+      "start_time": 1794577500,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
