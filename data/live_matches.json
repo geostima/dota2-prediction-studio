@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794590037,
-  "generated_at_iso": "2026-11-13T17:13:57.602360+00:00",
+  "generated_at": 1794590548,
+  "generated_at_iso": "2026-11-13T17:22:28.956881+00:00",
   "matches": [
     {
       "match_id": 1785771,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2015,
+      "live_seconds": 2526,
       "live_map_number": 2,
       "start_time": 1794583200,
       "series_type": 1,
