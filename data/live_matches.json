@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794603926,
-  "generated_at_iso": "2026-11-13T21:05:26.733652+00:00",
+  "generated_at": 1794604395,
+  "generated_at_iso": "2026-11-13T21:13:15.933213+00:00",
   "matches": [
     {
       "match_id": 1793327,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3192,
+      "live_seconds": 3661,
       "live_map_number": 1,
       "start_time": 1794600600,
       "series_type": 1,
@@ -82,9 +82,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1081,
-      "live_map_number": 2,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1794598200,
       "series_type": 1,
       "known_picks": 0,
@@ -126,8 +126,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 135854
         },
         {
           "position": 3,
