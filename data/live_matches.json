@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794605623,
-  "generated_at_iso": "2026-11-13T21:33:45.474967+00:00",
+  "generated_at": 1794606190,
+  "generated_at_iso": "2026-11-13T21:43:10.156439+00:00",
   "matches": [
     {
       "match_id": 1793327,
@@ -16,39 +16,39 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 644,
+      "live_seconds": 1211,
       "live_map_number": 2,
       "start_time": 1794600600,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        ".;;;:!!?&@\u2026,",
-        "123",
-        "GAMBOT-PARIS",
-        "Lari",
-        "[01]"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "888",
-        "Aura",
-        "Saberlight",
-        "humble god",
-        "\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0438\u043d"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Sand King",
-        "Bane",
-        "Lycan",
-        "Hoodwink",
-        "Slark"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Luna",
-        "Invoker",
-        "Doom",
-        "Dark Willow",
-        "Clockwerk"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
       "games": [
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 286,
+      "live_seconds": 853,
       "live_map_number": 3,
       "start_time": 1794598200,
       "series_type": 1,
