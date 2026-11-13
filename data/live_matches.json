@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794573275,
-  "generated_at_iso": "2026-11-13T12:34:35.096584+00:00",
+  "generated_at": 1794573779,
+  "generated_at_iso": "2026-11-13T12:42:59.400388+00:00",
   "matches": [
-    {
-      "match_id": 1791797,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "PlayTime",
-      "dire_team": "HULIGANI",
-      "radiant_team_id": 137885,
-      "dire_team_id": 138842,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 4815,
-      "live_map_number": 2,
-      "start_time": 1794564000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138842
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1805036,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1558,
+      "live_seconds": 2062,
       "live_map_number": 1,
       "start_time": 1794571200,
       "series_type": 1,
@@ -150,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 242,
+      "live_map_number": 3,
       "start_time": 1794564000,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +131,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -875,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 92,
