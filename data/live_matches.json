@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794587630,
-  "generated_at_iso": "2026-11-13T16:33:50.854519+00:00",
+  "generated_at": 1794588168,
+  "generated_at_iso": "2026-11-13T16:42:48.555487+00:00",
   "matches": [
     {
       "match_id": 1809913,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1271,
+      "live_seconds": 1809,
       "live_map_number": 2,
       "start_time": 1794582600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1166,
+      "live_seconds": 1704,
       "live_map_number": 1,
       "start_time": 1794586200,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 146,
+      "live_map_number": 2,
       "start_time": 1794583200,
       "series_type": 1,
       "known_picks": 0,
@@ -193,7 +193,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
