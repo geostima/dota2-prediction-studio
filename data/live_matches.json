@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794597783,
-  "generated_at_iso": "2026-11-13T19:23:03.663595+00:00",
+  "generated_at": 1794598396,
+  "generated_at_iso": "2026-11-13T19:33:16.418894+00:00",
   "matches": [
     {
       "match_id": 1806970,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2340,
+      "live_seconds": 2953,
       "live_map_number": 3,
       "start_time": 1794586200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 374,
+      "live_seconds": 987,
       "live_map_number": 2,
       "start_time": 1794592800,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137658/y3i3_ws5.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 210,
+      "live_seconds": 823,
       "live_map_number": 2,
       "start_time": 1794593400,
       "series_type": 1,
@@ -206,7 +206,7 @@
     {
       "match_id": 1785753,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Asgard Championship - Season 2 2026",
       "league_id": 5550,
       "radiant_team": "PuckChamp",
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 504,
+      "live_map_number": 1,
       "start_time": 1794598200,
       "series_type": 1,
       "known_picks": 0,
@@ -255,7 +255,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -339,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 96,
