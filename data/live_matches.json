@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794679618,
-  "generated_at_iso": "2026-11-14T18:06:58.433197+00:00",
+  "generated_at": 1794680203,
+  "generated_at_iso": "2026-11-14T18:16:43.084731+00:00",
   "matches": [
     {
       "match_id": 1793324,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2797,
+      "live_seconds": 3382,
       "live_map_number": 2,
       "start_time": 1794672000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 287,
+      "live_seconds": 872,
       "live_map_number": 1,
       "start_time": 1794679200,
       "series_type": 1,
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794679200,
+      "start_time": 1794680100,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
