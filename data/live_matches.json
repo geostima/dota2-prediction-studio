@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794651211,
-  "generated_at_iso": "2026-11-14T10:13:31.971177+00:00",
+  "generated_at": 1794651766,
+  "generated_at_iso": "2026-11-14T10:22:46.502523+00:00",
   "matches": [
     {
       "match_id": 1793323,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 4259,
+      "live_seconds": 4814,
       "live_map_number": 1,
       "start_time": 1794646800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 788,
+      "live_seconds": 1343,
       "live_map_number": 1,
       "start_time": 1794650400,
       "series_type": 1,
@@ -118,6 +118,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1811243,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Esports Pro Circuit - Season 3 2026",
+      "league_id": 5576,
+      "radiant_team": "oveA",
+      "dire_team": "angry birds",
+      "radiant_team_id": 139391,
+      "dire_team_id": 139462,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 460,
+      "live_map_number": 1,
+      "start_time": 1794651000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
@@ -185,73 +252,6 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1811243,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "oveA",
-      "dire_team": "angry birds",
-      "radiant_team_id": 139391,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139391/o75_qp0_n.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794651000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
@@ -674,7 +674,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 100,
