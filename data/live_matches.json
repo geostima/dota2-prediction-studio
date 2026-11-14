@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794690321,
-  "generated_at_iso": "2026-11-14T21:05:21.456894+00:00",
+  "generated_at": 1794690797,
+  "generated_at_iso": "2026-11-14T21:13:17.506911+00:00",
   "matches": [
-    {
-      "match_id": 1811244,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "Zero Tenacity",
-      "dire_team": "No Hoodwink",
-      "radiant_team_id": 135854,
-      "dire_team_id": 137658,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137658/y3i3_ws5.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2243,
-      "live_map_number": 3,
-      "start_time": 1794680100,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137658
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 135854
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1793322,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 454,
+      "live_map_number": 2,
       "start_time": 1794686700,
       "series_type": 1,
       "known_picks": 0,
@@ -126,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -205,7 +138,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 105,
