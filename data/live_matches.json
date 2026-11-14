@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794683545,
-  "generated_at_iso": "2026-11-14T19:12:25.199620+00:00",
+  "generated_at": 1794684167,
+  "generated_at_iso": "2026-11-14T19:22:47.448404+00:00",
   "matches": [
     {
       "match_id": 1793324,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1074,
+      "live_seconds": 1696,
       "live_map_number": 3,
       "start_time": 1794672000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 622,
+      "live_seconds": 1244,
       "live_map_number": 2,
       "start_time": 1794679200,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 346,
+      "live_seconds": 968,
       "live_map_number": 1,
       "start_time": 1794682800,
       "series_type": 1,
