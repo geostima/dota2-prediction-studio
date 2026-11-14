@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794652957,
-  "generated_at_iso": "2026-11-14T10:42:37.141720+00:00",
+  "generated_at": 1794653564,
+  "generated_at_iso": "2026-11-14T10:52:44.868702+00:00",
   "matches": [
     {
       "match_id": 1791800,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2534,
+      "live_seconds": 3141,
       "live_map_number": 1,
       "start_time": 1794650400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1651,
+      "live_seconds": 2258,
       "live_map_number": 1,
       "start_time": 1794651000,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1058,
+      "live_seconds": 1665,
       "live_map_number": 1,
       "start_time": 1794651600,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 370,
+      "live_map_number": 2,
       "start_time": 1794646800,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
