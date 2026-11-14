@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794688951,
-  "generated_at_iso": "2026-11-14T20:42:31.706960+00:00",
+  "generated_at": 1794689546,
+  "generated_at_iso": "2026-11-14T20:52:26.154967+00:00",
   "matches": [
     {
       "match_id": 1785757,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2181,
+      "live_seconds": 2776,
       "live_map_number": 2,
       "start_time": 1794682800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2066,
+      "live_seconds": 2661,
       "live_map_number": 1,
       "start_time": 1794686700,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137658/y3i3_ws5.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 873,
+      "live_seconds": 1468,
       "live_map_number": 3,
       "start_time": 1794680100,
       "series_type": 1,
