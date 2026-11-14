@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794675921,
-  "generated_at_iso": "2026-11-14T17:05:21.107178+00:00",
+  "generated_at": 1794676338,
+  "generated_at_iso": "2026-11-14T17:12:18.736883+00:00",
   "matches": [
     {
       "match_id": 1793324,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3864,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1794672000,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139340
         },
         {
           "position": 2,
