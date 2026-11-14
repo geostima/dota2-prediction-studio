@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794661527,
-  "generated_at_iso": "2026-11-14T13:05:27.107539+00:00",
+  "generated_at": 1794661967,
+  "generated_at_iso": "2026-11-14T13:12:50.597438+00:00",
   "matches": [
-    {
-      "match_id": 1793319,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "DO KONCA",
-      "dire_team": "Yellow Submarine",
-      "radiant_team_id": 139547,
-      "dire_team_id": 1931,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3587,
-      "live_map_number": 1,
-      "start_time": 1794657600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1791800,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 3471,
+      "live_seconds": 3911,
       "live_map_number": 3,
       "start_time": 1794650400,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 42,
+      "live_seconds": 482,
       "live_map_number": 1,
       "start_time": 1794661200,
       "series_type": 1,
@@ -190,6 +123,73 @@
           "position": 1,
           "status": "running",
           "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1793319,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Essence - Season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "DO KONCA",
+      "dire_team": "Yellow Submarine",
+      "radiant_team_id": 139547,
+      "dire_team_id": 1931,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794657600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1931
         },
         {
           "position": 2,
@@ -744,7 +744,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 100,
+    "citoapi_calls_this_month": 103,
     "errors": []
   }
 }
