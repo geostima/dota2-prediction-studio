@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794666178,
-  "generated_at_iso": "2026-11-14T14:22:58.231236+00:00",
+  "generated_at": 1794666785,
+  "generated_at_iso": "2026-11-14T14:33:05.913536+00:00",
   "matches": [
     {
       "match_id": 1807985,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3691,
+      "live_seconds": 4298,
       "live_map_number": 1,
       "start_time": 1794662100,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 342,
+      "live_seconds": 949,
       "live_map_number": 2,
       "start_time": 1794661200,
       "series_type": 1,
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1931/800px_yellow_submarine_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 110,
+      "live_map_number": 3,
       "start_time": 1794657600,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +198,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         }
       ]
@@ -206,7 +206,7 @@
     {
       "match_id": 1791805,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "DreamLeague - Division 2 season 5 2026",
       "league_id": 4125,
       "radiant_team": "Xipto Esports",
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 26,
+      "live_map_number": 1,
       "start_time": 1794666600,
       "series_type": 1,
       "known_picks": 0,
@@ -255,7 +255,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -741,7 +741,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 103,
