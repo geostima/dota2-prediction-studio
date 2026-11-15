@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794779546,
-  "generated_at_iso": "2026-11-15T21:52:26.111324+00:00",
+  "generated_at": 1794780341,
+  "generated_at_iso": "2026-11-15T22:05:41.865574+00:00",
   "matches": [
     {
       "match_id": 1793335,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1329,
+      "live_seconds": 2124,
       "live_map_number": 2,
       "start_time": 1794774600,
       "series_type": 1,
@@ -60,6 +60,73 @@
         {
           "position": 2,
           "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1812640,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 20 2026",
+      "league_id": 4884,
+      "radiant_team": "Cloud Rising",
+      "dire_team": "Resp Gaming",
+      "radiant_team_id": 137428,
+      "dire_team_id": 139413,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794801600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
           "winner_id": null
         },
         {
