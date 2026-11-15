@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794745190,
-  "generated_at_iso": "2026-11-15T12:19:50.453471+00:00",
+  "generated_at": 1794745739,
+  "generated_at_iso": "2026-11-15T12:28:59.763041+00:00",
   "matches": [
-    {
-      "match_id": 1791806,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "PuckChamp",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 128357,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 3716,
-      "live_map_number": 2,
-      "start_time": 1794736800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 128357
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1793334,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 857,
+      "live_seconds": 1406,
       "live_map_number": 2,
       "start_time": 1794736800,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 446,
+      "live_seconds": 995,
       "live_map_number": 1,
       "start_time": 1794744900,
       "series_type": 1,
@@ -808,7 +741,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 113,
