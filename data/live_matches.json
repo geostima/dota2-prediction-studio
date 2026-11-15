@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794766045,
-  "generated_at_iso": "2026-11-15T18:07:25.881340+00:00",
+  "generated_at": 1794766620,
+  "generated_at_iso": "2026-11-15T18:17:03.473443+00:00",
   "matches": [
     {
       "match_id": 1793336,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 3369,
+      "live_seconds": 3944,
       "live_map_number": 1,
       "start_time": 1794762900,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 2141,
+      "live_seconds": 2716,
       "live_map_number": 2,
       "start_time": 1794759000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Jane",
+        "johnnupro",
+        "uuu",
+        "\u043d\u044e\u043d\u044f",
+        "\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4\u20df\u20dd\u20e4"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "El Glace Frosse",
+        "Flokk1n",
+        "OTTO",
+        "delirium",
+        "\u0440\u0435\u0448\u0430\u044e \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Earth Spirit",
+        "Dazzle",
+        "Dark Willow",
+        "Doom",
+        "Nature's Prophet"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Spirit Breaker",
+        "Dragon Knight",
+        "Witch Doctor",
+        "Clinkz",
+        "Dawnbreaker"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 669,
+      "live_seconds": 1244,
       "live_map_number": 2,
       "start_time": 1794760200,
       "series_type": 1,
@@ -217,7 +217,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 545,
+      "live_seconds": 1120,
       "live_map_number": 1,
       "start_time": 1794765600,
       "series_type": 1,
@@ -409,7 +409,7 @@
     "running_count": 4,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 114,
+    "citoapi_calls_this_month": 116,
     "errors": []
   }
 }
