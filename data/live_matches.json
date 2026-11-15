@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794771768,
-  "generated_at_iso": "2026-11-15T19:42:48.964361+00:00",
+  "generated_at": 1794772355,
+  "generated_at_iso": "2026-11-15T19:52:35.076248+00:00",
   "matches": [
-    {
-      "match_id": 1791801,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "HULIGANI",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 138842,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2957,
-      "live_map_number": 2,
-      "start_time": 1794765600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1785745,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1900,
+      "live_seconds": 2487,
       "live_map_number": 1,
       "start_time": 1794769800,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 847,
+      "live_seconds": 1434,
       "live_map_number": 2,
       "start_time": 1794762900,
       "series_type": 1,
@@ -219,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794772800,
+      "start_time": 1794774600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 116,
