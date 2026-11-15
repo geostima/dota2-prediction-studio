@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794720825,
-  "generated_at_iso": "2026-11-15T05:33:46.019073+00:00",
+  "generated_at": 1794721385,
+  "generated_at_iso": "2026-11-15T05:43:05.137014+00:00",
   "matches": [
     {
       "match_id": 1812638,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 553,
+      "live_seconds": 1113,
       "live_map_number": 2,
       "start_time": 1794715800,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "beautiful suffering(WINTER ARC)",
-        "brainless",
-        "forwhatiplaythisgame",
-        "reckless",
-        "when yah"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "< blank >",
-        "Daredevil",
-        "batugan",
-        "stay chill",
-        "xy nk"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Lifestealer",
-        "Earthshaker",
-        "Enigma",
-        "Hoodwink",
-        "Dazzle"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Earth Spirit",
-        "Dark Willow",
-        "Dawnbreaker",
-        "Witch Doctor",
-        "Kunkka"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
