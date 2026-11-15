@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794744512,
-  "generated_at_iso": "2026-11-15T12:08:32.037926+00:00",
+  "generated_at": 1794745190,
+  "generated_at_iso": "2026-11-15T12:19:50.453471+00:00",
   "matches": [
     {
       "match_id": 1791806,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3038,
+      "live_seconds": 3716,
       "live_map_number": 2,
       "start_time": 1794736800,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 179,
+      "live_seconds": 857,
       "live_map_number": 2,
       "start_time": 1794736800,
       "series_type": 1,
@@ -139,7 +139,7 @@
     {
       "match_id": 1811242,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 3 2026",
       "league_id": 5576,
       "radiant_team": "Xipto Esports",
@@ -150,9 +150,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794744000,
+      "live_seconds": 446,
+      "live_map_number": 1,
+      "start_time": 1794744900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -188,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -808,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 113,
