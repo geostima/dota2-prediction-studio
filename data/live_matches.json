@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794707561,
-  "generated_at_iso": "2026-11-15T01:52:41.582764+00:00",
+  "generated_at": 1794708559,
+  "generated_at_iso": "2026-11-15T02:09:19.612217+00:00",
   "matches": [
-    {
-      "match_id": 1793326,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "1w Team",
-      "dire_team": "Froglings",
-      "radiant_team_id": 134536,
-      "dire_team_id": 139517,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 3121,
-      "live_map_number": 3,
-      "start_time": 1794694500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 134536
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139517
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1812638,
       "source": "pandascore",
@@ -138,7 +71,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 108,
