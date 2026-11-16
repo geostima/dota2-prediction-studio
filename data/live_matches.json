@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794863146,
-  "generated_at_iso": "2026-11-16T21:05:47.627921+00:00",
+  "generated_at": 1794863691,
+  "generated_at_iso": "2026-11-16T21:14:51.021151+00:00",
   "matches": [
     {
       "match_id": 1811247,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 2,
       "dire_score": 2,
-      "live_seconds": 2310,
+      "live_seconds": 2855,
       "live_map_number": 5,
       "start_time": 1794841200,
       "series_type": 2,
@@ -97,35 +97,35 @@
       "live_map_number": 0,
       "start_time": 1794859800,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "Heilig 1xALL",
-        "Xakoda",
-        "agressif player",
-        "weaky",
-        "ww_zayac"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "I m Going To Be 10k Player",
-        "Katanaa",
-        "Shenorita`",
-        "infinite mog",
-        "\u0422\u0430\u043c, \u0434\u0435 \u043d\u0430\u0441 \u043d\u0435\u043c\u0430"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Earth Spirit",
-        "Witch Doctor",
-        "Luna",
-        "Largo",
-        "Hoodwink"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Alchemist",
-        "Ember Spirit",
-        "Pangolier",
-        "Dark Willow",
-        "Jakiro"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
       "games": [
