@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794831826,
-  "generated_at_iso": "2026-11-16T12:23:46.068392+00:00",
+  "generated_at": 1794833077,
+  "generated_at_iso": "2026-11-16T12:44:39.383791+00:00",
   "matches": [
     {
       "match_id": 1815178,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1286,
+      "live_seconds": 2537,
       "live_map_number": 1,
       "start_time": 1794830400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 835,
+      "live_seconds": 2086,
       "live_map_number": 1,
       "start_time": 1794830400,
       "series_type": 1,
@@ -150,39 +150,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 152,
+      "live_seconds": 1403,
       "live_map_number": 3,
       "start_time": 1794823200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "888",
+        "Aura",
+        "Saberlight",
+        "humble god",
+        "\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0438\u043d"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "I\u2019ll Be Fine",
+        "Onizuka",
+        "Sage of the Six Paths",
+        "east atlanta",
+        "kiyotaka"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Luna",
+        "Pangolier",
+        "Axe",
+        "Windranger",
+        "Disruptor"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Rubick",
+        "Brewmaster",
+        "Slark",
+        "Dazzle",
+        "Earth Spirit"
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
       "games": [
@@ -754,7 +754,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 120,
+    "citoapi_calls_this_month": 122,
     "errors": []
   }
 }
