@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794843182,
-  "generated_at_iso": "2026-11-16T15:33:02.470094+00:00",
+  "generated_at": 1794843996,
+  "generated_at_iso": "2026-11-16T15:46:36.380227+00:00",
   "matches": [
-    {
-      "match_id": 1791802,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Froglings",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 139517,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 2356,
-      "live_map_number": 2,
-      "start_time": 1794836700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137417
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1811247,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1400,
+      "live_seconds": 2214,
       "live_map_number": 1,
       "start_time": 1794841200,
       "series_type": 2,
@@ -160,7 +93,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1657/600px_lgd_gaming_dec_2019_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 869,
+      "live_seconds": 1683,
       "live_map_number": 2,
       "start_time": 1794837300,
       "series_type": 1,
@@ -227,7 +160,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 221,
+      "live_seconds": 1035,
       "live_map_number": 3,
       "start_time": 1794835200,
       "series_type": 1,
@@ -276,6 +209,73 @@
         {
           "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791802,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Froglings",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 139517,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794836700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 137417
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139517
+        },
+        {
+          "position": 3,
+          "status": "not_started",
           "winner_id": null
         }
       ]
@@ -348,73 +348,6 @@
       ]
     },
     {
-      "match_id": 1807982,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "Team Synapse",
-      "dire_team": "PuckChamp",
-      "radiant_team_id": 139124,
-      "dire_team_id": 128357,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794844800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1793338,
       "source": "pandascore",
       "status": "upcoming",
@@ -463,6 +396,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1807982,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 41 2026",
+      "league_id": 4807,
+      "radiant_team": "Team Synapse",
+      "dire_team": "PuckChamp",
+      "radiant_team_id": 139124,
+      "dire_team_id": 128357,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128357/puck_champ__russian_team__logo.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794846600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
