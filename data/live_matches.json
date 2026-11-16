@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794816238,
-  "generated_at_iso": "2026-11-16T08:03:58.884580+00:00",
+  "generated_at": 1794818111,
+  "generated_at_iso": "2026-11-16T08:35:13.788078+00:00",
   "matches": [
     {
       "match_id": 1812641,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1183,
+      "live_map_number": 2,
       "start_time": 1794812400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "< blank >",
+        "MC Boss",
+        "Ramadan",
+        "ssz",
+        "young timbersaw"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "beautiful suffering(WINTER ARC)",
+        "brainless",
+        "reckless",
+        "when yah",
+        "womy"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Clockwerk",
+        "Storm Spirit",
+        "Windranger",
+        "Rubick",
+        "Enigma"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Alchemist",
+        "Sand King",
+        "Gyrocopter",
+        "Winter Wyvern",
+        "Centaur Warrunner"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -610,7 +610,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 118,
+    "citoapi_calls_this_month": 120,
     "errors": []
   }
 }
