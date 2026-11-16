@@ -1,141 +1,7 @@
 {
-  "generated_at": 1794836094,
-  "generated_at_iso": "2026-11-16T13:34:54.359783+00:00",
+  "generated_at": 1794837498,
+  "generated_at_iso": "2026-11-16T13:58:18.146040+00:00",
   "matches": [
-    {
-      "match_id": 1793342,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Froglings",
-      "dire_team": "DO KONCA",
-      "radiant_team_id": 139517,
-      "dire_team_id": 139547,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 4420,
-      "live_map_number": 3,
-      "start_time": 1794823200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139517
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139547
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1811246,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 3 2026",
-      "league_id": 5576,
-      "radiant_team": "potn9ki",
-      "dire_team": "angry birds",
-      "radiant_team_id": 129222,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1691,
-      "live_map_number": 2,
-      "start_time": 1794830400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139462
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1807981,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 932,
+      "live_seconds": 2336,
       "live_map_number": 1,
       "start_time": 1794835200,
       "series_type": 1,
@@ -217,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 163,
+      "live_seconds": 1567,
       "live_map_number": 2,
       "start_time": 1794830400,
       "series_type": 1,
@@ -271,6 +137,73 @@
       ]
     },
     {
+      "match_id": 1791802,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Froglings",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 139517,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 816,
+      "live_map_number": 1,
+      "start_time": 1794836700,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1793341,
       "source": "pandascore",
       "status": "upcoming",
@@ -286,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794836700,
+      "start_time": 1794837300,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -338,86 +271,19 @@
       ]
     },
     {
-      "match_id": 1791802,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Froglings",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 139517,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794836700,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1811247,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "Esports Pro Circuit - Season 3 2026",
       "league_id": 5576,
       "radiant_team": "Xipto Esports",
-      "dire_team": "TBD",
+      "dire_team": "angry birds",
       "radiant_team_id": 139239,
-      "dire_team_id": null,
+      "dire_team_id": 139462,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1794841200,
@@ -885,7 +751,7 @@
     }
   ],
   "meta": {
-    "running_count": 4,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 122,
