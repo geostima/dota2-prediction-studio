@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794825312,
-  "generated_at_iso": "2026-11-16T10:35:12.567823+00:00",
+  "generated_at": 1794826025,
+  "generated_at_iso": "2026-11-16T10:47:05.903846+00:00",
   "matches": [
     {
       "match_id": 1793342,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1993,
+      "live_seconds": 2706,
       "live_map_number": 1,
       "start_time": 1794823200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1207,
+      "live_seconds": 1920,
       "live_map_number": 2,
       "start_time": 1794819600,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 522,
+      "live_seconds": 1235,
       "live_map_number": 1,
       "start_time": 1794825000,
       "series_type": 1,
@@ -555,7 +555,7 @@
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1794841200,
-      "series_type": 1,
+      "series_type": 2,
       "known_picks": 0,
       "lineup_available": false,
       "radiant_players": [
@@ -600,6 +600,16 @@
         },
         {
           "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 4,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 5,
           "status": "not_started",
           "winner_id": null
         }
