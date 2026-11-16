@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794826747,
-  "generated_at_iso": "2026-11-16T10:59:07.078603+00:00",
+  "generated_at": 1794827632,
+  "generated_at_iso": "2026-11-16T11:13:52.243742+00:00",
   "matches": [
-    {
-      "match_id": 1793342,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Froglings",
-      "dire_team": "DO KONCA",
-      "radiant_team_id": 139517,
-      "dire_team_id": 139547,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 3428,
-      "live_map_number": 1,
-      "start_time": 1794823200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1812642,
       "source": "pandascore",
@@ -83,8 +16,8 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 135,
+      "live_map_number": 2,
       "start_time": 1794825000,
       "series_type": 1,
       "known_picks": 0,
@@ -123,6 +56,73 @@
           "position": 1,
           "status": "finished",
           "winner_id": 139605
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1793342,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Essence - Season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Froglings",
+      "dire_team": "DO KONCA",
+      "radiant_team_id": 139517,
+      "dire_team_id": 139547,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794823200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139517
         },
         {
           "position": 2,
@@ -731,6 +731,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791808,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Zero Tenacity",
+      "dire_team": "PlayTime",
+      "radiant_team_id": 135854,
+      "dire_team_id": 137885,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794848400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
       "games": [
         {
           "position": 1,
