@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794866742,
-  "generated_at_iso": "2026-11-16T22:05:42.342199+00:00",
+  "generated_at": 1794867244,
+  "generated_at_iso": "2026-11-16T22:14:04.133516+00:00",
   "matches": [
     {
       "match_id": 1793339,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3034,
+      "live_seconds": 3536,
       "live_map_number": 2,
       "start_time": 1794859800,
       "series_type": 1,
