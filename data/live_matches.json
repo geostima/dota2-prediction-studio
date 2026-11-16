@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794833077,
-  "generated_at_iso": "2026-11-16T12:44:39.383791+00:00",
+  "generated_at": 1794834285,
+  "generated_at_iso": "2026-11-16T13:04:45.059694+00:00",
   "matches": [
     {
       "match_id": 1815178,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2537,
+      "live_seconds": 3745,
       "live_map_number": 1,
       "start_time": 1794830400,
       "series_type": 1,
@@ -70,6 +70,73 @@
       ]
     },
     {
+      "match_id": 1793342,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Essence - Season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Froglings",
+      "dire_team": "DO KONCA",
+      "radiant_team_id": 139517,
+      "dire_team_id": 139547,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2611,
+      "live_map_number": 3,
+      "start_time": 1794823200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139517
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 139547
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1811246,
       "source": "pandascore",
       "status": "live",
@@ -82,9 +149,9 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2086,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1794830400,
       "series_type": 1,
       "known_picks": 0,
@@ -121,8 +188,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139462
         },
         {
           "position": 2,
@@ -132,73 +199,6 @@
         {
           "position": 3,
           "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1793342,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Froglings",
-      "dire_team": "DO KONCA",
-      "radiant_team_id": 139517,
-      "dire_team_id": 139547,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 1403,
-      "live_map_number": 3,
-      "start_time": 1794823200,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "888",
-        "Aura",
-        "Saberlight",
-        "humble god",
-        "\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0438\u043d"
-      ],
-      "dire_players": [
-        "I\u2019ll Be Fine",
-        "Onizuka",
-        "Sage of the Six Paths",
-        "east atlanta",
-        "kiyotaka"
-      ],
-      "radiant_heroes": [
-        "Luna",
-        "Pangolier",
-        "Axe",
-        "Windranger",
-        "Disruptor"
-      ],
-      "dire_heroes": [
-        "Rubick",
-        "Brewmaster",
-        "Slark",
-        "Dazzle",
-        "Earth Spirit"
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139517
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139547
-        },
-        {
-          "position": 3,
-          "status": "running",
           "winner_id": null
         }
       ]
@@ -286,7 +286,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794834000,
+      "start_time": 1794835800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -731,6 +731,140 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1815177,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Asgard Championship - Season 2 2026",
+      "league_id": 5550,
+      "radiant_team": "Spirit Academy",
+      "dire_team": "Team Synapse",
+      "radiant_team_id": 137540,
+      "dire_team_id": 139124,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794855600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1793339,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Essence - Season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "LEGION",
+      "dire_team": "Aurora",
+      "radiant_team_id": 139340,
+      "dire_team_id": 133882,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794855600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
       "games": [
         {
           "position": 1,
