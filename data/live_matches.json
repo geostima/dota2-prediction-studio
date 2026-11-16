@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794826025,
-  "generated_at_iso": "2026-11-16T10:47:05.903846+00:00",
+  "generated_at": 1794826747,
+  "generated_at_iso": "2026-11-16T10:59:07.078603+00:00",
   "matches": [
     {
       "match_id": 1793342,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2706,
+      "live_seconds": 3428,
       "live_map_number": 1,
       "start_time": 1794823200,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1815176,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "angry birds",
-      "dire_team": "Team Lynx",
-      "radiant_team_id": 139462,
-      "dire_team_id": 136531,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 1920,
-      "live_map_number": 2,
-      "start_time": 1794819600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139462
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1812642,
       "source": "pandascore",
       "status": "live",
@@ -148,10 +81,10 @@
       "dire_team_id": 139606,
       "radiant_logo_url": "",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1235,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1794825000,
       "series_type": 1,
       "known_picks": 0,
@@ -188,8 +121,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139605
         },
         {
           "position": 2,
@@ -818,7 +751,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 120,
