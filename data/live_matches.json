@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794824462,
-  "generated_at_iso": "2026-11-16T10:21:03.015882+00:00",
+  "generated_at": 1794825312,
+  "generated_at_iso": "2026-11-16T10:35:12.567823+00:00",
   "matches": [
     {
       "match_id": 1793342,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1144,
+      "live_seconds": 1993,
       "live_map_number": 1,
       "start_time": 1794823200,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 357,
+      "live_seconds": 1207,
       "live_map_number": 2,
       "start_time": 1794819600,
       "series_type": 1,
@@ -139,7 +139,7 @@
     {
       "match_id": 1812642,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 20 2026",
       "league_id": 4884,
       "radiant_team": "Ryvex Esports",
@@ -150,9 +150,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794823200,
+      "live_seconds": 522,
+      "live_map_number": 1,
+      "start_time": 1794825000,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -188,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -808,7 +808,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 120,
