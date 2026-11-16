@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794813968,
-  "generated_at_iso": "2026-11-16T07:26:08.140550+00:00",
+  "generated_at": 1794815357,
+  "generated_at_iso": "2026-11-16T07:49:17.844279+00:00",
   "matches": [
     {
       "match_id": 1812641,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1156,
+      "live_seconds": 2545,
       "live_map_number": 1,
       "start_time": 1794812400,
       "series_type": 1,
@@ -117,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/asgard_championship2",
       "games": [
         {
           "position": 1,
@@ -318,7 +318,7 @@
         "",
         ""
       ],
-      "match_url": "",
+      "match_url": "https://www.twitch.tv/asgard_championship2",
       "games": [
         {
           "position": 1,
@@ -520,6 +520,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791802,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Froglings",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 139517,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794835800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
       "games": [
         {
           "position": 1,
