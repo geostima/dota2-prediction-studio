@@ -1,11 +1,11 @@
 {
-  "generated_at": 1794801249,
-  "generated_at_iso": "2026-11-16T03:54:09.863073+00:00",
+  "generated_at": 1794802099,
+  "generated_at_iso": "2026-11-16T04:08:21.077448+00:00",
   "matches": [
     {
       "match_id": 1812640,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 20 2026",
       "league_id": 4884,
       "radiant_team": "Cloud Rising",
@@ -16,8 +16,8 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 87,
+      "live_map_number": 1,
       "start_time": 1794801600,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -202,13 +202,147 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1812642,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 20 2026",
+      "league_id": 4884,
+      "radiant_team": "Ryvex Esports",
+      "dire_team": "Cloud of Hope",
+      "radiant_team_id": 139605,
+      "dire_team_id": 139606,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794823200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1793342,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "1win Essence - Season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Froglings",
+      "dire_team": "DO KONCA",
+      "radiant_team_id": 139517,
+      "dire_team_id": 139547,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1794823200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 116,
+    "citoapi_calls_this_month": 118,
     "errors": []
   }
 }
