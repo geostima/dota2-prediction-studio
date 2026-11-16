@@ -1,11 +1,11 @@
 {
-  "generated_at": 1794812723,
-  "generated_at_iso": "2026-11-16T07:05:23.813055+00:00",
+  "generated_at": 1794813968,
+  "generated_at_iso": "2026-11-16T07:26:08.140550+00:00",
   "matches": [
     {
       "match_id": 1812641,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 20 2026",
       "league_id": 4884,
       "radiant_team": "Yangon Galacticos",
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 1156,
+      "live_map_number": 1,
       "start_time": 1794812400,
       "series_type": 1,
       "known_picks": 0,
@@ -54,7 +54,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -214,7 +214,7 @@
       "radiant_team_id": 139517,
       "dire_team_id": 139547,
       "radiant_logo_url": "",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
@@ -540,7 +540,7 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 118,
