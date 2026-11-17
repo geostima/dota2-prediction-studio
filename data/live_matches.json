@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794946016,
-  "generated_at_iso": "2026-11-17T20:06:56.360417+00:00",
+  "generated_at": 1794946592,
+  "generated_at_iso": "2026-11-17T20:16:32.708777+00:00",
   "matches": [
     {
       "match_id": 1815857,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1158,
+      "live_seconds": 1734,
       "live_map_number": 3,
       "start_time": 1794936600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 139,
+      "live_seconds": 715,
       "live_map_number": 2,
       "start_time": 1794942000,
       "series_type": 1,
