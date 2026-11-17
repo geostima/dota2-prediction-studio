@@ -1,77 +1,9 @@
 {
-  "generated_at": 1794957785,
-  "generated_at_iso": "2026-11-17T23:23:05.232480+00:00",
-  "matches": [
-    {
-      "match_id": 1815858,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Xipto Esports",
-      "dire_team": "CyberHero",
-      "radiant_team_id": 139239,
-      "dire_team_id": 139339,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3234,
-      "live_map_number": 2,
-      "start_time": 1794951000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1794958406,
+  "generated_at_iso": "2026-11-17T23:33:26.931562+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 137,
