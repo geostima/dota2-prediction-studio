@@ -1,11 +1,11 @@
 {
-  "generated_at": 1794890655,
-  "generated_at_iso": "2026-11-17T04:44:15.759682+00:00",
+  "generated_at": 1794891161,
+  "generated_at_iso": "2026-11-17T04:52:42.899541+00:00",
   "matches": [
     {
       "match_id": 1812643,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 20 2026",
       "league_id": 4884,
       "radiant_team": "Team Nemesis Academy",
@@ -15,7 +15,7 @@
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
-      "dire_score": 0,
+      "dire_score": 1,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1794888000,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139605
         },
         {
           "position": 2,
@@ -406,10 +406,10 @@
     }
   ],
   "meta": {
-    "running_count": 0,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 127,
+    "citoapi_calls_this_month": 128,
     "errors": []
   }
 }
