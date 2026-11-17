@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794926568,
-  "generated_at_iso": "2026-11-17T14:42:48.999425+00:00",
+  "generated_at": 1794927161,
+  "generated_at_iso": "2026-11-17T14:52:41.254263+00:00",
   "matches": [
     {
       "match_id": 1793343,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2281,
+      "live_seconds": 2874,
       "live_map_number": 2,
       "start_time": 1794920400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1927,
+      "live_seconds": 2520,
       "live_map_number": 2,
       "start_time": 1794921300,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 629,
+      "live_seconds": 1222,
       "live_map_number": 2,
       "start_time": 1794922200,
       "series_type": 1,
@@ -217,8 +217,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 343,
+      "live_map_number": 2,
       "start_time": 1794920400,
       "series_type": 1,
       "known_picks": 0,
@@ -260,7 +260,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -284,8 +284,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 286,
+      "live_map_number": 2,
       "start_time": 1794921300,
       "series_type": 1,
       "known_picks": 0,
@@ -327,7 +327,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
