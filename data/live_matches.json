@@ -1,74 +1,7 @@
 {
-  "generated_at": 1794893630,
-  "generated_at_iso": "2026-11-17T05:33:50.564915+00:00",
+  "generated_at": 1794894186,
+  "generated_at_iso": "2026-11-17T05:43:06.297441+00:00",
   "matches": [
-    {
-      "match_id": 1812643,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 20 2026",
-      "league_id": 4884,
-      "radiant_team": "Team Nemesis Academy",
-      "dire_team": "Ryvex Esports",
-      "radiant_team_id": 139402,
-      "dire_team_id": 139605,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794888000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139605
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1812644,
       "source": "pandascore",
@@ -406,7 +339,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 128,
