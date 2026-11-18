@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795015425,
-  "generated_at_iso": "2026-11-18T15:23:45.721785+00:00",
+  "generated_at": 1795016020,
+  "generated_at_iso": "2026-11-18T15:33:40.716865+00:00",
   "matches": [
     {
       "match_id": 1815859,
@@ -15,9 +15,9 @@
       "radiant_logo_url": "",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 4990,
-      "live_map_number": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1795009500,
       "series_type": 1,
       "known_picks": 0,
@@ -54,8 +54,8 @@
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139339
         },
         {
           "position": 2,
