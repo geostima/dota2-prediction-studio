@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795030405,
-  "generated_at_iso": "2026-11-18T19:33:25.528588+00:00",
+  "generated_at": 1795030969,
+  "generated_at_iso": "2026-11-18T19:42:49.035524+00:00",
   "matches": [
     {
       "match_id": 1793347,
@@ -16,8 +16,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 1,
       "dire_score": 2,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 549,
+      "live_map_number": 4,
       "start_time": 1795017600,
       "series_type": 2,
       "known_picks": 0,
@@ -69,78 +69,11 @@
         },
         {
           "position": 4,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
           "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791803,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "CyberHero",
-      "dire_team": "Inner Circle x Insanity",
-      "radiant_team_id": 139339,
-      "dire_team_id": 137417,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795021800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 139339
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 137417
-        },
-        {
-          "position": 3,
           "status": "not_started",
           "winner_id": null
         }
@@ -160,8 +93,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/2227/222px_nemiga_gaming_2020_temporary.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 213,
+      "live_map_number": 3,
       "start_time": 1795022400,
       "series_type": 1,
       "known_picks": 0,
@@ -208,7 +141,74 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1791803,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "CyberHero",
+      "dire_team": "Inner Circle x Insanity",
+      "radiant_team_id": 139339,
+      "dire_team_id": 137417,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 34,
+      "live_map_number": 3,
+      "start_time": 1795021800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139339
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 137417
+        },
+        {
+          "position": 3,
+          "status": "running",
           "winner_id": null
         }
       ]
