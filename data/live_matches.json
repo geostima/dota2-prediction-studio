@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794996970,
-  "generated_at_iso": "2026-11-18T10:16:10.859990+00:00",
+  "generated_at": 1794997451,
+  "generated_at_iso": "2026-11-18T10:24:11.596615+00:00",
   "matches": [
     {
       "match_id": 1812647,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2379,
+      "live_seconds": 2860,
       "live_map_number": 3,
       "start_time": 1794986400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 765,
+      "live_seconds": 1246,
       "live_map_number": 1,
       "start_time": 1794996000,
       "series_type": 1,
@@ -139,7 +139,7 @@
     {
       "match_id": 1807962,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "European Pro League - Season 41 2026",
       "league_id": 4807,
       "radiant_team": "angry birds",
@@ -150,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 477,
+      "live_map_number": 1,
       "start_time": 1794996900,
       "series_type": 1,
       "known_picks": 0,
@@ -188,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -617,7 +617,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 139,
