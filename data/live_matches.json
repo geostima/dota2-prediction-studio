@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794996402,
-  "generated_at_iso": "2026-11-18T10:06:42.967083+00:00",
+  "generated_at": 1794996970,
+  "generated_at_iso": "2026-11-18T10:16:10.859990+00:00",
   "matches": [
     {
       "match_id": 1812647,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 1811,
+      "live_seconds": 2379,
       "live_map_number": 3,
       "start_time": 1794986400,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 197,
+      "live_seconds": 765,
       "live_map_number": 1,
       "start_time": 1794996000,
       "series_type": 1,
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1794996000,
+      "start_time": 1794996900,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
