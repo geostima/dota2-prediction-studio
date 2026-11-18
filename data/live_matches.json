@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795020145,
-  "generated_at_iso": "2026-11-18T16:42:25.460515+00:00",
+  "generated_at": 1795020783,
+  "generated_at_iso": "2026-11-18T16:53:03.997655+00:00",
   "matches": [
     {
       "match_id": 1815859,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2629,
+      "live_seconds": 3267,
       "live_map_number": 2,
       "start_time": 1795009500,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2461,
+      "live_seconds": 3099,
       "live_map_number": 1,
       "start_time": 1795017600,
       "series_type": 2,
