@@ -1,141 +1,7 @@
 {
-  "generated_at": 1795005825,
-  "generated_at_iso": "2026-11-18T12:43:45.223830+00:00",
+  "generated_at": 1795006370,
+  "generated_at_iso": "2026-11-18T12:52:50.332425+00:00",
   "matches": [
-    {
-      "match_id": 1807962,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "angry birds",
-      "dire_team": "Spirit Academy",
-      "radiant_team_id": 139462,
-      "dire_team_id": 137540,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3804,
-      "live_map_number": 2,
-      "start_time": 1794996900,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137540
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1793346,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "1win Essence - Season 3 2026",
-      "league_id": 5528,
-      "radiant_team": "Aurora",
-      "dire_team": "PARIVISION",
-      "radiant_team_id": 133882,
-      "dire_team_id": 135712,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2557,
-      "live_map_number": 1,
-      "start_time": 1795003200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/1win_dota",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1815863,
       "source": "pandascore",
@@ -150,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 449,
+      "live_seconds": 994,
       "live_map_number": 3,
       "start_time": 1794996000,
       "series_type": 1,
@@ -199,6 +65,73 @@
         {
           "position": 3,
           "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1793346,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "1win Essence - Season 3 2026",
+      "league_id": 5528,
+      "radiant_team": "Aurora",
+      "dire_team": "PARIVISION",
+      "radiant_team_id": 133882,
+      "dire_team_id": 135712,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795003200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/1win_dota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 133882
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
           "winner_id": null
         }
       ]
@@ -550,7 +483,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 142,
