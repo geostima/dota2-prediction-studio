@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794992848,
-  "generated_at_iso": "2026-11-18T09:07:28.882202+00:00",
+  "generated_at": 1794993474,
+  "generated_at_iso": "2026-11-18T09:17:54.807510+00:00",
   "matches": [
     {
       "match_id": 1812647,
@@ -14,10 +14,10 @@
       "dire_team_id": 139606,
       "radiant_logo_url": "",
       "dire_logo_url": "",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2008,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1794986400,
       "series_type": 1,
       "known_picks": 0,
@@ -59,8 +59,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 139413
         },
         {
           "position": 3,
