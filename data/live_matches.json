@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795001612,
-  "generated_at_iso": "2026-11-18T11:33:32.440811+00:00",
+  "generated_at": 1795002156,
+  "generated_at_iso": "2026-11-18T11:42:40.220743+00:00",
   "matches": [
     {
       "match_id": 1815863,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 557,
+      "live_seconds": 1101,
       "live_map_number": 2,
       "start_time": 1794996000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "15.09 invoker deleted",
+        "accbuyer laning",
+        "dota maniac",
+        "say hello",
+        "\u043a\u0440\u0435\u043a\u0435\u0440"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "GhostFace-",
+        "Q",
+        "aaa",
+        "okok",
+        "xOoo1!"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dark Willow",
+        "Dragon Knight",
+        "Viper",
+        "Tiny",
+        "Mirana"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Terrorblade",
+        "Windranger",
+        "Enigma",
+        "Witch Doctor",
+        "Earthshaker"
       ],
       "match_url": "https://www.twitch.tv/asgard_championship2",
       "games": [
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 135,
+      "live_map_number": 2,
       "start_time": 1794996900,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "PERDAN4IK",
+        "ssnovv1",
+        "waveformn",
+        "yowaanisan \u2661",
+        "\u043f\u0440\u0438\u0437\u0440\u0430\u043a \u0430\u0432\u0433\u0443\u0441\u0442\u0430"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "666666",
+        "Aidar",
+        "I S SF 46",
+        "inori",
+        "\u4eba\u9593\u306f\u30af\u30ba\u3060\u3002"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Techies",
+        "Pudge",
+        "Hoodwink",
+        "Lycan",
+        "Viper"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dawnbreaker",
+        "Windranger",
+        "Naga Siren",
+        "Witch Doctor",
+        "Puck"
       ],
       "match_url": "https://kick.com/epldota_en2",
       "games": [
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -620,7 +620,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 139,
+    "citoapi_calls_this_month": 142,
     "errors": []
   }
 }
