@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794998556,
-  "generated_at_iso": "2026-11-18T10:42:36.103384+00:00",
+  "generated_at": 1794999166,
+  "generated_at_iso": "2026-11-18T10:52:46.571531+00:00",
   "matches": [
     {
       "match_id": 1815863,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2351,
+      "live_seconds": 2961,
       "live_map_number": 1,
       "start_time": 1794996000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1582,
+      "live_seconds": 2192,
       "live_map_number": 1,
       "start_time": 1794996900,
       "series_type": 1,
@@ -139,7 +139,7 @@
     {
       "match_id": 1812648,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "EPL World Series - Southeast Asia season 20 2026",
       "league_id": 4884,
       "radiant_team": "Team Nemesis Academy",
@@ -150,9 +150,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1794997800,
+      "live_seconds": 487,
+      "live_map_number": 1,
+      "start_time": 1794998400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -188,7 +188,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -550,7 +550,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 139,
