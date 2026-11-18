@@ -1,6 +1,6 @@
 {
-  "generated_at": 1794998033,
-  "generated_at_iso": "2026-11-18T10:33:53.297937+00:00",
+  "generated_at": 1794998556,
+  "generated_at_iso": "2026-11-18T10:42:36.103384+00:00",
   "matches": [
     {
       "match_id": 1815863,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139239/1029px_xipto_esports_2025_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1828,
+      "live_seconds": 2351,
       "live_map_number": 1,
       "start_time": 1794996000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1059,
+      "live_seconds": 1582,
       "live_map_number": 1,
       "start_time": 1794996900,
       "series_type": 1,
