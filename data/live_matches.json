@@ -1,74 +1,7 @@
 {
-  "generated_at": 1795089162,
-  "generated_at_iso": "2026-11-19T11:52:43.008801+00:00",
+  "generated_at": 1795090175,
+  "generated_at_iso": "2026-11-19T12:09:35.538580+00:00",
   "matches": [
-    {
-      "match_id": 1812651,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 20 2026",
-      "league_id": 4884,
-      "radiant_team": "Cloud Rising",
-      "dire_team": "Team Nemesis Academy",
-      "radiant_team_id": 137428,
-      "dire_team_id": 139402,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2159,
-      "live_map_number": 2,
-      "start_time": 1795084200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137428
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1815865,
       "source": "pandascore",
@@ -473,7 +406,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 149,
