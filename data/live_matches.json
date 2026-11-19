@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795071199,
-  "generated_at_iso": "2026-11-19T06:53:19.426542+00:00",
+  "generated_at": 1795072067,
+  "generated_at_iso": "2026-11-19T07:07:48.004133+00:00",
   "matches": [
     {
       "match_id": 1812650,
@@ -252,6 +252,73 @@
         ""
       ],
       "match_url": "https://www.twitch.tv/asgard_championship2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1807964,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 41 2026",
+      "league_id": 4807,
+      "radiant_team": "angry birds",
+      "dire_team": "Team Allied",
+      "radiant_team_id": 139462,
+      "dire_team_id": 139489,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795093200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
