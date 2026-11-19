@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795107168,
-  "generated_at_iso": "2026-11-19T16:52:48.278567+00:00",
+  "generated_at": 1795107936,
+  "generated_at_iso": "2026-11-19T17:05:36.222518+00:00",
   "matches": [
     {
       "match_id": 1815865,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 4153,
+      "live_seconds": 4921,
       "live_map_number": 3,
       "start_time": 1795093200,
       "series_type": 1,
@@ -70,73 +70,6 @@
       ]
     },
     {
-      "match_id": 1807965,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "4ikibamboni",
-      "dire_team": "Zero Tenacity",
-      "radiant_team_id": 138761,
-      "dire_team_id": 135854,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2886,
-      "live_map_number": 1,
-      "start_time": 1795104000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1791814,
       "source": "pandascore",
       "status": "live",
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2717,
+      "live_seconds": 3485,
       "live_map_number": 3,
       "start_time": 1795095000,
       "series_type": 1,
@@ -204,6 +137,73 @@
       ]
     },
     {
+      "match_id": 1807965,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "European Pro League - Season 41 2026",
+      "league_id": 4807,
+      "radiant_team": "4ikibamboni",
+      "dire_team": "Zero Tenacity",
+      "radiant_team_id": 138761,
+      "dire_team_id": 135854,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795104000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 135854
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1815866,
       "source": "pandascore",
       "status": "upcoming",
@@ -219,7 +219,7 @@
       "dire_score": null,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795107600,
+      "start_time": 1795108500,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -286,7 +286,7 @@
       "dire_score": null,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795107600,
+      "start_time": 1795109400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
