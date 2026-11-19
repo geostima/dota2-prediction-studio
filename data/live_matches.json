@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795101384,
-  "generated_at_iso": "2026-11-19T15:16:24.980743+00:00",
+  "generated_at": 1795101877,
+  "generated_at_iso": "2026-11-19T15:24:38.342375+00:00",
   "matches": [
     {
       "match_id": 1815865,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 2287,
+      "live_seconds": 2780,
       "live_map_number": 2,
       "start_time": 1795093200,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1540,
+      "live_seconds": 2033,
       "live_map_number": 2,
       "start_time": 1795095000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "888",
+        "Aura",
+        "Saberlight",
+        "humble god",
+        "\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0438\u043d"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "1nonly",
+        "M",
+        "Rein",
+        "Vicious Circle",
+        "acc is unfollow"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Void Spirit",
+        "Puck",
+        "Night Stalker",
+        "Grimstroke",
+        "Enchantress"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Magnus",
+        "Slark",
+        "Shadow Demon",
+        "Brewmaster",
+        "Mirana"
       ],
       "match_url": "https://www.twitch.tv/esl_dota2",
       "games": [
@@ -409,7 +409,7 @@
     "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 149,
+    "citoapi_calls_this_month": 151,
     "errors": []
   }
 }
