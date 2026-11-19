@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795116217,
-  "generated_at_iso": "2026-11-19T19:23:37.465642+00:00",
+  "generated_at": 1795116830,
+  "generated_at_iso": "2026-11-19T19:33:52.252171+00:00",
   "matches": [
     {
       "match_id": 1815866,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1979,
+      "live_seconds": 2592,
       "live_map_number": 2,
       "start_time": 1795110300,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1885,
+      "live_seconds": 2498,
       "live_map_number": 2,
       "start_time": 1795109400,
       "series_type": 1,
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 943,
+      "live_seconds": 1556,
       "live_map_number": 1,
       "start_time": 1795114800,
       "series_type": 1,
@@ -208,7 +208,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 151,
+    "citoapi_calls_this_month": 153,
     "errors": []
   }
 }
