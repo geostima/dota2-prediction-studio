@@ -1,74 +1,7 @@
 {
-  "generated_at": 1795108429,
-  "generated_at_iso": "2026-11-19T17:13:49.624362+00:00",
+  "generated_at": 1795108952,
+  "generated_at_iso": "2026-11-19T17:22:32.551332+00:00",
   "matches": [
-    {
-      "match_id": 1815865,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "Team Lynx",
-      "dire_team": "Spirit Academy",
-      "radiant_team_id": 136531,
-      "dire_team_id": 137540,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 5414,
-      "live_map_number": 3,
-      "start_time": 1795093200,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137540
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 136531
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1807965,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 117,
+      "live_seconds": 640,
       "live_map_number": 2,
       "start_time": 1795104000,
       "series_type": 1,
@@ -143,16 +76,16 @@
       "league_name": "Asgard Championship - Season 2 2026",
       "league_id": 5550,
       "radiant_team": "angry birds",
-      "dire_team": "TBD",
+      "dire_team": "Spirit Academy",
       "radiant_team_id": 139462,
-      "dire_team_id": null,
+      "dire_team_id": 137540,
       "radiant_logo_url": "",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795108500,
+      "start_time": 1795109400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 151,
