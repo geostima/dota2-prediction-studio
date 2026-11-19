@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795109631,
-  "generated_at_iso": "2026-11-19T17:33:51.273028+00:00",
+  "generated_at": 1795110171,
+  "generated_at_iso": "2026-11-19T17:42:51.880850+00:00",
   "matches": [
     {
       "match_id": 1807965,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1319,
+      "live_seconds": 1859,
       "live_map_number": 2,
       "start_time": 1795104000,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 177,
+      "live_seconds": 717,
       "live_map_number": 1,
       "start_time": 1795109400,
       "series_type": 1,
@@ -152,7 +152,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795109400,
+      "start_time": 1795110300,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
