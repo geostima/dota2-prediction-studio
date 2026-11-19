@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795086928,
-  "generated_at_iso": "2026-11-19T11:15:28.921480+00:00",
+  "generated_at": 1795087408,
+  "generated_at_iso": "2026-11-19T11:23:29.935968+00:00",
   "matches": [
     {
       "match_id": 1812651,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 405,
+      "live_map_number": 2,
       "start_time": 1795084200,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Impulse",
+        "Q",
+        "\u5403\u4e86\u4e0d\u70e7\u5fc3",
+        "\u592a\u9633\u5347\u8d77\u5c31\u628a\u6628\u5929\u5fd8\u8bb0",
+        "\u6bc1\u706d"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "1",
+        "ayogima",
+        "corvette c5",
+        "lock in",
+        "\u795d\u798f\u4f60\uff0c\u4f60\u5374\u53d7\u8bc5\u5492"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Windranger",
+        "Chen",
+        "Beastmaster",
+        "Storm Spirit",
+        "Hoodwink"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Tiny",
+        "Nyx Assassin",
+        "Ember Spirit",
+        "Batrider",
+        "Warlock"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -59,7 +59,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -85,7 +85,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795089600,
+      "start_time": 1795093200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -476,7 +476,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 147,
+    "citoapi_calls_this_month": 149,
     "errors": []
   }
 }
