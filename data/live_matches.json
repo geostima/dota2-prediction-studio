@@ -1,7 +1,74 @@
 {
-  "generated_at": 1795101877,
-  "generated_at_iso": "2026-11-19T15:24:38.342375+00:00",
+  "generated_at": 1795102429,
+  "generated_at_iso": "2026-11-19T15:33:49.748485+00:00",
   "matches": [
+    {
+      "match_id": 1791814,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Froglings",
+      "dire_team": "HULIGANI",
+      "radiant_team_id": 139517,
+      "dire_team_id": 138842,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 2585,
+      "live_map_number": 2,
+      "start_time": 1795095000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/esl_dota2",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139517
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
     {
       "match_id": 1815865,
       "source": "pandascore",
@@ -14,10 +81,10 @@
       "dire_team_id": 137540,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/136531/109px_team_lynx_lightmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 2780,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1795093200,
       "series_type": 1,
       "known_picks": 0,
@@ -59,75 +126,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1791814,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "DreamLeague - Division 2 season 5 2026",
-      "league_id": 4125,
-      "radiant_team": "Froglings",
-      "dire_team": "HULIGANI",
-      "radiant_team_id": 139517,
-      "dire_team_id": 138842,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138842/800px_huligani_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2033,
-      "live_map_number": 2,
-      "start_time": 1795095000,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "888",
-        "Aura",
-        "Saberlight",
-        "humble god",
-        "\u043c\u0430\u0440\u0441\u0438\u0430\u043d\u0438\u043d"
-      ],
-      "dire_players": [
-        "1nonly",
-        "M",
-        "Rein",
-        "Vicious Circle",
-        "acc is unfollow"
-      ],
-      "radiant_heroes": [
-        "Void Spirit",
-        "Puck",
-        "Night Stalker",
-        "Grimstroke",
-        "Enchantress"
-      ],
-      "dire_heroes": [
-        "Magnus",
-        "Slark",
-        "Shadow Demon",
-        "Brewmaster",
-        "Mirana"
-      ],
-      "match_url": "https://www.twitch.tv/esl_dota2",
-      "games": [
-        {
-          "position": 1,
           "status": "finished",
-          "winner_id": 139517
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
+          "winner_id": 136531
         },
         {
           "position": 3,
