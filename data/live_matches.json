@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795060363,
-  "generated_at_iso": "2026-11-19T03:52:43.539065+00:00",
+  "generated_at": 1795061255,
+  "generated_at_iso": "2026-11-19T04:07:35.985381+00:00",
   "matches": [
     {
       "match_id": 1812649,
@@ -118,6 +118,140 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1812651,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 20 2026",
+      "league_id": 4884,
+      "radiant_team": "Cloud Rising",
+      "dire_team": "Team Nemesis Academy",
+      "radiant_team_id": 137428,
+      "dire_team_id": 139402,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139402/190px_team_nem_darkmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795082400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1807987,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 41 2026",
+      "league_id": 4807,
+      "radiant_team": "Team Synapse",
+      "dire_team": "InterActive Philippines",
+      "radiant_team_id": 139124,
+      "dire_team_id": 129891,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795082400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
       "games": [
         {
           "position": 1,
