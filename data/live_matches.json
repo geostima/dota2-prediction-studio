@@ -1,24 +1,91 @@
 {
-  "generated_at": 1795159692,
-  "generated_at_iso": "2026-11-20T07:28:13.623654+00:00",
+  "generated_at": 1795191493,
+  "generated_at_iso": "2026-11-20T16:18:16.868241+00:00",
   "matches": [
     {
-      "match_id": 1812653,
+      "match_id": 1816443,
       "source": "pandascore",
       "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 20 2026",
-      "league_id": 4884,
-      "radiant_team": "Cloud Rising",
-      "dire_team": "Direborn",
-      "radiant_team_id": 137428,
-      "dire_team_id": 138753,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "league_name": "BLAST Slam - Season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Natus Vincere",
+      "dire_team": "OG",
+      "radiant_team_id": 1699,
+      "dire_team_id": 1654,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1699/Na_vi_logo.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1654/438px_og_2026_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 2001,
+      "live_map_number": 3,
+      "start_time": 1795180500,
+      "series_type": 1,
+      "known_picks": 10,
+      "lineup_available": true,
+      "radiant_players": [
+        "11111",
+        "apocalypse",
+        "highway",
+        "trying to",
+        "vv"
+      ],
+      "dire_players": [
+        "TOPSON",
+        "XD )",
+        "^_\u2661",
+        "something wrong",
+        "\u0432\u0430\u0441\u044c"
+      ],
+      "radiant_heroes": [
+        "Viper",
+        "Ancient Apparition",
+        "Windranger",
+        "Pangolier",
+        "Storm Spirit"
+      ],
+      "dire_heroes": [
+        "Sniper",
+        "Chaos Knight",
+        "Dazzle",
+        "Primal Beast",
+        "Keeper of the Light"
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1699
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 1654
+        },
+        {
+          "position": 3,
+          "status": "running",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1816457,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "PARIVISION",
+      "dire_team": "LEGION",
+      "radiant_team_id": 135712,
+      "dire_team_id": 139340,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139340/652px_legion_dota2_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 877,
+      "live_seconds": 1071,
       "live_map_number": 1,
-      "start_time": 1795158600,
+      "start_time": 1795190400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,7 +117,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en1",
+      "match_url": "https://www.twitch.tv/BLASTDotaB",
       "games": [
         {
           "position": 1,
@@ -70,63 +137,63 @@
       ]
     },
     {
-      "match_id": 1815867,
+      "match_id": 1791816,
       "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Asgard Championship - Season 2 2026",
-      "league_id": 5550,
-      "radiant_team": "CyberHero",
-      "dire_team": "angry birds",
-      "radiant_team_id": 139339,
-      "dire_team_id": 139462,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
+      "status": "live",
+      "league_name": "DreamLeague - Division 2 season 5 2026",
+      "league_id": 4125,
+      "radiant_team": "Inner Circle x Insanity",
+      "dire_team": "CyberHero",
+      "radiant_team_id": 137417,
+      "dire_team_id": 139339,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139339/cyber_hero_2025_lightmode.png",
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795165200,
+      "live_seconds": 755,
+      "live_map_number": 2,
+      "start_time": 1795186800,
       "series_type": 2,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "$232",
+        "nobody loves u like i love u",
+        "self sabotage",
+        "senim",
+        "wwwwwwwww"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "distiller \u2260 dust",
+        "zombie",
+        "\u0412\u043e\u0437\u0440\u0430\u0442 \u043a \u043f\u043e\u0438\u0441\u043a\u0443 \u0438\u0433\u0440\u044b...",
+        "\u041c\u0435\u0447\u0442\u0430.",
+        "\u2666"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Witch Doctor",
+        "Beastmaster",
+        "Ring Master",
+        "Puck",
+        "Windranger"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Bristleback",
+        "Storm Spirit",
+        "Spirit Breaker",
+        "Disruptor",
+        "Viper"
       ],
-      "match_url": "https://www.twitch.tv/asgard_championship2",
+      "match_url": "https://www.twitch.tv/esl_dota2",
       "games": [
         {
           "position": 1,
-          "status": "not_started",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 137417
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -147,223 +214,89 @@
       ]
     },
     {
-      "match_id": 1807955,
+      "match_id": 1816458,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "Team Liquid",
+      "dire_team": "DO KONCA",
+      "radiant_team_id": 1647,
+      "dire_team_id": 139547,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139547/800px_do_konca_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795194000,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1807966,
       "source": "pandascore",
       "status": "upcoming",
       "league_name": "European Pro League - Season 41 2026",
       "league_id": 4807,
-      "radiant_team": "Inner Circle x Insanity",
+      "radiant_team": "4ikibamboni",
       "dire_team": "Team Allied",
-      "radiant_team_id": 137417,
+      "radiant_team_id": 138761,
       "dire_team_id": 139489,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137417/600px_inner_circle_2025_allmode.png",
+      "radiant_logo_url": "",
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795168800,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1816452,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Spirit",
-      "dire_team": "Team Nemesis",
-      "radiant_team_id": 1669,
-      "dire_team_id": 136650,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/1669/153px_team_spirit_2022_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/136650/159px_team_nem_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795172400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1816442,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "BLAST Slam - Season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Yandex",
-      "dire_team": "PlayTime",
-      "radiant_team_id": 137073,
-      "dire_team_id": 137885,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137885/585px_play_time_allmode.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795172400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1807989,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "potn9ki",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 129222,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129222/potn9ki_lightmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795179600,
+      "start_time": 1795201200,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -416,10 +349,10 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 155,
+    "citoapi_calls_this_month": 158,
     "errors": []
   }
 }
