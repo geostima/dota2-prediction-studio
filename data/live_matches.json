@@ -1,77 +1,9 @@
 {
-  "generated_at": 1795214536,
-  "generated_at_iso": "2026-11-20T22:42:17.368130+00:00",
-  "matches": [
-    {
-      "match_id": 1807966,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "4ikibamboni",
-      "dire_team": "Team Allied",
-      "radiant_team_id": 138761,
-      "dire_team_id": 139489,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2266,
-      "live_map_number": 3,
-      "start_time": 1795202400,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        "0000.",
-        "Otaker",
-        "monodrama",
-        "not yet",
-        "\u0641\u0627\u062c\u0648\u062a"
-      ],
-      "dire_players": [
-        "111",
-        "Belief",
-        "Daniel",
-        "Ready for tomorrow",
-        "attack hero"
-      ],
-      "radiant_heroes": [
-        "Nyx Assassin",
-        "Sven",
-        "Dazzle",
-        "Nature's Prophet",
-        "Undying"
-      ],
-      "dire_heroes": [
-        "Windranger",
-        "Dragon Knight",
-        "Invoker",
-        "Jakiro",
-        "Hoodwink"
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138761
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139489
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    }
-  ],
+  "generated_at": 1795231910,
+  "generated_at_iso": "2026-11-21T03:31:50.293291+00:00",
+  "matches": [],
   "meta": {
-    "running_count": 1,
+    "running_count": 0,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 160,
