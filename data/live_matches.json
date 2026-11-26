@@ -1,24 +1,24 @@
 {
-  "generated_at": 1795584515,
-  "generated_at_iso": "2026-11-25T05:28:36.022941+00:00",
+  "generated_at": 1795651505,
+  "generated_at_iso": "2026-11-26T00:05:05.936854+00:00",
   "matches": [
     {
-      "match_id": 1807999,
+      "match_id": 1812657,
       "source": "pandascore",
       "status": "upcoming",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "InterActive Philippines",
-      "dire_team": "Team Synapse",
-      "radiant_team_id": 129891,
-      "dire_team_id": 139124,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/129891/161px_inter_active_philippines_202309_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
+      "league_name": "EPL World Series - Southeast Asia season 20 2026",
+      "league_id": 4884,
+      "radiant_team": "Direborn",
+      "dire_team": "Execration",
+      "radiant_team_id": 138753,
+      "dire_team_id": 1660,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1660/771px_execration_2024_full_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795600800,
+      "start_time": 1795665600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -50,7 +50,7 @@
         "",
         ""
       ],
-      "match_url": "https://kick.com/epldota_en2",
+      "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
@@ -72,7 +72,7 @@
   ],
   "meta": {
     "running_count": 0,
-    "upcoming_count": 28,
+    "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 176,
     "errors": []
