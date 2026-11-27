@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795781407,
-  "generated_at_iso": "2026-11-27T12:10:07.860843+00:00",
+  "generated_at": 1795782270,
+  "generated_at_iso": "2026-11-27T12:24:32.700083+00:00",
   "matches": [
     {
       "match_id": 1816496,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 3090,
+      "live_seconds": 3953,
       "live_map_number": 2,
       "start_time": 1795773600,
       "series_type": 1,
@@ -83,39 +83,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 276,
+      "live_seconds": 1139,
       "live_map_number": 2,
       "start_time": 1795775400,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        ")()()))",
+        "@###",
+        "King Harl",
+        "deadzxc",
+        "remember to pullout"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "< blank >",
+        "MC Boss",
+        "Ramadan",
+        "lil kannedy",
+        "spirit"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dark Willow",
+        "Centaur Warrunner",
+        "Tiny",
+        "Kez",
+        "Chen"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Shadow Demon",
+        "Dragon Knight",
+        "Alchemist",
+        "Doom",
+        "Batrider"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -150,7 +150,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 88,
+      "live_seconds": 951,
       "live_map_number": 1,
       "start_time": 1795780800,
       "series_type": 1,
@@ -476,7 +476,7 @@
     "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 185,
+    "citoapi_calls_this_month": 188,
     "errors": []
   }
 }
