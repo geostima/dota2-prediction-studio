@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795773171,
-  "generated_at_iso": "2026-11-27T09:52:51.270365+00:00",
+  "generated_at": 1795774009,
+  "generated_at_iso": "2026-11-27T10:06:49.784242+00:00",
   "matches": [
     {
       "match_id": 1812659,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3991,
+      "live_seconds": 4829,
       "live_map_number": 2,
       "start_time": 1795764000,
       "series_type": 1,
@@ -70,76 +70,9 @@
       ]
     },
     {
-      "match_id": 1834982,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "Esports Pro Circuit - Season 4 2026",
-      "league_id": 5576,
-      "radiant_team": "Team Allied",
-      "dire_team": "V",
-      "radiant_team_id": 139489,
-      "dire_team_id": 139662,
-      "radiant_logo_url": "",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 2572,
-      "live_map_number": 1,
-      "start_time": 1795770600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1816496,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 9 2026",
       "league_id": 5319,
       "radiant_team": "PARIVISION",
@@ -150,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 320,
+      "live_map_number": 1,
       "start_time": 1795773600,
       "series_type": 1,
       "known_picks": 0,
@@ -188,8 +121,75 @@
       "games": [
         {
           "position": 1,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 2,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1834982,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "Esports Pro Circuit - Season 4 2026",
+      "league_id": 5576,
+      "radiant_team": "Team Allied",
+      "dire_team": "V",
+      "radiant_team_id": 139489,
+      "dire_team_id": 139662,
+      "radiant_logo_url": "",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795770600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 139662
         },
         {
           "position": 2,
@@ -219,7 +219,7 @@
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795773600,
+      "start_time": 1795775400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -537,10 +537,77 @@
           "winner_id": null
         }
       ]
+    },
+    {
+      "match_id": 1808004,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "European Pro League - Season 41 2026",
+      "league_id": 4807,
+      "radiant_team": "Spirit Academy",
+      "dire_team": "TBD",
+      "radiant_team_id": 137540,
+      "dire_team_id": null,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": null,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795795200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 3,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 185,
