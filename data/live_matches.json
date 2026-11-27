@@ -1,24 +1,24 @@
 {
-  "generated_at": 1795782270,
-  "generated_at_iso": "2026-11-27T12:24:32.700083+00:00",
+  "generated_at": 1795783076,
+  "generated_at_iso": "2026-11-27T12:37:56.313082+00:00",
   "matches": [
     {
-      "match_id": 1816496,
+      "match_id": 1812662,
       "source": "pandascore",
       "status": "live",
-      "league_name": "BLAST Slam - Season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "PARIVISION",
-      "dire_team": "Team Liquid",
-      "radiant_team_id": 135712,
-      "dire_team_id": 1647,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
+      "league_name": "EPL World Series - Southeast Asia season 20 2026",
+      "league_id": 4884,
+      "radiant_team": "Ryvex Esports",
+      "dire_team": "Yangon Galacticos",
+      "radiant_team_id": 139605,
+      "dire_team_id": 128080,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 3953,
+      "live_seconds": 1945,
       "live_map_number": 2,
-      "start_time": 1795773600,
+      "start_time": 1795775400,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -49,73 +49,6 @@
         "",
         "",
         ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1647
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1812662,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 20 2026",
-      "league_id": 4884,
-      "radiant_team": "Ryvex Esports",
-      "dire_team": "Yangon Galacticos",
-      "radiant_team_id": 139605,
-      "dire_team_id": 128080,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 1139,
-      "live_map_number": 2,
-      "start_time": 1795775400,
-      "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
-      "radiant_players": [
-        ")()()))",
-        "@###",
-        "King Harl",
-        "deadzxc",
-        "remember to pullout"
-      ],
-      "dire_players": [
-        "< blank >",
-        "MC Boss",
-        "Ramadan",
-        "lil kannedy",
-        "spirit"
-      ],
-      "radiant_heroes": [
-        "Dark Willow",
-        "Centaur Warrunner",
-        "Tiny",
-        "Kez",
-        "Chen"
-      ],
-      "dire_heroes": [
-        "Shadow Demon",
-        "Dragon Knight",
-        "Alchemist",
-        "Doom",
-        "Batrider"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -150,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 951,
+      "live_seconds": 1757,
       "live_map_number": 1,
       "start_time": 1795780800,
       "series_type": 1,
@@ -195,6 +128,73 @@
           "position": 2,
           "status": "not_started",
           "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1816496,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "PARIVISION",
+      "dire_team": "Team Liquid",
+      "radiant_team_id": 135712,
+      "dire_team_id": 1647,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
+      "radiant_score": 1,
+      "dire_score": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795773600,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 1647
+        },
+        {
+          "position": 2,
+          "status": "finished",
+          "winner_id": 135712
         },
         {
           "position": 3,
