@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795767687,
-  "generated_at_iso": "2026-11-27T08:21:28.436322+00:00",
+  "generated_at": 1795768475,
+  "generated_at_iso": "2026-11-27T08:34:35.132358+00:00",
   "matches": [
     {
       "match_id": 1812659,
@@ -14,48 +14,48 @@
       "dire_team_id": 137428,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 3503,
-      "live_map_number": 1,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1795764000,
       "series_type": 1,
-      "known_picks": 10,
-      "lineup_available": true,
+      "known_picks": 0,
+      "lineup_available": false,
       "radiant_players": [
-        "3am",
-        "beautiful suffering(WINTER ARC)",
-        "josjis",
-        "reckless",
-        "when yah"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_players": [
-        "1only",
-        "Q",
-        "\u5403\u4e86\u4e0d\u70e7\u5fc3",
-        "\u592a\u9633\u5347\u8d77\u5c31\u628a\u6628\u5929\u5fd8\u8bb0",
-        "\u6bc1\u706d"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "radiant_heroes": [
-        "Batrider",
-        "Kez",
-        "Ring Master",
-        "Windranger",
-        "Mars"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "dire_heroes": [
-        "Dragon Knight",
-        "Winter Wyvern",
-        "Lycan",
-        "Leshrac",
-        "Dark Willow"
+        "",
+        "",
+        "",
+        "",
+        ""
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
         {
           "position": 1,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 138753
         },
         {
           "position": 2,
