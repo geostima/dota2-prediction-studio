@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795804615,
-  "generated_at_iso": "2026-11-27T18:36:55.511037+00:00",
+  "generated_at": 1795805066,
+  "generated_at_iso": "2026-11-27T18:44:26.258909+00:00",
   "matches": [
     {
       "match_id": 1816499,
@@ -14,10 +14,10 @@
       "dire_team_id": 135712,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/133882/600px_aurora_gaming_2025_allmode.png",
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "radiant_score": 0,
+      "radiant_score": 1,
       "dire_score": 1,
-      "live_seconds": 4569,
-      "live_map_number": 2,
+      "live_seconds": 0,
+      "live_map_number": 0,
       "start_time": 1795795200,
       "series_type": 1,
       "known_picks": 0,
@@ -59,8 +59,8 @@
         },
         {
           "position": 2,
-          "status": "running",
-          "winner_id": null
+          "status": "finished",
+          "winner_id": 133882
         },
         {
           "position": 3,
