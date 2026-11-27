@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795764472,
-  "generated_at_iso": "2026-11-27T07:27:52.542086+00:00",
+  "generated_at": 1795765026,
+  "generated_at_iso": "2026-11-27T07:37:06.555674+00:00",
   "matches": [
     {
       "match_id": 1812659,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 288,
+      "live_seconds": 842,
       "live_map_number": 1,
       "start_time": 1795764000,
       "series_type": 1,
@@ -386,6 +386,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en2",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1816498,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "BLAST Slam - Season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "GamerLegion",
+      "dire_team": "1w Team",
+      "radiant_team_id": 137588,
+      "dire_team_id": 134536,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137588/591px_gamer_legion_2026_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795786200,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
       "games": [
         {
           "position": 1,
