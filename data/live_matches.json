@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795777573,
-  "generated_at_iso": "2026-11-27T11:06:13.441402+00:00",
+  "generated_at": 1795778130,
+  "generated_at_iso": "2026-11-27T11:15:30.848452+00:00",
   "matches": [
     {
       "match_id": 1834982,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 3416,
+      "live_seconds": 3973,
       "live_map_number": 2,
       "start_time": 1795770600,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2163,
+      "live_seconds": 2720,
       "live_map_number": 1,
       "start_time": 1795775400,
       "series_type": 1,
