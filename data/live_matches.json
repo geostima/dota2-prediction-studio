@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795770442,
-  "generated_at_iso": "2026-11-27T09:07:22.588780+00:00",
+  "generated_at": 1795771081,
+  "generated_at_iso": "2026-11-27T09:18:01.057054+00:00",
   "matches": [
     {
       "match_id": 1812659,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 1262,
+      "live_seconds": 1901,
       "live_map_number": 2,
       "start_time": 1795764000,
       "series_type": 1,
@@ -72,7 +72,7 @@
     {
       "match_id": 1834982,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 4 2026",
       "league_id": 5576,
       "radiant_team": "Team Allied",
@@ -83,9 +83,9 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795770000,
+      "live_seconds": 482,
+      "live_map_number": 1,
+      "start_time": 1795770600,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -121,7 +121,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -540,7 +540,7 @@
     }
   ],
   "meta": {
-    "running_count": 1,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 185,
