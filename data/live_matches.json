@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795758765,
-  "generated_at_iso": "2026-11-27T05:52:45.259452+00:00",
+  "generated_at": 1795759911,
+  "generated_at_iso": "2026-11-27T06:11:51.449753+00:00",
   "matches": [
     {
       "match_id": 1812661,
@@ -16,7 +16,7 @@
       "dire_logo_url": "",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 309,
+      "live_seconds": 1455,
       "live_map_number": 2,
       "start_time": 1795752600,
       "series_type": 1,
@@ -319,6 +319,73 @@
         ""
       ],
       "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
+      "match_id": 1834983,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "Esports Pro Circuit - Season 4 2026",
+      "league_id": 5576,
+      "radiant_team": "4ikibamboni",
+      "dire_team": "Zero Tenacity",
+      "radiant_team_id": 138761,
+      "dire_team_id": 135854,
+      "radiant_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795780800,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/epc_en",
       "games": [
         {
           "position": 1,
