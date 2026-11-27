@@ -1,74 +1,7 @@
 {
-  "generated_at": 1795792590,
-  "generated_at_iso": "2026-11-27T15:16:30.032199+00:00",
+  "generated_at": 1795793077,
+  "generated_at_iso": "2026-11-27T15:24:37.353577+00:00",
   "matches": [
-    {
-      "match_id": 1808003,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "European Pro League - Season 41 2026",
-      "league_id": 4807,
-      "radiant_team": "Team Synapse",
-      "dire_team": "Power Rangers",
-      "radiant_team_id": 139124,
-      "dire_team_id": 137870,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3548,
-      "live_map_number": 2,
-      "start_time": 1795785300,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en2",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 137870
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1816498,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1376,
+      "live_seconds": 1863,
       "live_map_number": 2,
       "start_time": 1795786200,
       "series_type": 1,
@@ -143,13 +76,13 @@
       "league_name": "European Pro League - Season 41 2026",
       "league_id": 4807,
       "radiant_team": "Spirit Academy",
-      "dire_team": "TBD",
+      "dire_team": "Power Rangers",
       "radiant_team_id": 137540,
-      "dire_team_id": null,
+      "dire_team_id": 137870,
       "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137540/185px_team_spirit_academy_2021_lightmode.png",
-      "dire_logo_url": "",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
-      "dire_score": null,
+      "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
       "start_time": 1795795200,
@@ -272,7 +205,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 188,
