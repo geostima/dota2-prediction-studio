@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795766910,
-  "generated_at_iso": "2026-11-27T08:08:30.803062+00:00",
+  "generated_at": 1795767687,
+  "generated_at_iso": "2026-11-27T08:21:28.436322+00:00",
   "matches": [
     {
       "match_id": 1812659,
@@ -16,39 +16,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2726,
+      "live_seconds": 3503,
       "live_map_number": 1,
       "start_time": 1795764000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "3am",
+        "beautiful suffering(WINTER ARC)",
+        "josjis",
+        "reckless",
+        "when yah"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "1only",
+        "Q",
+        "\u5403\u4e86\u4e0d\u70e7\u5fc3",
+        "\u592a\u9633\u5347\u8d77\u5c31\u628a\u6628\u5929\u5fd8\u8bb0",
+        "\u6bc1\u706d"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Batrider",
+        "Kez",
+        "Ring Master",
+        "Windranger",
+        "Mars"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Dragon Knight",
+        "Winter Wyvern",
+        "Lycan",
+        "Leshrac",
+        "Dark Willow"
       ],
       "match_url": "https://kick.com/epldota_en1",
       "games": [
@@ -476,7 +476,7 @@
     "running_count": 1,
     "upcoming_count": 50,
     "past_count": 30,
-    "citoapi_calls_this_month": 183,
+    "citoapi_calls_this_month": 185,
     "errors": []
   }
 }
