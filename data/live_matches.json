@@ -1,74 +1,7 @@
 {
-  "generated_at": 1795774634,
-  "generated_at_iso": "2026-11-27T10:17:14.220647+00:00",
+  "generated_at": 1795775135,
+  "generated_at_iso": "2026-11-27T10:25:35.484608+00:00",
   "matches": [
-    {
-      "match_id": 1812659,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 20 2026",
-      "league_id": 4884,
-      "radiant_team": "Direborn",
-      "dire_team": "Cloud Rising",
-      "radiant_team_id": 138753,
-      "dire_team_id": 137428,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/138753/direborn_esports_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 5454,
-      "live_map_number": 2,
-      "start_time": 1795764000,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 138753
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1816496,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 945,
+      "live_seconds": 1446,
       "live_map_number": 1,
       "start_time": 1795773600,
       "series_type": 1,
@@ -150,7 +83,7 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 477,
+      "live_seconds": 978,
       "live_map_number": 2,
       "start_time": 1795770600,
       "series_type": 1,
@@ -472,73 +405,6 @@
       ]
     },
     {
-      "match_id": 1834984,
-      "source": "pandascore",
-      "status": "upcoming",
-      "league_name": "Esports Pro Circuit - Season 4 2026",
-      "league_id": 5576,
-      "radiant_team": "Team Synapse",
-      "dire_team": "V",
-      "radiant_team_id": 139124,
-      "dire_team_id": 139662,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/139124/images_removebg_preview.png",
-      "dire_logo_url": "",
-      "radiant_score": 0,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795791600,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/epc_en",
-      "games": [
-        {
-          "position": 1,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
       "match_id": 1808004,
       "source": "pandascore",
       "status": "upcoming",
@@ -607,7 +473,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 185,
