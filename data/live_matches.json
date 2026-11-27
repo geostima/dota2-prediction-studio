@@ -1,74 +1,7 @@
 {
-  "generated_at": 1795788420,
-  "generated_at_iso": "2026-11-27T14:07:00.367009+00:00",
+  "generated_at": 1795789010,
+  "generated_at_iso": "2026-11-27T14:16:50.509743+00:00",
   "matches": [
-    {
-      "match_id": 1812662,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "EPL World Series - Southeast Asia season 20 2026",
-      "league_id": 4884,
-      "radiant_team": "Ryvex Esports",
-      "dire_team": "Yangon Galacticos",
-      "radiant_team_id": 139605,
-      "dire_team_id": 128080,
-      "radiant_logo_url": "",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/128080/600px_yangon_galacticos_logo_2019.png",
-      "radiant_score": 1,
-      "dire_score": 1,
-      "live_seconds": 2527,
-      "live_map_number": 3,
-      "start_time": 1795775400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://kick.com/epldota_en1",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 128080
-        },
-        {
-          "position": 2,
-          "status": "finished",
-          "winner_id": 139605
-        },
-        {
-          "position": 3,
-          "status": "running",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1816498,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1406,
+      "live_seconds": 1996,
       "live_map_number": 1,
       "start_time": 1795786200,
       "series_type": 1,
@@ -339,7 +272,7 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 50,
     "past_count": 30,
     "citoapi_calls_this_month": 188,
