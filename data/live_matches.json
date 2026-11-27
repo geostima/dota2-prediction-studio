@@ -1,7 +1,75 @@
 {
-  "generated_at": 1795816351,
-  "generated_at_iso": "2026-11-27T21:52:31.355689+00:00",
-  "matches": [],
+  "generated_at": 1795817165,
+  "generated_at_iso": "2026-11-27T22:06:05.298293+00:00",
+  "matches": [
+    {
+      "match_id": 1812663,
+      "source": "pandascore",
+      "status": "upcoming",
+      "league_name": "EPL World Series - Southeast Asia season 20 2026",
+      "league_id": 4884,
+      "radiant_team": "Cloud Rising",
+      "dire_team": "Ryvex Esports",
+      "radiant_team_id": 137428,
+      "dire_team_id": 139605,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137428/219px_cloud_rising_lightmode.png",
+      "dire_logo_url": "",
+      "radiant_score": 0,
+      "dire_score": 0,
+      "live_seconds": 0,
+      "live_map_number": 0,
+      "start_time": 1795838400,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://kick.com/epldota_en1",
+      "games": [
+        {
+          "position": 1,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 2,
+          "status": "not_started",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    }
+  ],
   "meta": {
     "running_count": 0,
     "upcoming_count": 50,
