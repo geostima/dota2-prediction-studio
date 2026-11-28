@@ -1,74 +1,7 @@
 {
-  "generated_at": 1795884168,
-  "generated_at_iso": "2026-11-28T16:42:48.331445+00:00",
+  "generated_at": 1795884763,
+  "generated_at_iso": "2026-11-28T16:52:45.004618+00:00",
   "matches": [
-    {
-      "match_id": 1816500,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "1w Team",
-      "dire_team": "PARIVISION",
-      "radiant_team_id": 134536,
-      "dire_team_id": 135712,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 2965,
-      "live_map_number": 2,
-      "start_time": 1795876500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 134536
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1808005,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 2,
-      "live_seconds": 2424,
+      "live_seconds": 3019,
       "live_map_number": 3,
       "start_time": 1795874400,
       "series_type": 2,
@@ -160,39 +93,39 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 1,
       "dire_score": 0,
-      "live_seconds": 21,
+      "live_seconds": 616,
       "live_map_number": 2,
       "start_time": 1795878000,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "JR TBP",
+        "Yayo",
+        "Yo soi tu Padre",
+        "tv/krinzhik1",
+        "worst laner&&"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "-",
+        "destroyed",
+        "life is fleeting",
+        "\u0433\u043e\u043d\u043a\u0438, \u0432\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u0435",
+        "\u0e47"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Viper",
+        "Brewmaster",
+        "Monkey King",
+        "Ring Master",
+        "Lion"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Winter Wyvern",
+        "Beastmaster",
+        "Anti-Mage",
+        "Techies",
+        "Windranger"
       ],
       "match_url": "https://www.twitch.tv/epc_en",
       "games": [
@@ -282,10 +215,10 @@
     }
   ],
   "meta": {
-    "running_count": 3,
+    "running_count": 2,
     "upcoming_count": 45,
     "past_count": 30,
-    "citoapi_calls_this_month": 197,
+    "citoapi_calls_this_month": 200,
     "errors": []
   }
 }
