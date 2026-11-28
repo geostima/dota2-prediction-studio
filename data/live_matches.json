@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795898565,
-  "generated_at_iso": "2026-11-28T20:42:45.093642+00:00",
+  "generated_at": 1795899164,
+  "generated_at_iso": "2026-11-28T20:52:45.379835+00:00",
   "matches": [
     {
       "match_id": 1834997,
@@ -16,39 +16,39 @@
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 1407,
+      "live_seconds": 2006,
       "live_map_number": 2,
       "start_time": 1795893300,
       "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
+      "known_picks": 10,
+      "lineup_available": true,
       "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "77",
+        "CoYoT\u00e3o",
+        "Mr.Jeans",
+        "Y",
+        "maybe"
       ],
       "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "ambreaker",
+        "armagegod",
+        "asthenia",
+        "nn_",
+        "nonchalant"
       ],
       "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Disruptor",
+        "Hoodwink",
+        "Puck",
+        "Timbersaw",
+        "Omniknight"
       ],
       "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
+        "Abaddon",
+        "Windranger",
+        "Monkey King",
+        "Dragon Knight",
+        "Chen"
       ],
       "match_url": "https://www.twitch.tv/epc_en",
       "games": [
@@ -74,7 +74,7 @@
     "running_count": 1,
     "upcoming_count": 44,
     "past_count": 30,
-    "citoapi_calls_this_month": 200,
+    "citoapi_calls_this_month": 202,
     "errors": []
   }
 }
