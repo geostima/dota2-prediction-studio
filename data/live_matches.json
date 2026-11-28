@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795878331,
-  "generated_at_iso": "2026-11-28T15:05:31.614799+00:00",
+  "generated_at": 1795878877,
+  "generated_at_iso": "2026-11-28T15:14:37.778672+00:00",
   "matches": [
     {
       "match_id": 1816500,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1759,
+      "live_seconds": 2305,
       "live_map_number": 1,
       "start_time": 1795876500,
       "series_type": 1,
@@ -83,7 +83,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 406,
+      "live_seconds": 952,
       "live_map_number": 2,
       "start_time": 1795874400,
       "series_type": 2,
@@ -149,7 +149,7 @@
     {
       "match_id": 1834986,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "Esports Pro Circuit - Season 4 2026",
       "league_id": 5576,
       "radiant_team": "V",
@@ -160,8 +160,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 408,
+      "live_map_number": 1,
       "start_time": 1795878000,
       "series_type": 1,
       "known_picks": 0,
@@ -198,7 +198,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -282,8 +282,8 @@
     }
   ],
   "meta": {
-    "running_count": 2,
-    "upcoming_count": 46,
+    "running_count": 3,
+    "upcoming_count": 45,
     "past_count": 30,
     "citoapi_calls_this_month": 197,
     "errors": []
