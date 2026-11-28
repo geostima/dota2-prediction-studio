@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795866738,
-  "generated_at_iso": "2026-11-28T11:52:18.834538+00:00",
+  "generated_at": 1795867716,
+  "generated_at_iso": "2026-11-28T12:08:36.746234+00:00",
   "matches": [
     {
       "match_id": 1816497,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1166,
+      "live_seconds": 2144,
       "live_map_number": 1,
       "start_time": 1795865400,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "",
       "radiant_score": 2,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 820,
+      "live_map_number": 4,
       "start_time": 1795855500,
       "series_type": 2,
       "known_picks": 0,
@@ -136,7 +136,7 @@
         },
         {
           "position": 4,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -358,22 +358,22 @@
       ]
     },
     {
-      "match_id": 1834996,
+      "match_id": 1834997,
       "source": "pandascore",
-      "status": "ended",
+      "status": "upcoming",
       "league_name": "Esports Pro Circuit - Season 4 2026",
       "league_id": 5576,
-      "radiant_team": "old blood",
-      "dire_team": "Ryvex Esports",
-      "radiant_team_id": 139389,
-      "dire_team_id": 139605,
-      "radiant_logo_url": "",
+      "radiant_team": "Hokori",
+      "dire_team": "Legends Gaming",
+      "radiant_team_id": 127965,
+      "dire_team_id": 139664,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/127965/hokori_2021_allmode.png",
       "dire_logo_url": "",
       "radiant_score": 0,
       "dire_score": 0,
       "live_seconds": 0,
       "live_map_number": 0,
-      "start_time": 1795867200,
+      "start_time": 1795888800,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -427,7 +427,7 @@
   ],
   "meta": {
     "running_count": 2,
-    "upcoming_count": 49,
+    "upcoming_count": 48,
     "past_count": 30,
     "citoapi_calls_this_month": 195,
     "errors": []
