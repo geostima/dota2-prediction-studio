@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795881168,
-  "generated_at_iso": "2026-11-28T15:52:48.511844+00:00",
+  "generated_at": 1795881981,
+  "generated_at_iso": "2026-11-28T16:06:21.207530+00:00",
   "matches": [
     {
       "match_id": 1834986,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135854/1200px_zero_tenacity_2025_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 2699,
+      "live_seconds": 3512,
       "live_map_number": 1,
       "start_time": 1795878000,
       "series_type": 1,
@@ -70,6 +70,73 @@
       ]
     },
     {
+      "match_id": 1816500,
+      "source": "pandascore",
+      "status": "live",
+      "league_name": "BLAST Slam - Season 9 2026",
+      "league_id": 5319,
+      "radiant_team": "1w Team",
+      "dire_team": "PARIVISION",
+      "radiant_team_id": 134536,
+      "dire_team_id": 135712,
+      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
+      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
+      "radiant_score": 1,
+      "dire_score": 0,
+      "live_seconds": 778,
+      "live_map_number": 2,
+      "start_time": 1795876500,
+      "series_type": 1,
+      "known_picks": 0,
+      "lineup_available": false,
+      "radiant_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_players": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "radiant_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "dire_heroes": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "match_url": "https://www.twitch.tv/BLASTDota",
+      "games": [
+        {
+          "position": 1,
+          "status": "finished",
+          "winner_id": 134536
+        },
+        {
+          "position": 2,
+          "status": "running",
+          "winner_id": null
+        },
+        {
+          "position": 3,
+          "status": "not_started",
+          "winner_id": null
+        }
+      ]
+    },
+    {
       "match_id": 1808005,
       "source": "pandascore",
       "status": "live",
@@ -83,8 +150,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 2,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 237,
+      "live_map_number": 3,
       "start_time": 1795874400,
       "series_type": 2,
       "known_picks": 0,
@@ -131,7 +198,7 @@
         },
         {
           "position": 3,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -141,73 +208,6 @@
         },
         {
           "position": 5,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
-    {
-      "match_id": 1816500,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "1w Team",
-      "dire_team": "PARIVISION",
-      "radiant_team_id": 134536,
-      "dire_team_id": 135712,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/134536/800px_1win_team_2024_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
-      "radiant_score": 1,
-      "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795876500,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 134536
-        },
-        {
-          "position": 2,
-          "status": "not_started",
-          "winner_id": null
-        },
-        {
-          "position": 3,
           "status": "not_started",
           "winner_id": null
         }
