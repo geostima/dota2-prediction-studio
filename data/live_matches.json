@@ -1,74 +1,7 @@
 {
-  "generated_at": 1795874724,
-  "generated_at_iso": "2026-11-28T14:05:24.425221+00:00",
+  "generated_at": 1795875269,
+  "generated_at_iso": "2026-11-28T14:14:29.606159+00:00",
   "matches": [
-    {
-      "match_id": 1816497,
-      "source": "pandascore",
-      "status": "live",
-      "league_name": "BLAST Slam - Season 9 2026",
-      "league_id": 5319,
-      "radiant_team": "Team Yandex",
-      "dire_team": "Team Liquid",
-      "radiant_team_id": 137073,
-      "dire_team_id": 1647,
-      "radiant_logo_url": "https://cdn-api.pandascore.co/images/team/image/137073/249px_team_yandex_allmode.png",
-      "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/1647/527px_team_liquid_2023_lightmode.png",
-      "radiant_score": 0,
-      "dire_score": 1,
-      "live_seconds": 3912,
-      "live_map_number": 2,
-      "start_time": 1795865400,
-      "series_type": 1,
-      "known_picks": 0,
-      "lineup_available": false,
-      "radiant_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_players": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "radiant_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "dire_heroes": [
-        "",
-        "",
-        "",
-        "",
-        ""
-      ],
-      "match_url": "https://www.twitch.tv/BLASTDota",
-      "games": [
-        {
-          "position": 1,
-          "status": "finished",
-          "winner_id": 1647
-        },
-        {
-          "position": 2,
-          "status": "running",
-          "winner_id": null
-        },
-        {
-          "position": 3,
-          "status": "not_started",
-          "winner_id": null
-        }
-      ]
-    },
     {
       "match_id": 1808005,
       "source": "pandascore",
@@ -83,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 179,
+      "live_seconds": 724,
       "live_map_number": 1,
       "start_time": 1795874400,
       "series_type": 2,
@@ -349,7 +282,7 @@
     }
   ],
   "meta": {
-    "running_count": 2,
+    "running_count": 1,
     "upcoming_count": 47,
     "past_count": 30,
     "citoapi_calls_this_month": 197,
