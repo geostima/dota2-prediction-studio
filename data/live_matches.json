@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795877566,
-  "generated_at_iso": "2026-11-28T14:52:47.051317+00:00",
+  "generated_at": 1795878331,
+  "generated_at_iso": "2026-11-28T15:05:31.614799+00:00",
   "matches": [
     {
       "match_id": 1816500,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 995,
+      "live_seconds": 1759,
       "live_map_number": 1,
       "start_time": 1795876500,
       "series_type": 1,
@@ -83,8 +83,8 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 1,
-      "live_seconds": 0,
-      "live_map_number": 0,
+      "live_seconds": 406,
+      "live_map_number": 2,
       "start_time": 1795874400,
       "series_type": 2,
       "known_picks": 0,
@@ -126,7 +126,7 @@
         },
         {
           "position": 2,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
