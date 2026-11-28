@@ -1,6 +1,6 @@
 {
-  "generated_at": 1795876397,
-  "generated_at_iso": "2026-11-28T14:33:17.406533+00:00",
+  "generated_at": 1795876954,
+  "generated_at_iso": "2026-11-28T14:42:34.922493+00:00",
   "matches": [
     {
       "match_id": 1808005,
@@ -16,7 +16,7 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/137870/power_rangers_lightmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 1852,
+      "live_seconds": 2409,
       "live_map_number": 1,
       "start_time": 1795874400,
       "series_type": 2,
@@ -82,7 +82,7 @@
     {
       "match_id": 1816500,
       "source": "pandascore",
-      "status": "upcoming",
+      "status": "live",
       "league_name": "BLAST Slam - Season 9 2026",
       "league_id": 5319,
       "radiant_team": "1w Team",
@@ -93,9 +93,9 @@
       "dire_logo_url": "https://cdn-api.pandascore.co/images/team/image/135712/250px_parivision_allmode.png",
       "radiant_score": 0,
       "dire_score": 0,
-      "live_seconds": 0,
-      "live_map_number": 0,
-      "start_time": 1795875900,
+      "live_seconds": 382,
+      "live_map_number": 1,
+      "start_time": 1795876500,
       "series_type": 1,
       "known_picks": 0,
       "lineup_available": false,
@@ -131,7 +131,7 @@
       "games": [
         {
           "position": 1,
-          "status": "not_started",
+          "status": "running",
           "winner_id": null
         },
         {
@@ -282,8 +282,8 @@
     }
   ],
   "meta": {
-    "running_count": 1,
-    "upcoming_count": 47,
+    "running_count": 2,
+    "upcoming_count": 46,
     "past_count": 30,
     "citoapi_calls_this_month": 197,
     "errors": []
